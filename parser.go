@@ -25,6 +25,8 @@ type Parser struct {
 	// Compat section defaults
 	interpretRepeatDefault    bool // Default repeat value for interpret statements
 	interpretRepeatDefaultSet bool // Was interpret.repeat explicitly set in compat?
+
+	groupOffset int // Current group offset for symbols
 }
 
 // NewParser creates a new [Parser] for the given XKB source input.
@@ -1322,6 +1324,12 @@ func (p *Parser) parseSymbolsStatement(keymap *Keymap) error {
 	switch ident {
 	case "name":
 		return p.parseGroupName(keymap)
+	case "group_offset":
+		if err := p.expect(TokenEquals); err != nil { return err }
+		num, err := p.expectNumber()
+		if err != nil { return err }
+		p.groupOffset = num
+		return nil
 	case "virtual_modifiers":
 		return p.parseVirtualModifiers(keymap)
 	case "modifier_map":
@@ -1343,41 +1351,30 @@ func (p *Parser) parseGroupName(keymap *Keymap) error {
 		return err
 	}
 
-	// Handle both "Group1" and numeric "1" indices
 	var group int
 	if p.check(TokenNumber) {
 		num, err := p.expectNumber()
-		if err != nil {
-			return err
-		}
-		group = num - 1 // Convert 1-based to 0-based
+		if err != nil { return err }
+		group = num - 1 + p.groupOffset
 	} else {
 		groupIdent, err := p.expectIdent()
-		if err != nil {
-			return err
-		}
+		if err != nil { return err }
 		group, err = p.parseGroupIdent(groupIdent)
-		if err != nil {
-			return err
-		}
+		if err != nil { return err }
+		group += p.groupOffset
 	}
 
-	if err := p.expect(TokenRBracket); err != nil {
-		return err
-	}
-
-	if err := p.expect(TokenEquals); err != nil {
-		return err
-	}
+	if err := p.expect(TokenRBracket); err != nil { return err }
+	if err := p.expect(TokenEquals); err != nil { return err }
 
 	name, err := p.expectString()
-	if err != nil {
-		return err
-	}
+	if err != nil { return err }
 
-	if group < len(keymap.groupNames) {
-		keymap.groupNames[group] = name
+	for len(keymap.groupNames) <= group {
+		keymap.groupNames = append(keymap.groupNames, "")
 	}
+	keymap.groupNames[group] = name
+
 	if group+1 > keymap.numGroups {
 		keymap.numGroups = group + 1
 	}
@@ -1463,12 +1460,9 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 
 	for !p.check(TokenRBrace) && !p.check(TokenEOF) {
 		if p.check(TokenLBracket) {
-			// Simple symbols list
 			syms, err := p.parseSymbolList(keymap)
-			if err != nil {
-				return err
-			}
-			groups[0] = syms
+			if err != nil { return err }
+			groups[p.groupOffset] = syms
 		} else {
 			ident, err := p.expectIdent()
 			if err != nil {
@@ -1490,30 +1484,20 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 				currentTypeName = typeName
 
 			case "symbols":
-				if err := p.expect(TokenLBracket); err != nil {
-					return err
-				}
-				// Handle both "Group1" and numeric "1" indices
+				if err := p.expect(TokenLBracket); err != nil { return err }
 				var group int
 				if p.check(TokenNumber) {
 					num, err := p.expectNumber()
-					if err != nil {
-						return err
-					}
-					group = num - 1 // Convert 1-based to 0-based
+					if err != nil { return err }
+					group = num - 1 + p.groupOffset
 				} else {
 					groupIdent, err := p.expectIdent()
-					if err != nil {
-						return err
-					}
+					if err != nil { return err }
 					group, err = p.parseGroupIdent(groupIdent)
-					if err != nil {
-						return err
-					}
+					if err != nil { return err }
+					group += p.groupOffset
 				}
-				if err := p.expect(TokenRBracket); err != nil {
-					return err
-				}
+				if err := p.expect(TokenRBracket); err != nil { return err }
 				if err := p.expect(TokenEquals); err != nil {
 					return err
 				}
@@ -1583,16 +1567,11 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 				continue
 			}
 
-			// Use existing type if we don't have a new one
-			if keyType == nil {
-				keyType = existingGroup.keyType
-			}
-
-			// Merge symbols: replace keysymAny with existing symbol
+			// Merge symbols: replace keysymAny or KeyNoSymbol with existing symbol
 			mergedSyms := make([]Keysym, len(syms))
 			copy(mergedSyms, syms)
 			for i, sym := range mergedSyms {
-				if sym == keysymAny {
+				if sym == keysymAny || sym == KeyNoSymbol {
 					// Get existing symbol at this level
 					if i < len(existingGroup.levels) && len(existingGroup.levels[i].syms) > 0 {
 						mergedSyms[i] = existingGroup.levels[i].syms[0]
@@ -1602,9 +1581,18 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 				}
 			}
 			syms = mergedSyms
+
+			// Use existing type if we don't have a new one
+			if keyType == nil {
+				keyType = existingGroup.keyType
+				// Upgrade type if the merged symbols array requires more levels
+				if keyType != nil && len(syms) > keyType.numLevels {
+					keyType = p.guessKeyType(keymap, len(syms))
+				}
+			}
 		}
 
-		if keyType == nil {
+		if keyType == nil || len(syms) > keyType.numLevels {
 			keyType = p.guessKeyType(keymap, len(syms))
 		}
 		key.groups[g] = KeyGroup{

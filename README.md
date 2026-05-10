@@ -19,7 +19,7 @@ xkb-go provides the same functionality in pure Go:
 ## Installation
 
 ```bash
-go get github.com/thegrumpylion/xkb-go
+go get github.com/unxed/xkb-go
 ```
 
 ## Quick Start
@@ -30,7 +30,7 @@ package main
 import (
     "context"
     "fmt"
-    "github.com/thegrumpylion/xkb-go"
+    "github.com/unxed/xkb-go"
 )
 
 func main() {

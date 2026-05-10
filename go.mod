@@ -1,3 +1,3 @@
-module github.com/thegrumpylion/xkb-go
+module github.com/unxed/xkb-go
 
 go 1.25.5

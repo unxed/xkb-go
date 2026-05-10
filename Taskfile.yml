@@ -138,7 +138,7 @@ tasks:
   doc:
     desc: Start local godoc server at http://localhost:6060
     cmds:
-      - echo "Documentation at http://localhost:6060/pkg/github.com/thegrumpylion/xkb-go/"
+      - echo "Documentation at http://localhost:6060/pkg/github.com/unxed/xkb-go/"
       - pkgsite -http=:6060 .
 
   # Build

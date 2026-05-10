@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/thegrumpylion/xkb-go"
+	"github.com/unxed/xkb-go"
 )
 
 func ExampleNewContext() {

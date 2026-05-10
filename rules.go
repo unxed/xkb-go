@@ -2,6 +2,7 @@ package xkb
 
 import (
 	"bufio"
+    "strconv"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -25,14 +26,12 @@ type rulesFile struct {
 
 // rule represents a single rule mapping.
 type rule struct {
-	// Input conditions (RMLVO)
-	model   string
-	layout  string
-	variant string
-	option  string
-	// Output component
-	component string // "keycodes", "types", "compat", "symbols", "geometry"
-	value     string // The component value with possible substitutions
+	model     string
+	layouts   [4]string
+	variants  [4]string
+	option    string
+	component string
+	value     string
 }
 
 // parseRulesFile parses an XKB rules file.
@@ -116,21 +115,6 @@ func (rf *rulesFile) parseRuleHeader(line string) ([]string, string) {
 	inputs := strings.Fields(parts[0])
 	component := strings.TrimSpace(parts[1])
 
-	// Normalize inputs by removing [N] suffixes (we only handle single layout for now)
-	// Skip headers with [2], [3], [4] as we don't support multiple layouts yet
-	for _, input := range inputs {
-		if strings.Contains(input, "[2]") || strings.Contains(input, "[3]") || strings.Contains(input, "[4]") {
-			return nil, "" // Skip multi-layout rules
-		}
-	}
-
-	// Remove [1] suffixes from inputs
-	for i, input := range inputs {
-		if idx := strings.Index(input, "["); idx != -1 {
-			inputs[i] = input[:idx]
-		}
-	}
-
 	return inputs, component
 }
 
@@ -151,18 +135,18 @@ func (rf *rulesFile) parseRuleBody(line string, header []string, component strin
 	}
 
 	for i, pattern := range patterns {
-		if i >= len(header) {
-			break
-		}
+		if i >= len(header) { break }
 		switch header[i] {
-		case "model":
-			r.model = pattern
-		case "layout", "layout[1]":
-			r.layout = pattern
-		case "variant", "variant[1]":
-			r.variant = pattern
-		case "option":
-			r.option = pattern
+		case "model": r.model = pattern
+		case "layout", "layout[1]": r.layouts[0] = pattern
+		case "layout[2]": r.layouts[1] = pattern
+		case "layout[3]": r.layouts[2] = pattern
+		case "layout[4]": r.layouts[3] = pattern
+		case "variant", "variant[1]": r.variants[0] = pattern
+		case "variant[2]": r.variants[1] = pattern
+		case "variant[3]": r.variants[2] = pattern
+		case "variant[4]": r.variants[3] = pattern
+		case "option": r.option = pattern
 		}
 	}
 
@@ -187,10 +171,6 @@ func (rf *rulesFile) resolve(names *RuleNames) *kcCGST {
 
 		value := rf.substituteValue(r.value, names)
 
-		// Skip values with group suffixes (:2, :3, :4) for now
-		if strings.Contains(value, ":2") || strings.Contains(value, ":3") || strings.Contains(value, ":4") {
-			continue
-		}
 
 		// Skip empty values
 		if value == "" || value == "+" {
@@ -254,25 +234,33 @@ func (rf *rulesFile) resolve(names *RuleNames) *kcCGST {
 
 // ruleMatches checks if a rule matches the given RMLVO names.
 func (rf *rulesFile) ruleMatches(r rule, names *RuleNames) bool {
-	if r.model != "" && !rf.patternMatches(r.model, names.Model) {
-		return false
+	if r.model != "" && !rf.patternMatches(r.model, names.Model) { return false }
+
+	layouts := strings.Split(names.Layout, ",")
+	for i := 0; i < 4; i++ {
+		if r.layouts[i] != "" {
+			val := getAt(layouts, i)
+			if val == "" || !rf.patternMatches(r.layouts[i], val) { return false }
+		}
 	}
-	if r.layout != "" && !rf.patternMatches(r.layout, names.Layout) {
-		return false
+
+	variants := strings.Split(names.Variant, ",")
+	for i := 0; i < 4; i++ {
+		if r.variants[i] != "" {
+			val := getAt(variants, i)
+			if val == "" || !rf.patternMatches(r.variants[i], val) { return false }
+		}
 	}
-	if r.variant != "" && !rf.patternMatches(r.variant, names.Variant) {
-		return false
-	}
-	// Options are special: a rule with an option pattern only matches if that option is enabled
+
 	if r.option != "" {
-		if names.Options == "" {
-			return false // No options specified, option rules don't match
-		}
-		if !rf.optionMatches(r.option, names.Options) {
-			return false
-		}
+		if names.Options == "" || !rf.optionMatches(r.option, names.Options) { return false }
 	}
 	return true
+}
+
+func getAt(arr[]string, idx int) string {
+	if idx < len(arr) { return strings.TrimSpace(arr[idx]) }
+	return ""
 }
 
 // optionMatches checks if an option pattern matches the options string.
@@ -313,35 +301,38 @@ func (rf *rulesFile) patternMatches(pattern, value string) bool {
 
 // substituteValue replaces placeholders in a value string.
 func (rf *rulesFile) substituteValue(value string, names *RuleNames) string {
-	// %m = model
+	layouts := strings.Split(names.Layout, ",")
+	variants := strings.Split(names.Variant, ",")
+	l := func(idx int) string { return getAt(layouts, idx) }
+	v := func(idx int) string { return getAt(variants, idx) }
+
 	value = strings.ReplaceAll(value, "%m", names.Model)
-	// %l = layout (also %l[1])
-	value = strings.ReplaceAll(value, "%l[1]", names.Layout)
-	value = strings.ReplaceAll(value, "%l", names.Layout)
-	// %v = variant (in parentheses if present)
-	if names.Variant != "" {
-		value = strings.ReplaceAll(value, "%(v[1])", "("+names.Variant+")")
-		value = strings.ReplaceAll(value, "%(v)", "("+names.Variant+")")
-		value = strings.ReplaceAll(value, "%v[1]", names.Variant)
-		value = strings.ReplaceAll(value, "%v", names.Variant)
-	} else {
-		value = strings.ReplaceAll(value, "%(v[1])", "")
-		value = strings.ReplaceAll(value, "%(v)", "")
-		value = strings.ReplaceAll(value, "%v[1]", "")
-		value = strings.ReplaceAll(value, "%v", "")
+
+	if l(3) != "" { value = strings.ReplaceAll(value, "%l[4]", l(3)+":4") }
+	if l(2) != "" { value = strings.ReplaceAll(value, "%l[3]", l(2)+":3") }
+	if l(1) != "" { value = strings.ReplaceAll(value, "%l[2]", l(1)+":2") }
+	value = strings.ReplaceAll(value, "%l[1]", l(0))
+	value = strings.ReplaceAll(value, "%l", l(0))
+
+	rv := func(val, ph1, ph2, varVal string) string {
+		if varVal != "" {
+			val = strings.ReplaceAll(val, ph1, "("+varVal+")")
+			val = strings.ReplaceAll(val, ph2, varVal)
+		} else {
+			val = strings.ReplaceAll(val, ph1, ""); val = strings.ReplaceAll(val, ph2, "")
+		}
+		return val
 	}
-	// %o = option
+
+	value = rv(value, "%(v[4])", "%v[4]", v(3))
+	value = rv(value, "%(v[3])", "%v[3]", v(2))
+	value = rv(value, "%(v[2])", "%v[2]", v(1))
+	value = rv(value, "%(v[1])", "%v[1]", v(0))
+	value = rv(value, "%(v)", "%v", v(0))
+
 	value = strings.ReplaceAll(value, "%o", names.Options)
-
-	// Clean up empty parentheses that might result from variant substitution
 	value = strings.ReplaceAll(value, "()", "")
-
-	// Clean up array references like [1] that weren't substituted
-	// These appear when rules reference layout[1] but we've already extracted the layout
-	for strings.Contains(value, "[1]") {
-		value = strings.ReplaceAll(value, "[1]", "")
-	}
-
+	for strings.Contains(value, "[1]") { value = strings.ReplaceAll(value, "[1]", "") }
 	return value
 }
 
@@ -470,35 +461,47 @@ func (c *Context) loadComponentPartWithDepth(componentType, spec string, depth i
 		return "", fmt.Errorf("include depth exceeded for %s/%s", componentType, spec)
 	}
 
-	// Parse spec: file(section) or just file
-	fileName := spec
-	sectionName := ""
+	fileName, sectionName, groupOffset := spec, "", 0
+
+	for {
+		idx := strings.LastIndex(spec, ":")
+		if idx == -1 { break }
+		if val, err := strconv.Atoi(spec[idx+1:]); err == nil {
+			groupOffset = val - 1
+			spec = spec[:idx]
+			fileName = spec
+		} else {
+			break
+		}
+	}
 
 	if idx := strings.Index(spec, "("); idx != -1 {
 		fileName = spec[:idx]
 		sectionName = strings.TrimSuffix(spec[idx+1:], ")")
 	}
 
-	// Find the file
+	if fileName == "" {
+		return "", nil
+	}
+
 	filePath := c.findComponentFile(componentType, fileName)
 	if filePath == "" {
 		return "", fmt.Errorf("component file not found: %s/%s", componentType, fileName)
 	}
 
-	// Read the file
 	data, err := os.ReadFile(filePath)
-	if err != nil {
-		return "", err
-	}
+	if err != nil { return "", err }
 
-	// Extract the requested section (or default)
 	content, err := c.extractSection(string(data), componentType, sectionName)
-	if err != nil {
-		return "", err
-	}
+	if err != nil { return "", err }
 
-	// Resolve includes in the content
-	return c.resolveIncludes(componentType, content, depth)
+	resolved, err := c.resolveIncludes(componentType, content, depth)
+	if err != nil { return "", err }
+
+	if componentType == "symbols" && groupOffset > 0 {
+		resolved = fmt.Sprintf("group_offset = %d;\n%s\ngroup_offset = 0;\n", groupOffset, resolved)
+	}
+	return resolved, nil
 }
 
 // resolveIncludes replaces include and augment statements with actual content.

@@ -25,6 +25,12 @@ type State struct {
 func (s *State) Keymap() *Keymap {
 	return s.keymap
 }
+func (s *State) BaseMods() ModMask    { return s.baseMods }
+func (s *State) LatchedMods() ModMask { return s.latchedMods }
+func (s *State) LockedMods() ModMask  { return s.lockedMods }
+func (s *State) BaseGroup() Group     { return s.baseGroup }
+func (s *State) LatchedGroup() Group  { return s.latchedGroup }
+func (s *State) LockedGroup() Group   { return s.lockedGroup }
 
 // UpdateMask updates the keyboard state from modifier/group masks.
 //

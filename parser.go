@@ -1455,6 +1455,11 @@ func (p *Parser) parseKeyDefinition(keymap *Keymap) error {
 // parseKeyBody parses the body of a complex key definition.
 // existingKey is the previously defined key for the same keycode, used for merging.
 func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error {
+	defer func() {
+		if len(key.groups) > keymap.numGroups {
+			keymap.numGroups = len(key.groups)
+		}
+	}()
 	var currentTypeName string
 	groups := make(map[int][]Keysym)
 

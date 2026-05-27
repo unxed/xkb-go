@@ -7,6 +7,7 @@ import (
 	"log/slog"
 	"os"
 	"path/filepath"
+	"runtime"
 	"strings"
 	"sync"
 )
@@ -89,7 +90,29 @@ func (c *Context) addDefaultIncludePaths() {
 	systemPaths := []string{
 		"/usr/share/X11/xkb",
 		"/usr/local/share/X11/xkb",
+		// macOS include paths
+		"/opt/X11/share/X11/xkb",      // XQuartz
+		"/opt/local/share/X11/xkb",    // MacPorts
+		"/opt/homebrew/share/X11/xkb", // Homebrew (Apple Silicon)
 	}
+
+	if runtime.GOOS == "windows" {
+		drive := os.Getenv("SystemDrive")
+		if drive == "" {
+			drive = "C:"
+		}
+		windowsPaths := []string{
+			filepath.Join(drive, "Program Files", "VcXsrv", "xkb"),
+			filepath.Join(drive, "Program Files (x86)", "VcXsrv", "xkb"),
+			filepath.Join(drive, "Program Files", "Xming", "xkb"),
+			filepath.Join(drive, "Program Files (x86)", "Xming", "xkb"),
+			filepath.Join(drive, "msys64", "usr", "share", "X11", "xkb"),
+			filepath.Join(drive, "cygwin64", "usr", "share", "X11", "xkb"),
+			filepath.Join(drive, "cygwin", "usr", "share", "X11", "xkb"),
+		}
+		systemPaths = append(systemPaths, windowsPaths...)
+	}
+
 	for _, p := range systemPaths {
 		if info, err := os.Stat(p); err == nil && info.IsDir() {
 			c.includePaths = append(c.includePaths, p)

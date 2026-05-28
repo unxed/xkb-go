@@ -1474,6 +1474,7 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 	}()
 	var currentTypeName string
 	groups := make(map[int][]Keysym)
+	groupTypes := make(map[int]string)
 
 	for !p.check(TokenRBrace) && !p.check(TokenEOF) {
 		if p.check(TokenLBracket) {
@@ -1488,9 +1489,21 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 
 			switch ident {
 			case "type":
+				group := p.groupOffset
 				if p.match(TokenLBracket) {
 					// type[GroupN] = "TypeName"
-					_, _ = p.expectIdent() // group
+					if p.check(TokenNumber) {
+						num, err := p.expectNumber()
+						if err != nil { return err }
+						group = num - 1 + p.groupOffset
+					} else {
+						groupIdent, err := p.expectIdent()
+						if err != nil { return err }
+						var err2 error
+						group, err2 = p.parseGroupIdent(groupIdent)
+						if err2 != nil { return err2 }
+						group += p.groupOffset
+					}
 					_ = p.expect(TokenRBracket)
 				}
 				_ = p.expect(TokenEquals)
@@ -1498,7 +1511,7 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 				if err != nil {
 					return err
 				}
-				currentTypeName = typeName
+				groupTypes[group] = typeName
 
 			case "symbols":
 				if err := p.expect(TokenLBracket); err != nil { return err }
@@ -1569,9 +1582,15 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 	key.groups = make([]KeyGroup, maxGroup+1)
 	for g := 0; g <= maxGroup; g++ {
 		syms := groups[g]
+
+		typeName := groupTypes[g]
+		if typeName == "" {
+			typeName = currentTypeName
+		}
+
 		var keyType *KeyType
-		if currentTypeName != "" {
-			keyType = keymap.types[currentTypeName]
+		if typeName != "" {
+			keyType = keymap.types[typeName]
 		}
 
 		// Merge with existing key if present

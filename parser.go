@@ -1564,9 +1564,15 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 	key.groups = make([]KeyGroup, maxGroup+1)
 	for g := 0; g <= maxGroup; g++ {
 		syms := groups[g]
+
+		typeName := groupTypes[g]
+		if typeName == "" {
+			typeName = currentTypeName
+		}
+
 		var keyType *KeyType
-		if currentTypeName != "" {
-			keyType = keymap.types[currentTypeName]
+		if typeName != "" {
+			keyType = keymap.types[typeName]
 		}
 
 		// Merge with existing key if present

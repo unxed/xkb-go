@@ -463,21 +463,32 @@ func (c *Context) loadComponentPartWithDepth(componentType, spec string, depth i
 
 	fileName, sectionName, groupOffset := spec, "", 0
 
+	// 1. Extract Group Offset (e.g. ":3" from "de:3(e1)" or "de(e1):3")
 	for {
-		idx := strings.LastIndex(spec, ":")
-		if idx == -1 { break }
-		if val, err := strconv.Atoi(spec[idx+1:]); err == nil {
+		idx := strings.Index(spec, ":")
+		if idx == -1 {
+			break
+		}
+		// Scan for continuous digits after colon
+		end := idx + 1
+		for end < len(spec) && spec[end] >= '0' && spec[end] <= '9' {
+			end++
+		}
+		if end > idx+1 {
+			val, _ := strconv.Atoi(spec[idx+1 : end])
 			groupOffset = val - 1
-			spec = spec[:idx]
-			fileName = spec
+			spec = spec[:idx] + spec[end:]
 		} else {
 			break
 		}
 	}
 
+	// 2. Extract Section Name (e.g. "(e1)")
 	if idx := strings.Index(spec, "("); idx != -1 {
 		fileName = spec[:idx]
 		sectionName = strings.TrimSuffix(spec[idx+1:], ")")
+	} else {
+		fileName = spec
 	}
 
 	if fileName == "" {

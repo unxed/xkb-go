@@ -722,6 +722,8 @@ func (p *Parser) modifierNameToMask(name string, keymap *Keymap) ModMask {
 		return ModMod4
 	case "LevelThree", "ISO_Level3_Shift", "AltGr":
 		return ModMod5
+	case "LevelFive":
+		return ModMod3
 	default:
 		// Check virtual modifiers (for custom mappings)
 		if mask, ok := keymap.virtualMods[name]; ok && mask != 0 {

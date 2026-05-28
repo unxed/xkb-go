@@ -564,14 +564,24 @@ func (p *Parser) parseVirtualModifiers(keymap *Keymap) error {
 			return err
 		}
 
-		// Check for optional =value assignment (e.g., Hyper=0x4000)
+		// Check for optional =value assignment (e.g., Hyper=0x4000 or Hyper=Mod5)
 		var mask ModMask
 		if p.match(TokenEquals) {
-			num, err := p.expectNumber()
-			if err != nil {
-				return err
+			if p.check(TokenNumber) {
+				num, err := p.expectNumber()
+				if err != nil {
+					return err
+				}
+				mask = ModMask(num)
+			} else if p.check(TokenIdent) {
+				modName, err := p.expectIdent()
+				if err != nil {
+					return err
+				}
+				mask = p.modNameToMask(modName)
+			} else {
+				return p.errorf("expected number or modifier name after '=' in virtual_modifiers")
 			}
-			mask = ModMask(num)
 		}
 
 		// Assign a virtual modifier

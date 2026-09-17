@@ -278,20 +278,20 @@ func TestKeysymConstants(t *testing.T) {
 func TestKeysymEdgeCases(t *testing.T) {
 	t.Run("boundary keysyms", func(t *testing.T) {
 		boundaries := []Keysym{
-			0,                     // NoSymbol
-			0x0020,                // space (lowest printable)
-			0x007e,                // tilde (highest ASCII printable)
-			0x007f,                // DEL (not printable)
-			0x00a0,                // NBSP (start of Latin-1 supplement)
-			0x00ff,                // ÿ (end of Latin-1)
-			0x0100,                // Start of Latin Extended
-			0xff08,                // BackSpace
-			0xffff,                // End of legacy keysyms
-			0x01000000,            // Start of Unicode keysyms
-			0x01000041,            // Unicode 'A'
-			0x0110ffff,            // End of valid Unicode keysyms
-			0x01110000,            // Invalid (beyond Unicode)
-			0xffffffff,            // Max uint32
+			0,          // NoSymbol
+			0x0020,     // space (lowest printable)
+			0x007e,     // tilde (highest ASCII printable)
+			0x007f,     // DEL (not printable)
+			0x00a0,     // NBSP (start of Latin-1 supplement)
+			0x00ff,     // ÿ (end of Latin-1)
+			0x0100,     // Start of Latin Extended
+			0xff08,     // BackSpace
+			0xffff,     // End of legacy keysyms
+			0x01000000, // Start of Unicode keysyms
+			0x01000041, // Unicode 'A'
+			0x0110ffff, // End of valid Unicode keysyms
+			0x01110000, // Invalid (beyond Unicode)
+			0xffffffff, // Max uint32
 		}
 
 		for _, ks := range boundaries {

@@ -49,10 +49,10 @@ type Keymap struct {
 // It maps keysyms (optionally with modifier conditions) to actions and properties.
 // This is an internal type used during keymap compilation.
 type Interpret struct {
-	keysym    Keysym  // The keysym to match (KeyNoSymbol means "Any")
-	modMatch  ModMatch // How to match modifiers
-	mods      ModMask  // Modifier mask for matching
-	repeat    *bool    // nil means use default, non-nil overrides
+	keysym   Keysym   // The keysym to match (KeyNoSymbol means "Any")
+	modMatch ModMatch // How to match modifiers
+	mods     ModMask  // Modifier mask for matching
+	repeat   *bool    // nil means use default, non-nil overrides
 	// action is not stored as we don't implement actions yet
 }
 

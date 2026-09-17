@@ -2,10 +2,10 @@ package xkb
 
 import (
 	"bufio"
-    "strconv"
 	"fmt"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 )
 
@@ -135,18 +135,30 @@ func (rf *rulesFile) parseRuleBody(line string, header []string, component strin
 	}
 
 	for i, pattern := range patterns {
-		if i >= len(header) { break }
+		if i >= len(header) {
+			break
+		}
 		switch header[i] {
-		case "model": r.model = pattern
-		case "layout", "layout[1]": r.layouts[0] = pattern
-		case "layout[2]": r.layouts[1] = pattern
-		case "layout[3]": r.layouts[2] = pattern
-		case "layout[4]": r.layouts[3] = pattern
-		case "variant", "variant[1]": r.variants[0] = pattern
-		case "variant[2]": r.variants[1] = pattern
-		case "variant[3]": r.variants[2] = pattern
-		case "variant[4]": r.variants[3] = pattern
-		case "option": r.option = pattern
+		case "model":
+			r.model = pattern
+		case "layout", "layout[1]":
+			r.layouts[0] = pattern
+		case "layout[2]":
+			r.layouts[1] = pattern
+		case "layout[3]":
+			r.layouts[2] = pattern
+		case "layout[4]":
+			r.layouts[3] = pattern
+		case "variant", "variant[1]":
+			r.variants[0] = pattern
+		case "variant[2]":
+			r.variants[1] = pattern
+		case "variant[3]":
+			r.variants[2] = pattern
+		case "variant[4]":
+			r.variants[3] = pattern
+		case "option":
+			r.option = pattern
 		}
 	}
 
@@ -170,7 +182,6 @@ func (rf *rulesFile) resolve(names *RuleNames) *kcCGST {
 		}
 
 		value := rf.substituteValue(r.value, names)
-
 
 		// Skip empty values
 		if value == "" || value == "+" {
@@ -234,13 +245,17 @@ func (rf *rulesFile) resolve(names *RuleNames) *kcCGST {
 
 // ruleMatches checks if a rule matches the given RMLVO names.
 func (rf *rulesFile) ruleMatches(r rule, names *RuleNames) bool {
-	if r.model != "" && !rf.patternMatches(r.model, names.Model) { return false }
+	if r.model != "" && !rf.patternMatches(r.model, names.Model) {
+		return false
+	}
 
 	layouts := strings.Split(names.Layout, ",")
 	for i := 0; i < 4; i++ {
 		if r.layouts[i] != "" {
 			val := getAt(layouts, i)
-			if val == "" || !rf.patternMatches(r.layouts[i], val) { return false }
+			if val == "" || !rf.patternMatches(r.layouts[i], val) {
+				return false
+			}
 		}
 	}
 
@@ -248,18 +263,24 @@ func (rf *rulesFile) ruleMatches(r rule, names *RuleNames) bool {
 	for i := 0; i < 4; i++ {
 		if r.variants[i] != "" {
 			val := getAt(variants, i)
-			if val == "" || !rf.patternMatches(r.variants[i], val) { return false }
+			if val == "" || !rf.patternMatches(r.variants[i], val) {
+				return false
+			}
 		}
 	}
 
 	if r.option != "" {
-		if names.Options == "" || !rf.optionMatches(r.option, names.Options) { return false }
+		if names.Options == "" || !rf.optionMatches(r.option, names.Options) {
+			return false
+		}
 	}
 	return true
 }
 
-func getAt(arr[]string, idx int) string {
-	if idx < len(arr) { return strings.TrimSpace(arr[idx]) }
+func getAt(arr []string, idx int) string {
+	if idx < len(arr) {
+		return strings.TrimSpace(arr[idx])
+	}
 	return ""
 }
 
@@ -308,9 +329,15 @@ func (rf *rulesFile) substituteValue(value string, names *RuleNames) string {
 
 	value = strings.ReplaceAll(value, "%m", names.Model)
 
-	if l(3) != "" { value = strings.ReplaceAll(value, "%l[4]", l(3)+":4") }
-	if l(2) != "" { value = strings.ReplaceAll(value, "%l[3]", l(2)+":3") }
-	if l(1) != "" { value = strings.ReplaceAll(value, "%l[2]", l(1)+":2") }
+	if l(3) != "" {
+		value = strings.ReplaceAll(value, "%l[4]", l(3)+":4")
+	}
+	if l(2) != "" {
+		value = strings.ReplaceAll(value, "%l[3]", l(2)+":3")
+	}
+	if l(1) != "" {
+		value = strings.ReplaceAll(value, "%l[2]", l(1)+":2")
+	}
 	value = strings.ReplaceAll(value, "%l[1]", l(0))
 	value = strings.ReplaceAll(value, "%l", l(0))
 
@@ -319,7 +346,8 @@ func (rf *rulesFile) substituteValue(value string, names *RuleNames) string {
 			val = strings.ReplaceAll(val, ph1, "("+varVal+")")
 			val = strings.ReplaceAll(val, ph2, varVal)
 		} else {
-			val = strings.ReplaceAll(val, ph1, ""); val = strings.ReplaceAll(val, ph2, "")
+			val = strings.ReplaceAll(val, ph1, "")
+			val = strings.ReplaceAll(val, ph2, "")
 		}
 		return val
 	}
@@ -332,7 +360,9 @@ func (rf *rulesFile) substituteValue(value string, names *RuleNames) string {
 
 	value = strings.ReplaceAll(value, "%o", names.Options)
 	value = strings.ReplaceAll(value, "()", "")
-	for strings.Contains(value, "[1]") { value = strings.ReplaceAll(value, "[1]", "") }
+	for strings.Contains(value, "[1]") {
+		value = strings.ReplaceAll(value, "[1]", "")
+	}
 	return value
 }
 
@@ -501,13 +531,19 @@ func (c *Context) loadComponentPartWithDepth(componentType, spec string, depth i
 	}
 
 	data, err := os.ReadFile(filePath)
-	if err != nil { return "", err }
+	if err != nil {
+		return "", err
+	}
 
 	content, err := c.extractSection(string(data), componentType, sectionName)
-	if err != nil { return "", err }
+	if err != nil {
+		return "", err
+	}
 
 	resolved, err := c.resolveIncludes(componentType, content, depth)
-	if err != nil { return "", err }
+	if err != nil {
+		return "", err
+	}
 
 	if componentType == "symbols" && groupOffset > 0 {
 		resolved = fmt.Sprintf("group_offset = %d;\n%s\ngroup_offset = 0;\n", groupOffset, resolved)

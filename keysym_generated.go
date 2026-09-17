@@ -8,1136 +8,1136 @@ const (
 	KeyNoSymbol Keysym = 0
 
 	// Latin-1 (ASCII)
-	KeySpace Keysym = 0x0020
-	KeyExclam Keysym = 0x0021
-	KeyQuotedbl Keysym = 0x0022
-	KeyNumbersign Keysym = 0x0023
-	KeyDollar Keysym = 0x0024
-	KeyPercent Keysym = 0x0025
-	KeyAmpersand Keysym = 0x0026
-	KeyApostrophe Keysym = 0x0027
-	KeyParenleft Keysym = 0x0028
-	KeyParenright Keysym = 0x0029
-	KeyAsterisk Keysym = 0x002a
-	KeyPlus Keysym = 0x002b
-	KeyComma Keysym = 0x002c
-	KeyMinus Keysym = 0x002d
-	KeyPeriod Keysym = 0x002e
-	KeySlash Keysym = 0x002f
-	KeyColon Keysym = 0x003a
-	KeySemicolon Keysym = 0x003b
-	KeyLess Keysym = 0x003c
-	KeyEqual Keysym = 0x003d
-	KeyGreater Keysym = 0x003e
-	KeyQuestion Keysym = 0x003f
-	KeyAt Keysym = 0x0040
-	KeyBracketleft Keysym = 0x005b
-	KeyBackslash Keysym = 0x005c
+	KeySpace        Keysym = 0x0020
+	KeyExclam       Keysym = 0x0021
+	KeyQuotedbl     Keysym = 0x0022
+	KeyNumbersign   Keysym = 0x0023
+	KeyDollar       Keysym = 0x0024
+	KeyPercent      Keysym = 0x0025
+	KeyAmpersand    Keysym = 0x0026
+	KeyApostrophe   Keysym = 0x0027
+	KeyParenleft    Keysym = 0x0028
+	KeyParenright   Keysym = 0x0029
+	KeyAsterisk     Keysym = 0x002a
+	KeyPlus         Keysym = 0x002b
+	KeyComma        Keysym = 0x002c
+	KeyMinus        Keysym = 0x002d
+	KeyPeriod       Keysym = 0x002e
+	KeySlash        Keysym = 0x002f
+	KeyColon        Keysym = 0x003a
+	KeySemicolon    Keysym = 0x003b
+	KeyLess         Keysym = 0x003c
+	KeyEqual        Keysym = 0x003d
+	KeyGreater      Keysym = 0x003e
+	KeyQuestion     Keysym = 0x003f
+	KeyAt           Keysym = 0x0040
+	KeyBracketleft  Keysym = 0x005b
+	KeyBackslash    Keysym = 0x005c
 	KeyBracketright Keysym = 0x005d
-	KeyAsciicircum Keysym = 0x005e
-	KeyUnderscore Keysym = 0x005f
-	KeyGrave Keysym = 0x0060
-	KeyBraceleft Keysym = 0x007b
-	KeyBar Keysym = 0x007c
-	KeyBraceright Keysym = 0x007d
-	KeyAsciitilde Keysym = 0x007e
+	KeyAsciicircum  Keysym = 0x005e
+	KeyUnderscore   Keysym = 0x005f
+	KeyGrave        Keysym = 0x0060
+	KeyBraceleft    Keysym = 0x007b
+	KeyBar          Keysym = 0x007c
+	KeyBraceright   Keysym = 0x007d
+	KeyAsciitilde   Keysym = 0x007e
 
 	// Latin-1 Supplement
-	KeyNobreakspace Keysym = 0x00a0
-	KeyExclamdown Keysym = 0x00a1
-	KeyCent Keysym = 0x00a2
-	KeySterling Keysym = 0x00a3
-	KeyCurrency Keysym = 0x00a4
-	KeyYen Keysym = 0x00a5
-	KeyBrokenbar Keysym = 0x00a6
-	KeySection Keysym = 0x00a7
-	KeyDiaeresis Keysym = 0x00a8
-	KeyCopyright Keysym = 0x00a9
-	KeyOrdfeminine Keysym = 0x00aa
-	KeyGuillemetleft Keysym = 0x00ab
-	KeyNotsign Keysym = 0x00ac
-	KeyHyphen Keysym = 0x00ad
-	KeyRegistered Keysym = 0x00ae
-	KeyMacron Keysym = 0x00af
-	KeyDegree Keysym = 0x00b0
-	KeyPlusminus Keysym = 0x00b1
-	KeyTwosuperior Keysym = 0x00b2
-	KeyThreesuperior Keysym = 0x00b3
-	KeyAcute Keysym = 0x00b4
-	KeyMu Keysym = 0x00b5
-	KeyParagraph Keysym = 0x00b6
+	KeyNobreakspace   Keysym = 0x00a0
+	KeyExclamdown     Keysym = 0x00a1
+	KeyCent           Keysym = 0x00a2
+	KeySterling       Keysym = 0x00a3
+	KeyCurrency       Keysym = 0x00a4
+	KeyYen            Keysym = 0x00a5
+	KeyBrokenbar      Keysym = 0x00a6
+	KeySection        Keysym = 0x00a7
+	KeyDiaeresis      Keysym = 0x00a8
+	KeyCopyright      Keysym = 0x00a9
+	KeyOrdfeminine    Keysym = 0x00aa
+	KeyGuillemetleft  Keysym = 0x00ab
+	KeyNotsign        Keysym = 0x00ac
+	KeyHyphen         Keysym = 0x00ad
+	KeyRegistered     Keysym = 0x00ae
+	KeyMacron         Keysym = 0x00af
+	KeyDegree         Keysym = 0x00b0
+	KeyPlusminus      Keysym = 0x00b1
+	KeyTwosuperior    Keysym = 0x00b2
+	KeyThreesuperior  Keysym = 0x00b3
+	KeyAcute          Keysym = 0x00b4
+	KeyMu             Keysym = 0x00b5
+	KeyParagraph      Keysym = 0x00b6
 	KeyPeriodcentered Keysym = 0x00b7
-	KeyCedilla Keysym = 0x00b8
-	KeyOnesuperior Keysym = 0x00b9
-	KeyOrdmasculine Keysym = 0x00ba
+	KeyCedilla        Keysym = 0x00b8
+	KeyOnesuperior    Keysym = 0x00b9
+	KeyOrdmasculine   Keysym = 0x00ba
 	KeyGuillemetright Keysym = 0x00bb
-	KeyOnequarter Keysym = 0x00bc
-	KeyOnehalf Keysym = 0x00bd
-	KeyThreequarters Keysym = 0x00be
-	KeyQuestiondown Keysym = 0x00bf
-	KeyAgrave Keysym = 0x00c0
-	KeyAacute Keysym = 0x00c1
-	KeyAcircumflex Keysym = 0x00c2
-	KeyAtilde Keysym = 0x00c3
-	KeyAdiaeresis Keysym = 0x00c4
-	KeyAring Keysym = 0x00c5
-	KeyAE Keysym = 0x00c6
-	KeyCcedilla Keysym = 0x00c7
-	KeyEgrave Keysym = 0x00c8
-	KeyEacute Keysym = 0x00c9
-	KeyEcircumflex Keysym = 0x00ca
-	KeyEdiaeresis Keysym = 0x00cb
-	KeyIgrave Keysym = 0x00cc
-	KeyIacute Keysym = 0x00cd
-	KeyIcircumflex Keysym = 0x00ce
-	KeyIdiaeresis Keysym = 0x00cf
-	KeyETH Keysym = 0x00d0
-	KeyNtilde Keysym = 0x00d1
-	KeyOgrave Keysym = 0x00d2
-	KeyOacute Keysym = 0x00d3
-	KeyOcircumflex Keysym = 0x00d4
-	KeyOtilde Keysym = 0x00d5
-	KeyOdiaeresis Keysym = 0x00d6
-	KeyMultiply Keysym = 0x00d7
-	KeyOslash Keysym = 0x00d8
-	KeyUgrave Keysym = 0x00d9
-	KeyUacute Keysym = 0x00da
-	KeyUcircumflex Keysym = 0x00db
-	KeyUdiaeresis Keysym = 0x00dc
-	KeyYacute Keysym = 0x00dd
-	KeyTHORN Keysym = 0x00de
-	KeySsharp Keysym = 0x00df
-	KeyAe Keysym = 0x00e6
-	KeyEth Keysym = 0x00f0
-	KeyDivision Keysym = 0x00f7
-	KeyThorn Keysym = 0x00fe
-	KeyYdiaeresis Keysym = 0x00ff
+	KeyOnequarter     Keysym = 0x00bc
+	KeyOnehalf        Keysym = 0x00bd
+	KeyThreequarters  Keysym = 0x00be
+	KeyQuestiondown   Keysym = 0x00bf
+	KeyAgrave         Keysym = 0x00c0
+	KeyAacute         Keysym = 0x00c1
+	KeyAcircumflex    Keysym = 0x00c2
+	KeyAtilde         Keysym = 0x00c3
+	KeyAdiaeresis     Keysym = 0x00c4
+	KeyAring          Keysym = 0x00c5
+	KeyAE             Keysym = 0x00c6
+	KeyCcedilla       Keysym = 0x00c7
+	KeyEgrave         Keysym = 0x00c8
+	KeyEacute         Keysym = 0x00c9
+	KeyEcircumflex    Keysym = 0x00ca
+	KeyEdiaeresis     Keysym = 0x00cb
+	KeyIgrave         Keysym = 0x00cc
+	KeyIacute         Keysym = 0x00cd
+	KeyIcircumflex    Keysym = 0x00ce
+	KeyIdiaeresis     Keysym = 0x00cf
+	KeyETH            Keysym = 0x00d0
+	KeyNtilde         Keysym = 0x00d1
+	KeyOgrave         Keysym = 0x00d2
+	KeyOacute         Keysym = 0x00d3
+	KeyOcircumflex    Keysym = 0x00d4
+	KeyOtilde         Keysym = 0x00d5
+	KeyOdiaeresis     Keysym = 0x00d6
+	KeyMultiply       Keysym = 0x00d7
+	KeyOslash         Keysym = 0x00d8
+	KeyUgrave         Keysym = 0x00d9
+	KeyUacute         Keysym = 0x00da
+	KeyUcircumflex    Keysym = 0x00db
+	KeyUdiaeresis     Keysym = 0x00dc
+	KeyYacute         Keysym = 0x00dd
+	KeyTHORN          Keysym = 0x00de
+	KeySsharp         Keysym = 0x00df
+	KeyAe             Keysym = 0x00e6
+	KeyEth            Keysym = 0x00f0
+	KeyDivision       Keysym = 0x00f7
+	KeyThorn          Keysym = 0x00fe
+	KeyYdiaeresis     Keysym = 0x00ff
 
 	// Latin Extended-A
-	KeyAogonek Keysym = 0x01a1
-	KeyBreve Keysym = 0x01a2
-	KeyLstroke Keysym = 0x01a3
-	KeyLcaron Keysym = 0x01a5
-	KeySacute Keysym = 0x01a6
-	KeyScaron Keysym = 0x01a9
-	KeyScedilla Keysym = 0x01aa
-	KeyTcaron Keysym = 0x01ab
-	KeyZacute Keysym = 0x01ac
-	KeyZcaron Keysym = 0x01ae
-	KeyZabovedot Keysym = 0x01af
-	KeyOgonek Keysym = 0x01b2
-	KeyCaron Keysym = 0x01b7
-	KeyDoubleacute Keysym = 0x01bd
-	KeyRacute Keysym = 0x01c0
-	KeyAbreve Keysym = 0x01c3
-	KeyLacute Keysym = 0x01c5
-	KeyCacute Keysym = 0x01c6
-	KeyCcaron Keysym = 0x01c8
-	KeyEogonek Keysym = 0x01ca
-	KeyEcaron Keysym = 0x01cc
-	KeyDcaron Keysym = 0x01cf
-	KeyDstroke Keysym = 0x01d0
-	KeyNacute Keysym = 0x01d1
-	KeyNcaron Keysym = 0x01d2
+	KeyAogonek      Keysym = 0x01a1
+	KeyBreve        Keysym = 0x01a2
+	KeyLstroke      Keysym = 0x01a3
+	KeyLcaron       Keysym = 0x01a5
+	KeySacute       Keysym = 0x01a6
+	KeyScaron       Keysym = 0x01a9
+	KeyScedilla     Keysym = 0x01aa
+	KeyTcaron       Keysym = 0x01ab
+	KeyZacute       Keysym = 0x01ac
+	KeyZcaron       Keysym = 0x01ae
+	KeyZabovedot    Keysym = 0x01af
+	KeyOgonek       Keysym = 0x01b2
+	KeyCaron        Keysym = 0x01b7
+	KeyDoubleacute  Keysym = 0x01bd
+	KeyRacute       Keysym = 0x01c0
+	KeyAbreve       Keysym = 0x01c3
+	KeyLacute       Keysym = 0x01c5
+	KeyCacute       Keysym = 0x01c6
+	KeyCcaron       Keysym = 0x01c8
+	KeyEogonek      Keysym = 0x01ca
+	KeyEcaron       Keysym = 0x01cc
+	KeyDcaron       Keysym = 0x01cf
+	KeyDstroke      Keysym = 0x01d0
+	KeyNacute       Keysym = 0x01d1
+	KeyNcaron       Keysym = 0x01d2
 	KeyOdoubleacute Keysym = 0x01d5
-	KeyRcaron Keysym = 0x01d8
-	KeyUring Keysym = 0x01d9
+	KeyRcaron       Keysym = 0x01d8
+	KeyUring        Keysym = 0x01d9
 	KeyUdoubleacute Keysym = 0x01db
-	KeyTcedilla Keysym = 0x01de
-	KeyAbovedot Keysym = 0x01ff
+	KeyTcedilla     Keysym = 0x01de
+	KeyAbovedot     Keysym = 0x01ff
 
 	// Latin Extended-B
-	KeyHstroke Keysym = 0x02a1
+	KeyHstroke     Keysym = 0x02a1
 	KeyHcircumflex Keysym = 0x02a6
-	KeyIabovedot Keysym = 0x02a9
-	KeyGbreve Keysym = 0x02ab
+	KeyIabovedot   Keysym = 0x02a9
+	KeyGbreve      Keysym = 0x02ab
 	KeyJcircumflex Keysym = 0x02ac
-	KeyIdotless Keysym = 0x02b9
-	KeyCabovedot Keysym = 0x02c5
+	KeyIdotless    Keysym = 0x02b9
+	KeyCabovedot   Keysym = 0x02c5
 	KeyCcircumflex Keysym = 0x02c6
-	KeyGabovedot Keysym = 0x02d5
+	KeyGabovedot   Keysym = 0x02d5
 	KeyGcircumflex Keysym = 0x02d8
-	KeyUbreve Keysym = 0x02dd
+	KeyUbreve      Keysym = 0x02dd
 	KeyScircumflex Keysym = 0x02de
 
 	// Latin Extended Additional
-	KeyKra Keysym = 0x03a2
-	KeyRcedilla Keysym = 0x03a3
-	KeyItilde Keysym = 0x03a5
-	KeyLcedilla Keysym = 0x03a6
-	KeyEmacron Keysym = 0x03aa
-	KeyGcedilla Keysym = 0x03ab
-	KeyTslash Keysym = 0x03ac
-	KeyENG Keysym = 0x03bd
-	KeyEng Keysym = 0x03bf
-	KeyAmacron Keysym = 0x03c0
-	KeyIogonek Keysym = 0x03c7
+	KeyKra       Keysym = 0x03a2
+	KeyRcedilla  Keysym = 0x03a3
+	KeyItilde    Keysym = 0x03a5
+	KeyLcedilla  Keysym = 0x03a6
+	KeyEmacron   Keysym = 0x03aa
+	KeyGcedilla  Keysym = 0x03ab
+	KeyTslash    Keysym = 0x03ac
+	KeyENG       Keysym = 0x03bd
+	KeyEng       Keysym = 0x03bf
+	KeyAmacron   Keysym = 0x03c0
+	KeyIogonek   Keysym = 0x03c7
 	KeyEabovedot Keysym = 0x03cc
-	KeyImacron Keysym = 0x03cf
-	KeyNcedilla Keysym = 0x03d1
-	KeyOmacron Keysym = 0x03d2
-	KeyKcedilla Keysym = 0x03d3
-	KeyUogonek Keysym = 0x03d9
-	KeyUtilde Keysym = 0x03dd
-	KeyUmacron Keysym = 0x03de
+	KeyImacron   Keysym = 0x03cf
+	KeyNcedilla  Keysym = 0x03d1
+	KeyOmacron   Keysym = 0x03d2
+	KeyKcedilla  Keysym = 0x03d3
+	KeyUogonek   Keysym = 0x03d9
+	KeyUtilde    Keysym = 0x03dd
+	KeyUmacron   Keysym = 0x03de
 
 	// Katakana
-	KeyOverline Keysym = 0x047e
-	KeyKanaFullstop Keysym = 0x04a1
+	KeyOverline           Keysym = 0x047e
+	KeyKanaFullstop       Keysym = 0x04a1
 	KeyKanaOpeningbracket Keysym = 0x04a2
 	KeyKanaClosingbracket Keysym = 0x04a3
-	KeyKanaComma Keysym = 0x04a4
-	KeyKanaConjunctive Keysym = 0x04a5
-	KeyKanaWO Keysym = 0x04a6
-	KeyKanaA Keysym = 0x04a7
-	KeyKanaI Keysym = 0x04a8
-	KeyKanaU Keysym = 0x04a9
-	KeyKanaE Keysym = 0x04aa
-	KeyKanaO Keysym = 0x04ab
-	KeyKanaYa Keysym = 0x04ac
-	KeyKanaYu Keysym = 0x04ad
-	KeyKanaYo Keysym = 0x04ae
-	KeyKanaTsu Keysym = 0x04af
-	KeyProlongedsound Keysym = 0x04b0
-	KeyKanaKA Keysym = 0x04b6
-	KeyKanaKI Keysym = 0x04b7
-	KeyKanaKU Keysym = 0x04b8
-	KeyKanaKE Keysym = 0x04b9
-	KeyKanaKO Keysym = 0x04ba
-	KeyKanaSA Keysym = 0x04bb
-	KeyKanaSHI Keysym = 0x04bc
-	KeyKanaSU Keysym = 0x04bd
-	KeyKanaSE Keysym = 0x04be
-	KeyKanaSO Keysym = 0x04bf
-	KeyKanaTA Keysym = 0x04c0
-	KeyKanaCHI Keysym = 0x04c1
-	KeyKanaTSU Keysym = 0x04c2
-	KeyKanaTE Keysym = 0x04c3
-	KeyKanaTO Keysym = 0x04c4
-	KeyKanaNA Keysym = 0x04c5
-	KeyKanaNI Keysym = 0x04c6
-	KeyKanaNU Keysym = 0x04c7
-	KeyKanaNE Keysym = 0x04c8
-	KeyKanaNO Keysym = 0x04c9
-	KeyKanaHA Keysym = 0x04ca
-	KeyKanaHI Keysym = 0x04cb
-	KeyKanaFU Keysym = 0x04cc
-	KeyKanaHE Keysym = 0x04cd
-	KeyKanaHO Keysym = 0x04ce
-	KeyKanaMA Keysym = 0x04cf
-	KeyKanaMI Keysym = 0x04d0
-	KeyKanaMU Keysym = 0x04d1
-	KeyKanaME Keysym = 0x04d2
-	KeyKanaMO Keysym = 0x04d3
-	KeyKanaYA Keysym = 0x04d4
-	KeyKanaYU Keysym = 0x04d5
-	KeyKanaYO Keysym = 0x04d6
-	KeyKanaRA Keysym = 0x04d7
-	KeyKanaRI Keysym = 0x04d8
-	KeyKanaRU Keysym = 0x04d9
-	KeyKanaRE Keysym = 0x04da
-	KeyKanaRO Keysym = 0x04db
-	KeyKanaWA Keysym = 0x04dc
-	KeyKanaN Keysym = 0x04dd
-	KeyVoicedsound Keysym = 0x04de
-	KeySemivoicedsound Keysym = 0x04df
+	KeyKanaComma          Keysym = 0x04a4
+	KeyKanaConjunctive    Keysym = 0x04a5
+	KeyKanaWO             Keysym = 0x04a6
+	KeyKanaA              Keysym = 0x04a7
+	KeyKanaI              Keysym = 0x04a8
+	KeyKanaU              Keysym = 0x04a9
+	KeyKanaE              Keysym = 0x04aa
+	KeyKanaO              Keysym = 0x04ab
+	KeyKanaYa             Keysym = 0x04ac
+	KeyKanaYu             Keysym = 0x04ad
+	KeyKanaYo             Keysym = 0x04ae
+	KeyKanaTsu            Keysym = 0x04af
+	KeyProlongedsound     Keysym = 0x04b0
+	KeyKanaKA             Keysym = 0x04b6
+	KeyKanaKI             Keysym = 0x04b7
+	KeyKanaKU             Keysym = 0x04b8
+	KeyKanaKE             Keysym = 0x04b9
+	KeyKanaKO             Keysym = 0x04ba
+	KeyKanaSA             Keysym = 0x04bb
+	KeyKanaSHI            Keysym = 0x04bc
+	KeyKanaSU             Keysym = 0x04bd
+	KeyKanaSE             Keysym = 0x04be
+	KeyKanaSO             Keysym = 0x04bf
+	KeyKanaTA             Keysym = 0x04c0
+	KeyKanaCHI            Keysym = 0x04c1
+	KeyKanaTSU            Keysym = 0x04c2
+	KeyKanaTE             Keysym = 0x04c3
+	KeyKanaTO             Keysym = 0x04c4
+	KeyKanaNA             Keysym = 0x04c5
+	KeyKanaNI             Keysym = 0x04c6
+	KeyKanaNU             Keysym = 0x04c7
+	KeyKanaNE             Keysym = 0x04c8
+	KeyKanaNO             Keysym = 0x04c9
+	KeyKanaHA             Keysym = 0x04ca
+	KeyKanaHI             Keysym = 0x04cb
+	KeyKanaFU             Keysym = 0x04cc
+	KeyKanaHE             Keysym = 0x04cd
+	KeyKanaHO             Keysym = 0x04ce
+	KeyKanaMA             Keysym = 0x04cf
+	KeyKanaMI             Keysym = 0x04d0
+	KeyKanaMU             Keysym = 0x04d1
+	KeyKanaME             Keysym = 0x04d2
+	KeyKanaMO             Keysym = 0x04d3
+	KeyKanaYA             Keysym = 0x04d4
+	KeyKanaYU             Keysym = 0x04d5
+	KeyKanaYO             Keysym = 0x04d6
+	KeyKanaRA             Keysym = 0x04d7
+	KeyKanaRI             Keysym = 0x04d8
+	KeyKanaRU             Keysym = 0x04d9
+	KeyKanaRE             Keysym = 0x04da
+	KeyKanaRO             Keysym = 0x04db
+	KeyKanaWA             Keysym = 0x04dc
+	KeyKanaN              Keysym = 0x04dd
+	KeyVoicedsound        Keysym = 0x04de
+	KeySemivoicedsound    Keysym = 0x04df
 
 	// Arabic
-	KeyArabicComma Keysym = 0x05ac
-	KeyArabicSemicolon Keysym = 0x05bb
-	KeyArabicQuestionMark Keysym = 0x05bf
-	KeyArabicHamza Keysym = 0x05c1
-	KeyArabicMaddaonalef Keysym = 0x05c2
-	KeyArabicHamzaonalef Keysym = 0x05c3
-	KeyArabicHamzaonwaw Keysym = 0x05c4
+	KeyArabicComma          Keysym = 0x05ac
+	KeyArabicSemicolon      Keysym = 0x05bb
+	KeyArabicQuestionMark   Keysym = 0x05bf
+	KeyArabicHamza          Keysym = 0x05c1
+	KeyArabicMaddaonalef    Keysym = 0x05c2
+	KeyArabicHamzaonalef    Keysym = 0x05c3
+	KeyArabicHamzaonwaw     Keysym = 0x05c4
 	KeyArabicHamzaunderalef Keysym = 0x05c5
-	KeyArabicHamzaonyeh Keysym = 0x05c6
-	KeyArabicAlef Keysym = 0x05c7
-	KeyArabicBeh Keysym = 0x05c8
-	KeyArabicTehmarbuta Keysym = 0x05c9
-	KeyArabicTeh Keysym = 0x05ca
-	KeyArabicTheh Keysym = 0x05cb
-	KeyArabicJeem Keysym = 0x05cc
-	KeyArabicHah Keysym = 0x05cd
-	KeyArabicKhah Keysym = 0x05ce
-	KeyArabicDal Keysym = 0x05cf
-	KeyArabicThal Keysym = 0x05d0
-	KeyArabicRa Keysym = 0x05d1
-	KeyArabicZain Keysym = 0x05d2
-	KeyArabicSeen Keysym = 0x05d3
-	KeyArabicSheen Keysym = 0x05d4
-	KeyArabicSad Keysym = 0x05d5
-	KeyArabicDad Keysym = 0x05d6
-	KeyArabicTah Keysym = 0x05d7
-	KeyArabicZah Keysym = 0x05d8
-	KeyArabicAin Keysym = 0x05d9
-	KeyArabicGhain Keysym = 0x05da
-	KeyArabicTatweel Keysym = 0x05e0
-	KeyArabicFeh Keysym = 0x05e1
-	KeyArabicQaf Keysym = 0x05e2
-	KeyArabicKaf Keysym = 0x05e3
-	KeyArabicLam Keysym = 0x05e4
-	KeyArabicMeem Keysym = 0x05e5
-	KeyArabicNoon Keysym = 0x05e6
-	KeyArabicHa Keysym = 0x05e7
-	KeyArabicWaw Keysym = 0x05e8
-	KeyArabicAlefmaksura Keysym = 0x05e9
-	KeyArabicYeh Keysym = 0x05ea
-	KeyArabicFathatan Keysym = 0x05eb
-	KeyArabicDammatan Keysym = 0x05ec
-	KeyArabicKasratan Keysym = 0x05ed
-	KeyArabicFatha Keysym = 0x05ee
-	KeyArabicDamma Keysym = 0x05ef
-	KeyArabicKasra Keysym = 0x05f0
-	KeyArabicShadda Keysym = 0x05f1
-	KeyArabicSukun Keysym = 0x05f2
+	KeyArabicHamzaonyeh     Keysym = 0x05c6
+	KeyArabicAlef           Keysym = 0x05c7
+	KeyArabicBeh            Keysym = 0x05c8
+	KeyArabicTehmarbuta     Keysym = 0x05c9
+	KeyArabicTeh            Keysym = 0x05ca
+	KeyArabicTheh           Keysym = 0x05cb
+	KeyArabicJeem           Keysym = 0x05cc
+	KeyArabicHah            Keysym = 0x05cd
+	KeyArabicKhah           Keysym = 0x05ce
+	KeyArabicDal            Keysym = 0x05cf
+	KeyArabicThal           Keysym = 0x05d0
+	KeyArabicRa             Keysym = 0x05d1
+	KeyArabicZain           Keysym = 0x05d2
+	KeyArabicSeen           Keysym = 0x05d3
+	KeyArabicSheen          Keysym = 0x05d4
+	KeyArabicSad            Keysym = 0x05d5
+	KeyArabicDad            Keysym = 0x05d6
+	KeyArabicTah            Keysym = 0x05d7
+	KeyArabicZah            Keysym = 0x05d8
+	KeyArabicAin            Keysym = 0x05d9
+	KeyArabicGhain          Keysym = 0x05da
+	KeyArabicTatweel        Keysym = 0x05e0
+	KeyArabicFeh            Keysym = 0x05e1
+	KeyArabicQaf            Keysym = 0x05e2
+	KeyArabicKaf            Keysym = 0x05e3
+	KeyArabicLam            Keysym = 0x05e4
+	KeyArabicMeem           Keysym = 0x05e5
+	KeyArabicNoon           Keysym = 0x05e6
+	KeyArabicHa             Keysym = 0x05e7
+	KeyArabicWaw            Keysym = 0x05e8
+	KeyArabicAlefmaksura    Keysym = 0x05e9
+	KeyArabicYeh            Keysym = 0x05ea
+	KeyArabicFathatan       Keysym = 0x05eb
+	KeyArabicDammatan       Keysym = 0x05ec
+	KeyArabicKasratan       Keysym = 0x05ed
+	KeyArabicFatha          Keysym = 0x05ee
+	KeyArabicDamma          Keysym = 0x05ef
+	KeyArabicKasra          Keysym = 0x05f0
+	KeyArabicShadda         Keysym = 0x05f1
+	KeyArabicSukun          Keysym = 0x05f2
 
 	// Cyrillic
-	KeySerbianDje Keysym = 0x06a1
-	KeyMacedoniaGje Keysym = 0x06a2
-	KeyCyrillicIo Keysym = 0x06a3
-	KeyUkrainianIe Keysym = 0x06a4
-	KeyMacedoniaDse Keysym = 0x06a5
-	KeyUkrainianI Keysym = 0x06a6
-	KeyUkrainianYi Keysym = 0x06a7
-	KeyCyrillicJe Keysym = 0x06a8
-	KeyCyrillicLje Keysym = 0x06a9
-	KeyCyrillicNje Keysym = 0x06aa
-	KeySerbianTshe Keysym = 0x06ab
-	KeyMacedoniaKje Keysym = 0x06ac
+	KeySerbianDje             Keysym = 0x06a1
+	KeyMacedoniaGje           Keysym = 0x06a2
+	KeyCyrillicIo             Keysym = 0x06a3
+	KeyUkrainianIe            Keysym = 0x06a4
+	KeyMacedoniaDse           Keysym = 0x06a5
+	KeyUkrainianI             Keysym = 0x06a6
+	KeyUkrainianYi            Keysym = 0x06a7
+	KeyCyrillicJe             Keysym = 0x06a8
+	KeyCyrillicLje            Keysym = 0x06a9
+	KeyCyrillicNje            Keysym = 0x06aa
+	KeySerbianTshe            Keysym = 0x06ab
+	KeyMacedoniaKje           Keysym = 0x06ac
 	KeyUkrainianGheWithUpturn Keysym = 0x06ad
-	KeyByelorussianShortu Keysym = 0x06ae
-	KeyCyrillicDzhe Keysym = 0x06af
-	KeyNumerosign Keysym = 0x06b0
-	KeySerbianDJE Keysym = 0x06b1
-	KeyMacedoniaGJE Keysym = 0x06b2
-	KeyCyrillicIO Keysym = 0x06b3
-	KeyUkrainianIE Keysym = 0x06b4
-	KeyMacedoniaDSE Keysym = 0x06b5
-	KeyUkrainianYI Keysym = 0x06b7
-	KeyCyrillicJE Keysym = 0x06b8
-	KeyCyrillicLJE Keysym = 0x06b9
-	KeyCyrillicNJE Keysym = 0x06ba
-	KeySerbianTSHE Keysym = 0x06bb
-	KeyMacedoniaKJE Keysym = 0x06bc
+	KeyByelorussianShortu     Keysym = 0x06ae
+	KeyCyrillicDzhe           Keysym = 0x06af
+	KeyNumerosign             Keysym = 0x06b0
+	KeySerbianDJE             Keysym = 0x06b1
+	KeyMacedoniaGJE           Keysym = 0x06b2
+	KeyCyrillicIO             Keysym = 0x06b3
+	KeyUkrainianIE            Keysym = 0x06b4
+	KeyMacedoniaDSE           Keysym = 0x06b5
+	KeyUkrainianYI            Keysym = 0x06b7
+	KeyCyrillicJE             Keysym = 0x06b8
+	KeyCyrillicLJE            Keysym = 0x06b9
+	KeyCyrillicNJE            Keysym = 0x06ba
+	KeySerbianTSHE            Keysym = 0x06bb
+	KeyMacedoniaKJE           Keysym = 0x06bc
 	KeyUkrainianGHEWITHUPTURN Keysym = 0x06bd
-	KeyByelorussianSHORTU Keysym = 0x06be
-	KeyCyrillicDZHE Keysym = 0x06bf
-	KeyCyrillicYu Keysym = 0x06c0
-	KeyCyrillicA Keysym = 0x06c1
-	KeyCyrillicBe Keysym = 0x06c2
-	KeyCyrillicTse Keysym = 0x06c3
-	KeyCyrillicDe Keysym = 0x06c4
-	KeyCyrillicIe Keysym = 0x06c5
-	KeyCyrillicEf Keysym = 0x06c6
-	KeyCyrillicGhe Keysym = 0x06c7
-	KeyCyrillicHa Keysym = 0x06c8
-	KeyCyrillicI Keysym = 0x06c9
-	KeyCyrillicShorti Keysym = 0x06ca
-	KeyCyrillicKa Keysym = 0x06cb
-	KeyCyrillicEl Keysym = 0x06cc
-	KeyCyrillicEm Keysym = 0x06cd
-	KeyCyrillicEn Keysym = 0x06ce
-	KeyCyrillicO Keysym = 0x06cf
-	KeyCyrillicPe Keysym = 0x06d0
-	KeyCyrillicYa Keysym = 0x06d1
-	KeyCyrillicEr Keysym = 0x06d2
-	KeyCyrillicEs Keysym = 0x06d3
-	KeyCyrillicTe Keysym = 0x06d4
-	KeyCyrillicU Keysym = 0x06d5
-	KeyCyrillicZhe Keysym = 0x06d6
-	KeyCyrillicVe Keysym = 0x06d7
-	KeyCyrillicSoftsign Keysym = 0x06d8
-	KeyCyrillicYeru Keysym = 0x06d9
-	KeyCyrillicZe Keysym = 0x06da
-	KeyCyrillicSha Keysym = 0x06db
-	KeyCyrillicE Keysym = 0x06dc
-	KeyCyrillicShcha Keysym = 0x06dd
-	KeyCyrillicChe Keysym = 0x06de
-	KeyCyrillicHardsign Keysym = 0x06df
-	KeyCyrillicYU Keysym = 0x06e0
-	KeyCyrillicBE Keysym = 0x06e2
-	KeyCyrillicTSE Keysym = 0x06e3
-	KeyCyrillicDE Keysym = 0x06e4
-	KeyCyrillicIE Keysym = 0x06e5
-	KeyCyrillicEF Keysym = 0x06e6
-	KeyCyrillicGHE Keysym = 0x06e7
-	KeyCyrillicHA Keysym = 0x06e8
-	KeyCyrillicSHORTI Keysym = 0x06ea
-	KeyCyrillicKA Keysym = 0x06eb
-	KeyCyrillicEL Keysym = 0x06ec
-	KeyCyrillicEM Keysym = 0x06ed
-	KeyCyrillicEN Keysym = 0x06ee
-	KeyCyrillicPE Keysym = 0x06f0
-	KeyCyrillicYA Keysym = 0x06f1
-	KeyCyrillicER Keysym = 0x06f2
-	KeyCyrillicES Keysym = 0x06f3
-	KeyCyrillicTE Keysym = 0x06f4
-	KeyCyrillicZHE Keysym = 0x06f6
-	KeyCyrillicVE Keysym = 0x06f7
-	KeyCyrillicSOFTSIGN Keysym = 0x06f8
-	KeyCyrillicYERU Keysym = 0x06f9
-	KeyCyrillicZE Keysym = 0x06fa
-	KeyCyrillicSHA Keysym = 0x06fb
-	KeyCyrillicSHCHA Keysym = 0x06fd
-	KeyCyrillicCHE Keysym = 0x06fe
-	KeyCyrillicHARDSIGN Keysym = 0x06ff
+	KeyByelorussianSHORTU     Keysym = 0x06be
+	KeyCyrillicDZHE           Keysym = 0x06bf
+	KeyCyrillicYu             Keysym = 0x06c0
+	KeyCyrillicA              Keysym = 0x06c1
+	KeyCyrillicBe             Keysym = 0x06c2
+	KeyCyrillicTse            Keysym = 0x06c3
+	KeyCyrillicDe             Keysym = 0x06c4
+	KeyCyrillicIe             Keysym = 0x06c5
+	KeyCyrillicEf             Keysym = 0x06c6
+	KeyCyrillicGhe            Keysym = 0x06c7
+	KeyCyrillicHa             Keysym = 0x06c8
+	KeyCyrillicI              Keysym = 0x06c9
+	KeyCyrillicShorti         Keysym = 0x06ca
+	KeyCyrillicKa             Keysym = 0x06cb
+	KeyCyrillicEl             Keysym = 0x06cc
+	KeyCyrillicEm             Keysym = 0x06cd
+	KeyCyrillicEn             Keysym = 0x06ce
+	KeyCyrillicO              Keysym = 0x06cf
+	KeyCyrillicPe             Keysym = 0x06d0
+	KeyCyrillicYa             Keysym = 0x06d1
+	KeyCyrillicEr             Keysym = 0x06d2
+	KeyCyrillicEs             Keysym = 0x06d3
+	KeyCyrillicTe             Keysym = 0x06d4
+	KeyCyrillicU              Keysym = 0x06d5
+	KeyCyrillicZhe            Keysym = 0x06d6
+	KeyCyrillicVe             Keysym = 0x06d7
+	KeyCyrillicSoftsign       Keysym = 0x06d8
+	KeyCyrillicYeru           Keysym = 0x06d9
+	KeyCyrillicZe             Keysym = 0x06da
+	KeyCyrillicSha            Keysym = 0x06db
+	KeyCyrillicE              Keysym = 0x06dc
+	KeyCyrillicShcha          Keysym = 0x06dd
+	KeyCyrillicChe            Keysym = 0x06de
+	KeyCyrillicHardsign       Keysym = 0x06df
+	KeyCyrillicYU             Keysym = 0x06e0
+	KeyCyrillicBE             Keysym = 0x06e2
+	KeyCyrillicTSE            Keysym = 0x06e3
+	KeyCyrillicDE             Keysym = 0x06e4
+	KeyCyrillicIE             Keysym = 0x06e5
+	KeyCyrillicEF             Keysym = 0x06e6
+	KeyCyrillicGHE            Keysym = 0x06e7
+	KeyCyrillicHA             Keysym = 0x06e8
+	KeyCyrillicSHORTI         Keysym = 0x06ea
+	KeyCyrillicKA             Keysym = 0x06eb
+	KeyCyrillicEL             Keysym = 0x06ec
+	KeyCyrillicEM             Keysym = 0x06ed
+	KeyCyrillicEN             Keysym = 0x06ee
+	KeyCyrillicPE             Keysym = 0x06f0
+	KeyCyrillicYA             Keysym = 0x06f1
+	KeyCyrillicER             Keysym = 0x06f2
+	KeyCyrillicES             Keysym = 0x06f3
+	KeyCyrillicTE             Keysym = 0x06f4
+	KeyCyrillicZHE            Keysym = 0x06f6
+	KeyCyrillicVE             Keysym = 0x06f7
+	KeyCyrillicSOFTSIGN       Keysym = 0x06f8
+	KeyCyrillicYERU           Keysym = 0x06f9
+	KeyCyrillicZE             Keysym = 0x06fa
+	KeyCyrillicSHA            Keysym = 0x06fb
+	KeyCyrillicSHCHA          Keysym = 0x06fd
+	KeyCyrillicCHE            Keysym = 0x06fe
+	KeyCyrillicHARDSIGN       Keysym = 0x06ff
 
 	// Greek
-	KeyGreekALPHAaccent Keysym = 0x07a1
-	KeyGreekEPSILONaccent Keysym = 0x07a2
-	KeyGreekETAaccent Keysym = 0x07a3
-	KeyGreekIOTAaccent Keysym = 0x07a4
-	KeyGreekIOTAdieresis Keysym = 0x07a5
-	KeyGreekOMICRONaccent Keysym = 0x07a7
-	KeyGreekUPSILONaccent Keysym = 0x07a8
-	KeyGreekUPSILONdieresis Keysym = 0x07a9
-	KeyGreekOMEGAaccent Keysym = 0x07ab
-	KeyGreekAccentdieresis Keysym = 0x07ae
-	KeyGreekHorizbar Keysym = 0x07af
-	KeyGreekAlphaaccent Keysym = 0x07b1
-	KeyGreekEpsilonaccent Keysym = 0x07b2
-	KeyGreekEtaaccent Keysym = 0x07b3
-	KeyGreekIotaaccent Keysym = 0x07b4
-	KeyGreekIotadieresis Keysym = 0x07b5
-	KeyGreekIotaaccentdieresis Keysym = 0x07b6
-	KeyGreekOmicronaccent Keysym = 0x07b7
-	KeyGreekUpsilonaccent Keysym = 0x07b8
-	KeyGreekUpsilondieresis Keysym = 0x07b9
+	KeyGreekALPHAaccent           Keysym = 0x07a1
+	KeyGreekEPSILONaccent         Keysym = 0x07a2
+	KeyGreekETAaccent             Keysym = 0x07a3
+	KeyGreekIOTAaccent            Keysym = 0x07a4
+	KeyGreekIOTAdieresis          Keysym = 0x07a5
+	KeyGreekOMICRONaccent         Keysym = 0x07a7
+	KeyGreekUPSILONaccent         Keysym = 0x07a8
+	KeyGreekUPSILONdieresis       Keysym = 0x07a9
+	KeyGreekOMEGAaccent           Keysym = 0x07ab
+	KeyGreekAccentdieresis        Keysym = 0x07ae
+	KeyGreekHorizbar              Keysym = 0x07af
+	KeyGreekAlphaaccent           Keysym = 0x07b1
+	KeyGreekEpsilonaccent         Keysym = 0x07b2
+	KeyGreekEtaaccent             Keysym = 0x07b3
+	KeyGreekIotaaccent            Keysym = 0x07b4
+	KeyGreekIotadieresis          Keysym = 0x07b5
+	KeyGreekIotaaccentdieresis    Keysym = 0x07b6
+	KeyGreekOmicronaccent         Keysym = 0x07b7
+	KeyGreekUpsilonaccent         Keysym = 0x07b8
+	KeyGreekUpsilondieresis       Keysym = 0x07b9
 	KeyGreekUpsilonaccentdieresis Keysym = 0x07ba
-	KeyGreekOmegaaccent Keysym = 0x07bb
-	KeyGreekALPHA Keysym = 0x07c1
-	KeyGreekBETA Keysym = 0x07c2
-	KeyGreekGAMMA Keysym = 0x07c3
-	KeyGreekDELTA Keysym = 0x07c4
-	KeyGreekEPSILON Keysym = 0x07c5
-	KeyGreekZETA Keysym = 0x07c6
-	KeyGreekETA Keysym = 0x07c7
-	KeyGreekTHETA Keysym = 0x07c8
-	KeyGreekIOTA Keysym = 0x07c9
-	KeyGreekKAPPA Keysym = 0x07ca
-	KeyGreekLAMDA Keysym = 0x07cb
-	KeyGreekMU Keysym = 0x07cc
-	KeyGreekNU Keysym = 0x07cd
-	KeyGreekXI Keysym = 0x07ce
-	KeyGreekOMICRON Keysym = 0x07cf
-	KeyGreekPI Keysym = 0x07d0
-	KeyGreekRHO Keysym = 0x07d1
-	KeyGreekSIGMA Keysym = 0x07d2
-	KeyGreekTAU Keysym = 0x07d4
-	KeyGreekUPSILON Keysym = 0x07d5
-	KeyGreekPHI Keysym = 0x07d6
-	KeyGreekCHI Keysym = 0x07d7
-	KeyGreekPSI Keysym = 0x07d8
-	KeyGreekOMEGA Keysym = 0x07d9
-	KeyGreekAlpha Keysym = 0x07e1
-	KeyGreekBeta Keysym = 0x07e2
-	KeyGreekGamma Keysym = 0x07e3
-	KeyGreekDelta Keysym = 0x07e4
-	KeyGreekEpsilon Keysym = 0x07e5
-	KeyGreekZeta Keysym = 0x07e6
-	KeyGreekEta Keysym = 0x07e7
-	KeyGreekTheta Keysym = 0x07e8
-	KeyGreekIota Keysym = 0x07e9
-	KeyGreekKappa Keysym = 0x07ea
-	KeyGreekLamda Keysym = 0x07eb
-	KeyGreekMu Keysym = 0x07ec
-	KeyGreekNu Keysym = 0x07ed
-	KeyGreekXi Keysym = 0x07ee
-	KeyGreekOmicron Keysym = 0x07ef
-	KeyGreekPi Keysym = 0x07f0
-	KeyGreekRho Keysym = 0x07f1
-	KeyGreekSigma Keysym = 0x07f2
-	KeyGreekFinalsmallsigma Keysym = 0x07f3
-	KeyGreekTau Keysym = 0x07f4
-	KeyGreekUpsilon Keysym = 0x07f5
-	KeyGreekPhi Keysym = 0x07f6
-	KeyGreekChi Keysym = 0x07f7
-	KeyGreekPsi Keysym = 0x07f8
-	KeyGreekOmega Keysym = 0x07f9
+	KeyGreekOmegaaccent           Keysym = 0x07bb
+	KeyGreekALPHA                 Keysym = 0x07c1
+	KeyGreekBETA                  Keysym = 0x07c2
+	KeyGreekGAMMA                 Keysym = 0x07c3
+	KeyGreekDELTA                 Keysym = 0x07c4
+	KeyGreekEPSILON               Keysym = 0x07c5
+	KeyGreekZETA                  Keysym = 0x07c6
+	KeyGreekETA                   Keysym = 0x07c7
+	KeyGreekTHETA                 Keysym = 0x07c8
+	KeyGreekIOTA                  Keysym = 0x07c9
+	KeyGreekKAPPA                 Keysym = 0x07ca
+	KeyGreekLAMDA                 Keysym = 0x07cb
+	KeyGreekMU                    Keysym = 0x07cc
+	KeyGreekNU                    Keysym = 0x07cd
+	KeyGreekXI                    Keysym = 0x07ce
+	KeyGreekOMICRON               Keysym = 0x07cf
+	KeyGreekPI                    Keysym = 0x07d0
+	KeyGreekRHO                   Keysym = 0x07d1
+	KeyGreekSIGMA                 Keysym = 0x07d2
+	KeyGreekTAU                   Keysym = 0x07d4
+	KeyGreekUPSILON               Keysym = 0x07d5
+	KeyGreekPHI                   Keysym = 0x07d6
+	KeyGreekCHI                   Keysym = 0x07d7
+	KeyGreekPSI                   Keysym = 0x07d8
+	KeyGreekOMEGA                 Keysym = 0x07d9
+	KeyGreekAlpha                 Keysym = 0x07e1
+	KeyGreekBeta                  Keysym = 0x07e2
+	KeyGreekGamma                 Keysym = 0x07e3
+	KeyGreekDelta                 Keysym = 0x07e4
+	KeyGreekEpsilon               Keysym = 0x07e5
+	KeyGreekZeta                  Keysym = 0x07e6
+	KeyGreekEta                   Keysym = 0x07e7
+	KeyGreekTheta                 Keysym = 0x07e8
+	KeyGreekIota                  Keysym = 0x07e9
+	KeyGreekKappa                 Keysym = 0x07ea
+	KeyGreekLamda                 Keysym = 0x07eb
+	KeyGreekMu                    Keysym = 0x07ec
+	KeyGreekNu                    Keysym = 0x07ed
+	KeyGreekXi                    Keysym = 0x07ee
+	KeyGreekOmicron               Keysym = 0x07ef
+	KeyGreekPi                    Keysym = 0x07f0
+	KeyGreekRho                   Keysym = 0x07f1
+	KeyGreekSigma                 Keysym = 0x07f2
+	KeyGreekFinalsmallsigma       Keysym = 0x07f3
+	KeyGreekTau                   Keysym = 0x07f4
+	KeyGreekUpsilon               Keysym = 0x07f5
+	KeyGreekPhi                   Keysym = 0x07f6
+	KeyGreekChi                   Keysym = 0x07f7
+	KeyGreekPsi                   Keysym = 0x07f8
+	KeyGreekOmega                 Keysym = 0x07f9
 
 	// Technical
-	KeyLeftradical Keysym = 0x08a1
-	KeyTopleftradical Keysym = 0x08a2
-	KeyHorizconnector Keysym = 0x08a3
-	KeyTopintegral Keysym = 0x08a4
-	KeyBotintegral Keysym = 0x08a5
-	KeyVertconnector Keysym = 0x08a6
-	KeyTopleftsqbracket Keysym = 0x08a7
-	KeyBotleftsqbracket Keysym = 0x08a8
-	KeyToprightsqbracket Keysym = 0x08a9
-	KeyBotrightsqbracket Keysym = 0x08aa
-	KeyTopleftparens Keysym = 0x08ab
-	KeyBotleftparens Keysym = 0x08ac
-	KeyToprightparens Keysym = 0x08ad
-	KeyBotrightparens Keysym = 0x08ae
-	KeyLeftmiddlecurlybrace Keysym = 0x08af
-	KeyRightmiddlecurlybrace Keysym = 0x08b0
-	KeyTopleftsummation Keysym = 0x08b1
-	KeyBotleftsummation Keysym = 0x08b2
+	KeyLeftradical               Keysym = 0x08a1
+	KeyTopleftradical            Keysym = 0x08a2
+	KeyHorizconnector            Keysym = 0x08a3
+	KeyTopintegral               Keysym = 0x08a4
+	KeyBotintegral               Keysym = 0x08a5
+	KeyVertconnector             Keysym = 0x08a6
+	KeyTopleftsqbracket          Keysym = 0x08a7
+	KeyBotleftsqbracket          Keysym = 0x08a8
+	KeyToprightsqbracket         Keysym = 0x08a9
+	KeyBotrightsqbracket         Keysym = 0x08aa
+	KeyTopleftparens             Keysym = 0x08ab
+	KeyBotleftparens             Keysym = 0x08ac
+	KeyToprightparens            Keysym = 0x08ad
+	KeyBotrightparens            Keysym = 0x08ae
+	KeyLeftmiddlecurlybrace      Keysym = 0x08af
+	KeyRightmiddlecurlybrace     Keysym = 0x08b0
+	KeyTopleftsummation          Keysym = 0x08b1
+	KeyBotleftsummation          Keysym = 0x08b2
 	KeyTopvertsummationconnector Keysym = 0x08b3
 	KeyBotvertsummationconnector Keysym = 0x08b4
-	KeyToprightsummation Keysym = 0x08b5
-	KeyBotrightsummation Keysym = 0x08b6
-	KeyRightmiddlesummation Keysym = 0x08b7
-	KeyLessthanequal Keysym = 0x08bc
-	KeyNotequal Keysym = 0x08bd
-	KeyGreaterthanequal Keysym = 0x08be
-	KeyIntegral Keysym = 0x08bf
-	KeyTherefore Keysym = 0x08c0
-	KeyVariation Keysym = 0x08c1
-	KeyInfinity Keysym = 0x08c2
-	KeyNabla Keysym = 0x08c5
-	KeyApproximate Keysym = 0x08c8
-	KeySimilarequal Keysym = 0x08c9
-	KeyIfonlyif Keysym = 0x08cd
-	KeyImplies Keysym = 0x08ce
-	KeyIdentical Keysym = 0x08cf
-	KeyRadical Keysym = 0x08d6
-	KeyIncludedin Keysym = 0x08da
-	KeyIncludes Keysym = 0x08db
-	KeyIntersection Keysym = 0x08dc
-	KeyUnion Keysym = 0x08dd
-	KeyLogicaland Keysym = 0x08de
-	KeyLogicalor Keysym = 0x08df
-	KeyPartialderivative Keysym = 0x08ef
-	KeyFunction Keysym = 0x08f6
-	KeyLeftarrow Keysym = 0x08fb
-	KeyUparrow Keysym = 0x08fc
-	KeyRightarrow Keysym = 0x08fd
-	KeyDownarrow Keysym = 0x08fe
+	KeyToprightsummation         Keysym = 0x08b5
+	KeyBotrightsummation         Keysym = 0x08b6
+	KeyRightmiddlesummation      Keysym = 0x08b7
+	KeyLessthanequal             Keysym = 0x08bc
+	KeyNotequal                  Keysym = 0x08bd
+	KeyGreaterthanequal          Keysym = 0x08be
+	KeyIntegral                  Keysym = 0x08bf
+	KeyTherefore                 Keysym = 0x08c0
+	KeyVariation                 Keysym = 0x08c1
+	KeyInfinity                  Keysym = 0x08c2
+	KeyNabla                     Keysym = 0x08c5
+	KeyApproximate               Keysym = 0x08c8
+	KeySimilarequal              Keysym = 0x08c9
+	KeyIfonlyif                  Keysym = 0x08cd
+	KeyImplies                   Keysym = 0x08ce
+	KeyIdentical                 Keysym = 0x08cf
+	KeyRadical                   Keysym = 0x08d6
+	KeyIncludedin                Keysym = 0x08da
+	KeyIncludes                  Keysym = 0x08db
+	KeyIntersection              Keysym = 0x08dc
+	KeyUnion                     Keysym = 0x08dd
+	KeyLogicaland                Keysym = 0x08de
+	KeyLogicalor                 Keysym = 0x08df
+	KeyPartialderivative         Keysym = 0x08ef
+	KeyFunction                  Keysym = 0x08f6
+	KeyLeftarrow                 Keysym = 0x08fb
+	KeyUparrow                   Keysym = 0x08fc
+	KeyRightarrow                Keysym = 0x08fd
+	KeyDownarrow                 Keysym = 0x08fe
 
 	// Special
-	KeyBlank Keysym = 0x09df
-	KeySoliddiamond Keysym = 0x09e0
-	KeyCheckerboard Keysym = 0x09e1
-	KeyHt Keysym = 0x09e2
-	KeyFf Keysym = 0x09e3
-	KeyCr Keysym = 0x09e4
-	KeyLf Keysym = 0x09e5
-	KeyNl Keysym = 0x09e8
-	KeyVt Keysym = 0x09e9
+	KeyBlank          Keysym = 0x09df
+	KeySoliddiamond   Keysym = 0x09e0
+	KeyCheckerboard   Keysym = 0x09e1
+	KeyHt             Keysym = 0x09e2
+	KeyFf             Keysym = 0x09e3
+	KeyCr             Keysym = 0x09e4
+	KeyLf             Keysym = 0x09e5
+	KeyNl             Keysym = 0x09e8
+	KeyVt             Keysym = 0x09e9
 	KeyLowrightcorner Keysym = 0x09ea
-	KeyUprightcorner Keysym = 0x09eb
-	KeyUpleftcorner Keysym = 0x09ec
-	KeyLowleftcorner Keysym = 0x09ed
-	KeyCrossinglines Keysym = 0x09ee
+	KeyUprightcorner  Keysym = 0x09eb
+	KeyUpleftcorner   Keysym = 0x09ec
+	KeyLowleftcorner  Keysym = 0x09ed
+	KeyCrossinglines  Keysym = 0x09ee
 	KeyHorizlinescan1 Keysym = 0x09ef
 	KeyHorizlinescan3 Keysym = 0x09f0
 	KeyHorizlinescan5 Keysym = 0x09f1
 	KeyHorizlinescan7 Keysym = 0x09f2
 	KeyHorizlinescan9 Keysym = 0x09f3
-	KeyLeftt Keysym = 0x09f4
-	KeyRightt Keysym = 0x09f5
-	KeyBott Keysym = 0x09f6
-	KeyTopt Keysym = 0x09f7
-	KeyVertbar Keysym = 0x09f8
+	KeyLeftt          Keysym = 0x09f4
+	KeyRightt         Keysym = 0x09f5
+	KeyBott           Keysym = 0x09f6
+	KeyTopt           Keysym = 0x09f7
+	KeyVertbar        Keysym = 0x09f8
 
 	// Publishing
-	KeyEmspace Keysym = 0x0aa1
-	KeyEnspace Keysym = 0x0aa2
-	KeyEm3space Keysym = 0x0aa3
-	KeyEm4space Keysym = 0x0aa4
-	KeyDigitspace Keysym = 0x0aa5
-	KeyPunctspace Keysym = 0x0aa6
-	KeyThinspace Keysym = 0x0aa7
-	KeyHairspace Keysym = 0x0aa8
-	KeyEmdash Keysym = 0x0aa9
-	KeyEndash Keysym = 0x0aaa
-	KeySignifblank Keysym = 0x0aac
-	KeyEllipsis Keysym = 0x0aae
-	KeyDoubbaselinedot Keysym = 0x0aaf
-	KeyOnethird Keysym = 0x0ab0
-	KeyTwothirds Keysym = 0x0ab1
-	KeyOnefifth Keysym = 0x0ab2
-	KeyTwofifths Keysym = 0x0ab3
-	KeyThreefifths Keysym = 0x0ab4
-	KeyFourfifths Keysym = 0x0ab5
-	KeyOnesixth Keysym = 0x0ab6
-	KeyFivesixths Keysym = 0x0ab7
-	KeyCareof Keysym = 0x0ab8
-	KeyFigdash Keysym = 0x0abb
-	KeyLeftanglebracket Keysym = 0x0abc
-	KeyDecimalpoint Keysym = 0x0abd
-	KeyRightanglebracket Keysym = 0x0abe
-	KeyMarker Keysym = 0x0abf
-	KeyOneeighth Keysym = 0x0ac3
-	KeyThreeeighths Keysym = 0x0ac4
-	KeyFiveeighths Keysym = 0x0ac5
-	KeySeveneighths Keysym = 0x0ac6
-	KeyTrademark Keysym = 0x0ac9
-	KeySignaturemark Keysym = 0x0aca
-	KeyTrademarkincircle Keysym = 0x0acb
-	KeyLeftopentriangle Keysym = 0x0acc
-	KeyRightopentriangle Keysym = 0x0acd
-	KeyEmopencircle Keysym = 0x0ace
-	KeyEmopenrectangle Keysym = 0x0acf
-	KeyLeftsinglequotemark Keysym = 0x0ad0
+	KeyEmspace              Keysym = 0x0aa1
+	KeyEnspace              Keysym = 0x0aa2
+	KeyEm3space             Keysym = 0x0aa3
+	KeyEm4space             Keysym = 0x0aa4
+	KeyDigitspace           Keysym = 0x0aa5
+	KeyPunctspace           Keysym = 0x0aa6
+	KeyThinspace            Keysym = 0x0aa7
+	KeyHairspace            Keysym = 0x0aa8
+	KeyEmdash               Keysym = 0x0aa9
+	KeyEndash               Keysym = 0x0aaa
+	KeySignifblank          Keysym = 0x0aac
+	KeyEllipsis             Keysym = 0x0aae
+	KeyDoubbaselinedot      Keysym = 0x0aaf
+	KeyOnethird             Keysym = 0x0ab0
+	KeyTwothirds            Keysym = 0x0ab1
+	KeyOnefifth             Keysym = 0x0ab2
+	KeyTwofifths            Keysym = 0x0ab3
+	KeyThreefifths          Keysym = 0x0ab4
+	KeyFourfifths           Keysym = 0x0ab5
+	KeyOnesixth             Keysym = 0x0ab6
+	KeyFivesixths           Keysym = 0x0ab7
+	KeyCareof               Keysym = 0x0ab8
+	KeyFigdash              Keysym = 0x0abb
+	KeyLeftanglebracket     Keysym = 0x0abc
+	KeyDecimalpoint         Keysym = 0x0abd
+	KeyRightanglebracket    Keysym = 0x0abe
+	KeyMarker               Keysym = 0x0abf
+	KeyOneeighth            Keysym = 0x0ac3
+	KeyThreeeighths         Keysym = 0x0ac4
+	KeyFiveeighths          Keysym = 0x0ac5
+	KeySeveneighths         Keysym = 0x0ac6
+	KeyTrademark            Keysym = 0x0ac9
+	KeySignaturemark        Keysym = 0x0aca
+	KeyTrademarkincircle    Keysym = 0x0acb
+	KeyLeftopentriangle     Keysym = 0x0acc
+	KeyRightopentriangle    Keysym = 0x0acd
+	KeyEmopencircle         Keysym = 0x0ace
+	KeyEmopenrectangle      Keysym = 0x0acf
+	KeyLeftsinglequotemark  Keysym = 0x0ad0
 	KeyRightsinglequotemark Keysym = 0x0ad1
-	KeyLeftdoublequotemark Keysym = 0x0ad2
+	KeyLeftdoublequotemark  Keysym = 0x0ad2
 	KeyRightdoublequotemark Keysym = 0x0ad3
-	KeyPrescription Keysym = 0x0ad4
-	KeyPermille Keysym = 0x0ad5
-	KeyMinutes Keysym = 0x0ad6
-	KeySeconds Keysym = 0x0ad7
-	KeyLatincross Keysym = 0x0ad9
-	KeyHexagram Keysym = 0x0ada
-	KeyFilledrectbullet Keysym = 0x0adb
-	KeyFilledlefttribullet Keysym = 0x0adc
+	KeyPrescription         Keysym = 0x0ad4
+	KeyPermille             Keysym = 0x0ad5
+	KeyMinutes              Keysym = 0x0ad6
+	KeySeconds              Keysym = 0x0ad7
+	KeyLatincross           Keysym = 0x0ad9
+	KeyHexagram             Keysym = 0x0ada
+	KeyFilledrectbullet     Keysym = 0x0adb
+	KeyFilledlefttribullet  Keysym = 0x0adc
 	KeyFilledrighttribullet Keysym = 0x0add
-	KeyEmfilledcircle Keysym = 0x0ade
-	KeyEmfilledrect Keysym = 0x0adf
-	KeyEnopencircbullet Keysym = 0x0ae0
-	KeyEnopensquarebullet Keysym = 0x0ae1
-	KeyOpenrectbullet Keysym = 0x0ae2
-	KeyOpentribulletup Keysym = 0x0ae3
-	KeyOpentribulletdown Keysym = 0x0ae4
-	KeyOpenstar Keysym = 0x0ae5
-	KeyEnfilledcircbullet Keysym = 0x0ae6
-	KeyEnfilledsqbullet Keysym = 0x0ae7
-	KeyFilledtribulletup Keysym = 0x0ae8
-	KeyFilledtribulletdown Keysym = 0x0ae9
-	KeyLeftpointer Keysym = 0x0aea
-	KeyRightpointer Keysym = 0x0aeb
-	KeyClub Keysym = 0x0aec
-	KeyDiamond Keysym = 0x0aed
-	KeyHeart Keysym = 0x0aee
-	KeyMaltesecross Keysym = 0x0af0
-	KeyDagger Keysym = 0x0af1
-	KeyDoubledagger Keysym = 0x0af2
-	KeyCheckmark Keysym = 0x0af3
-	KeyBallotcross Keysym = 0x0af4
-	KeyMusicalsharp Keysym = 0x0af5
-	KeyMusicalflat Keysym = 0x0af6
-	KeyMalesymbol Keysym = 0x0af7
-	KeyFemalesymbol Keysym = 0x0af8
-	KeyTelephone Keysym = 0x0af9
-	KeyTelephonerecorder Keysym = 0x0afa
-	KeyPhonographcopyright Keysym = 0x0afb
-	KeyCaret Keysym = 0x0afc
-	KeySinglelowquotemark Keysym = 0x0afd
-	KeyDoublelowquotemark Keysym = 0x0afe
-	KeyCursor Keysym = 0x0aff
+	KeyEmfilledcircle       Keysym = 0x0ade
+	KeyEmfilledrect         Keysym = 0x0adf
+	KeyEnopencircbullet     Keysym = 0x0ae0
+	KeyEnopensquarebullet   Keysym = 0x0ae1
+	KeyOpenrectbullet       Keysym = 0x0ae2
+	KeyOpentribulletup      Keysym = 0x0ae3
+	KeyOpentribulletdown    Keysym = 0x0ae4
+	KeyOpenstar             Keysym = 0x0ae5
+	KeyEnfilledcircbullet   Keysym = 0x0ae6
+	KeyEnfilledsqbullet     Keysym = 0x0ae7
+	KeyFilledtribulletup    Keysym = 0x0ae8
+	KeyFilledtribulletdown  Keysym = 0x0ae9
+	KeyLeftpointer          Keysym = 0x0aea
+	KeyRightpointer         Keysym = 0x0aeb
+	KeyClub                 Keysym = 0x0aec
+	KeyDiamond              Keysym = 0x0aed
+	KeyHeart                Keysym = 0x0aee
+	KeyMaltesecross         Keysym = 0x0af0
+	KeyDagger               Keysym = 0x0af1
+	KeyDoubledagger         Keysym = 0x0af2
+	KeyCheckmark            Keysym = 0x0af3
+	KeyBallotcross          Keysym = 0x0af4
+	KeyMusicalsharp         Keysym = 0x0af5
+	KeyMusicalflat          Keysym = 0x0af6
+	KeyMalesymbol           Keysym = 0x0af7
+	KeyFemalesymbol         Keysym = 0x0af8
+	KeyTelephone            Keysym = 0x0af9
+	KeyTelephonerecorder    Keysym = 0x0afa
+	KeyPhonographcopyright  Keysym = 0x0afb
+	KeyCaret                Keysym = 0x0afc
+	KeySinglelowquotemark   Keysym = 0x0afd
+	KeyDoublelowquotemark   Keysym = 0x0afe
+	KeyCursor               Keysym = 0x0aff
 
 	// APL
-	KeyLeftcaret Keysym = 0x0ba3
+	KeyLeftcaret  Keysym = 0x0ba3
 	KeyRightcaret Keysym = 0x0ba6
-	KeyDowncaret Keysym = 0x0ba8
-	KeyUpcaret Keysym = 0x0ba9
-	KeyOverbar Keysym = 0x0bc0
-	KeyDowntack Keysym = 0x0bc2
-	KeyUpshoe Keysym = 0x0bc3
-	KeyDownstile Keysym = 0x0bc4
-	KeyUnderbar Keysym = 0x0bc6
-	KeyJot Keysym = 0x0bca
-	KeyQuad Keysym = 0x0bcc
-	KeyUptack Keysym = 0x0bce
-	KeyCircle Keysym = 0x0bcf
-	KeyUpstile Keysym = 0x0bd3
-	KeyDownshoe Keysym = 0x0bd6
-	KeyRightshoe Keysym = 0x0bd8
-	KeyLeftshoe Keysym = 0x0bda
-	KeyLefttack Keysym = 0x0bdc
-	KeyRighttack Keysym = 0x0bfc
+	KeyDowncaret  Keysym = 0x0ba8
+	KeyUpcaret    Keysym = 0x0ba9
+	KeyOverbar    Keysym = 0x0bc0
+	KeyDowntack   Keysym = 0x0bc2
+	KeyUpshoe     Keysym = 0x0bc3
+	KeyDownstile  Keysym = 0x0bc4
+	KeyUnderbar   Keysym = 0x0bc6
+	KeyJot        Keysym = 0x0bca
+	KeyQuad       Keysym = 0x0bcc
+	KeyUptack     Keysym = 0x0bce
+	KeyCircle     Keysym = 0x0bcf
+	KeyUpstile    Keysym = 0x0bd3
+	KeyDownshoe   Keysym = 0x0bd6
+	KeyRightshoe  Keysym = 0x0bd8
+	KeyLeftshoe   Keysym = 0x0bda
+	KeyLefttack   Keysym = 0x0bdc
+	KeyRighttack  Keysym = 0x0bfc
 
 	// Hebrew
 	KeyHebrewDoublelowline Keysym = 0x0cdf
-	KeyHebrewAleph Keysym = 0x0ce0
-	KeyHebrewBet Keysym = 0x0ce1
-	KeyHebrewGimel Keysym = 0x0ce2
-	KeyHebrewDalet Keysym = 0x0ce3
-	KeyHebrewHe Keysym = 0x0ce4
-	KeyHebrewWaw Keysym = 0x0ce5
-	KeyHebrewZain Keysym = 0x0ce6
-	KeyHebrewChet Keysym = 0x0ce7
-	KeyHebrewTet Keysym = 0x0ce8
-	KeyHebrewYod Keysym = 0x0ce9
-	KeyHebrewFinalkaph Keysym = 0x0cea
-	KeyHebrewKaph Keysym = 0x0ceb
-	KeyHebrewLamed Keysym = 0x0cec
-	KeyHebrewFinalmem Keysym = 0x0ced
-	KeyHebrewMem Keysym = 0x0cee
-	KeyHebrewFinalnun Keysym = 0x0cef
-	KeyHebrewNun Keysym = 0x0cf0
-	KeyHebrewSamech Keysym = 0x0cf1
-	KeyHebrewAyin Keysym = 0x0cf2
-	KeyHebrewFinalpe Keysym = 0x0cf3
-	KeyHebrewPe Keysym = 0x0cf4
-	KeyHebrewFinalzade Keysym = 0x0cf5
-	KeyHebrewZade Keysym = 0x0cf6
-	KeyHebrewQoph Keysym = 0x0cf7
-	KeyHebrewResh Keysym = 0x0cf8
-	KeyHebrewShin Keysym = 0x0cf9
-	KeyHebrewTaw Keysym = 0x0cfa
+	KeyHebrewAleph         Keysym = 0x0ce0
+	KeyHebrewBet           Keysym = 0x0ce1
+	KeyHebrewGimel         Keysym = 0x0ce2
+	KeyHebrewDalet         Keysym = 0x0ce3
+	KeyHebrewHe            Keysym = 0x0ce4
+	KeyHebrewWaw           Keysym = 0x0ce5
+	KeyHebrewZain          Keysym = 0x0ce6
+	KeyHebrewChet          Keysym = 0x0ce7
+	KeyHebrewTet           Keysym = 0x0ce8
+	KeyHebrewYod           Keysym = 0x0ce9
+	KeyHebrewFinalkaph     Keysym = 0x0cea
+	KeyHebrewKaph          Keysym = 0x0ceb
+	KeyHebrewLamed         Keysym = 0x0cec
+	KeyHebrewFinalmem      Keysym = 0x0ced
+	KeyHebrewMem           Keysym = 0x0cee
+	KeyHebrewFinalnun      Keysym = 0x0cef
+	KeyHebrewNun           Keysym = 0x0cf0
+	KeyHebrewSamech        Keysym = 0x0cf1
+	KeyHebrewAyin          Keysym = 0x0cf2
+	KeyHebrewFinalpe       Keysym = 0x0cf3
+	KeyHebrewPe            Keysym = 0x0cf4
+	KeyHebrewFinalzade     Keysym = 0x0cf5
+	KeyHebrewZade          Keysym = 0x0cf6
+	KeyHebrewQoph          Keysym = 0x0cf7
+	KeyHebrewResh          Keysym = 0x0cf8
+	KeyHebrewShin          Keysym = 0x0cf9
+	KeyHebrewTaw           Keysym = 0x0cfa
 
 	// Thai
-	KeyThaiKokai Keysym = 0x0da1
-	KeyThaiKhokhai Keysym = 0x0da2
-	KeyThaiKhokhuat Keysym = 0x0da3
-	KeyThaiKhokhwai Keysym = 0x0da4
-	KeyThaiKhokhon Keysym = 0x0da5
-	KeyThaiKhorakhang Keysym = 0x0da6
-	KeyThaiNgongu Keysym = 0x0da7
-	KeyThaiChochan Keysym = 0x0da8
-	KeyThaiChoching Keysym = 0x0da9
-	KeyThaiChochang Keysym = 0x0daa
-	KeyThaiSoso Keysym = 0x0dab
-	KeyThaiChochoe Keysym = 0x0dac
-	KeyThaiYoying Keysym = 0x0dad
-	KeyThaiDochada Keysym = 0x0dae
-	KeyThaiTopatak Keysym = 0x0daf
-	KeyThaiThothan Keysym = 0x0db0
-	KeyThaiThonangmontho Keysym = 0x0db1
-	KeyThaiThophuthao Keysym = 0x0db2
-	KeyThaiNonen Keysym = 0x0db3
-	KeyThaiDodek Keysym = 0x0db4
-	KeyThaiTotao Keysym = 0x0db5
-	KeyThaiThothung Keysym = 0x0db6
-	KeyThaiThothahan Keysym = 0x0db7
-	KeyThaiThothong Keysym = 0x0db8
-	KeyThaiNonu Keysym = 0x0db9
-	KeyThaiBobaimai Keysym = 0x0dba
-	KeyThaiPopla Keysym = 0x0dbb
-	KeyThaiPhophung Keysym = 0x0dbc
-	KeyThaiFofa Keysym = 0x0dbd
-	KeyThaiPhophan Keysym = 0x0dbe
-	KeyThaiFofan Keysym = 0x0dbf
-	KeyThaiPhosamphao Keysym = 0x0dc0
-	KeyThaiMoma Keysym = 0x0dc1
-	KeyThaiYoyak Keysym = 0x0dc2
-	KeyThaiRorua Keysym = 0x0dc3
-	KeyThaiRu Keysym = 0x0dc4
-	KeyThaiLoling Keysym = 0x0dc5
-	KeyThaiLu Keysym = 0x0dc6
-	KeyThaiWowaen Keysym = 0x0dc7
-	KeyThaiSosala Keysym = 0x0dc8
-	KeyThaiSorusi Keysym = 0x0dc9
-	KeyThaiSosua Keysym = 0x0dca
-	KeyThaiHohip Keysym = 0x0dcb
-	KeyThaiLochula Keysym = 0x0dcc
-	KeyThaiOang Keysym = 0x0dcd
-	KeyThaiHonokhuk Keysym = 0x0dce
-	KeyThaiPaiyannoi Keysym = 0x0dcf
-	KeyThaiSaraa Keysym = 0x0dd0
-	KeyThaiMaihanakat Keysym = 0x0dd1
-	KeyThaiSaraaa Keysym = 0x0dd2
-	KeyThaiSaraam Keysym = 0x0dd3
-	KeyThaiSarai Keysym = 0x0dd4
-	KeyThaiSaraii Keysym = 0x0dd5
-	KeyThaiSaraue Keysym = 0x0dd6
-	KeyThaiSarauee Keysym = 0x0dd7
-	KeyThaiSarau Keysym = 0x0dd8
-	KeyThaiSarauu Keysym = 0x0dd9
-	KeyThaiPhinthu Keysym = 0x0dda
+	KeyThaiKokai            Keysym = 0x0da1
+	KeyThaiKhokhai          Keysym = 0x0da2
+	KeyThaiKhokhuat         Keysym = 0x0da3
+	KeyThaiKhokhwai         Keysym = 0x0da4
+	KeyThaiKhokhon          Keysym = 0x0da5
+	KeyThaiKhorakhang       Keysym = 0x0da6
+	KeyThaiNgongu           Keysym = 0x0da7
+	KeyThaiChochan          Keysym = 0x0da8
+	KeyThaiChoching         Keysym = 0x0da9
+	KeyThaiChochang         Keysym = 0x0daa
+	KeyThaiSoso             Keysym = 0x0dab
+	KeyThaiChochoe          Keysym = 0x0dac
+	KeyThaiYoying           Keysym = 0x0dad
+	KeyThaiDochada          Keysym = 0x0dae
+	KeyThaiTopatak          Keysym = 0x0daf
+	KeyThaiThothan          Keysym = 0x0db0
+	KeyThaiThonangmontho    Keysym = 0x0db1
+	KeyThaiThophuthao       Keysym = 0x0db2
+	KeyThaiNonen            Keysym = 0x0db3
+	KeyThaiDodek            Keysym = 0x0db4
+	KeyThaiTotao            Keysym = 0x0db5
+	KeyThaiThothung         Keysym = 0x0db6
+	KeyThaiThothahan        Keysym = 0x0db7
+	KeyThaiThothong         Keysym = 0x0db8
+	KeyThaiNonu             Keysym = 0x0db9
+	KeyThaiBobaimai         Keysym = 0x0dba
+	KeyThaiPopla            Keysym = 0x0dbb
+	KeyThaiPhophung         Keysym = 0x0dbc
+	KeyThaiFofa             Keysym = 0x0dbd
+	KeyThaiPhophan          Keysym = 0x0dbe
+	KeyThaiFofan            Keysym = 0x0dbf
+	KeyThaiPhosamphao       Keysym = 0x0dc0
+	KeyThaiMoma             Keysym = 0x0dc1
+	KeyThaiYoyak            Keysym = 0x0dc2
+	KeyThaiRorua            Keysym = 0x0dc3
+	KeyThaiRu               Keysym = 0x0dc4
+	KeyThaiLoling           Keysym = 0x0dc5
+	KeyThaiLu               Keysym = 0x0dc6
+	KeyThaiWowaen           Keysym = 0x0dc7
+	KeyThaiSosala           Keysym = 0x0dc8
+	KeyThaiSorusi           Keysym = 0x0dc9
+	KeyThaiSosua            Keysym = 0x0dca
+	KeyThaiHohip            Keysym = 0x0dcb
+	KeyThaiLochula          Keysym = 0x0dcc
+	KeyThaiOang             Keysym = 0x0dcd
+	KeyThaiHonokhuk         Keysym = 0x0dce
+	KeyThaiPaiyannoi        Keysym = 0x0dcf
+	KeyThaiSaraa            Keysym = 0x0dd0
+	KeyThaiMaihanakat       Keysym = 0x0dd1
+	KeyThaiSaraaa           Keysym = 0x0dd2
+	KeyThaiSaraam           Keysym = 0x0dd3
+	KeyThaiSarai            Keysym = 0x0dd4
+	KeyThaiSaraii           Keysym = 0x0dd5
+	KeyThaiSaraue           Keysym = 0x0dd6
+	KeyThaiSarauee          Keysym = 0x0dd7
+	KeyThaiSarau            Keysym = 0x0dd8
+	KeyThaiSarauu           Keysym = 0x0dd9
+	KeyThaiPhinthu          Keysym = 0x0dda
 	KeyThaiMaihanakatMaitho Keysym = 0x0dde
-	KeyThaiBaht Keysym = 0x0ddf
-	KeyThaiSarae Keysym = 0x0de0
-	KeyThaiSaraae Keysym = 0x0de1
-	KeyThaiSarao Keysym = 0x0de2
-	KeyThaiSaraaimaimuan Keysym = 0x0de3
-	KeyThaiSaraaimaimalai Keysym = 0x0de4
-	KeyThaiLakkhangyao Keysym = 0x0de5
-	KeyThaiMaiyamok Keysym = 0x0de6
-	KeyThaiMaitaikhu Keysym = 0x0de7
-	KeyThaiMaiek Keysym = 0x0de8
-	KeyThaiMaitho Keysym = 0x0de9
-	KeyThaiMaitri Keysym = 0x0dea
-	KeyThaiMaichattawa Keysym = 0x0deb
-	KeyThaiThanthakhat Keysym = 0x0dec
-	KeyThaiNikhahit Keysym = 0x0ded
-	KeyThaiLeksun Keysym = 0x0df0
-	KeyThaiLeknung Keysym = 0x0df1
-	KeyThaiLeksong Keysym = 0x0df2
-	KeyThaiLeksam Keysym = 0x0df3
-	KeyThaiLeksi Keysym = 0x0df4
-	KeyThaiLekha Keysym = 0x0df5
-	KeyThaiLekhok Keysym = 0x0df6
-	KeyThaiLekchet Keysym = 0x0df7
-	KeyThaiLekpaet Keysym = 0x0df8
-	KeyThaiLekkao Keysym = 0x0df9
+	KeyThaiBaht             Keysym = 0x0ddf
+	KeyThaiSarae            Keysym = 0x0de0
+	KeyThaiSaraae           Keysym = 0x0de1
+	KeyThaiSarao            Keysym = 0x0de2
+	KeyThaiSaraaimaimuan    Keysym = 0x0de3
+	KeyThaiSaraaimaimalai   Keysym = 0x0de4
+	KeyThaiLakkhangyao      Keysym = 0x0de5
+	KeyThaiMaiyamok         Keysym = 0x0de6
+	KeyThaiMaitaikhu        Keysym = 0x0de7
+	KeyThaiMaiek            Keysym = 0x0de8
+	KeyThaiMaitho           Keysym = 0x0de9
+	KeyThaiMaitri           Keysym = 0x0dea
+	KeyThaiMaichattawa      Keysym = 0x0deb
+	KeyThaiThanthakhat      Keysym = 0x0dec
+	KeyThaiNikhahit         Keysym = 0x0ded
+	KeyThaiLeksun           Keysym = 0x0df0
+	KeyThaiLeknung          Keysym = 0x0df1
+	KeyThaiLeksong          Keysym = 0x0df2
+	KeyThaiLeksam           Keysym = 0x0df3
+	KeyThaiLeksi            Keysym = 0x0df4
+	KeyThaiLekha            Keysym = 0x0df5
+	KeyThaiLekhok           Keysym = 0x0df6
+	KeyThaiLekchet          Keysym = 0x0df7
+	KeyThaiLekpaet          Keysym = 0x0df8
+	KeyThaiLekkao           Keysym = 0x0df9
 
 	// Korean
-	KeyHangulKiyeog Keysym = 0x0ea1
-	KeyHangulSsangKiyeog Keysym = 0x0ea2
-	KeyHangulKiyeogSios Keysym = 0x0ea3
-	KeyHangulNieun Keysym = 0x0ea4
-	KeyHangulNieunJieuj Keysym = 0x0ea5
-	KeyHangulNieunHieuh Keysym = 0x0ea6
-	KeyHangulDikeud Keysym = 0x0ea7
-	KeyHangulSsangDikeud Keysym = 0x0ea8
-	KeyHangulRieul Keysym = 0x0ea9
-	KeyHangulRieulKiyeog Keysym = 0x0eaa
-	KeyHangulRieulMieum Keysym = 0x0eab
-	KeyHangulRieulPieub Keysym = 0x0eac
-	KeyHangulRieulSios Keysym = 0x0ead
-	KeyHangulRieulTieut Keysym = 0x0eae
-	KeyHangulRieulPhieuf Keysym = 0x0eaf
-	KeyHangulRieulHieuh Keysym = 0x0eb0
-	KeyHangulMieum Keysym = 0x0eb1
-	KeyHangulPieub Keysym = 0x0eb2
-	KeyHangulSsangPieub Keysym = 0x0eb3
-	KeyHangulPieubSios Keysym = 0x0eb4
-	KeyHangulSios Keysym = 0x0eb5
-	KeyHangulSsangSios Keysym = 0x0eb6
-	KeyHangulIeung Keysym = 0x0eb7
-	KeyHangulJieuj Keysym = 0x0eb8
-	KeyHangulSsangJieuj Keysym = 0x0eb9
-	KeyHangulCieuc Keysym = 0x0eba
-	KeyHangulKhieuq Keysym = 0x0ebb
-	KeyHangulTieut Keysym = 0x0ebc
-	KeyHangulPhieuf Keysym = 0x0ebd
-	KeyHangulHieuh Keysym = 0x0ebe
-	KeyHangulA Keysym = 0x0ebf
-	KeyHangulAE Keysym = 0x0ec0
-	KeyHangulYA Keysym = 0x0ec1
-	KeyHangulYAE Keysym = 0x0ec2
-	KeyHangulEO Keysym = 0x0ec3
-	KeyHangulE Keysym = 0x0ec4
-	KeyHangulYEO Keysym = 0x0ec5
-	KeyHangulYE Keysym = 0x0ec6
-	KeyHangulO Keysym = 0x0ec7
-	KeyHangulWA Keysym = 0x0ec8
-	KeyHangulWAE Keysym = 0x0ec9
-	KeyHangulOE Keysym = 0x0eca
-	KeyHangulYO Keysym = 0x0ecb
-	KeyHangulU Keysym = 0x0ecc
-	KeyHangulWEO Keysym = 0x0ecd
-	KeyHangulWE Keysym = 0x0ece
-	KeyHangulWI Keysym = 0x0ecf
-	KeyHangulYU Keysym = 0x0ed0
-	KeyHangulEU Keysym = 0x0ed1
-	KeyHangulYI Keysym = 0x0ed2
-	KeyHangulI Keysym = 0x0ed3
-	KeyHangulJKiyeog Keysym = 0x0ed4
-	KeyHangulJSsangKiyeog Keysym = 0x0ed5
-	KeyHangulJKiyeogSios Keysym = 0x0ed6
-	KeyHangulJNieun Keysym = 0x0ed7
-	KeyHangulJNieunJieuj Keysym = 0x0ed8
-	KeyHangulJNieunHieuh Keysym = 0x0ed9
-	KeyHangulJDikeud Keysym = 0x0eda
-	KeyHangulJRieul Keysym = 0x0edb
-	KeyHangulJRieulKiyeog Keysym = 0x0edc
-	KeyHangulJRieulMieum Keysym = 0x0edd
-	KeyHangulJRieulPieub Keysym = 0x0ede
-	KeyHangulJRieulSios Keysym = 0x0edf
-	KeyHangulJRieulTieut Keysym = 0x0ee0
-	KeyHangulJRieulPhieuf Keysym = 0x0ee1
-	KeyHangulJRieulHieuh Keysym = 0x0ee2
-	KeyHangulJMieum Keysym = 0x0ee3
-	KeyHangulJPieub Keysym = 0x0ee4
-	KeyHangulJPieubSios Keysym = 0x0ee5
-	KeyHangulJSios Keysym = 0x0ee6
-	KeyHangulJSsangSios Keysym = 0x0ee7
-	KeyHangulJIeung Keysym = 0x0ee8
-	KeyHangulJJieuj Keysym = 0x0ee9
-	KeyHangulJCieuc Keysym = 0x0eea
-	KeyHangulJKhieuq Keysym = 0x0eeb
-	KeyHangulJTieut Keysym = 0x0eec
-	KeyHangulJPhieuf Keysym = 0x0eed
-	KeyHangulJHieuh Keysym = 0x0eee
-	KeyHangulRieulYeorinHieuh Keysym = 0x0eef
-	KeyHangulSunkyeongeumMieum Keysym = 0x0ef0
-	KeyHangulSunkyeongeumPieub Keysym = 0x0ef1
-	KeyHangulPanSios Keysym = 0x0ef2
-	KeyHangulKkogjiDalrinIeung Keysym = 0x0ef3
+	KeyHangulKiyeog             Keysym = 0x0ea1
+	KeyHangulSsangKiyeog        Keysym = 0x0ea2
+	KeyHangulKiyeogSios         Keysym = 0x0ea3
+	KeyHangulNieun              Keysym = 0x0ea4
+	KeyHangulNieunJieuj         Keysym = 0x0ea5
+	KeyHangulNieunHieuh         Keysym = 0x0ea6
+	KeyHangulDikeud             Keysym = 0x0ea7
+	KeyHangulSsangDikeud        Keysym = 0x0ea8
+	KeyHangulRieul              Keysym = 0x0ea9
+	KeyHangulRieulKiyeog        Keysym = 0x0eaa
+	KeyHangulRieulMieum         Keysym = 0x0eab
+	KeyHangulRieulPieub         Keysym = 0x0eac
+	KeyHangulRieulSios          Keysym = 0x0ead
+	KeyHangulRieulTieut         Keysym = 0x0eae
+	KeyHangulRieulPhieuf        Keysym = 0x0eaf
+	KeyHangulRieulHieuh         Keysym = 0x0eb0
+	KeyHangulMieum              Keysym = 0x0eb1
+	KeyHangulPieub              Keysym = 0x0eb2
+	KeyHangulSsangPieub         Keysym = 0x0eb3
+	KeyHangulPieubSios          Keysym = 0x0eb4
+	KeyHangulSios               Keysym = 0x0eb5
+	KeyHangulSsangSios          Keysym = 0x0eb6
+	KeyHangulIeung              Keysym = 0x0eb7
+	KeyHangulJieuj              Keysym = 0x0eb8
+	KeyHangulSsangJieuj         Keysym = 0x0eb9
+	KeyHangulCieuc              Keysym = 0x0eba
+	KeyHangulKhieuq             Keysym = 0x0ebb
+	KeyHangulTieut              Keysym = 0x0ebc
+	KeyHangulPhieuf             Keysym = 0x0ebd
+	KeyHangulHieuh              Keysym = 0x0ebe
+	KeyHangulA                  Keysym = 0x0ebf
+	KeyHangulAE                 Keysym = 0x0ec0
+	KeyHangulYA                 Keysym = 0x0ec1
+	KeyHangulYAE                Keysym = 0x0ec2
+	KeyHangulEO                 Keysym = 0x0ec3
+	KeyHangulE                  Keysym = 0x0ec4
+	KeyHangulYEO                Keysym = 0x0ec5
+	KeyHangulYE                 Keysym = 0x0ec6
+	KeyHangulO                  Keysym = 0x0ec7
+	KeyHangulWA                 Keysym = 0x0ec8
+	KeyHangulWAE                Keysym = 0x0ec9
+	KeyHangulOE                 Keysym = 0x0eca
+	KeyHangulYO                 Keysym = 0x0ecb
+	KeyHangulU                  Keysym = 0x0ecc
+	KeyHangulWEO                Keysym = 0x0ecd
+	KeyHangulWE                 Keysym = 0x0ece
+	KeyHangulWI                 Keysym = 0x0ecf
+	KeyHangulYU                 Keysym = 0x0ed0
+	KeyHangulEU                 Keysym = 0x0ed1
+	KeyHangulYI                 Keysym = 0x0ed2
+	KeyHangulI                  Keysym = 0x0ed3
+	KeyHangulJKiyeog            Keysym = 0x0ed4
+	KeyHangulJSsangKiyeog       Keysym = 0x0ed5
+	KeyHangulJKiyeogSios        Keysym = 0x0ed6
+	KeyHangulJNieun             Keysym = 0x0ed7
+	KeyHangulJNieunJieuj        Keysym = 0x0ed8
+	KeyHangulJNieunHieuh        Keysym = 0x0ed9
+	KeyHangulJDikeud            Keysym = 0x0eda
+	KeyHangulJRieul             Keysym = 0x0edb
+	KeyHangulJRieulKiyeog       Keysym = 0x0edc
+	KeyHangulJRieulMieum        Keysym = 0x0edd
+	KeyHangulJRieulPieub        Keysym = 0x0ede
+	KeyHangulJRieulSios         Keysym = 0x0edf
+	KeyHangulJRieulTieut        Keysym = 0x0ee0
+	KeyHangulJRieulPhieuf       Keysym = 0x0ee1
+	KeyHangulJRieulHieuh        Keysym = 0x0ee2
+	KeyHangulJMieum             Keysym = 0x0ee3
+	KeyHangulJPieub             Keysym = 0x0ee4
+	KeyHangulJPieubSios         Keysym = 0x0ee5
+	KeyHangulJSios              Keysym = 0x0ee6
+	KeyHangulJSsangSios         Keysym = 0x0ee7
+	KeyHangulJIeung             Keysym = 0x0ee8
+	KeyHangulJJieuj             Keysym = 0x0ee9
+	KeyHangulJCieuc             Keysym = 0x0eea
+	KeyHangulJKhieuq            Keysym = 0x0eeb
+	KeyHangulJTieut             Keysym = 0x0eec
+	KeyHangulJPhieuf            Keysym = 0x0eed
+	KeyHangulJHieuh             Keysym = 0x0eee
+	KeyHangulRieulYeorinHieuh   Keysym = 0x0eef
+	KeyHangulSunkyeongeumMieum  Keysym = 0x0ef0
+	KeyHangulSunkyeongeumPieub  Keysym = 0x0ef1
+	KeyHangulPanSios            Keysym = 0x0ef2
+	KeyHangulKkogjiDalrinIeung  Keysym = 0x0ef3
 	KeyHangulSunkyeongeumPhieuf Keysym = 0x0ef4
-	KeyHangulYeorinHieuh Keysym = 0x0ef5
-	KeyHangulAraeA Keysym = 0x0ef6
-	KeyHangulAraeAE Keysym = 0x0ef7
-	KeyHangulJPanSios Keysym = 0x0ef8
+	KeyHangulYeorinHieuh        Keysym = 0x0ef5
+	KeyHangulAraeA              Keysym = 0x0ef6
+	KeyHangulAraeAE             Keysym = 0x0ef7
+	KeyHangulJPanSios           Keysym = 0x0ef8
 	KeyHangulJKkogjiDalrinIeung Keysym = 0x0ef9
-	KeyHangulJYeorinHieuh Keysym = 0x0efa
-	KeyKoreanWon Keysym = 0x0eff
+	KeyHangulJYeorinHieuh       Keysym = 0x0efa
+	KeyKoreanWon                Keysym = 0x0eff
 
 	// Other
-	KeyOE Keysym = 0x13bc
-	KeyOe Keysym = 0x13bd
-	KeyEuroSign Keysym = 0x20ac
-	Key3270Duplicate Keysym = 0xfd01
-	Key3270FieldMark Keysym = 0xfd02
-	Key3270Right2 Keysym = 0xfd03
-	Key3270Left2 Keysym = 0xfd04
-	Key3270BackTab Keysym = 0xfd05
-	Key3270EraseEOF Keysym = 0xfd06
-	Key3270EraseInput Keysym = 0xfd07
-	Key3270Reset Keysym = 0xfd08
-	Key3270Quit Keysym = 0xfd09
-	Key3270PA1 Keysym = 0xfd0a
-	Key3270PA2 Keysym = 0xfd0b
-	Key3270PA3 Keysym = 0xfd0c
-	Key3270Test Keysym = 0xfd0d
-	Key3270Attn Keysym = 0xfd0e
-	Key3270CursorBlink Keysym = 0xfd0f
-	Key3270AltCursor Keysym = 0xfd10
-	Key3270KeyClick Keysym = 0xfd11
-	Key3270Jump Keysym = 0xfd12
-	Key3270Ident Keysym = 0xfd13
-	Key3270Rule Keysym = 0xfd14
-	Key3270Copy Keysym = 0xfd15
-	Key3270Play Keysym = 0xfd16
-	Key3270Setup Keysym = 0xfd17
-	Key3270Record Keysym = 0xfd18
+	KeyOE               Keysym = 0x13bc
+	KeyOe               Keysym = 0x13bd
+	KeyEuroSign         Keysym = 0x20ac
+	Key3270Duplicate    Keysym = 0xfd01
+	Key3270FieldMark    Keysym = 0xfd02
+	Key3270Right2       Keysym = 0xfd03
+	Key3270Left2        Keysym = 0xfd04
+	Key3270BackTab      Keysym = 0xfd05
+	Key3270EraseEOF     Keysym = 0xfd06
+	Key3270EraseInput   Keysym = 0xfd07
+	Key3270Reset        Keysym = 0xfd08
+	Key3270Quit         Keysym = 0xfd09
+	Key3270PA1          Keysym = 0xfd0a
+	Key3270PA2          Keysym = 0xfd0b
+	Key3270PA3          Keysym = 0xfd0c
+	Key3270Test         Keysym = 0xfd0d
+	Key3270Attn         Keysym = 0xfd0e
+	Key3270CursorBlink  Keysym = 0xfd0f
+	Key3270AltCursor    Keysym = 0xfd10
+	Key3270KeyClick     Keysym = 0xfd11
+	Key3270Jump         Keysym = 0xfd12
+	Key3270Ident        Keysym = 0xfd13
+	Key3270Rule         Keysym = 0xfd14
+	Key3270Copy         Keysym = 0xfd15
+	Key3270Play         Keysym = 0xfd16
+	Key3270Setup        Keysym = 0xfd17
+	Key3270Record       Keysym = 0xfd18
 	Key3270ChangeScreen Keysym = 0xfd19
-	Key3270DeleteWord Keysym = 0xfd1a
-	Key3270ExSelect Keysym = 0xfd1b
+	Key3270DeleteWord   Keysym = 0xfd1a
+	Key3270ExSelect     Keysym = 0xfd1b
 	Key3270CursorSelect Keysym = 0xfd1c
-	Key3270PrintScreen Keysym = 0xfd1d
-	Key3270Enter Keysym = 0xfd1e
+	Key3270PrintScreen  Keysym = 0xfd1d
+	Key3270Enter        Keysym = 0xfd1e
 
 	// ISO 9995 / Dead Keys
-	KeyISOLock Keysym = 0xfe01
-	KeyISOLevel2Latch Keysym = 0xfe02
-	KeyISOLevel3Shift Keysym = 0xfe03
-	KeyISOLevel3Latch Keysym = 0xfe04
-	KeyISOLevel3Lock Keysym = 0xfe05
-	KeyISOGroupLatch Keysym = 0xfe06
-	KeyISOGroupLock Keysym = 0xfe07
-	KeyISONextGroup Keysym = 0xfe08
-	KeyISONextGroupLock Keysym = 0xfe09
-	KeyISOPrevGroup Keysym = 0xfe0a
-	KeyISOPrevGroupLock Keysym = 0xfe0b
-	KeyISOFirstGroup Keysym = 0xfe0c
-	KeyISOFirstGroupLock Keysym = 0xfe0d
-	KeyISOLastGroup Keysym = 0xfe0e
-	KeyISOLastGroupLock Keysym = 0xfe0f
-	KeyISOLevel5Shift Keysym = 0xfe11
-	KeyISOLevel5Latch Keysym = 0xfe12
-	KeyISOLevel5Lock Keysym = 0xfe13
-	KeyISOLeftTab Keysym = 0xfe20
-	KeyISOMoveLineUp Keysym = 0xfe21
-	KeyISOMoveLineDown Keysym = 0xfe22
-	KeyISOPartialLineUp Keysym = 0xfe23
-	KeyISOPartialLineDown Keysym = 0xfe24
-	KeyISOPartialSpaceLeft Keysym = 0xfe25
-	KeyISOPartialSpaceRight Keysym = 0xfe26
-	KeyISOSetMarginLeft Keysym = 0xfe27
-	KeyISOSetMarginRight Keysym = 0xfe28
-	KeyISOReleaseMarginLeft Keysym = 0xfe29
-	KeyISOReleaseMarginRight Keysym = 0xfe2a
-	KeyISOReleaseBothMargins Keysym = 0xfe2b
-	KeyISOFastCursorLeft Keysym = 0xfe2c
-	KeyISOFastCursorRight Keysym = 0xfe2d
-	KeyISOFastCursorUp Keysym = 0xfe2e
-	KeyISOFastCursorDown Keysym = 0xfe2f
-	KeyISOContinuousUnderline Keysym = 0xfe30
+	KeyISOLock                   Keysym = 0xfe01
+	KeyISOLevel2Latch            Keysym = 0xfe02
+	KeyISOLevel3Shift            Keysym = 0xfe03
+	KeyISOLevel3Latch            Keysym = 0xfe04
+	KeyISOLevel3Lock             Keysym = 0xfe05
+	KeyISOGroupLatch             Keysym = 0xfe06
+	KeyISOGroupLock              Keysym = 0xfe07
+	KeyISONextGroup              Keysym = 0xfe08
+	KeyISONextGroupLock          Keysym = 0xfe09
+	KeyISOPrevGroup              Keysym = 0xfe0a
+	KeyISOPrevGroupLock          Keysym = 0xfe0b
+	KeyISOFirstGroup             Keysym = 0xfe0c
+	KeyISOFirstGroupLock         Keysym = 0xfe0d
+	KeyISOLastGroup              Keysym = 0xfe0e
+	KeyISOLastGroupLock          Keysym = 0xfe0f
+	KeyISOLevel5Shift            Keysym = 0xfe11
+	KeyISOLevel5Latch            Keysym = 0xfe12
+	KeyISOLevel5Lock             Keysym = 0xfe13
+	KeyISOLeftTab                Keysym = 0xfe20
+	KeyISOMoveLineUp             Keysym = 0xfe21
+	KeyISOMoveLineDown           Keysym = 0xfe22
+	KeyISOPartialLineUp          Keysym = 0xfe23
+	KeyISOPartialLineDown        Keysym = 0xfe24
+	KeyISOPartialSpaceLeft       Keysym = 0xfe25
+	KeyISOPartialSpaceRight      Keysym = 0xfe26
+	KeyISOSetMarginLeft          Keysym = 0xfe27
+	KeyISOSetMarginRight         Keysym = 0xfe28
+	KeyISOReleaseMarginLeft      Keysym = 0xfe29
+	KeyISOReleaseMarginRight     Keysym = 0xfe2a
+	KeyISOReleaseBothMargins     Keysym = 0xfe2b
+	KeyISOFastCursorLeft         Keysym = 0xfe2c
+	KeyISOFastCursorRight        Keysym = 0xfe2d
+	KeyISOFastCursorUp           Keysym = 0xfe2e
+	KeyISOFastCursorDown         Keysym = 0xfe2f
+	KeyISOContinuousUnderline    Keysym = 0xfe30
 	KeyISODiscontinuousUnderline Keysym = 0xfe31
-	KeyISOEmphasize Keysym = 0xfe32
-	KeyISOCenterObject Keysym = 0xfe33
-	KeyISOEnter Keysym = 0xfe34
-	KeyDeadGrave Keysym = 0xfe50
-	KeyDeadAcute Keysym = 0xfe51
-	KeyDeadCircumflex Keysym = 0xfe52
-	KeyDeadTilde Keysym = 0xfe53
-	KeyDeadMacron Keysym = 0xfe54
-	KeyDeadBreve Keysym = 0xfe55
-	KeyDeadAbovedot Keysym = 0xfe56
-	KeyDeadDiaeresis Keysym = 0xfe57
-	KeyDeadAbovering Keysym = 0xfe58
-	KeyDeadDoubleacute Keysym = 0xfe59
-	KeyDeadCaron Keysym = 0xfe5a
-	KeyDeadCedilla Keysym = 0xfe5b
-	KeyDeadOgonek Keysym = 0xfe5c
-	KeyDeadIota Keysym = 0xfe5d
-	KeyDeadVoicedSound Keysym = 0xfe5e
-	KeyDeadSemivoicedSound Keysym = 0xfe5f
-	KeyDeadBelowdot Keysym = 0xfe60
-	KeyDeadHook Keysym = 0xfe61
-	KeyDeadHorn Keysym = 0xfe62
-	KeyDeadStroke Keysym = 0xfe63
-	KeyDeadAbovecomma Keysym = 0xfe64
-	KeyDeadAbovereversedcomma Keysym = 0xfe65
-	KeyDeadDoublegrave Keysym = 0xfe66
-	KeyDeadBelowring Keysym = 0xfe67
-	KeyDeadBelowmacron Keysym = 0xfe68
-	KeyDeadBelowcircumflex Keysym = 0xfe69
-	KeyDeadBelowtilde Keysym = 0xfe6a
-	KeyDeadBelowbreve Keysym = 0xfe6b
-	KeyDeadBelowdiaeresis Keysym = 0xfe6c
-	KeyDeadInvertedbreve Keysym = 0xfe6d
-	KeyDeadBelowcomma Keysym = 0xfe6e
-	KeyDeadCurrency Keysym = 0xfe6f
-	KeyAccessXEnable Keysym = 0xfe70
-	KeyAccessXFeedbackEnable Keysym = 0xfe71
-	KeyRepeatKeysEnable Keysym = 0xfe72
-	KeySlowKeysEnable Keysym = 0xfe73
-	KeyBounceKeysEnable Keysym = 0xfe74
-	KeyStickyKeysEnable Keysym = 0xfe75
-	KeyMouseKeysEnable Keysym = 0xfe76
-	KeyMouseKeysAccelEnable Keysym = 0xfe77
-	KeyOverlay1Enable Keysym = 0xfe78
-	KeyOverlay2Enable Keysym = 0xfe79
-	KeyAudibleBellEnable Keysym = 0xfe7a
-	KeyDeadA Keysym = 0xfe80
-	KeyDeadE Keysym = 0xfe82
-	KeyDeadI Keysym = 0xfe84
-	KeyDeadO Keysym = 0xfe86
-	KeyDeadU Keysym = 0xfe88
-	KeyDeadSchwa Keysym = 0xfe8a
-	KeyDeadSCHWA Keysym = 0xfe8b
-	KeyDeadGreek Keysym = 0xfe8c
-	KeyDeadHamza Keysym = 0xfe8d
-	KeyDeadLowline Keysym = 0xfe90
-	KeyDeadAboveverticalline Keysym = 0xfe91
-	KeyDeadBelowverticalline Keysym = 0xfe92
-	KeyDeadLongsolidusoverlay Keysym = 0xfe93
-	KeyCh Keysym = 0xfea0
-	KeyCH Keysym = 0xfea2
-	KeyFirstVirtualScreen Keysym = 0xfed0
-	KeyPrevVirtualScreen Keysym = 0xfed1
-	KeyNextVirtualScreen Keysym = 0xfed2
-	KeyLastVirtualScreen Keysym = 0xfed4
-	KeyTerminateServer Keysym = 0xfed5
-	KeyPointerLeft Keysym = 0xfee0
-	KeyPointerRight Keysym = 0xfee1
-	KeyPointerUp Keysym = 0xfee2
-	KeyPointerDown Keysym = 0xfee3
-	KeyPointerUpLeft Keysym = 0xfee4
-	KeyPointerUpRight Keysym = 0xfee5
-	KeyPointerDownLeft Keysym = 0xfee6
-	KeyPointerDownRight Keysym = 0xfee7
-	KeyPointerButtonDflt Keysym = 0xfee8
-	KeyPointerButton1 Keysym = 0xfee9
-	KeyPointerButton2 Keysym = 0xfeea
-	KeyPointerButton3 Keysym = 0xfeeb
-	KeyPointerButton4 Keysym = 0xfeec
-	KeyPointerButton5 Keysym = 0xfeed
-	KeyPointerDblClickDflt Keysym = 0xfeee
-	KeyPointerDblClick1 Keysym = 0xfeef
-	KeyPointerDblClick2 Keysym = 0xfef0
-	KeyPointerDblClick3 Keysym = 0xfef1
-	KeyPointerDblClick4 Keysym = 0xfef2
-	KeyPointerDblClick5 Keysym = 0xfef3
-	KeyPointerDragDflt Keysym = 0xfef4
-	KeyPointerDrag1 Keysym = 0xfef5
-	KeyPointerDrag2 Keysym = 0xfef6
-	KeyPointerDrag3 Keysym = 0xfef7
-	KeyPointerDrag4 Keysym = 0xfef8
-	KeyPointerEnableKeys Keysym = 0xfef9
-	KeyPointerAccelerate Keysym = 0xfefa
-	KeyPointerDfltBtnNext Keysym = 0xfefb
-	KeyPointerDfltBtnPrev Keysym = 0xfefc
-	KeyPointerDrag5 Keysym = 0xfefd
+	KeyISOEmphasize              Keysym = 0xfe32
+	KeyISOCenterObject           Keysym = 0xfe33
+	KeyISOEnter                  Keysym = 0xfe34
+	KeyDeadGrave                 Keysym = 0xfe50
+	KeyDeadAcute                 Keysym = 0xfe51
+	KeyDeadCircumflex            Keysym = 0xfe52
+	KeyDeadTilde                 Keysym = 0xfe53
+	KeyDeadMacron                Keysym = 0xfe54
+	KeyDeadBreve                 Keysym = 0xfe55
+	KeyDeadAbovedot              Keysym = 0xfe56
+	KeyDeadDiaeresis             Keysym = 0xfe57
+	KeyDeadAbovering             Keysym = 0xfe58
+	KeyDeadDoubleacute           Keysym = 0xfe59
+	KeyDeadCaron                 Keysym = 0xfe5a
+	KeyDeadCedilla               Keysym = 0xfe5b
+	KeyDeadOgonek                Keysym = 0xfe5c
+	KeyDeadIota                  Keysym = 0xfe5d
+	KeyDeadVoicedSound           Keysym = 0xfe5e
+	KeyDeadSemivoicedSound       Keysym = 0xfe5f
+	KeyDeadBelowdot              Keysym = 0xfe60
+	KeyDeadHook                  Keysym = 0xfe61
+	KeyDeadHorn                  Keysym = 0xfe62
+	KeyDeadStroke                Keysym = 0xfe63
+	KeyDeadAbovecomma            Keysym = 0xfe64
+	KeyDeadAbovereversedcomma    Keysym = 0xfe65
+	KeyDeadDoublegrave           Keysym = 0xfe66
+	KeyDeadBelowring             Keysym = 0xfe67
+	KeyDeadBelowmacron           Keysym = 0xfe68
+	KeyDeadBelowcircumflex       Keysym = 0xfe69
+	KeyDeadBelowtilde            Keysym = 0xfe6a
+	KeyDeadBelowbreve            Keysym = 0xfe6b
+	KeyDeadBelowdiaeresis        Keysym = 0xfe6c
+	KeyDeadInvertedbreve         Keysym = 0xfe6d
+	KeyDeadBelowcomma            Keysym = 0xfe6e
+	KeyDeadCurrency              Keysym = 0xfe6f
+	KeyAccessXEnable             Keysym = 0xfe70
+	KeyAccessXFeedbackEnable     Keysym = 0xfe71
+	KeyRepeatKeysEnable          Keysym = 0xfe72
+	KeySlowKeysEnable            Keysym = 0xfe73
+	KeyBounceKeysEnable          Keysym = 0xfe74
+	KeyStickyKeysEnable          Keysym = 0xfe75
+	KeyMouseKeysEnable           Keysym = 0xfe76
+	KeyMouseKeysAccelEnable      Keysym = 0xfe77
+	KeyOverlay1Enable            Keysym = 0xfe78
+	KeyOverlay2Enable            Keysym = 0xfe79
+	KeyAudibleBellEnable         Keysym = 0xfe7a
+	KeyDeadA                     Keysym = 0xfe80
+	KeyDeadE                     Keysym = 0xfe82
+	KeyDeadI                     Keysym = 0xfe84
+	KeyDeadO                     Keysym = 0xfe86
+	KeyDeadU                     Keysym = 0xfe88
+	KeyDeadSchwa                 Keysym = 0xfe8a
+	KeyDeadSCHWA                 Keysym = 0xfe8b
+	KeyDeadGreek                 Keysym = 0xfe8c
+	KeyDeadHamza                 Keysym = 0xfe8d
+	KeyDeadLowline               Keysym = 0xfe90
+	KeyDeadAboveverticalline     Keysym = 0xfe91
+	KeyDeadBelowverticalline     Keysym = 0xfe92
+	KeyDeadLongsolidusoverlay    Keysym = 0xfe93
+	KeyCh                        Keysym = 0xfea0
+	KeyCH                        Keysym = 0xfea2
+	KeyFirstVirtualScreen        Keysym = 0xfed0
+	KeyPrevVirtualScreen         Keysym = 0xfed1
+	KeyNextVirtualScreen         Keysym = 0xfed2
+	KeyLastVirtualScreen         Keysym = 0xfed4
+	KeyTerminateServer           Keysym = 0xfed5
+	KeyPointerLeft               Keysym = 0xfee0
+	KeyPointerRight              Keysym = 0xfee1
+	KeyPointerUp                 Keysym = 0xfee2
+	KeyPointerDown               Keysym = 0xfee3
+	KeyPointerUpLeft             Keysym = 0xfee4
+	KeyPointerUpRight            Keysym = 0xfee5
+	KeyPointerDownLeft           Keysym = 0xfee6
+	KeyPointerDownRight          Keysym = 0xfee7
+	KeyPointerButtonDflt         Keysym = 0xfee8
+	KeyPointerButton1            Keysym = 0xfee9
+	KeyPointerButton2            Keysym = 0xfeea
+	KeyPointerButton3            Keysym = 0xfeeb
+	KeyPointerButton4            Keysym = 0xfeec
+	KeyPointerButton5            Keysym = 0xfeed
+	KeyPointerDblClickDflt       Keysym = 0xfeee
+	KeyPointerDblClick1          Keysym = 0xfeef
+	KeyPointerDblClick2          Keysym = 0xfef0
+	KeyPointerDblClick3          Keysym = 0xfef1
+	KeyPointerDblClick4          Keysym = 0xfef2
+	KeyPointerDblClick5          Keysym = 0xfef3
+	KeyPointerDragDflt           Keysym = 0xfef4
+	KeyPointerDrag1              Keysym = 0xfef5
+	KeyPointerDrag2              Keysym = 0xfef6
+	KeyPointerDrag3              Keysym = 0xfef7
+	KeyPointerDrag4              Keysym = 0xfef8
+	KeyPointerEnableKeys         Keysym = 0xfef9
+	KeyPointerAccelerate         Keysym = 0xfefa
+	KeyPointerDfltBtnNext        Keysym = 0xfefb
+	KeyPointerDfltBtnPrev        Keysym = 0xfefc
+	KeyPointerDrag5              Keysym = 0xfefd
 
 	// TTY Function Keys
-	KeyBackSpace Keysym = 0xff08
-	KeyTab Keysym = 0xff09
-	KeyLinefeed Keysym = 0xff0a
-	KeyClear Keysym = 0xff0b
-	KeyReturn Keysym = 0xff0d
-	KeyPause Keysym = 0xff13
+	KeyBackSpace  Keysym = 0xff08
+	KeyTab        Keysym = 0xff09
+	KeyLinefeed   Keysym = 0xff0a
+	KeyClear      Keysym = 0xff0b
+	KeyReturn     Keysym = 0xff0d
+	KeyPause      Keysym = 0xff13
 	KeyScrollLock Keysym = 0xff14
-	KeySysReq Keysym = 0xff15
-	KeyEscape Keysym = 0xff1b
+	KeySysReq     Keysym = 0xff15
+	KeyEscape     Keysym = 0xff1b
 
 	// Misc Function Keys
-	KeyMultiKey Keysym = 0xff20
-	KeyKanji Keysym = 0xff21
-	KeyMuhenkan Keysym = 0xff22
-	KeyHenkanMode Keysym = 0xff23
-	KeyRomaji Keysym = 0xff24
-	KeyHiragana Keysym = 0xff25
-	KeyKatakana Keysym = 0xff26
-	KeyHiraganaKatakana Keysym = 0xff27
-	KeyZenkaku Keysym = 0xff28
-	KeyHankaku Keysym = 0xff29
-	KeyZenkakuHankaku Keysym = 0xff2a
-	KeyTouroku Keysym = 0xff2b
-	KeyMassyo Keysym = 0xff2c
-	KeyKanaLock Keysym = 0xff2d
-	KeyKanaShift Keysym = 0xff2e
-	KeyEisuShift Keysym = 0xff2f
-	KeyEisuToggle Keysym = 0xff30
-	KeyHangul Keysym = 0xff31
-	KeyHangulStart Keysym = 0xff32
-	KeyHangulEnd Keysym = 0xff33
-	KeyHangulHanja Keysym = 0xff34
-	KeyHangulJamo Keysym = 0xff35
-	KeyHangulRomaja Keysym = 0xff36
-	KeyCodeinput Keysym = 0xff37
-	KeyHangulJeonja Keysym = 0xff38
-	KeyHangulBanja Keysym = 0xff39
-	KeyHangulPreHanja Keysym = 0xff3a
-	KeyHangulPostHanja Keysym = 0xff3b
-	KeySingleCandidate Keysym = 0xff3c
+	KeyMultiKey          Keysym = 0xff20
+	KeyKanji             Keysym = 0xff21
+	KeyMuhenkan          Keysym = 0xff22
+	KeyHenkanMode        Keysym = 0xff23
+	KeyRomaji            Keysym = 0xff24
+	KeyHiragana          Keysym = 0xff25
+	KeyKatakana          Keysym = 0xff26
+	KeyHiraganaKatakana  Keysym = 0xff27
+	KeyZenkaku           Keysym = 0xff28
+	KeyHankaku           Keysym = 0xff29
+	KeyZenkakuHankaku    Keysym = 0xff2a
+	KeyTouroku           Keysym = 0xff2b
+	KeyMassyo            Keysym = 0xff2c
+	KeyKanaLock          Keysym = 0xff2d
+	KeyKanaShift         Keysym = 0xff2e
+	KeyEisuShift         Keysym = 0xff2f
+	KeyEisuToggle        Keysym = 0xff30
+	KeyHangul            Keysym = 0xff31
+	KeyHangulStart       Keysym = 0xff32
+	KeyHangulEnd         Keysym = 0xff33
+	KeyHangulHanja       Keysym = 0xff34
+	KeyHangulJamo        Keysym = 0xff35
+	KeyHangulRomaja      Keysym = 0xff36
+	KeyCodeinput         Keysym = 0xff37
+	KeyHangulJeonja      Keysym = 0xff38
+	KeyHangulBanja       Keysym = 0xff39
+	KeyHangulPreHanja    Keysym = 0xff3a
+	KeyHangulPostHanja   Keysym = 0xff3b
+	KeySingleCandidate   Keysym = 0xff3c
 	KeyMultipleCandidate Keysym = 0xff3d
 	KeyPreviousCandidate Keysym = 0xff3e
-	KeyHangulSpecial Keysym = 0xff3f
+	KeyHangulSpecial     Keysym = 0xff3f
 
 	// Cursor Control
-	KeyHome Keysym = 0xff50
-	KeyLeft Keysym = 0xff51
-	KeyUp Keysym = 0xff52
+	KeyHome  Keysym = 0xff50
+	KeyLeft  Keysym = 0xff51
+	KeyUp    Keysym = 0xff52
 	KeyRight Keysym = 0xff53
-	KeyDown Keysym = 0xff54
+	KeyDown  Keysym = 0xff54
 	KeyPrior Keysym = 0xff55
-	KeyNext Keysym = 0xff56
-	KeyEnd Keysym = 0xff57
+	KeyNext  Keysym = 0xff56
+	KeyEnd   Keysym = 0xff57
 	KeyBegin Keysym = 0xff58
 
 	// Misc Functions
-	KeySelect Keysym = 0xff60
-	KeyPrint Keysym = 0xff61
+	KeySelect  Keysym = 0xff60
+	KeyPrint   Keysym = 0xff61
 	KeyExecute Keysym = 0xff62
-	KeyInsert Keysym = 0xff63
-	KeyUndo Keysym = 0xff65
-	KeyRedo Keysym = 0xff66
-	KeyMenu Keysym = 0xff67
-	KeyFind Keysym = 0xff68
-	KeyCancel Keysym = 0xff69
-	KeyHelp Keysym = 0xff6a
-	KeyBreak Keysym = 0xff6b
+	KeyInsert  Keysym = 0xff63
+	KeyUndo    Keysym = 0xff65
+	KeyRedo    Keysym = 0xff66
+	KeyMenu    Keysym = 0xff67
+	KeyFind    Keysym = 0xff68
+	KeyCancel  Keysym = 0xff69
+	KeyHelp    Keysym = 0xff6a
+	KeyBreak   Keysym = 0xff6b
 
 	// Japanese Keyboard
 	KeyModeSwitch Keysym = 0xff7e
-	KeyNumLock Keysym = 0xff7f
+	KeyNumLock    Keysym = 0xff7f
 
 	// Keypad
-	KeyKPSpace Keysym = 0xff80
-	KeyKPTab Keysym = 0xff89
-	KeyKPEnter Keysym = 0xff8d
-	KeyKPF1 Keysym = 0xff91
-	KeyKPF2 Keysym = 0xff92
-	KeyKPF3 Keysym = 0xff93
-	KeyKPF4 Keysym = 0xff94
-	KeyKPHome Keysym = 0xff95
-	KeyKPLeft Keysym = 0xff96
-	KeyKPUp Keysym = 0xff97
-	KeyKPRight Keysym = 0xff98
-	KeyKPDown Keysym = 0xff99
-	KeyKPPrior Keysym = 0xff9a
-	KeyKPNext Keysym = 0xff9b
-	KeyKPEnd Keysym = 0xff9c
-	KeyKPBegin Keysym = 0xff9d
-	KeyKPInsert Keysym = 0xff9e
-	KeyKPDelete Keysym = 0xff9f
-	KeyKPMultiply Keysym = 0xffaa
-	KeyKPAdd Keysym = 0xffab
+	KeyKPSpace     Keysym = 0xff80
+	KeyKPTab       Keysym = 0xff89
+	KeyKPEnter     Keysym = 0xff8d
+	KeyKPF1        Keysym = 0xff91
+	KeyKPF2        Keysym = 0xff92
+	KeyKPF3        Keysym = 0xff93
+	KeyKPF4        Keysym = 0xff94
+	KeyKPHome      Keysym = 0xff95
+	KeyKPLeft      Keysym = 0xff96
+	KeyKPUp        Keysym = 0xff97
+	KeyKPRight     Keysym = 0xff98
+	KeyKPDown      Keysym = 0xff99
+	KeyKPPrior     Keysym = 0xff9a
+	KeyKPNext      Keysym = 0xff9b
+	KeyKPEnd       Keysym = 0xff9c
+	KeyKPBegin     Keysym = 0xff9d
+	KeyKPInsert    Keysym = 0xff9e
+	KeyKPDelete    Keysym = 0xff9f
+	KeyKPMultiply  Keysym = 0xffaa
+	KeyKPAdd       Keysym = 0xffab
 	KeyKPSeparator Keysym = 0xffac
-	KeyKPSubtract Keysym = 0xffad
-	KeyKPDecimal Keysym = 0xffae
-	KeyKPDivide Keysym = 0xffaf
-	KeyKP0 Keysym = 0xffb0
-	KeyKP1 Keysym = 0xffb1
-	KeyKP2 Keysym = 0xffb2
-	KeyKP3 Keysym = 0xffb3
-	KeyKP4 Keysym = 0xffb4
-	KeyKP5 Keysym = 0xffb5
-	KeyKP6 Keysym = 0xffb6
-	KeyKP7 Keysym = 0xffb7
-	KeyKP8 Keysym = 0xffb8
-	KeyKP9 Keysym = 0xffb9
-	KeyKPEqual Keysym = 0xffbd
-	KeyF1 Keysym = 0xffbe
-	KeyF2 Keysym = 0xffbf
+	KeyKPSubtract  Keysym = 0xffad
+	KeyKPDecimal   Keysym = 0xffae
+	KeyKPDivide    Keysym = 0xffaf
+	KeyKP0         Keysym = 0xffb0
+	KeyKP1         Keysym = 0xffb1
+	KeyKP2         Keysym = 0xffb2
+	KeyKP3         Keysym = 0xffb3
+	KeyKP4         Keysym = 0xffb4
+	KeyKP5         Keysym = 0xffb5
+	KeyKP6         Keysym = 0xffb6
+	KeyKP7         Keysym = 0xffb7
+	KeyKP8         Keysym = 0xffb8
+	KeyKP9         Keysym = 0xffb9
+	KeyKPEqual     Keysym = 0xffbd
+	KeyF1          Keysym = 0xffbe
+	KeyF2          Keysym = 0xffbf
 
 	// Function Keys (F1-F12)
-	KeyF3 Keysym = 0xffc0
-	KeyF4 Keysym = 0xffc1
-	KeyF5 Keysym = 0xffc2
-	KeyF6 Keysym = 0xffc3
-	KeyF7 Keysym = 0xffc4
-	KeyF8 Keysym = 0xffc5
-	KeyF9 Keysym = 0xffc6
+	KeyF3  Keysym = 0xffc0
+	KeyF4  Keysym = 0xffc1
+	KeyF5  Keysym = 0xffc2
+	KeyF6  Keysym = 0xffc3
+	KeyF7  Keysym = 0xffc4
+	KeyF8  Keysym = 0xffc5
+	KeyF9  Keysym = 0xffc6
 	KeyF10 Keysym = 0xffc7
 	KeyF11 Keysym = 0xffc8
 	KeyF12 Keysym = 0xffc9
@@ -1167,865 +1167,865 @@ const (
 	KeyF34 Keysym = 0xffdf
 
 	// Modifiers
-	KeyF35 Keysym = 0xffe0
-	KeyShiftL Keysym = 0xffe1
-	KeyShiftR Keysym = 0xffe2
-	KeyControlL Keysym = 0xffe3
-	KeyControlR Keysym = 0xffe4
-	KeyCapsLock Keysym = 0xffe5
+	KeyF35       Keysym = 0xffe0
+	KeyShiftL    Keysym = 0xffe1
+	KeyShiftR    Keysym = 0xffe2
+	KeyControlL  Keysym = 0xffe3
+	KeyControlR  Keysym = 0xffe4
+	KeyCapsLock  Keysym = 0xffe5
 	KeyShiftLock Keysym = 0xffe6
-	KeyMetaL Keysym = 0xffe7
-	KeyMetaR Keysym = 0xffe8
-	KeyAltL Keysym = 0xffe9
-	KeyAltR Keysym = 0xffea
-	KeySuperL Keysym = 0xffeb
-	KeySuperR Keysym = 0xffec
-	KeyHyperL Keysym = 0xffed
-	KeyHyperR Keysym = 0xffee
+	KeyMetaL     Keysym = 0xffe7
+	KeyMetaR     Keysym = 0xffe8
+	KeyAltL      Keysym = 0xffe9
+	KeyAltR      Keysym = 0xffea
+	KeySuperL    Keysym = 0xffeb
+	KeySuperR    Keysym = 0xffec
+	KeyHyperL    Keysym = 0xffed
+	KeyHyperR    Keysym = 0xffee
 
 	// Keyboard (Alarm Keys)
-	KeyBrailleDot1 Keysym = 0xfff1
-	KeyBrailleDot2 Keysym = 0xfff2
-	KeyBrailleDot3 Keysym = 0xfff3
-	KeyBrailleDot4 Keysym = 0xfff4
-	KeyBrailleDot5 Keysym = 0xfff5
-	KeyBrailleDot6 Keysym = 0xfff6
-	KeyBrailleDot7 Keysym = 0xfff7
-	KeyBrailleDot8 Keysym = 0xfff8
-	KeyBrailleDot9 Keysym = 0xfff9
+	KeyBrailleDot1  Keysym = 0xfff1
+	KeyBrailleDot2  Keysym = 0xfff2
+	KeyBrailleDot3  Keysym = 0xfff3
+	KeyBrailleDot4  Keysym = 0xfff4
+	KeyBrailleDot5  Keysym = 0xfff5
+	KeyBrailleDot6  Keysym = 0xfff6
+	KeyBrailleDot7  Keysym = 0xfff7
+	KeyBrailleDot8  Keysym = 0xfff8
+	KeyBrailleDot9  Keysym = 0xfff9
 	KeyBrailleDot10 Keysym = 0xfffa
-	KeyDelete Keysym = 0xffff
+	KeyDelete       Keysym = 0xffff
 
 	// Other
 	KeyVoidSymbol Keysym = 0xffffff
 
 	// Unicode
-	KeyIbreve Keysym = 0x100012c
-	KeyWcircumflex Keysym = 0x1000174
-	KeyYcircumflex Keysym = 0x1000176
-	KeySCHWA Keysym = 0x100018f
-	KeyObarred Keysym = 0x100019f
-	KeyOhorn Keysym = 0x10001a0
-	KeyUhorn Keysym = 0x10001af
-	KeyZstroke Keysym = 0x10001b5
-	KeyEZH Keysym = 0x10001b7
-	KeyOcaron Keysym = 0x10001d1
-	KeyGcaron Keysym = 0x10001e6
-	KeySchwa Keysym = 0x1000259
-	KeyEzh Keysym = 0x1000292
-	KeyCombiningGrave Keysym = 0x1000300
-	KeyCombiningAcute Keysym = 0x1000301
-	KeyCombiningTilde Keysym = 0x1000303
-	KeyCombiningHook Keysym = 0x1000309
-	KeyCombiningBelowdot Keysym = 0x1000323
-	KeyCyrillicGHEBar Keysym = 0x1000492
-	KeyCyrillicGheBar Keysym = 0x1000493
-	KeyCyrillicZHEDescender Keysym = 0x1000496
-	KeyCyrillicZheDescender Keysym = 0x1000497
-	KeyCyrillicKADescender Keysym = 0x100049a
-	KeyCyrillicKaDescender Keysym = 0x100049b
-	KeyCyrillicKAVertstroke Keysym = 0x100049c
-	KeyCyrillicKaVertstroke Keysym = 0x100049d
-	KeyCyrillicENDescender Keysym = 0x10004a2
-	KeyCyrillicEnDescender Keysym = 0x10004a3
-	KeyCyrillicUStraight Keysym = 0x10004ae
-	KeyCyrillicUStraightBar Keysym = 0x10004b0
-	KeyCyrillicHADescender Keysym = 0x10004b2
-	KeyCyrillicHaDescender Keysym = 0x10004b3
-	KeyCyrillicCHEDescender Keysym = 0x10004b6
-	KeyCyrillicCheDescender Keysym = 0x10004b7
-	KeyCyrillicCHEVertstroke Keysym = 0x10004b8
-	KeyCyrillicCheVertstroke Keysym = 0x10004b9
-	KeyCyrillicSHHA Keysym = 0x10004ba
-	KeyCyrillicShha Keysym = 0x10004bb
-	KeyCyrillicSCHWA Keysym = 0x10004d8
-	KeyCyrillicSchwa Keysym = 0x10004d9
-	KeyCyrillicIMacron Keysym = 0x10004e2
-	KeyCyrillicOBar Keysym = 0x10004e8
-	KeyCyrillicUMacron Keysym = 0x10004ee
-	KeyArmenianAYB Keysym = 0x1000531
-	KeyArmenianBEN Keysym = 0x1000532
-	KeyArmenianGIM Keysym = 0x1000533
-	KeyArmenianDA Keysym = 0x1000534
-	KeyArmenianYECH Keysym = 0x1000535
-	KeyArmenianZA Keysym = 0x1000536
-	KeyArmenianE Keysym = 0x1000537
-	KeyArmenianAT Keysym = 0x1000538
-	KeyArmenianTO Keysym = 0x1000539
-	KeyArmenianZHE Keysym = 0x100053a
-	KeyArmenianINI Keysym = 0x100053b
-	KeyArmenianLYUN Keysym = 0x100053c
-	KeyArmenianKHE Keysym = 0x100053d
-	KeyArmenianTSA Keysym = 0x100053e
-	KeyArmenianKEN Keysym = 0x100053f
-	KeyArmenianHO Keysym = 0x1000540
-	KeyArmenianDZA Keysym = 0x1000541
-	KeyArmenianGHAT Keysym = 0x1000542
-	KeyArmenianTCHE Keysym = 0x1000543
-	KeyArmenianMEN Keysym = 0x1000544
-	KeyArmenianHI Keysym = 0x1000545
-	KeyArmenianNU Keysym = 0x1000546
-	KeyArmenianSHA Keysym = 0x1000547
-	KeyArmenianVO Keysym = 0x1000548
-	KeyArmenianCHA Keysym = 0x1000549
-	KeyArmenianPE Keysym = 0x100054a
-	KeyArmenianJE Keysym = 0x100054b
-	KeyArmenianRA Keysym = 0x100054c
-	KeyArmenianSE Keysym = 0x100054d
-	KeyArmenianVEV Keysym = 0x100054e
-	KeyArmenianTYUN Keysym = 0x100054f
-	KeyArmenianRE Keysym = 0x1000550
-	KeyArmenianTSO Keysym = 0x1000551
-	KeyArmenianVYUN Keysym = 0x1000552
-	KeyArmenianPYUR Keysym = 0x1000553
-	KeyArmenianKE Keysym = 0x1000554
-	KeyArmenianO Keysym = 0x1000555
-	KeyArmenianFE Keysym = 0x1000556
-	KeyArmenianApostrophe Keysym = 0x100055a
-	KeyArmenianAccent Keysym = 0x100055b
-	KeyArmenianExclam Keysym = 0x100055c
+	KeyIbreve                 Keysym = 0x100012c
+	KeyWcircumflex            Keysym = 0x1000174
+	KeyYcircumflex            Keysym = 0x1000176
+	KeySCHWA                  Keysym = 0x100018f
+	KeyObarred                Keysym = 0x100019f
+	KeyOhorn                  Keysym = 0x10001a0
+	KeyUhorn                  Keysym = 0x10001af
+	KeyZstroke                Keysym = 0x10001b5
+	KeyEZH                    Keysym = 0x10001b7
+	KeyOcaron                 Keysym = 0x10001d1
+	KeyGcaron                 Keysym = 0x10001e6
+	KeySchwa                  Keysym = 0x1000259
+	KeyEzh                    Keysym = 0x1000292
+	KeyCombiningGrave         Keysym = 0x1000300
+	KeyCombiningAcute         Keysym = 0x1000301
+	KeyCombiningTilde         Keysym = 0x1000303
+	KeyCombiningHook          Keysym = 0x1000309
+	KeyCombiningBelowdot      Keysym = 0x1000323
+	KeyCyrillicGHEBar         Keysym = 0x1000492
+	KeyCyrillicGheBar         Keysym = 0x1000493
+	KeyCyrillicZHEDescender   Keysym = 0x1000496
+	KeyCyrillicZheDescender   Keysym = 0x1000497
+	KeyCyrillicKADescender    Keysym = 0x100049a
+	KeyCyrillicKaDescender    Keysym = 0x100049b
+	KeyCyrillicKAVertstroke   Keysym = 0x100049c
+	KeyCyrillicKaVertstroke   Keysym = 0x100049d
+	KeyCyrillicENDescender    Keysym = 0x10004a2
+	KeyCyrillicEnDescender    Keysym = 0x10004a3
+	KeyCyrillicUStraight      Keysym = 0x10004ae
+	KeyCyrillicUStraightBar   Keysym = 0x10004b0
+	KeyCyrillicHADescender    Keysym = 0x10004b2
+	KeyCyrillicHaDescender    Keysym = 0x10004b3
+	KeyCyrillicCHEDescender   Keysym = 0x10004b6
+	KeyCyrillicCheDescender   Keysym = 0x10004b7
+	KeyCyrillicCHEVertstroke  Keysym = 0x10004b8
+	KeyCyrillicCheVertstroke  Keysym = 0x10004b9
+	KeyCyrillicSHHA           Keysym = 0x10004ba
+	KeyCyrillicShha           Keysym = 0x10004bb
+	KeyCyrillicSCHWA          Keysym = 0x10004d8
+	KeyCyrillicSchwa          Keysym = 0x10004d9
+	KeyCyrillicIMacron        Keysym = 0x10004e2
+	KeyCyrillicOBar           Keysym = 0x10004e8
+	KeyCyrillicUMacron        Keysym = 0x10004ee
+	KeyArmenianAYB            Keysym = 0x1000531
+	KeyArmenianBEN            Keysym = 0x1000532
+	KeyArmenianGIM            Keysym = 0x1000533
+	KeyArmenianDA             Keysym = 0x1000534
+	KeyArmenianYECH           Keysym = 0x1000535
+	KeyArmenianZA             Keysym = 0x1000536
+	KeyArmenianE              Keysym = 0x1000537
+	KeyArmenianAT             Keysym = 0x1000538
+	KeyArmenianTO             Keysym = 0x1000539
+	KeyArmenianZHE            Keysym = 0x100053a
+	KeyArmenianINI            Keysym = 0x100053b
+	KeyArmenianLYUN           Keysym = 0x100053c
+	KeyArmenianKHE            Keysym = 0x100053d
+	KeyArmenianTSA            Keysym = 0x100053e
+	KeyArmenianKEN            Keysym = 0x100053f
+	KeyArmenianHO             Keysym = 0x1000540
+	KeyArmenianDZA            Keysym = 0x1000541
+	KeyArmenianGHAT           Keysym = 0x1000542
+	KeyArmenianTCHE           Keysym = 0x1000543
+	KeyArmenianMEN            Keysym = 0x1000544
+	KeyArmenianHI             Keysym = 0x1000545
+	KeyArmenianNU             Keysym = 0x1000546
+	KeyArmenianSHA            Keysym = 0x1000547
+	KeyArmenianVO             Keysym = 0x1000548
+	KeyArmenianCHA            Keysym = 0x1000549
+	KeyArmenianPE             Keysym = 0x100054a
+	KeyArmenianJE             Keysym = 0x100054b
+	KeyArmenianRA             Keysym = 0x100054c
+	KeyArmenianSE             Keysym = 0x100054d
+	KeyArmenianVEV            Keysym = 0x100054e
+	KeyArmenianTYUN           Keysym = 0x100054f
+	KeyArmenianRE             Keysym = 0x1000550
+	KeyArmenianTSO            Keysym = 0x1000551
+	KeyArmenianVYUN           Keysym = 0x1000552
+	KeyArmenianPYUR           Keysym = 0x1000553
+	KeyArmenianKE             Keysym = 0x1000554
+	KeyArmenianO              Keysym = 0x1000555
+	KeyArmenianFE             Keysym = 0x1000556
+	KeyArmenianApostrophe     Keysym = 0x100055a
+	KeyArmenianAccent         Keysym = 0x100055b
+	KeyArmenianExclam         Keysym = 0x100055c
 	KeyArmenianSeparationMark Keysym = 0x100055d
-	KeyArmenianQuestion Keysym = 0x100055e
-	KeyArmenianAyb Keysym = 0x1000561
-	KeyArmenianBen Keysym = 0x1000562
-	KeyArmenianGim Keysym = 0x1000563
-	KeyArmenianDa Keysym = 0x1000564
-	KeyArmenianYech Keysym = 0x1000565
-	KeyArmenianZa Keysym = 0x1000566
-	KeyArmenianAt Keysym = 0x1000568
-	KeyArmenianTo Keysym = 0x1000569
-	KeyArmenianZhe Keysym = 0x100056a
-	KeyArmenianIni Keysym = 0x100056b
-	KeyArmenianLyun Keysym = 0x100056c
-	KeyArmenianKhe Keysym = 0x100056d
-	KeyArmenianTsa Keysym = 0x100056e
-	KeyArmenianKen Keysym = 0x100056f
-	KeyArmenianHo Keysym = 0x1000570
-	KeyArmenianDza Keysym = 0x1000571
-	KeyArmenianGhat Keysym = 0x1000572
-	KeyArmenianTche Keysym = 0x1000573
-	KeyArmenianMen Keysym = 0x1000574
-	KeyArmenianHi Keysym = 0x1000575
-	KeyArmenianNu Keysym = 0x1000576
-	KeyArmenianSha Keysym = 0x1000577
-	KeyArmenianVo Keysym = 0x1000578
-	KeyArmenianCha Keysym = 0x1000579
-	KeyArmenianPe Keysym = 0x100057a
-	KeyArmenianJe Keysym = 0x100057b
-	KeyArmenianRa Keysym = 0x100057c
-	KeyArmenianSe Keysym = 0x100057d
-	KeyArmenianVev Keysym = 0x100057e
-	KeyArmenianTyun Keysym = 0x100057f
-	KeyArmenianRe Keysym = 0x1000580
-	KeyArmenianTso Keysym = 0x1000581
-	KeyArmenianVyun Keysym = 0x1000582
-	KeyArmenianPyur Keysym = 0x1000583
-	KeyArmenianKe Keysym = 0x1000584
-	KeyArmenianFe Keysym = 0x1000586
-	KeyArmenianLigatureEw Keysym = 0x1000587
-	KeyArmenianFullStop Keysym = 0x1000589
-	KeyArmenianHyphen Keysym = 0x100058a
-	KeyArabicMaddaAbove Keysym = 0x1000653
-	KeyArabicHamzaAbove Keysym = 0x1000654
-	KeyArabicHamzaBelow Keysym = 0x1000655
-	KeyArabic0 Keysym = 0x1000660
-	KeyArabic1 Keysym = 0x1000661
-	KeyArabic2 Keysym = 0x1000662
-	KeyArabic3 Keysym = 0x1000663
-	KeyArabic4 Keysym = 0x1000664
-	KeyArabic5 Keysym = 0x1000665
-	KeyArabic6 Keysym = 0x1000666
-	KeyArabic7 Keysym = 0x1000667
-	KeyArabic8 Keysym = 0x1000668
-	KeyArabic9 Keysym = 0x1000669
-	KeyArabicPercent Keysym = 0x100066a
-	KeyArabicSuperscriptAlef Keysym = 0x1000670
-	KeyArabicTteh Keysym = 0x1000679
-	KeyArabicPeh Keysym = 0x100067e
-	KeyArabicTcheh Keysym = 0x1000686
-	KeyArabicDdal Keysym = 0x1000688
-	KeyArabicRreh Keysym = 0x1000691
-	KeyArabicJeh Keysym = 0x1000698
-	KeyArabicVeh Keysym = 0x10006a4
-	KeyArabicKeheh Keysym = 0x10006a9
-	KeyArabicGaf Keysym = 0x10006af
-	KeyArabicNoonGhunna Keysym = 0x10006ba
-	KeyArabicHehDoachashmee Keysym = 0x10006be
-	KeyArabicHehGoal Keysym = 0x10006c1
-	KeyFarsiYeh Keysym = 0x10006cc
-	KeyArabicYehBaree Keysym = 0x10006d2
-	KeyArabicFullstop Keysym = 0x10006d4
-	KeyFarsi0 Keysym = 0x10006f0
-	KeyFarsi1 Keysym = 0x10006f1
-	KeyFarsi2 Keysym = 0x10006f2
-	KeyFarsi3 Keysym = 0x10006f3
-	KeyFarsi4 Keysym = 0x10006f4
-	KeyFarsi5 Keysym = 0x10006f5
-	KeyFarsi6 Keysym = 0x10006f6
-	KeyFarsi7 Keysym = 0x10006f7
-	KeyFarsi8 Keysym = 0x10006f8
-	KeyFarsi9 Keysym = 0x10006f9
-	KeySinhNg Keysym = 0x1000d82
-	KeySinhH2 Keysym = 0x1000d83
-	KeySinhA Keysym = 0x1000d85
-	KeySinhAa Keysym = 0x1000d86
-	KeySinhAe Keysym = 0x1000d87
-	KeySinhAee Keysym = 0x1000d88
-	KeySinhI Keysym = 0x1000d89
-	KeySinhIi Keysym = 0x1000d8a
-	KeySinhU Keysym = 0x1000d8b
-	KeySinhUu Keysym = 0x1000d8c
-	KeySinhRi Keysym = 0x1000d8d
-	KeySinhRii Keysym = 0x1000d8e
-	KeySinhLu Keysym = 0x1000d8f
-	KeySinhLuu Keysym = 0x1000d90
-	KeySinhE Keysym = 0x1000d91
-	KeySinhEe Keysym = 0x1000d92
-	KeySinhAi Keysym = 0x1000d93
-	KeySinhO Keysym = 0x1000d94
-	KeySinhOo Keysym = 0x1000d95
-	KeySinhAu Keysym = 0x1000d96
-	KeySinhKa Keysym = 0x1000d9a
-	KeySinhKha Keysym = 0x1000d9b
-	KeySinhGa Keysym = 0x1000d9c
-	KeySinhGha Keysym = 0x1000d9d
-	KeySinhNg2 Keysym = 0x1000d9e
-	KeySinhNga Keysym = 0x1000d9f
-	KeySinhCa Keysym = 0x1000da0
-	KeySinhCha Keysym = 0x1000da1
-	KeySinhJa Keysym = 0x1000da2
-	KeySinhJha Keysym = 0x1000da3
-	KeySinhNya Keysym = 0x1000da4
-	KeySinhJnya Keysym = 0x1000da5
-	KeySinhNja Keysym = 0x1000da6
-	KeySinhTta Keysym = 0x1000da7
-	KeySinhTtha Keysym = 0x1000da8
-	KeySinhDda Keysym = 0x1000da9
-	KeySinhDdha Keysym = 0x1000daa
-	KeySinhNna Keysym = 0x1000dab
-	KeySinhNdda Keysym = 0x1000dac
-	KeySinhTha Keysym = 0x1000dad
-	KeySinhThha Keysym = 0x1000dae
-	KeySinhDha Keysym = 0x1000daf
-	KeySinhDhha Keysym = 0x1000db0
-	KeySinhNa Keysym = 0x1000db1
-	KeySinhNdha Keysym = 0x1000db3
-	KeySinhPa Keysym = 0x1000db4
-	KeySinhPha Keysym = 0x1000db5
-	KeySinhBa Keysym = 0x1000db6
-	KeySinhBha Keysym = 0x1000db7
-	KeySinhMa Keysym = 0x1000db8
-	KeySinhMba Keysym = 0x1000db9
-	KeySinhYa Keysym = 0x1000dba
-	KeySinhRa Keysym = 0x1000dbb
-	KeySinhLa Keysym = 0x1000dbd
-	KeySinhVa Keysym = 0x1000dc0
-	KeySinhSha Keysym = 0x1000dc1
-	KeySinhSsha Keysym = 0x1000dc2
-	KeySinhSa Keysym = 0x1000dc3
-	KeySinhHa Keysym = 0x1000dc4
-	KeySinhLla Keysym = 0x1000dc5
-	KeySinhFa Keysym = 0x1000dc6
-	KeySinhAl Keysym = 0x1000dca
-	KeySinhAa2 Keysym = 0x1000dcf
-	KeySinhAe2 Keysym = 0x1000dd0
-	KeySinhAee2 Keysym = 0x1000dd1
-	KeySinhI2 Keysym = 0x1000dd2
-	KeySinhIi2 Keysym = 0x1000dd3
-	KeySinhU2 Keysym = 0x1000dd4
-	KeySinhUu2 Keysym = 0x1000dd6
-	KeySinhRu2 Keysym = 0x1000dd8
-	KeySinhE2 Keysym = 0x1000dd9
-	KeySinhEe2 Keysym = 0x1000dda
-	KeySinhAi2 Keysym = 0x1000ddb
-	KeySinhO2 Keysym = 0x1000ddc
-	KeySinhOo2 Keysym = 0x1000ddd
-	KeySinhAu2 Keysym = 0x1000dde
-	KeySinhLu2 Keysym = 0x1000ddf
-	KeySinhRuu2 Keysym = 0x1000df2
-	KeySinhLuu2 Keysym = 0x1000df3
-	KeySinhKunddaliya Keysym = 0x1000df4
-	KeyGeorgianAn Keysym = 0x10010d0
-	KeyGeorgianBan Keysym = 0x10010d1
-	KeyGeorgianGan Keysym = 0x10010d2
-	KeyGeorgianDon Keysym = 0x10010d3
-	KeyGeorgianEn Keysym = 0x10010d4
-	KeyGeorgianVin Keysym = 0x10010d5
-	KeyGeorgianZen Keysym = 0x10010d6
-	KeyGeorgianTan Keysym = 0x10010d7
-	KeyGeorgianIn Keysym = 0x10010d8
-	KeyGeorgianKan Keysym = 0x10010d9
-	KeyGeorgianLas Keysym = 0x10010da
-	KeyGeorgianMan Keysym = 0x10010db
-	KeyGeorgianNar Keysym = 0x10010dc
-	KeyGeorgianOn Keysym = 0x10010dd
-	KeyGeorgianPar Keysym = 0x10010de
-	KeyGeorgianZhar Keysym = 0x10010df
-	KeyGeorgianRae Keysym = 0x10010e0
-	KeyGeorgianSan Keysym = 0x10010e1
-	KeyGeorgianTar Keysym = 0x10010e2
-	KeyGeorgianUn Keysym = 0x10010e3
-	KeyGeorgianPhar Keysym = 0x10010e4
-	KeyGeorgianKhar Keysym = 0x10010e5
-	KeyGeorgianGhan Keysym = 0x10010e6
-	KeyGeorgianQar Keysym = 0x10010e7
-	KeyGeorgianShin Keysym = 0x10010e8
-	KeyGeorgianChin Keysym = 0x10010e9
-	KeyGeorgianCan Keysym = 0x10010ea
-	KeyGeorgianJil Keysym = 0x10010eb
-	KeyGeorgianCil Keysym = 0x10010ec
-	KeyGeorgianChar Keysym = 0x10010ed
-	KeyGeorgianXan Keysym = 0x10010ee
-	KeyGeorgianJhan Keysym = 0x10010ef
-	KeyGeorgianHae Keysym = 0x10010f0
-	KeyGeorgianHe Keysym = 0x10010f1
-	KeyGeorgianHie Keysym = 0x10010f2
-	KeyGeorgianWe Keysym = 0x10010f3
-	KeyGeorgianHar Keysym = 0x10010f4
-	KeyGeorgianHoe Keysym = 0x10010f5
-	KeyGeorgianFi Keysym = 0x10010f6
-	KeyBabovedot Keysym = 0x1001e02
-	KeyDabovedot Keysym = 0x1001e0a
-	KeyFabovedot Keysym = 0x1001e1e
-	KeyLbelowdot Keysym = 0x1001e36
-	KeyMabovedot Keysym = 0x1001e40
-	KeyPabovedot Keysym = 0x1001e56
-	KeySabovedot Keysym = 0x1001e60
-	KeyTabovedot Keysym = 0x1001e6a
-	KeyWgrave Keysym = 0x1001e80
-	KeyWacute Keysym = 0x1001e82
-	KeyWdiaeresis Keysym = 0x1001e84
-	KeyXabovedot Keysym = 0x1001e8a
-	KeyAbelowdot Keysym = 0x1001ea0
-	KeyAhook Keysym = 0x1001ea2
-	KeyAcircumflexacute Keysym = 0x1001ea4
-	KeyAcircumflexgrave Keysym = 0x1001ea6
-	KeyAcircumflexhook Keysym = 0x1001ea8
-	KeyAcircumflextilde Keysym = 0x1001eaa
-	KeyAcircumflexbelowdot Keysym = 0x1001eac
-	KeyAbreveacute Keysym = 0x1001eae
-	KeyAbrevegrave Keysym = 0x1001eb0
-	KeyAbrevehook Keysym = 0x1001eb2
-	KeyAbrevetilde Keysym = 0x1001eb4
-	KeyAbrevebelowdot Keysym = 0x1001eb6
-	KeyEbelowdot Keysym = 0x1001eb8
-	KeyEhook Keysym = 0x1001eba
-	KeyEtilde Keysym = 0x1001ebc
-	KeyEcircumflexacute Keysym = 0x1001ebe
-	KeyEcircumflexgrave Keysym = 0x1001ec0
-	KeyEcircumflexhook Keysym = 0x1001ec2
-	KeyEcircumflextilde Keysym = 0x1001ec4
-	KeyEcircumflexbelowdot Keysym = 0x1001ec6
-	KeyIhook Keysym = 0x1001ec8
-	KeyIbelowdot Keysym = 0x1001eca
-	KeyObelowdot Keysym = 0x1001ecc
-	KeyOhook Keysym = 0x1001ece
-	KeyOcircumflexacute Keysym = 0x1001ed0
-	KeyOcircumflexgrave Keysym = 0x1001ed2
-	KeyOcircumflexhook Keysym = 0x1001ed4
-	KeyOcircumflextilde Keysym = 0x1001ed6
-	KeyOcircumflexbelowdot Keysym = 0x1001ed8
-	KeyOhornacute Keysym = 0x1001eda
-	KeyOhorngrave Keysym = 0x1001edc
-	KeyOhornhook Keysym = 0x1001ede
-	KeyOhorntilde Keysym = 0x1001ee0
-	KeyOhornbelowdot Keysym = 0x1001ee2
-	KeyUbelowdot Keysym = 0x1001ee4
-	KeyUhook Keysym = 0x1001ee6
-	KeyUhornacute Keysym = 0x1001ee8
-	KeyUhorngrave Keysym = 0x1001eea
-	KeyUhornhook Keysym = 0x1001eec
-	KeyUhorntilde Keysym = 0x1001eee
-	KeyUhornbelowdot Keysym = 0x1001ef0
-	KeyYgrave Keysym = 0x1001ef2
-	KeyYbelowdot Keysym = 0x1001ef4
-	KeyYhook Keysym = 0x1001ef6
-	KeyYtilde Keysym = 0x1001ef8
-	KeyZerosuperior Keysym = 0x1002070
-	KeyFoursuperior Keysym = 0x1002074
-	KeyFivesuperior Keysym = 0x1002075
-	KeySixsuperior Keysym = 0x1002076
-	KeySevensuperior Keysym = 0x1002077
-	KeyEightsuperior Keysym = 0x1002078
-	KeyNinesuperior Keysym = 0x1002079
-	KeyZerosubscript Keysym = 0x1002080
-	KeyOnesubscript Keysym = 0x1002081
-	KeyTwosubscript Keysym = 0x1002082
-	KeyThreesubscript Keysym = 0x1002083
-	KeyFoursubscript Keysym = 0x1002084
-	KeyFivesubscript Keysym = 0x1002085
-	KeySixsubscript Keysym = 0x1002086
-	KeySevensubscript Keysym = 0x1002087
-	KeyEightsubscript Keysym = 0x1002088
-	KeyNinesubscript Keysym = 0x1002089
-	KeyEcuSign Keysym = 0x10020a0
-	KeyColonSign Keysym = 0x10020a1
-	KeyCruzeiroSign Keysym = 0x10020a2
-	KeyFFrancSign Keysym = 0x10020a3
-	KeyLiraSign Keysym = 0x10020a4
-	KeyMillSign Keysym = 0x10020a5
-	KeyNairaSign Keysym = 0x10020a6
-	KeyPesetaSign Keysym = 0x10020a7
-	KeyRupeeSign Keysym = 0x10020a8
-	KeyWonSign Keysym = 0x10020a9
-	KeyNewSheqelSign Keysym = 0x10020aa
-	KeyDongSign Keysym = 0x10020ab
-	KeyPartdifferential Keysym = 0x1002202
-	KeyEmptyset Keysym = 0x1002205
-	KeyElementof Keysym = 0x1002208
-	KeyNotelementof Keysym = 0x1002209
-	KeyContainsas Keysym = 0x100220b
-	KeySquareroot Keysym = 0x100221a
-	KeyCuberoot Keysym = 0x100221b
-	KeyFourthroot Keysym = 0x100221c
-	KeyDintegral Keysym = 0x100222c
-	KeyTintegral Keysym = 0x100222d
-	KeyBecause Keysym = 0x1002235
-	KeyNotapproxeq Keysym = 0x1002247
-	KeyApproxeq Keysym = 0x1002248
-	KeyNotidentical Keysym = 0x1002262
-	KeyStricteq Keysym = 0x1002263
-	KeyBrailleBlank Keysym = 0x1002800
-	KeyBrailleDots1 Keysym = 0x1002801
-	KeyBrailleDots2 Keysym = 0x1002802
-	KeyBrailleDots12 Keysym = 0x1002803
-	KeyBrailleDots3 Keysym = 0x1002804
-	KeyBrailleDots13 Keysym = 0x1002805
-	KeyBrailleDots23 Keysym = 0x1002806
-	KeyBrailleDots123 Keysym = 0x1002807
-	KeyBrailleDots4 Keysym = 0x1002808
-	KeyBrailleDots14 Keysym = 0x1002809
-	KeyBrailleDots24 Keysym = 0x100280a
-	KeyBrailleDots124 Keysym = 0x100280b
-	KeyBrailleDots34 Keysym = 0x100280c
-	KeyBrailleDots134 Keysym = 0x100280d
-	KeyBrailleDots234 Keysym = 0x100280e
-	KeyBrailleDots1234 Keysym = 0x100280f
-	KeyBrailleDots5 Keysym = 0x1002810
-	KeyBrailleDots15 Keysym = 0x1002811
-	KeyBrailleDots25 Keysym = 0x1002812
-	KeyBrailleDots125 Keysym = 0x1002813
-	KeyBrailleDots35 Keysym = 0x1002814
-	KeyBrailleDots135 Keysym = 0x1002815
-	KeyBrailleDots235 Keysym = 0x1002816
-	KeyBrailleDots1235 Keysym = 0x1002817
-	KeyBrailleDots45 Keysym = 0x1002818
-	KeyBrailleDots145 Keysym = 0x1002819
-	KeyBrailleDots245 Keysym = 0x100281a
-	KeyBrailleDots1245 Keysym = 0x100281b
-	KeyBrailleDots345 Keysym = 0x100281c
-	KeyBrailleDots1345 Keysym = 0x100281d
-	KeyBrailleDots2345 Keysym = 0x100281e
-	KeyBrailleDots12345 Keysym = 0x100281f
-	KeyBrailleDots6 Keysym = 0x1002820
-	KeyBrailleDots16 Keysym = 0x1002821
-	KeyBrailleDots26 Keysym = 0x1002822
-	KeyBrailleDots126 Keysym = 0x1002823
-	KeyBrailleDots36 Keysym = 0x1002824
-	KeyBrailleDots136 Keysym = 0x1002825
-	KeyBrailleDots236 Keysym = 0x1002826
-	KeyBrailleDots1236 Keysym = 0x1002827
-	KeyBrailleDots46 Keysym = 0x1002828
-	KeyBrailleDots146 Keysym = 0x1002829
-	KeyBrailleDots246 Keysym = 0x100282a
-	KeyBrailleDots1246 Keysym = 0x100282b
-	KeyBrailleDots346 Keysym = 0x100282c
-	KeyBrailleDots1346 Keysym = 0x100282d
-	KeyBrailleDots2346 Keysym = 0x100282e
-	KeyBrailleDots12346 Keysym = 0x100282f
-	KeyBrailleDots56 Keysym = 0x1002830
-	KeyBrailleDots156 Keysym = 0x1002831
-	KeyBrailleDots256 Keysym = 0x1002832
-	KeyBrailleDots1256 Keysym = 0x1002833
-	KeyBrailleDots356 Keysym = 0x1002834
-	KeyBrailleDots1356 Keysym = 0x1002835
-	KeyBrailleDots2356 Keysym = 0x1002836
-	KeyBrailleDots12356 Keysym = 0x1002837
-	KeyBrailleDots456 Keysym = 0x1002838
-	KeyBrailleDots1456 Keysym = 0x1002839
-	KeyBrailleDots2456 Keysym = 0x100283a
-	KeyBrailleDots12456 Keysym = 0x100283b
-	KeyBrailleDots3456 Keysym = 0x100283c
-	KeyBrailleDots13456 Keysym = 0x100283d
-	KeyBrailleDots23456 Keysym = 0x100283e
-	KeyBrailleDots123456 Keysym = 0x100283f
-	KeyBrailleDots7 Keysym = 0x1002840
-	KeyBrailleDots17 Keysym = 0x1002841
-	KeyBrailleDots27 Keysym = 0x1002842
-	KeyBrailleDots127 Keysym = 0x1002843
-	KeyBrailleDots37 Keysym = 0x1002844
-	KeyBrailleDots137 Keysym = 0x1002845
-	KeyBrailleDots237 Keysym = 0x1002846
-	KeyBrailleDots1237 Keysym = 0x1002847
-	KeyBrailleDots47 Keysym = 0x1002848
-	KeyBrailleDots147 Keysym = 0x1002849
-	KeyBrailleDots247 Keysym = 0x100284a
-	KeyBrailleDots1247 Keysym = 0x100284b
-	KeyBrailleDots347 Keysym = 0x100284c
-	KeyBrailleDots1347 Keysym = 0x100284d
-	KeyBrailleDots2347 Keysym = 0x100284e
-	KeyBrailleDots12347 Keysym = 0x100284f
-	KeyBrailleDots57 Keysym = 0x1002850
-	KeyBrailleDots157 Keysym = 0x1002851
-	KeyBrailleDots257 Keysym = 0x1002852
-	KeyBrailleDots1257 Keysym = 0x1002853
-	KeyBrailleDots357 Keysym = 0x1002854
-	KeyBrailleDots1357 Keysym = 0x1002855
-	KeyBrailleDots2357 Keysym = 0x1002856
-	KeyBrailleDots12357 Keysym = 0x1002857
-	KeyBrailleDots457 Keysym = 0x1002858
-	KeyBrailleDots1457 Keysym = 0x1002859
-	KeyBrailleDots2457 Keysym = 0x100285a
-	KeyBrailleDots12457 Keysym = 0x100285b
-	KeyBrailleDots3457 Keysym = 0x100285c
-	KeyBrailleDots13457 Keysym = 0x100285d
-	KeyBrailleDots23457 Keysym = 0x100285e
-	KeyBrailleDots123457 Keysym = 0x100285f
-	KeyBrailleDots67 Keysym = 0x1002860
-	KeyBrailleDots167 Keysym = 0x1002861
-	KeyBrailleDots267 Keysym = 0x1002862
-	KeyBrailleDots1267 Keysym = 0x1002863
-	KeyBrailleDots367 Keysym = 0x1002864
-	KeyBrailleDots1367 Keysym = 0x1002865
-	KeyBrailleDots2367 Keysym = 0x1002866
-	KeyBrailleDots12367 Keysym = 0x1002867
-	KeyBrailleDots467 Keysym = 0x1002868
-	KeyBrailleDots1467 Keysym = 0x1002869
-	KeyBrailleDots2467 Keysym = 0x100286a
-	KeyBrailleDots12467 Keysym = 0x100286b
-	KeyBrailleDots3467 Keysym = 0x100286c
-	KeyBrailleDots13467 Keysym = 0x100286d
-	KeyBrailleDots23467 Keysym = 0x100286e
-	KeyBrailleDots123467 Keysym = 0x100286f
-	KeyBrailleDots567 Keysym = 0x1002870
-	KeyBrailleDots1567 Keysym = 0x1002871
-	KeyBrailleDots2567 Keysym = 0x1002872
-	KeyBrailleDots12567 Keysym = 0x1002873
-	KeyBrailleDots3567 Keysym = 0x1002874
-	KeyBrailleDots13567 Keysym = 0x1002875
-	KeyBrailleDots23567 Keysym = 0x1002876
-	KeyBrailleDots123567 Keysym = 0x1002877
-	KeyBrailleDots4567 Keysym = 0x1002878
-	KeyBrailleDots14567 Keysym = 0x1002879
-	KeyBrailleDots24567 Keysym = 0x100287a
-	KeyBrailleDots124567 Keysym = 0x100287b
-	KeyBrailleDots34567 Keysym = 0x100287c
-	KeyBrailleDots134567 Keysym = 0x100287d
-	KeyBrailleDots234567 Keysym = 0x100287e
-	KeyBrailleDots1234567 Keysym = 0x100287f
-	KeyBrailleDots8 Keysym = 0x1002880
-	KeyBrailleDots18 Keysym = 0x1002881
-	KeyBrailleDots28 Keysym = 0x1002882
-	KeyBrailleDots128 Keysym = 0x1002883
-	KeyBrailleDots38 Keysym = 0x1002884
-	KeyBrailleDots138 Keysym = 0x1002885
-	KeyBrailleDots238 Keysym = 0x1002886
-	KeyBrailleDots1238 Keysym = 0x1002887
-	KeyBrailleDots48 Keysym = 0x1002888
-	KeyBrailleDots148 Keysym = 0x1002889
-	KeyBrailleDots248 Keysym = 0x100288a
-	KeyBrailleDots1248 Keysym = 0x100288b
-	KeyBrailleDots348 Keysym = 0x100288c
-	KeyBrailleDots1348 Keysym = 0x100288d
-	KeyBrailleDots2348 Keysym = 0x100288e
-	KeyBrailleDots12348 Keysym = 0x100288f
-	KeyBrailleDots58 Keysym = 0x1002890
-	KeyBrailleDots158 Keysym = 0x1002891
-	KeyBrailleDots258 Keysym = 0x1002892
-	KeyBrailleDots1258 Keysym = 0x1002893
-	KeyBrailleDots358 Keysym = 0x1002894
-	KeyBrailleDots1358 Keysym = 0x1002895
-	KeyBrailleDots2358 Keysym = 0x1002896
-	KeyBrailleDots12358 Keysym = 0x1002897
-	KeyBrailleDots458 Keysym = 0x1002898
-	KeyBrailleDots1458 Keysym = 0x1002899
-	KeyBrailleDots2458 Keysym = 0x100289a
-	KeyBrailleDots12458 Keysym = 0x100289b
-	KeyBrailleDots3458 Keysym = 0x100289c
-	KeyBrailleDots13458 Keysym = 0x100289d
-	KeyBrailleDots23458 Keysym = 0x100289e
-	KeyBrailleDots123458 Keysym = 0x100289f
-	KeyBrailleDots68 Keysym = 0x10028a0
-	KeyBrailleDots168 Keysym = 0x10028a1
-	KeyBrailleDots268 Keysym = 0x10028a2
-	KeyBrailleDots1268 Keysym = 0x10028a3
-	KeyBrailleDots368 Keysym = 0x10028a4
-	KeyBrailleDots1368 Keysym = 0x10028a5
-	KeyBrailleDots2368 Keysym = 0x10028a6
-	KeyBrailleDots12368 Keysym = 0x10028a7
-	KeyBrailleDots468 Keysym = 0x10028a8
-	KeyBrailleDots1468 Keysym = 0x10028a9
-	KeyBrailleDots2468 Keysym = 0x10028aa
-	KeyBrailleDots12468 Keysym = 0x10028ab
-	KeyBrailleDots3468 Keysym = 0x10028ac
-	KeyBrailleDots13468 Keysym = 0x10028ad
-	KeyBrailleDots23468 Keysym = 0x10028ae
-	KeyBrailleDots123468 Keysym = 0x10028af
-	KeyBrailleDots568 Keysym = 0x10028b0
-	KeyBrailleDots1568 Keysym = 0x10028b1
-	KeyBrailleDots2568 Keysym = 0x10028b2
-	KeyBrailleDots12568 Keysym = 0x10028b3
-	KeyBrailleDots3568 Keysym = 0x10028b4
-	KeyBrailleDots13568 Keysym = 0x10028b5
-	KeyBrailleDots23568 Keysym = 0x10028b6
-	KeyBrailleDots123568 Keysym = 0x10028b7
-	KeyBrailleDots4568 Keysym = 0x10028b8
-	KeyBrailleDots14568 Keysym = 0x10028b9
-	KeyBrailleDots24568 Keysym = 0x10028ba
-	KeyBrailleDots124568 Keysym = 0x10028bb
-	KeyBrailleDots34568 Keysym = 0x10028bc
-	KeyBrailleDots134568 Keysym = 0x10028bd
-	KeyBrailleDots234568 Keysym = 0x10028be
-	KeyBrailleDots1234568 Keysym = 0x10028bf
-	KeyBrailleDots78 Keysym = 0x10028c0
-	KeyBrailleDots178 Keysym = 0x10028c1
-	KeyBrailleDots278 Keysym = 0x10028c2
-	KeyBrailleDots1278 Keysym = 0x10028c3
-	KeyBrailleDots378 Keysym = 0x10028c4
-	KeyBrailleDots1378 Keysym = 0x10028c5
-	KeyBrailleDots2378 Keysym = 0x10028c6
-	KeyBrailleDots12378 Keysym = 0x10028c7
-	KeyBrailleDots478 Keysym = 0x10028c8
-	KeyBrailleDots1478 Keysym = 0x10028c9
-	KeyBrailleDots2478 Keysym = 0x10028ca
-	KeyBrailleDots12478 Keysym = 0x10028cb
-	KeyBrailleDots3478 Keysym = 0x10028cc
-	KeyBrailleDots13478 Keysym = 0x10028cd
-	KeyBrailleDots23478 Keysym = 0x10028ce
-	KeyBrailleDots123478 Keysym = 0x10028cf
-	KeyBrailleDots578 Keysym = 0x10028d0
-	KeyBrailleDots1578 Keysym = 0x10028d1
-	KeyBrailleDots2578 Keysym = 0x10028d2
-	KeyBrailleDots12578 Keysym = 0x10028d3
-	KeyBrailleDots3578 Keysym = 0x10028d4
-	KeyBrailleDots13578 Keysym = 0x10028d5
-	KeyBrailleDots23578 Keysym = 0x10028d6
-	KeyBrailleDots123578 Keysym = 0x10028d7
-	KeyBrailleDots4578 Keysym = 0x10028d8
-	KeyBrailleDots14578 Keysym = 0x10028d9
-	KeyBrailleDots24578 Keysym = 0x10028da
-	KeyBrailleDots124578 Keysym = 0x10028db
-	KeyBrailleDots34578 Keysym = 0x10028dc
-	KeyBrailleDots134578 Keysym = 0x10028dd
-	KeyBrailleDots234578 Keysym = 0x10028de
-	KeyBrailleDots1234578 Keysym = 0x10028df
-	KeyBrailleDots678 Keysym = 0x10028e0
-	KeyBrailleDots1678 Keysym = 0x10028e1
-	KeyBrailleDots2678 Keysym = 0x10028e2
-	KeyBrailleDots12678 Keysym = 0x10028e3
-	KeyBrailleDots3678 Keysym = 0x10028e4
-	KeyBrailleDots13678 Keysym = 0x10028e5
-	KeyBrailleDots23678 Keysym = 0x10028e6
-	KeyBrailleDots123678 Keysym = 0x10028e7
-	KeyBrailleDots4678 Keysym = 0x10028e8
-	KeyBrailleDots14678 Keysym = 0x10028e9
-	KeyBrailleDots24678 Keysym = 0x10028ea
-	KeyBrailleDots124678 Keysym = 0x10028eb
-	KeyBrailleDots34678 Keysym = 0x10028ec
-	KeyBrailleDots134678 Keysym = 0x10028ed
-	KeyBrailleDots234678 Keysym = 0x10028ee
-	KeyBrailleDots1234678 Keysym = 0x10028ef
-	KeyBrailleDots5678 Keysym = 0x10028f0
-	KeyBrailleDots15678 Keysym = 0x10028f1
-	KeyBrailleDots25678 Keysym = 0x10028f2
-	KeyBrailleDots125678 Keysym = 0x10028f3
-	KeyBrailleDots35678 Keysym = 0x10028f4
-	KeyBrailleDots135678 Keysym = 0x10028f5
-	KeyBrailleDots235678 Keysym = 0x10028f6
-	KeyBrailleDots1235678 Keysym = 0x10028f7
-	KeyBrailleDots45678 Keysym = 0x10028f8
-	KeyBrailleDots145678 Keysym = 0x10028f9
-	KeyBrailleDots245678 Keysym = 0x10028fa
-	KeyBrailleDots1245678 Keysym = 0x10028fb
-	KeyBrailleDots345678 Keysym = 0x10028fc
-	KeyBrailleDots1345678 Keysym = 0x10028fd
-	KeyBrailleDots2345678 Keysym = 0x10028fe
-	KeyBrailleDots12345678 Keysym = 0x10028ff
+	KeyArmenianQuestion       Keysym = 0x100055e
+	KeyArmenianAyb            Keysym = 0x1000561
+	KeyArmenianBen            Keysym = 0x1000562
+	KeyArmenianGim            Keysym = 0x1000563
+	KeyArmenianDa             Keysym = 0x1000564
+	KeyArmenianYech           Keysym = 0x1000565
+	KeyArmenianZa             Keysym = 0x1000566
+	KeyArmenianAt             Keysym = 0x1000568
+	KeyArmenianTo             Keysym = 0x1000569
+	KeyArmenianZhe            Keysym = 0x100056a
+	KeyArmenianIni            Keysym = 0x100056b
+	KeyArmenianLyun           Keysym = 0x100056c
+	KeyArmenianKhe            Keysym = 0x100056d
+	KeyArmenianTsa            Keysym = 0x100056e
+	KeyArmenianKen            Keysym = 0x100056f
+	KeyArmenianHo             Keysym = 0x1000570
+	KeyArmenianDza            Keysym = 0x1000571
+	KeyArmenianGhat           Keysym = 0x1000572
+	KeyArmenianTche           Keysym = 0x1000573
+	KeyArmenianMen            Keysym = 0x1000574
+	KeyArmenianHi             Keysym = 0x1000575
+	KeyArmenianNu             Keysym = 0x1000576
+	KeyArmenianSha            Keysym = 0x1000577
+	KeyArmenianVo             Keysym = 0x1000578
+	KeyArmenianCha            Keysym = 0x1000579
+	KeyArmenianPe             Keysym = 0x100057a
+	KeyArmenianJe             Keysym = 0x100057b
+	KeyArmenianRa             Keysym = 0x100057c
+	KeyArmenianSe             Keysym = 0x100057d
+	KeyArmenianVev            Keysym = 0x100057e
+	KeyArmenianTyun           Keysym = 0x100057f
+	KeyArmenianRe             Keysym = 0x1000580
+	KeyArmenianTso            Keysym = 0x1000581
+	KeyArmenianVyun           Keysym = 0x1000582
+	KeyArmenianPyur           Keysym = 0x1000583
+	KeyArmenianKe             Keysym = 0x1000584
+	KeyArmenianFe             Keysym = 0x1000586
+	KeyArmenianLigatureEw     Keysym = 0x1000587
+	KeyArmenianFullStop       Keysym = 0x1000589
+	KeyArmenianHyphen         Keysym = 0x100058a
+	KeyArabicMaddaAbove       Keysym = 0x1000653
+	KeyArabicHamzaAbove       Keysym = 0x1000654
+	KeyArabicHamzaBelow       Keysym = 0x1000655
+	KeyArabic0                Keysym = 0x1000660
+	KeyArabic1                Keysym = 0x1000661
+	KeyArabic2                Keysym = 0x1000662
+	KeyArabic3                Keysym = 0x1000663
+	KeyArabic4                Keysym = 0x1000664
+	KeyArabic5                Keysym = 0x1000665
+	KeyArabic6                Keysym = 0x1000666
+	KeyArabic7                Keysym = 0x1000667
+	KeyArabic8                Keysym = 0x1000668
+	KeyArabic9                Keysym = 0x1000669
+	KeyArabicPercent          Keysym = 0x100066a
+	KeyArabicSuperscriptAlef  Keysym = 0x1000670
+	KeyArabicTteh             Keysym = 0x1000679
+	KeyArabicPeh              Keysym = 0x100067e
+	KeyArabicTcheh            Keysym = 0x1000686
+	KeyArabicDdal             Keysym = 0x1000688
+	KeyArabicRreh             Keysym = 0x1000691
+	KeyArabicJeh              Keysym = 0x1000698
+	KeyArabicVeh              Keysym = 0x10006a4
+	KeyArabicKeheh            Keysym = 0x10006a9
+	KeyArabicGaf              Keysym = 0x10006af
+	KeyArabicNoonGhunna       Keysym = 0x10006ba
+	KeyArabicHehDoachashmee   Keysym = 0x10006be
+	KeyArabicHehGoal          Keysym = 0x10006c1
+	KeyFarsiYeh               Keysym = 0x10006cc
+	KeyArabicYehBaree         Keysym = 0x10006d2
+	KeyArabicFullstop         Keysym = 0x10006d4
+	KeyFarsi0                 Keysym = 0x10006f0
+	KeyFarsi1                 Keysym = 0x10006f1
+	KeyFarsi2                 Keysym = 0x10006f2
+	KeyFarsi3                 Keysym = 0x10006f3
+	KeyFarsi4                 Keysym = 0x10006f4
+	KeyFarsi5                 Keysym = 0x10006f5
+	KeyFarsi6                 Keysym = 0x10006f6
+	KeyFarsi7                 Keysym = 0x10006f7
+	KeyFarsi8                 Keysym = 0x10006f8
+	KeyFarsi9                 Keysym = 0x10006f9
+	KeySinhNg                 Keysym = 0x1000d82
+	KeySinhH2                 Keysym = 0x1000d83
+	KeySinhA                  Keysym = 0x1000d85
+	KeySinhAa                 Keysym = 0x1000d86
+	KeySinhAe                 Keysym = 0x1000d87
+	KeySinhAee                Keysym = 0x1000d88
+	KeySinhI                  Keysym = 0x1000d89
+	KeySinhIi                 Keysym = 0x1000d8a
+	KeySinhU                  Keysym = 0x1000d8b
+	KeySinhUu                 Keysym = 0x1000d8c
+	KeySinhRi                 Keysym = 0x1000d8d
+	KeySinhRii                Keysym = 0x1000d8e
+	KeySinhLu                 Keysym = 0x1000d8f
+	KeySinhLuu                Keysym = 0x1000d90
+	KeySinhE                  Keysym = 0x1000d91
+	KeySinhEe                 Keysym = 0x1000d92
+	KeySinhAi                 Keysym = 0x1000d93
+	KeySinhO                  Keysym = 0x1000d94
+	KeySinhOo                 Keysym = 0x1000d95
+	KeySinhAu                 Keysym = 0x1000d96
+	KeySinhKa                 Keysym = 0x1000d9a
+	KeySinhKha                Keysym = 0x1000d9b
+	KeySinhGa                 Keysym = 0x1000d9c
+	KeySinhGha                Keysym = 0x1000d9d
+	KeySinhNg2                Keysym = 0x1000d9e
+	KeySinhNga                Keysym = 0x1000d9f
+	KeySinhCa                 Keysym = 0x1000da0
+	KeySinhCha                Keysym = 0x1000da1
+	KeySinhJa                 Keysym = 0x1000da2
+	KeySinhJha                Keysym = 0x1000da3
+	KeySinhNya                Keysym = 0x1000da4
+	KeySinhJnya               Keysym = 0x1000da5
+	KeySinhNja                Keysym = 0x1000da6
+	KeySinhTta                Keysym = 0x1000da7
+	KeySinhTtha               Keysym = 0x1000da8
+	KeySinhDda                Keysym = 0x1000da9
+	KeySinhDdha               Keysym = 0x1000daa
+	KeySinhNna                Keysym = 0x1000dab
+	KeySinhNdda               Keysym = 0x1000dac
+	KeySinhTha                Keysym = 0x1000dad
+	KeySinhThha               Keysym = 0x1000dae
+	KeySinhDha                Keysym = 0x1000daf
+	KeySinhDhha               Keysym = 0x1000db0
+	KeySinhNa                 Keysym = 0x1000db1
+	KeySinhNdha               Keysym = 0x1000db3
+	KeySinhPa                 Keysym = 0x1000db4
+	KeySinhPha                Keysym = 0x1000db5
+	KeySinhBa                 Keysym = 0x1000db6
+	KeySinhBha                Keysym = 0x1000db7
+	KeySinhMa                 Keysym = 0x1000db8
+	KeySinhMba                Keysym = 0x1000db9
+	KeySinhYa                 Keysym = 0x1000dba
+	KeySinhRa                 Keysym = 0x1000dbb
+	KeySinhLa                 Keysym = 0x1000dbd
+	KeySinhVa                 Keysym = 0x1000dc0
+	KeySinhSha                Keysym = 0x1000dc1
+	KeySinhSsha               Keysym = 0x1000dc2
+	KeySinhSa                 Keysym = 0x1000dc3
+	KeySinhHa                 Keysym = 0x1000dc4
+	KeySinhLla                Keysym = 0x1000dc5
+	KeySinhFa                 Keysym = 0x1000dc6
+	KeySinhAl                 Keysym = 0x1000dca
+	KeySinhAa2                Keysym = 0x1000dcf
+	KeySinhAe2                Keysym = 0x1000dd0
+	KeySinhAee2               Keysym = 0x1000dd1
+	KeySinhI2                 Keysym = 0x1000dd2
+	KeySinhIi2                Keysym = 0x1000dd3
+	KeySinhU2                 Keysym = 0x1000dd4
+	KeySinhUu2                Keysym = 0x1000dd6
+	KeySinhRu2                Keysym = 0x1000dd8
+	KeySinhE2                 Keysym = 0x1000dd9
+	KeySinhEe2                Keysym = 0x1000dda
+	KeySinhAi2                Keysym = 0x1000ddb
+	KeySinhO2                 Keysym = 0x1000ddc
+	KeySinhOo2                Keysym = 0x1000ddd
+	KeySinhAu2                Keysym = 0x1000dde
+	KeySinhLu2                Keysym = 0x1000ddf
+	KeySinhRuu2               Keysym = 0x1000df2
+	KeySinhLuu2               Keysym = 0x1000df3
+	KeySinhKunddaliya         Keysym = 0x1000df4
+	KeyGeorgianAn             Keysym = 0x10010d0
+	KeyGeorgianBan            Keysym = 0x10010d1
+	KeyGeorgianGan            Keysym = 0x10010d2
+	KeyGeorgianDon            Keysym = 0x10010d3
+	KeyGeorgianEn             Keysym = 0x10010d4
+	KeyGeorgianVin            Keysym = 0x10010d5
+	KeyGeorgianZen            Keysym = 0x10010d6
+	KeyGeorgianTan            Keysym = 0x10010d7
+	KeyGeorgianIn             Keysym = 0x10010d8
+	KeyGeorgianKan            Keysym = 0x10010d9
+	KeyGeorgianLas            Keysym = 0x10010da
+	KeyGeorgianMan            Keysym = 0x10010db
+	KeyGeorgianNar            Keysym = 0x10010dc
+	KeyGeorgianOn             Keysym = 0x10010dd
+	KeyGeorgianPar            Keysym = 0x10010de
+	KeyGeorgianZhar           Keysym = 0x10010df
+	KeyGeorgianRae            Keysym = 0x10010e0
+	KeyGeorgianSan            Keysym = 0x10010e1
+	KeyGeorgianTar            Keysym = 0x10010e2
+	KeyGeorgianUn             Keysym = 0x10010e3
+	KeyGeorgianPhar           Keysym = 0x10010e4
+	KeyGeorgianKhar           Keysym = 0x10010e5
+	KeyGeorgianGhan           Keysym = 0x10010e6
+	KeyGeorgianQar            Keysym = 0x10010e7
+	KeyGeorgianShin           Keysym = 0x10010e8
+	KeyGeorgianChin           Keysym = 0x10010e9
+	KeyGeorgianCan            Keysym = 0x10010ea
+	KeyGeorgianJil            Keysym = 0x10010eb
+	KeyGeorgianCil            Keysym = 0x10010ec
+	KeyGeorgianChar           Keysym = 0x10010ed
+	KeyGeorgianXan            Keysym = 0x10010ee
+	KeyGeorgianJhan           Keysym = 0x10010ef
+	KeyGeorgianHae            Keysym = 0x10010f0
+	KeyGeorgianHe             Keysym = 0x10010f1
+	KeyGeorgianHie            Keysym = 0x10010f2
+	KeyGeorgianWe             Keysym = 0x10010f3
+	KeyGeorgianHar            Keysym = 0x10010f4
+	KeyGeorgianHoe            Keysym = 0x10010f5
+	KeyGeorgianFi             Keysym = 0x10010f6
+	KeyBabovedot              Keysym = 0x1001e02
+	KeyDabovedot              Keysym = 0x1001e0a
+	KeyFabovedot              Keysym = 0x1001e1e
+	KeyLbelowdot              Keysym = 0x1001e36
+	KeyMabovedot              Keysym = 0x1001e40
+	KeyPabovedot              Keysym = 0x1001e56
+	KeySabovedot              Keysym = 0x1001e60
+	KeyTabovedot              Keysym = 0x1001e6a
+	KeyWgrave                 Keysym = 0x1001e80
+	KeyWacute                 Keysym = 0x1001e82
+	KeyWdiaeresis             Keysym = 0x1001e84
+	KeyXabovedot              Keysym = 0x1001e8a
+	KeyAbelowdot              Keysym = 0x1001ea0
+	KeyAhook                  Keysym = 0x1001ea2
+	KeyAcircumflexacute       Keysym = 0x1001ea4
+	KeyAcircumflexgrave       Keysym = 0x1001ea6
+	KeyAcircumflexhook        Keysym = 0x1001ea8
+	KeyAcircumflextilde       Keysym = 0x1001eaa
+	KeyAcircumflexbelowdot    Keysym = 0x1001eac
+	KeyAbreveacute            Keysym = 0x1001eae
+	KeyAbrevegrave            Keysym = 0x1001eb0
+	KeyAbrevehook             Keysym = 0x1001eb2
+	KeyAbrevetilde            Keysym = 0x1001eb4
+	KeyAbrevebelowdot         Keysym = 0x1001eb6
+	KeyEbelowdot              Keysym = 0x1001eb8
+	KeyEhook                  Keysym = 0x1001eba
+	KeyEtilde                 Keysym = 0x1001ebc
+	KeyEcircumflexacute       Keysym = 0x1001ebe
+	KeyEcircumflexgrave       Keysym = 0x1001ec0
+	KeyEcircumflexhook        Keysym = 0x1001ec2
+	KeyEcircumflextilde       Keysym = 0x1001ec4
+	KeyEcircumflexbelowdot    Keysym = 0x1001ec6
+	KeyIhook                  Keysym = 0x1001ec8
+	KeyIbelowdot              Keysym = 0x1001eca
+	KeyObelowdot              Keysym = 0x1001ecc
+	KeyOhook                  Keysym = 0x1001ece
+	KeyOcircumflexacute       Keysym = 0x1001ed0
+	KeyOcircumflexgrave       Keysym = 0x1001ed2
+	KeyOcircumflexhook        Keysym = 0x1001ed4
+	KeyOcircumflextilde       Keysym = 0x1001ed6
+	KeyOcircumflexbelowdot    Keysym = 0x1001ed8
+	KeyOhornacute             Keysym = 0x1001eda
+	KeyOhorngrave             Keysym = 0x1001edc
+	KeyOhornhook              Keysym = 0x1001ede
+	KeyOhorntilde             Keysym = 0x1001ee0
+	KeyOhornbelowdot          Keysym = 0x1001ee2
+	KeyUbelowdot              Keysym = 0x1001ee4
+	KeyUhook                  Keysym = 0x1001ee6
+	KeyUhornacute             Keysym = 0x1001ee8
+	KeyUhorngrave             Keysym = 0x1001eea
+	KeyUhornhook              Keysym = 0x1001eec
+	KeyUhorntilde             Keysym = 0x1001eee
+	KeyUhornbelowdot          Keysym = 0x1001ef0
+	KeyYgrave                 Keysym = 0x1001ef2
+	KeyYbelowdot              Keysym = 0x1001ef4
+	KeyYhook                  Keysym = 0x1001ef6
+	KeyYtilde                 Keysym = 0x1001ef8
+	KeyZerosuperior           Keysym = 0x1002070
+	KeyFoursuperior           Keysym = 0x1002074
+	KeyFivesuperior           Keysym = 0x1002075
+	KeySixsuperior            Keysym = 0x1002076
+	KeySevensuperior          Keysym = 0x1002077
+	KeyEightsuperior          Keysym = 0x1002078
+	KeyNinesuperior           Keysym = 0x1002079
+	KeyZerosubscript          Keysym = 0x1002080
+	KeyOnesubscript           Keysym = 0x1002081
+	KeyTwosubscript           Keysym = 0x1002082
+	KeyThreesubscript         Keysym = 0x1002083
+	KeyFoursubscript          Keysym = 0x1002084
+	KeyFivesubscript          Keysym = 0x1002085
+	KeySixsubscript           Keysym = 0x1002086
+	KeySevensubscript         Keysym = 0x1002087
+	KeyEightsubscript         Keysym = 0x1002088
+	KeyNinesubscript          Keysym = 0x1002089
+	KeyEcuSign                Keysym = 0x10020a0
+	KeyColonSign              Keysym = 0x10020a1
+	KeyCruzeiroSign           Keysym = 0x10020a2
+	KeyFFrancSign             Keysym = 0x10020a3
+	KeyLiraSign               Keysym = 0x10020a4
+	KeyMillSign               Keysym = 0x10020a5
+	KeyNairaSign              Keysym = 0x10020a6
+	KeyPesetaSign             Keysym = 0x10020a7
+	KeyRupeeSign              Keysym = 0x10020a8
+	KeyWonSign                Keysym = 0x10020a9
+	KeyNewSheqelSign          Keysym = 0x10020aa
+	KeyDongSign               Keysym = 0x10020ab
+	KeyPartdifferential       Keysym = 0x1002202
+	KeyEmptyset               Keysym = 0x1002205
+	KeyElementof              Keysym = 0x1002208
+	KeyNotelementof           Keysym = 0x1002209
+	KeyContainsas             Keysym = 0x100220b
+	KeySquareroot             Keysym = 0x100221a
+	KeyCuberoot               Keysym = 0x100221b
+	KeyFourthroot             Keysym = 0x100221c
+	KeyDintegral              Keysym = 0x100222c
+	KeyTintegral              Keysym = 0x100222d
+	KeyBecause                Keysym = 0x1002235
+	KeyNotapproxeq            Keysym = 0x1002247
+	KeyApproxeq               Keysym = 0x1002248
+	KeyNotidentical           Keysym = 0x1002262
+	KeyStricteq               Keysym = 0x1002263
+	KeyBrailleBlank           Keysym = 0x1002800
+	KeyBrailleDots1           Keysym = 0x1002801
+	KeyBrailleDots2           Keysym = 0x1002802
+	KeyBrailleDots12          Keysym = 0x1002803
+	KeyBrailleDots3           Keysym = 0x1002804
+	KeyBrailleDots13          Keysym = 0x1002805
+	KeyBrailleDots23          Keysym = 0x1002806
+	KeyBrailleDots123         Keysym = 0x1002807
+	KeyBrailleDots4           Keysym = 0x1002808
+	KeyBrailleDots14          Keysym = 0x1002809
+	KeyBrailleDots24          Keysym = 0x100280a
+	KeyBrailleDots124         Keysym = 0x100280b
+	KeyBrailleDots34          Keysym = 0x100280c
+	KeyBrailleDots134         Keysym = 0x100280d
+	KeyBrailleDots234         Keysym = 0x100280e
+	KeyBrailleDots1234        Keysym = 0x100280f
+	KeyBrailleDots5           Keysym = 0x1002810
+	KeyBrailleDots15          Keysym = 0x1002811
+	KeyBrailleDots25          Keysym = 0x1002812
+	KeyBrailleDots125         Keysym = 0x1002813
+	KeyBrailleDots35          Keysym = 0x1002814
+	KeyBrailleDots135         Keysym = 0x1002815
+	KeyBrailleDots235         Keysym = 0x1002816
+	KeyBrailleDots1235        Keysym = 0x1002817
+	KeyBrailleDots45          Keysym = 0x1002818
+	KeyBrailleDots145         Keysym = 0x1002819
+	KeyBrailleDots245         Keysym = 0x100281a
+	KeyBrailleDots1245        Keysym = 0x100281b
+	KeyBrailleDots345         Keysym = 0x100281c
+	KeyBrailleDots1345        Keysym = 0x100281d
+	KeyBrailleDots2345        Keysym = 0x100281e
+	KeyBrailleDots12345       Keysym = 0x100281f
+	KeyBrailleDots6           Keysym = 0x1002820
+	KeyBrailleDots16          Keysym = 0x1002821
+	KeyBrailleDots26          Keysym = 0x1002822
+	KeyBrailleDots126         Keysym = 0x1002823
+	KeyBrailleDots36          Keysym = 0x1002824
+	KeyBrailleDots136         Keysym = 0x1002825
+	KeyBrailleDots236         Keysym = 0x1002826
+	KeyBrailleDots1236        Keysym = 0x1002827
+	KeyBrailleDots46          Keysym = 0x1002828
+	KeyBrailleDots146         Keysym = 0x1002829
+	KeyBrailleDots246         Keysym = 0x100282a
+	KeyBrailleDots1246        Keysym = 0x100282b
+	KeyBrailleDots346         Keysym = 0x100282c
+	KeyBrailleDots1346        Keysym = 0x100282d
+	KeyBrailleDots2346        Keysym = 0x100282e
+	KeyBrailleDots12346       Keysym = 0x100282f
+	KeyBrailleDots56          Keysym = 0x1002830
+	KeyBrailleDots156         Keysym = 0x1002831
+	KeyBrailleDots256         Keysym = 0x1002832
+	KeyBrailleDots1256        Keysym = 0x1002833
+	KeyBrailleDots356         Keysym = 0x1002834
+	KeyBrailleDots1356        Keysym = 0x1002835
+	KeyBrailleDots2356        Keysym = 0x1002836
+	KeyBrailleDots12356       Keysym = 0x1002837
+	KeyBrailleDots456         Keysym = 0x1002838
+	KeyBrailleDots1456        Keysym = 0x1002839
+	KeyBrailleDots2456        Keysym = 0x100283a
+	KeyBrailleDots12456       Keysym = 0x100283b
+	KeyBrailleDots3456        Keysym = 0x100283c
+	KeyBrailleDots13456       Keysym = 0x100283d
+	KeyBrailleDots23456       Keysym = 0x100283e
+	KeyBrailleDots123456      Keysym = 0x100283f
+	KeyBrailleDots7           Keysym = 0x1002840
+	KeyBrailleDots17          Keysym = 0x1002841
+	KeyBrailleDots27          Keysym = 0x1002842
+	KeyBrailleDots127         Keysym = 0x1002843
+	KeyBrailleDots37          Keysym = 0x1002844
+	KeyBrailleDots137         Keysym = 0x1002845
+	KeyBrailleDots237         Keysym = 0x1002846
+	KeyBrailleDots1237        Keysym = 0x1002847
+	KeyBrailleDots47          Keysym = 0x1002848
+	KeyBrailleDots147         Keysym = 0x1002849
+	KeyBrailleDots247         Keysym = 0x100284a
+	KeyBrailleDots1247        Keysym = 0x100284b
+	KeyBrailleDots347         Keysym = 0x100284c
+	KeyBrailleDots1347        Keysym = 0x100284d
+	KeyBrailleDots2347        Keysym = 0x100284e
+	KeyBrailleDots12347       Keysym = 0x100284f
+	KeyBrailleDots57          Keysym = 0x1002850
+	KeyBrailleDots157         Keysym = 0x1002851
+	KeyBrailleDots257         Keysym = 0x1002852
+	KeyBrailleDots1257        Keysym = 0x1002853
+	KeyBrailleDots357         Keysym = 0x1002854
+	KeyBrailleDots1357        Keysym = 0x1002855
+	KeyBrailleDots2357        Keysym = 0x1002856
+	KeyBrailleDots12357       Keysym = 0x1002857
+	KeyBrailleDots457         Keysym = 0x1002858
+	KeyBrailleDots1457        Keysym = 0x1002859
+	KeyBrailleDots2457        Keysym = 0x100285a
+	KeyBrailleDots12457       Keysym = 0x100285b
+	KeyBrailleDots3457        Keysym = 0x100285c
+	KeyBrailleDots13457       Keysym = 0x100285d
+	KeyBrailleDots23457       Keysym = 0x100285e
+	KeyBrailleDots123457      Keysym = 0x100285f
+	KeyBrailleDots67          Keysym = 0x1002860
+	KeyBrailleDots167         Keysym = 0x1002861
+	KeyBrailleDots267         Keysym = 0x1002862
+	KeyBrailleDots1267        Keysym = 0x1002863
+	KeyBrailleDots367         Keysym = 0x1002864
+	KeyBrailleDots1367        Keysym = 0x1002865
+	KeyBrailleDots2367        Keysym = 0x1002866
+	KeyBrailleDots12367       Keysym = 0x1002867
+	KeyBrailleDots467         Keysym = 0x1002868
+	KeyBrailleDots1467        Keysym = 0x1002869
+	KeyBrailleDots2467        Keysym = 0x100286a
+	KeyBrailleDots12467       Keysym = 0x100286b
+	KeyBrailleDots3467        Keysym = 0x100286c
+	KeyBrailleDots13467       Keysym = 0x100286d
+	KeyBrailleDots23467       Keysym = 0x100286e
+	KeyBrailleDots123467      Keysym = 0x100286f
+	KeyBrailleDots567         Keysym = 0x1002870
+	KeyBrailleDots1567        Keysym = 0x1002871
+	KeyBrailleDots2567        Keysym = 0x1002872
+	KeyBrailleDots12567       Keysym = 0x1002873
+	KeyBrailleDots3567        Keysym = 0x1002874
+	KeyBrailleDots13567       Keysym = 0x1002875
+	KeyBrailleDots23567       Keysym = 0x1002876
+	KeyBrailleDots123567      Keysym = 0x1002877
+	KeyBrailleDots4567        Keysym = 0x1002878
+	KeyBrailleDots14567       Keysym = 0x1002879
+	KeyBrailleDots24567       Keysym = 0x100287a
+	KeyBrailleDots124567      Keysym = 0x100287b
+	KeyBrailleDots34567       Keysym = 0x100287c
+	KeyBrailleDots134567      Keysym = 0x100287d
+	KeyBrailleDots234567      Keysym = 0x100287e
+	KeyBrailleDots1234567     Keysym = 0x100287f
+	KeyBrailleDots8           Keysym = 0x1002880
+	KeyBrailleDots18          Keysym = 0x1002881
+	KeyBrailleDots28          Keysym = 0x1002882
+	KeyBrailleDots128         Keysym = 0x1002883
+	KeyBrailleDots38          Keysym = 0x1002884
+	KeyBrailleDots138         Keysym = 0x1002885
+	KeyBrailleDots238         Keysym = 0x1002886
+	KeyBrailleDots1238        Keysym = 0x1002887
+	KeyBrailleDots48          Keysym = 0x1002888
+	KeyBrailleDots148         Keysym = 0x1002889
+	KeyBrailleDots248         Keysym = 0x100288a
+	KeyBrailleDots1248        Keysym = 0x100288b
+	KeyBrailleDots348         Keysym = 0x100288c
+	KeyBrailleDots1348        Keysym = 0x100288d
+	KeyBrailleDots2348        Keysym = 0x100288e
+	KeyBrailleDots12348       Keysym = 0x100288f
+	KeyBrailleDots58          Keysym = 0x1002890
+	KeyBrailleDots158         Keysym = 0x1002891
+	KeyBrailleDots258         Keysym = 0x1002892
+	KeyBrailleDots1258        Keysym = 0x1002893
+	KeyBrailleDots358         Keysym = 0x1002894
+	KeyBrailleDots1358        Keysym = 0x1002895
+	KeyBrailleDots2358        Keysym = 0x1002896
+	KeyBrailleDots12358       Keysym = 0x1002897
+	KeyBrailleDots458         Keysym = 0x1002898
+	KeyBrailleDots1458        Keysym = 0x1002899
+	KeyBrailleDots2458        Keysym = 0x100289a
+	KeyBrailleDots12458       Keysym = 0x100289b
+	KeyBrailleDots3458        Keysym = 0x100289c
+	KeyBrailleDots13458       Keysym = 0x100289d
+	KeyBrailleDots23458       Keysym = 0x100289e
+	KeyBrailleDots123458      Keysym = 0x100289f
+	KeyBrailleDots68          Keysym = 0x10028a0
+	KeyBrailleDots168         Keysym = 0x10028a1
+	KeyBrailleDots268         Keysym = 0x10028a2
+	KeyBrailleDots1268        Keysym = 0x10028a3
+	KeyBrailleDots368         Keysym = 0x10028a4
+	KeyBrailleDots1368        Keysym = 0x10028a5
+	KeyBrailleDots2368        Keysym = 0x10028a6
+	KeyBrailleDots12368       Keysym = 0x10028a7
+	KeyBrailleDots468         Keysym = 0x10028a8
+	KeyBrailleDots1468        Keysym = 0x10028a9
+	KeyBrailleDots2468        Keysym = 0x10028aa
+	KeyBrailleDots12468       Keysym = 0x10028ab
+	KeyBrailleDots3468        Keysym = 0x10028ac
+	KeyBrailleDots13468       Keysym = 0x10028ad
+	KeyBrailleDots23468       Keysym = 0x10028ae
+	KeyBrailleDots123468      Keysym = 0x10028af
+	KeyBrailleDots568         Keysym = 0x10028b0
+	KeyBrailleDots1568        Keysym = 0x10028b1
+	KeyBrailleDots2568        Keysym = 0x10028b2
+	KeyBrailleDots12568       Keysym = 0x10028b3
+	KeyBrailleDots3568        Keysym = 0x10028b4
+	KeyBrailleDots13568       Keysym = 0x10028b5
+	KeyBrailleDots23568       Keysym = 0x10028b6
+	KeyBrailleDots123568      Keysym = 0x10028b7
+	KeyBrailleDots4568        Keysym = 0x10028b8
+	KeyBrailleDots14568       Keysym = 0x10028b9
+	KeyBrailleDots24568       Keysym = 0x10028ba
+	KeyBrailleDots124568      Keysym = 0x10028bb
+	KeyBrailleDots34568       Keysym = 0x10028bc
+	KeyBrailleDots134568      Keysym = 0x10028bd
+	KeyBrailleDots234568      Keysym = 0x10028be
+	KeyBrailleDots1234568     Keysym = 0x10028bf
+	KeyBrailleDots78          Keysym = 0x10028c0
+	KeyBrailleDots178         Keysym = 0x10028c1
+	KeyBrailleDots278         Keysym = 0x10028c2
+	KeyBrailleDots1278        Keysym = 0x10028c3
+	KeyBrailleDots378         Keysym = 0x10028c4
+	KeyBrailleDots1378        Keysym = 0x10028c5
+	KeyBrailleDots2378        Keysym = 0x10028c6
+	KeyBrailleDots12378       Keysym = 0x10028c7
+	KeyBrailleDots478         Keysym = 0x10028c8
+	KeyBrailleDots1478        Keysym = 0x10028c9
+	KeyBrailleDots2478        Keysym = 0x10028ca
+	KeyBrailleDots12478       Keysym = 0x10028cb
+	KeyBrailleDots3478        Keysym = 0x10028cc
+	KeyBrailleDots13478       Keysym = 0x10028cd
+	KeyBrailleDots23478       Keysym = 0x10028ce
+	KeyBrailleDots123478      Keysym = 0x10028cf
+	KeyBrailleDots578         Keysym = 0x10028d0
+	KeyBrailleDots1578        Keysym = 0x10028d1
+	KeyBrailleDots2578        Keysym = 0x10028d2
+	KeyBrailleDots12578       Keysym = 0x10028d3
+	KeyBrailleDots3578        Keysym = 0x10028d4
+	KeyBrailleDots13578       Keysym = 0x10028d5
+	KeyBrailleDots23578       Keysym = 0x10028d6
+	KeyBrailleDots123578      Keysym = 0x10028d7
+	KeyBrailleDots4578        Keysym = 0x10028d8
+	KeyBrailleDots14578       Keysym = 0x10028d9
+	KeyBrailleDots24578       Keysym = 0x10028da
+	KeyBrailleDots124578      Keysym = 0x10028db
+	KeyBrailleDots34578       Keysym = 0x10028dc
+	KeyBrailleDots134578      Keysym = 0x10028dd
+	KeyBrailleDots234578      Keysym = 0x10028de
+	KeyBrailleDots1234578     Keysym = 0x10028df
+	KeyBrailleDots678         Keysym = 0x10028e0
+	KeyBrailleDots1678        Keysym = 0x10028e1
+	KeyBrailleDots2678        Keysym = 0x10028e2
+	KeyBrailleDots12678       Keysym = 0x10028e3
+	KeyBrailleDots3678        Keysym = 0x10028e4
+	KeyBrailleDots13678       Keysym = 0x10028e5
+	KeyBrailleDots23678       Keysym = 0x10028e6
+	KeyBrailleDots123678      Keysym = 0x10028e7
+	KeyBrailleDots4678        Keysym = 0x10028e8
+	KeyBrailleDots14678       Keysym = 0x10028e9
+	KeyBrailleDots24678       Keysym = 0x10028ea
+	KeyBrailleDots124678      Keysym = 0x10028eb
+	KeyBrailleDots34678       Keysym = 0x10028ec
+	KeyBrailleDots134678      Keysym = 0x10028ed
+	KeyBrailleDots234678      Keysym = 0x10028ee
+	KeyBrailleDots1234678     Keysym = 0x10028ef
+	KeyBrailleDots5678        Keysym = 0x10028f0
+	KeyBrailleDots15678       Keysym = 0x10028f1
+	KeyBrailleDots25678       Keysym = 0x10028f2
+	KeyBrailleDots125678      Keysym = 0x10028f3
+	KeyBrailleDots35678       Keysym = 0x10028f4
+	KeyBrailleDots135678      Keysym = 0x10028f5
+	KeyBrailleDots235678      Keysym = 0x10028f6
+	KeyBrailleDots1235678     Keysym = 0x10028f7
+	KeyBrailleDots45678       Keysym = 0x10028f8
+	KeyBrailleDots145678      Keysym = 0x10028f9
+	KeyBrailleDots245678      Keysym = 0x10028fa
+	KeyBrailleDots1245678     Keysym = 0x10028fb
+	KeyBrailleDots345678      Keysym = 0x10028fc
+	KeyBrailleDots1345678     Keysym = 0x10028fd
+	KeyBrailleDots2345678     Keysym = 0x10028fe
+	KeyBrailleDots12345678    Keysym = 0x10028ff
 
 	// Other
-	KeySwitchVT1 Keysym = 0x1008fe01
-	KeySwitchVT2 Keysym = 0x1008fe02
-	KeySwitchVT3 Keysym = 0x1008fe03
-	KeySwitchVT4 Keysym = 0x1008fe04
-	KeySwitchVT5 Keysym = 0x1008fe05
-	KeySwitchVT6 Keysym = 0x1008fe06
-	KeySwitchVT7 Keysym = 0x1008fe07
-	KeySwitchVT8 Keysym = 0x1008fe08
-	KeySwitchVT9 Keysym = 0x1008fe09
-	KeySwitchVT10 Keysym = 0x1008fe0a
-	KeySwitchVT11 Keysym = 0x1008fe0b
-	KeySwitchVT12 Keysym = 0x1008fe0c
-	KeyUngrab Keysym = 0x1008fe20
-	KeyClearGrab Keysym = 0x1008fe21
-	KeyNextVMode Keysym = 0x1008fe22
-	KeyPrevVMode Keysym = 0x1008fe23
+	KeySwitchVT1     Keysym = 0x1008fe01
+	KeySwitchVT2     Keysym = 0x1008fe02
+	KeySwitchVT3     Keysym = 0x1008fe03
+	KeySwitchVT4     Keysym = 0x1008fe04
+	KeySwitchVT5     Keysym = 0x1008fe05
+	KeySwitchVT6     Keysym = 0x1008fe06
+	KeySwitchVT7     Keysym = 0x1008fe07
+	KeySwitchVT8     Keysym = 0x1008fe08
+	KeySwitchVT9     Keysym = 0x1008fe09
+	KeySwitchVT10    Keysym = 0x1008fe0a
+	KeySwitchVT11    Keysym = 0x1008fe0b
+	KeySwitchVT12    Keysym = 0x1008fe0c
+	KeyUngrab        Keysym = 0x1008fe20
+	KeyClearGrab     Keysym = 0x1008fe21
+	KeyNextVMode     Keysym = 0x1008fe22
+	KeyPrevVMode     Keysym = 0x1008fe23
 	KeyLogWindowTree Keysym = 0x1008fe24
-	KeyLogGrabInfo Keysym = 0x1008fe25
+	KeyLogGrabInfo   Keysym = 0x1008fe25
 
 	// XF86 Keys (Multimedia/Special)
-	KeyModeLock Keysym = 0x1008ff01
-	KeyMonBrightnessUp Keysym = 0x1008ff02
-	KeyMonBrightnessDown Keysym = 0x1008ff03
-	KeyKbdLightOnOff Keysym = 0x1008ff04
-	KeyKbdBrightnessUp Keysym = 0x1008ff05
-	KeyKbdBrightnessDown Keysym = 0x1008ff06
+	KeyModeLock           Keysym = 0x1008ff01
+	KeyMonBrightnessUp    Keysym = 0x1008ff02
+	KeyMonBrightnessDown  Keysym = 0x1008ff03
+	KeyKbdLightOnOff      Keysym = 0x1008ff04
+	KeyKbdBrightnessUp    Keysym = 0x1008ff05
+	KeyKbdBrightnessDown  Keysym = 0x1008ff06
 	KeyMonBrightnessCycle Keysym = 0x1008ff07
-	KeyStandby Keysym = 0x1008ff10
-	KeyAudioLowerVolume Keysym = 0x1008ff11
-	KeyAudioMute Keysym = 0x1008ff12
-	KeyAudioRaiseVolume Keysym = 0x1008ff13
-	KeyAudioPlay Keysym = 0x1008ff14
-	KeyAudioStop Keysym = 0x1008ff15
-	KeyAudioPrev Keysym = 0x1008ff16
-	KeyAudioNext Keysym = 0x1008ff17
-	KeyHomePage Keysym = 0x1008ff18
-	KeyMail Keysym = 0x1008ff19
-	KeyStart Keysym = 0x1008ff1a
-	KeySearch Keysym = 0x1008ff1b
-	KeyAudioRecord Keysym = 0x1008ff1c
-	KeyCalculator Keysym = 0x1008ff1d
-	KeyMemo Keysym = 0x1008ff1e
-	KeyToDoList Keysym = 0x1008ff1f
-	KeyCalendar Keysym = 0x1008ff20
-	KeyPowerDown Keysym = 0x1008ff21
-	KeyContrastAdjust Keysym = 0x1008ff22
-	KeyRockerUp Keysym = 0x1008ff23
-	KeyRockerDown Keysym = 0x1008ff24
-	KeyRockerEnter Keysym = 0x1008ff25
-	KeyBack Keysym = 0x1008ff26
-	KeyForward Keysym = 0x1008ff27
-	KeyStop Keysym = 0x1008ff28
-	KeyRefresh Keysym = 0x1008ff29
-	KeyPowerOff Keysym = 0x1008ff2a
-	KeyWakeUp Keysym = 0x1008ff2b
-	KeyEject Keysym = 0x1008ff2c
-	KeyScreenSaver Keysym = 0x1008ff2d
-	KeyWWW Keysym = 0x1008ff2e
-	KeySleep Keysym = 0x1008ff2f
-	KeyFavorites Keysym = 0x1008ff30
-	KeyAudioPause Keysym = 0x1008ff31
-	KeyAudioMedia Keysym = 0x1008ff32
-	KeyMyComputer Keysym = 0x1008ff33
-	KeyVendorHome Keysym = 0x1008ff34
-	KeyLightBulb Keysym = 0x1008ff35
-	KeyShop Keysym = 0x1008ff36
-	KeyHistory Keysym = 0x1008ff37
-	KeyOpenURL Keysym = 0x1008ff38
-	KeyAddFavorite Keysym = 0x1008ff39
-	KeyHotLinks Keysym = 0x1008ff3a
-	KeyBrightnessAdjust Keysym = 0x1008ff3b
-	KeyFinance Keysym = 0x1008ff3c
-	KeyCommunity Keysym = 0x1008ff3d
-	KeyAudioRewind Keysym = 0x1008ff3e
-	KeyBackForward Keysym = 0x1008ff3f
-	KeyLaunch0 Keysym = 0x1008ff40
-	KeyLaunch1 Keysym = 0x1008ff41
-	KeyLaunch2 Keysym = 0x1008ff42
-	KeyLaunch3 Keysym = 0x1008ff43
-	KeyLaunch4 Keysym = 0x1008ff44
-	KeyLaunch5 Keysym = 0x1008ff45
-	KeyLaunch6 Keysym = 0x1008ff46
-	KeyLaunch7 Keysym = 0x1008ff47
-	KeyLaunch8 Keysym = 0x1008ff48
-	KeyLaunch9 Keysym = 0x1008ff49
-	KeyLaunchA Keysym = 0x1008ff4a
-	KeyLaunchB Keysym = 0x1008ff4b
-	KeyLaunchC Keysym = 0x1008ff4c
-	KeyLaunchD Keysym = 0x1008ff4d
-	KeyLaunchE Keysym = 0x1008ff4e
-	KeyLaunchF Keysym = 0x1008ff4f
-	KeyApplicationLeft Keysym = 0x1008ff50
-	KeyApplicationRight Keysym = 0x1008ff51
-	KeyBook Keysym = 0x1008ff52
-	KeyCD Keysym = 0x1008ff53
-	KeyCalculater Keysym = 0x1008ff54
-	KeyClose Keysym = 0x1008ff56
-	KeyCopy Keysym = 0x1008ff57
-	KeyCut Keysym = 0x1008ff58
-	KeyDisplay Keysym = 0x1008ff59
-	KeyDOS Keysym = 0x1008ff5a
-	KeyDocuments Keysym = 0x1008ff5b
-	KeyExcel Keysym = 0x1008ff5c
-	KeyExplorer Keysym = 0x1008ff5d
-	KeyGame Keysym = 0x1008ff5e
-	KeyGo Keysym = 0x1008ff5f
-	KeyITouch Keysym = 0x1008ff60
-	KeyLogOff Keysym = 0x1008ff61
-	KeyMarket Keysym = 0x1008ff62
-	KeyMeeting Keysym = 0x1008ff63
-	KeyMenuKB Keysym = 0x1008ff65
-	KeyMenuPB Keysym = 0x1008ff66
-	KeyMySites Keysym = 0x1008ff67
-	KeyNew Keysym = 0x1008ff68
-	KeyNews Keysym = 0x1008ff69
-	KeyOfficeHome Keysym = 0x1008ff6a
-	KeyOpen Keysym = 0x1008ff6b
-	KeyOption Keysym = 0x1008ff6c
-	KeyPaste Keysym = 0x1008ff6d
-	KeyPhone Keysym = 0x1008ff6e
-	KeyReply Keysym = 0x1008ff72
-	KeyReload Keysym = 0x1008ff73
-	KeyRotateWindows Keysym = 0x1008ff74
-	KeyRotationPB Keysym = 0x1008ff75
-	KeyRotationKB Keysym = 0x1008ff76
-	KeySave Keysym = 0x1008ff77
-	KeyScrollUp Keysym = 0x1008ff78
-	KeyScrollDown Keysym = 0x1008ff79
-	KeyScrollClick Keysym = 0x1008ff7a
-	KeySend Keysym = 0x1008ff7b
-	KeySpell Keysym = 0x1008ff7c
-	KeySplitScreen Keysym = 0x1008ff7d
-	KeySupport Keysym = 0x1008ff7e
-	KeyTaskPane Keysym = 0x1008ff7f
-	KeyTerminal Keysym = 0x1008ff80
-	KeyTools Keysym = 0x1008ff81
-	KeyTravel Keysym = 0x1008ff82
-	KeyUserPB Keysym = 0x1008ff84
-	KeyUser1KB Keysym = 0x1008ff85
-	KeyUser2KB Keysym = 0x1008ff86
-	KeyVideo Keysym = 0x1008ff87
-	KeyWheelButton Keysym = 0x1008ff88
-	KeyWord Keysym = 0x1008ff89
-	KeyXfer Keysym = 0x1008ff8a
-	KeyZoomIn Keysym = 0x1008ff8b
-	KeyZoomOut Keysym = 0x1008ff8c
-	KeyAway Keysym = 0x1008ff8d
-	KeyMessenger Keysym = 0x1008ff8e
-	KeyWebCam Keysym = 0x1008ff8f
-	KeyMailForward Keysym = 0x1008ff90
-	KeyPictures Keysym = 0x1008ff91
-	KeyMusic Keysym = 0x1008ff92
-	KeyBattery Keysym = 0x1008ff93
-	KeyBluetooth Keysym = 0x1008ff94
-	KeyWLAN Keysym = 0x1008ff95
-	KeyUWB Keysym = 0x1008ff96
-	KeyAudioForward Keysym = 0x1008ff97
-	KeyAudioRepeat Keysym = 0x1008ff98
-	KeyAudioRandomPlay Keysym = 0x1008ff99
-	KeySubtitle Keysym = 0x1008ff9a
-	KeyAudioCycleTrack Keysym = 0x1008ff9b
-	KeyCycleAngle Keysym = 0x1008ff9c
-	KeyFrameBack Keysym = 0x1008ff9d
-	KeyFrameForward Keysym = 0x1008ff9e
-	KeyTime Keysym = 0x1008ff9f
-	KeyView Keysym = 0x1008ffa1
-	KeyTopMenu Keysym = 0x1008ffa2
-	KeyRed Keysym = 0x1008ffa3
-	KeyGreen Keysym = 0x1008ffa4
-	KeyYellow Keysym = 0x1008ffa5
-	KeyBlue Keysym = 0x1008ffa6
-	KeySuspend Keysym = 0x1008ffa7
-	KeyHibernate Keysym = 0x1008ffa8
-	KeyTouchpadToggle Keysym = 0x1008ffa9
-	KeyTouchpadOn Keysym = 0x1008ffb0
-	KeyTouchpadOff Keysym = 0x1008ffb1
-	KeyAudioMicMute Keysym = 0x1008ffb2
-	KeyKeyboard Keysym = 0x1008ffb3
-	KeyWWAN Keysym = 0x1008ffb4
-	KeyRFKill Keysym = 0x1008ffb5
-	KeyAudioPreset Keysym = 0x1008ffb6
+	KeyStandby            Keysym = 0x1008ff10
+	KeyAudioLowerVolume   Keysym = 0x1008ff11
+	KeyAudioMute          Keysym = 0x1008ff12
+	KeyAudioRaiseVolume   Keysym = 0x1008ff13
+	KeyAudioPlay          Keysym = 0x1008ff14
+	KeyAudioStop          Keysym = 0x1008ff15
+	KeyAudioPrev          Keysym = 0x1008ff16
+	KeyAudioNext          Keysym = 0x1008ff17
+	KeyHomePage           Keysym = 0x1008ff18
+	KeyMail               Keysym = 0x1008ff19
+	KeyStart              Keysym = 0x1008ff1a
+	KeySearch             Keysym = 0x1008ff1b
+	KeyAudioRecord        Keysym = 0x1008ff1c
+	KeyCalculator         Keysym = 0x1008ff1d
+	KeyMemo               Keysym = 0x1008ff1e
+	KeyToDoList           Keysym = 0x1008ff1f
+	KeyCalendar           Keysym = 0x1008ff20
+	KeyPowerDown          Keysym = 0x1008ff21
+	KeyContrastAdjust     Keysym = 0x1008ff22
+	KeyRockerUp           Keysym = 0x1008ff23
+	KeyRockerDown         Keysym = 0x1008ff24
+	KeyRockerEnter        Keysym = 0x1008ff25
+	KeyBack               Keysym = 0x1008ff26
+	KeyForward            Keysym = 0x1008ff27
+	KeyStop               Keysym = 0x1008ff28
+	KeyRefresh            Keysym = 0x1008ff29
+	KeyPowerOff           Keysym = 0x1008ff2a
+	KeyWakeUp             Keysym = 0x1008ff2b
+	KeyEject              Keysym = 0x1008ff2c
+	KeyScreenSaver        Keysym = 0x1008ff2d
+	KeyWWW                Keysym = 0x1008ff2e
+	KeySleep              Keysym = 0x1008ff2f
+	KeyFavorites          Keysym = 0x1008ff30
+	KeyAudioPause         Keysym = 0x1008ff31
+	KeyAudioMedia         Keysym = 0x1008ff32
+	KeyMyComputer         Keysym = 0x1008ff33
+	KeyVendorHome         Keysym = 0x1008ff34
+	KeyLightBulb          Keysym = 0x1008ff35
+	KeyShop               Keysym = 0x1008ff36
+	KeyHistory            Keysym = 0x1008ff37
+	KeyOpenURL            Keysym = 0x1008ff38
+	KeyAddFavorite        Keysym = 0x1008ff39
+	KeyHotLinks           Keysym = 0x1008ff3a
+	KeyBrightnessAdjust   Keysym = 0x1008ff3b
+	KeyFinance            Keysym = 0x1008ff3c
+	KeyCommunity          Keysym = 0x1008ff3d
+	KeyAudioRewind        Keysym = 0x1008ff3e
+	KeyBackForward        Keysym = 0x1008ff3f
+	KeyLaunch0            Keysym = 0x1008ff40
+	KeyLaunch1            Keysym = 0x1008ff41
+	KeyLaunch2            Keysym = 0x1008ff42
+	KeyLaunch3            Keysym = 0x1008ff43
+	KeyLaunch4            Keysym = 0x1008ff44
+	KeyLaunch5            Keysym = 0x1008ff45
+	KeyLaunch6            Keysym = 0x1008ff46
+	KeyLaunch7            Keysym = 0x1008ff47
+	KeyLaunch8            Keysym = 0x1008ff48
+	KeyLaunch9            Keysym = 0x1008ff49
+	KeyLaunchA            Keysym = 0x1008ff4a
+	KeyLaunchB            Keysym = 0x1008ff4b
+	KeyLaunchC            Keysym = 0x1008ff4c
+	KeyLaunchD            Keysym = 0x1008ff4d
+	KeyLaunchE            Keysym = 0x1008ff4e
+	KeyLaunchF            Keysym = 0x1008ff4f
+	KeyApplicationLeft    Keysym = 0x1008ff50
+	KeyApplicationRight   Keysym = 0x1008ff51
+	KeyBook               Keysym = 0x1008ff52
+	KeyCD                 Keysym = 0x1008ff53
+	KeyCalculater         Keysym = 0x1008ff54
+	KeyClose              Keysym = 0x1008ff56
+	KeyCopy               Keysym = 0x1008ff57
+	KeyCut                Keysym = 0x1008ff58
+	KeyDisplay            Keysym = 0x1008ff59
+	KeyDOS                Keysym = 0x1008ff5a
+	KeyDocuments          Keysym = 0x1008ff5b
+	KeyExcel              Keysym = 0x1008ff5c
+	KeyExplorer           Keysym = 0x1008ff5d
+	KeyGame               Keysym = 0x1008ff5e
+	KeyGo                 Keysym = 0x1008ff5f
+	KeyITouch             Keysym = 0x1008ff60
+	KeyLogOff             Keysym = 0x1008ff61
+	KeyMarket             Keysym = 0x1008ff62
+	KeyMeeting            Keysym = 0x1008ff63
+	KeyMenuKB             Keysym = 0x1008ff65
+	KeyMenuPB             Keysym = 0x1008ff66
+	KeyMySites            Keysym = 0x1008ff67
+	KeyNew                Keysym = 0x1008ff68
+	KeyNews               Keysym = 0x1008ff69
+	KeyOfficeHome         Keysym = 0x1008ff6a
+	KeyOpen               Keysym = 0x1008ff6b
+	KeyOption             Keysym = 0x1008ff6c
+	KeyPaste              Keysym = 0x1008ff6d
+	KeyPhone              Keysym = 0x1008ff6e
+	KeyReply              Keysym = 0x1008ff72
+	KeyReload             Keysym = 0x1008ff73
+	KeyRotateWindows      Keysym = 0x1008ff74
+	KeyRotationPB         Keysym = 0x1008ff75
+	KeyRotationKB         Keysym = 0x1008ff76
+	KeySave               Keysym = 0x1008ff77
+	KeyScrollUp           Keysym = 0x1008ff78
+	KeyScrollDown         Keysym = 0x1008ff79
+	KeyScrollClick        Keysym = 0x1008ff7a
+	KeySend               Keysym = 0x1008ff7b
+	KeySpell              Keysym = 0x1008ff7c
+	KeySplitScreen        Keysym = 0x1008ff7d
+	KeySupport            Keysym = 0x1008ff7e
+	KeyTaskPane           Keysym = 0x1008ff7f
+	KeyTerminal           Keysym = 0x1008ff80
+	KeyTools              Keysym = 0x1008ff81
+	KeyTravel             Keysym = 0x1008ff82
+	KeyUserPB             Keysym = 0x1008ff84
+	KeyUser1KB            Keysym = 0x1008ff85
+	KeyUser2KB            Keysym = 0x1008ff86
+	KeyVideo              Keysym = 0x1008ff87
+	KeyWheelButton        Keysym = 0x1008ff88
+	KeyWord               Keysym = 0x1008ff89
+	KeyXfer               Keysym = 0x1008ff8a
+	KeyZoomIn             Keysym = 0x1008ff8b
+	KeyZoomOut            Keysym = 0x1008ff8c
+	KeyAway               Keysym = 0x1008ff8d
+	KeyMessenger          Keysym = 0x1008ff8e
+	KeyWebCam             Keysym = 0x1008ff8f
+	KeyMailForward        Keysym = 0x1008ff90
+	KeyPictures           Keysym = 0x1008ff91
+	KeyMusic              Keysym = 0x1008ff92
+	KeyBattery            Keysym = 0x1008ff93
+	KeyBluetooth          Keysym = 0x1008ff94
+	KeyWLAN               Keysym = 0x1008ff95
+	KeyUWB                Keysym = 0x1008ff96
+	KeyAudioForward       Keysym = 0x1008ff97
+	KeyAudioRepeat        Keysym = 0x1008ff98
+	KeyAudioRandomPlay    Keysym = 0x1008ff99
+	KeySubtitle           Keysym = 0x1008ff9a
+	KeyAudioCycleTrack    Keysym = 0x1008ff9b
+	KeyCycleAngle         Keysym = 0x1008ff9c
+	KeyFrameBack          Keysym = 0x1008ff9d
+	KeyFrameForward       Keysym = 0x1008ff9e
+	KeyTime               Keysym = 0x1008ff9f
+	KeyView               Keysym = 0x1008ffa1
+	KeyTopMenu            Keysym = 0x1008ffa2
+	KeyRed                Keysym = 0x1008ffa3
+	KeyGreen              Keysym = 0x1008ffa4
+	KeyYellow             Keysym = 0x1008ffa5
+	KeyBlue               Keysym = 0x1008ffa6
+	KeySuspend            Keysym = 0x1008ffa7
+	KeyHibernate          Keysym = 0x1008ffa8
+	KeyTouchpadToggle     Keysym = 0x1008ffa9
+	KeyTouchpadOn         Keysym = 0x1008ffb0
+	KeyTouchpadOff        Keysym = 0x1008ffb1
+	KeyAudioMicMute       Keysym = 0x1008ffb2
+	KeyKeyboard           Keysym = 0x1008ffb3
+	KeyWWAN               Keysym = 0x1008ffb4
+	KeyRFKill             Keysym = 0x1008ffb5
+	KeyAudioPreset        Keysym = 0x1008ffb6
 	KeyRotationLockToggle Keysym = 0x1008ffb7
-	KeyFullScreen Keysym = 0x1008ffb8
+	KeyFullScreen         Keysym = 0x1008ffb8
 )
 
 // keysymNames maps keysym values to canonical names.
@@ -4228,2298 +4228,2298 @@ var keysymNames = map[Keysym]string{
 
 // keysymsByName maps keysym names to values.
 var keysymsByName = map[string]Keysym{
-	"0": 0x00000030,
-	"1": 0x00000031,
-	"2": 0x00000032,
-	"3": 0x00000033,
-	"3270_AltCursor": 0x0000fd10,
-	"3270_Attn": 0x0000fd0e,
-	"3270_BackTab": 0x0000fd05,
-	"3270_ChangeScreen": 0x0000fd19,
-	"3270_Copy": 0x0000fd15,
-	"3270_CursorBlink": 0x0000fd0f,
-	"3270_CursorSelect": 0x0000fd1c,
-	"3270_DeleteWord": 0x0000fd1a,
-	"3270_Duplicate": 0x0000fd01,
-	"3270_Enter": 0x0000fd1e,
-	"3270_EraseEOF": 0x0000fd06,
-	"3270_EraseInput": 0x0000fd07,
-	"3270_ExSelect": 0x0000fd1b,
-	"3270_FieldMark": 0x0000fd02,
-	"3270_Ident": 0x0000fd13,
-	"3270_Jump": 0x0000fd12,
-	"3270_KeyClick": 0x0000fd11,
-	"3270_Left2": 0x0000fd04,
-	"3270_PA1": 0x0000fd0a,
-	"3270_PA2": 0x0000fd0b,
-	"3270_PA3": 0x0000fd0c,
-	"3270_Play": 0x0000fd16,
-	"3270_PrintScreen": 0x0000fd1d,
-	"3270_Quit": 0x0000fd09,
-	"3270_Record": 0x0000fd18,
-	"3270_Reset": 0x0000fd08,
-	"3270_Right2": 0x0000fd03,
-	"3270_Rule": 0x0000fd14,
-	"3270_Setup": 0x0000fd17,
-	"3270_Test": 0x0000fd0d,
-	"4": 0x00000034,
-	"5": 0x00000035,
-	"6": 0x00000036,
-	"7": 0x00000037,
-	"8": 0x00000038,
-	"9": 0x00000039,
-	"A": 0x00000041,
-	"AE": 0x000000c6,
-	"Aacute": 0x000000c1,
-	"Abelowdot": 0x01001ea0,
-	"Abreve": 0x000001c3,
-	"Abreveacute": 0x01001eae,
-	"Abrevebelowdot": 0x01001eb6,
-	"Abrevegrave": 0x01001eb0,
-	"Abrevehook": 0x01001eb2,
-	"Abrevetilde": 0x01001eb4,
-	"AccessX_Enable": 0x0000fe70,
-	"AccessX_Feedback_Enable": 0x0000fe71,
-	"Acircumflex": 0x000000c2,
-	"Acircumflexacute": 0x01001ea4,
-	"Acircumflexbelowdot": 0x01001eac,
-	"Acircumflexgrave": 0x01001ea6,
-	"Acircumflexhook": 0x01001ea8,
-	"Acircumflextilde": 0x01001eaa,
-	"AddFavorite": 0x1008ff39,
-	"Adiaeresis": 0x000000c4,
-	"Agrave": 0x000000c0,
-	"Ahook": 0x01001ea2,
-	"Alt_L": 0x0000ffe9,
-	"Alt_R": 0x0000ffea,
-	"Amacron": 0x000003c0,
-	"Aogonek": 0x000001a1,
-	"ApplicationLeft": 0x1008ff50,
-	"ApplicationRight": 0x1008ff51,
-	"Arabic_0": 0x01000660,
-	"Arabic_1": 0x01000661,
-	"Arabic_2": 0x01000662,
-	"Arabic_3": 0x01000663,
-	"Arabic_4": 0x01000664,
-	"Arabic_5": 0x01000665,
-	"Arabic_6": 0x01000666,
-	"Arabic_7": 0x01000667,
-	"Arabic_8": 0x01000668,
-	"Arabic_9": 0x01000669,
-	"Arabic_ain": 0x000005d9,
-	"Arabic_alef": 0x000005c7,
-	"Arabic_alefmaksura": 0x000005e9,
-	"Arabic_beh": 0x000005c8,
-	"Arabic_comma": 0x000005ac,
-	"Arabic_dad": 0x000005d6,
-	"Arabic_dal": 0x000005cf,
-	"Arabic_damma": 0x000005ef,
-	"Arabic_dammatan": 0x000005ec,
-	"Arabic_ddal": 0x01000688,
-	"Arabic_farsi_yeh": 0x010006cc,
-	"Arabic_fatha": 0x000005ee,
-	"Arabic_fathatan": 0x000005eb,
-	"Arabic_feh": 0x000005e1,
-	"Arabic_fullstop": 0x010006d4,
-	"Arabic_gaf": 0x010006af,
-	"Arabic_ghain": 0x000005da,
-	"Arabic_ha": 0x000005e7,
-	"Arabic_hah": 0x000005cd,
-	"Arabic_hamza": 0x000005c1,
-	"Arabic_hamza_above": 0x01000654,
-	"Arabic_hamza_below": 0x01000655,
-	"Arabic_hamzaonalef": 0x000005c3,
-	"Arabic_hamzaonwaw": 0x000005c4,
-	"Arabic_hamzaonyeh": 0x000005c6,
-	"Arabic_hamzaunderalef": 0x000005c5,
-	"Arabic_heh": 0x000005e7,
-	"Arabic_heh_doachashmee": 0x010006be,
-	"Arabic_heh_goal": 0x010006c1,
-	"Arabic_jeem": 0x000005cc,
-	"Arabic_jeh": 0x01000698,
-	"Arabic_kaf": 0x000005e3,
-	"Arabic_kasra": 0x000005f0,
-	"Arabic_kasratan": 0x000005ed,
-	"Arabic_keheh": 0x010006a9,
-	"Arabic_khah": 0x000005ce,
-	"Arabic_lam": 0x000005e4,
-	"Arabic_madda_above": 0x01000653,
-	"Arabic_maddaonalef": 0x000005c2,
-	"Arabic_meem": 0x000005e5,
-	"Arabic_noon": 0x000005e6,
-	"Arabic_noon_ghunna": 0x010006ba,
-	"Arabic_peh": 0x0100067e,
-	"Arabic_percent": 0x0100066a,
-	"Arabic_qaf": 0x000005e2,
-	"Arabic_question_mark": 0x000005bf,
-	"Arabic_ra": 0x000005d1,
-	"Arabic_rreh": 0x01000691,
-	"Arabic_sad": 0x000005d5,
-	"Arabic_seen": 0x000005d3,
-	"Arabic_semicolon": 0x000005bb,
-	"Arabic_shadda": 0x000005f1,
-	"Arabic_sheen": 0x000005d4,
-	"Arabic_sukun": 0x000005f2,
-	"Arabic_superscript_alef": 0x01000670,
-	"Arabic_switch": 0x0000ff7e,
-	"Arabic_tah": 0x000005d7,
-	"Arabic_tatweel": 0x000005e0,
-	"Arabic_tcheh": 0x01000686,
-	"Arabic_teh": 0x000005ca,
-	"Arabic_tehmarbuta": 0x000005c9,
-	"Arabic_thal": 0x000005d0,
-	"Arabic_theh": 0x000005cb,
-	"Arabic_tteh": 0x01000679,
-	"Arabic_veh": 0x010006a4,
-	"Arabic_waw": 0x000005e8,
-	"Arabic_yeh": 0x000005ea,
-	"Arabic_yeh_baree": 0x010006d2,
-	"Arabic_zah": 0x000005d8,
-	"Arabic_zain": 0x000005d2,
-	"Aring": 0x000000c5,
-	"Armenian_AT": 0x01000538,
-	"Armenian_AYB": 0x01000531,
-	"Armenian_BEN": 0x01000532,
-	"Armenian_CHA": 0x01000549,
-	"Armenian_DA": 0x01000534,
-	"Armenian_DZA": 0x01000541,
-	"Armenian_E": 0x01000537,
-	"Armenian_FE": 0x01000556,
-	"Armenian_GHAT": 0x01000542,
-	"Armenian_GIM": 0x01000533,
-	"Armenian_HI": 0x01000545,
-	"Armenian_HO": 0x01000540,
-	"Armenian_INI": 0x0100053b,
-	"Armenian_JE": 0x0100054b,
-	"Armenian_KE": 0x01000554,
-	"Armenian_KEN": 0x0100053f,
-	"Armenian_KHE": 0x0100053d,
-	"Armenian_LYUN": 0x0100053c,
-	"Armenian_MEN": 0x01000544,
-	"Armenian_NU": 0x01000546,
-	"Armenian_O": 0x01000555,
-	"Armenian_PE": 0x0100054a,
-	"Armenian_PYUR": 0x01000553,
-	"Armenian_RA": 0x0100054c,
-	"Armenian_RE": 0x01000550,
-	"Armenian_SE": 0x0100054d,
-	"Armenian_SHA": 0x01000547,
-	"Armenian_TCHE": 0x01000543,
-	"Armenian_TO": 0x01000539,
-	"Armenian_TSA": 0x0100053e,
-	"Armenian_TSO": 0x01000551,
-	"Armenian_TYUN": 0x0100054f,
-	"Armenian_VEV": 0x0100054e,
-	"Armenian_VO": 0x01000548,
-	"Armenian_VYUN": 0x01000552,
-	"Armenian_YECH": 0x01000535,
-	"Armenian_ZA": 0x01000536,
-	"Armenian_ZHE": 0x0100053a,
-	"Armenian_accent": 0x0100055b,
-	"Armenian_amanak": 0x0100055c,
-	"Armenian_apostrophe": 0x0100055a,
-	"Armenian_at": 0x01000568,
-	"Armenian_ayb": 0x01000561,
-	"Armenian_ben": 0x01000562,
-	"Armenian_but": 0x0100055d,
-	"Armenian_cha": 0x01000579,
-	"Armenian_da": 0x01000564,
-	"Armenian_dza": 0x01000571,
-	"Armenian_e": 0x01000567,
-	"Armenian_exclam": 0x0100055c,
-	"Armenian_fe": 0x01000586,
-	"Armenian_full_stop": 0x01000589,
-	"Armenian_ghat": 0x01000572,
-	"Armenian_gim": 0x01000563,
-	"Armenian_hi": 0x01000575,
-	"Armenian_ho": 0x01000570,
-	"Armenian_hyphen": 0x0100058a,
-	"Armenian_ini": 0x0100056b,
-	"Armenian_je": 0x0100057b,
-	"Armenian_ke": 0x01000584,
-	"Armenian_ken": 0x0100056f,
-	"Armenian_khe": 0x0100056d,
-	"Armenian_ligature_ew": 0x01000587,
-	"Armenian_lyun": 0x0100056c,
-	"Armenian_men": 0x01000574,
-	"Armenian_nu": 0x01000576,
-	"Armenian_o": 0x01000585,
-	"Armenian_paruyk": 0x0100055e,
-	"Armenian_pe": 0x0100057a,
-	"Armenian_pyur": 0x01000583,
-	"Armenian_question": 0x0100055e,
-	"Armenian_ra": 0x0100057c,
-	"Armenian_re": 0x01000580,
-	"Armenian_se": 0x0100057d,
-	"Armenian_separation_mark": 0x0100055d,
-	"Armenian_sha": 0x01000577,
-	"Armenian_shesht": 0x0100055b,
-	"Armenian_tche": 0x01000573,
-	"Armenian_to": 0x01000569,
-	"Armenian_tsa": 0x0100056e,
-	"Armenian_tso": 0x01000581,
-	"Armenian_tyun": 0x0100057f,
-	"Armenian_verjaket": 0x01000589,
-	"Armenian_vev": 0x0100057e,
-	"Armenian_vo": 0x01000578,
-	"Armenian_vyun": 0x01000582,
-	"Armenian_yech": 0x01000565,
-	"Armenian_yentamna": 0x0100058a,
-	"Armenian_za": 0x01000566,
-	"Armenian_zhe": 0x0100056a,
-	"Atilde": 0x000000c3,
-	"AudibleBell_Enable": 0x0000fe7a,
-	"AudioCycleTrack": 0x1008ff9b,
-	"AudioForward": 0x1008ff97,
-	"AudioLowerVolume": 0x1008ff11,
-	"AudioMedia": 0x1008ff32,
-	"AudioMicMute": 0x1008ffb2,
-	"AudioMute": 0x1008ff12,
-	"AudioNext": 0x1008ff17,
-	"AudioPause": 0x1008ff31,
-	"AudioPlay": 0x1008ff14,
-	"AudioPreset": 0x1008ffb6,
-	"AudioPrev": 0x1008ff16,
-	"AudioRaiseVolume": 0x1008ff13,
-	"AudioRandomPlay": 0x1008ff99,
-	"AudioRecord": 0x1008ff1c,
-	"AudioRepeat": 0x1008ff98,
-	"AudioRewind": 0x1008ff3e,
-	"AudioStop": 0x1008ff15,
-	"Away": 0x1008ff8d,
-	"B": 0x00000042,
-	"Babovedot": 0x01001e02,
-	"Back": 0x1008ff26,
-	"BackForward": 0x1008ff3f,
-	"BackSpace": 0x0000ff08,
-	"Battery": 0x1008ff93,
-	"Begin": 0x0000ff58,
-	"Blue": 0x1008ffa6,
-	"Bluetooth": 0x1008ff94,
-	"Book": 0x1008ff52,
-	"BounceKeys_Enable": 0x0000fe74,
-	"Break": 0x0000ff6b,
-	"BrightnessAdjust": 0x1008ff3b,
-	"Byelorussian_SHORTU": 0x000006be,
-	"Byelorussian_shortu": 0x000006ae,
-	"C": 0x00000043,
-	"CD": 0x1008ff53,
-	"CH": 0x0000fea2,
-	"C_H": 0x0000fea5,
-	"C_h": 0x0000fea4,
-	"Cabovedot": 0x000002c5,
-	"Cacute": 0x000001c6,
-	"Calculater": 0x1008ff54,
-	"Calculator": 0x1008ff1d,
-	"Calendar": 0x1008ff20,
-	"Cancel": 0x0000ff69,
-	"Caps_Lock": 0x0000ffe5,
-	"Ccaron": 0x000001c8,
-	"Ccedilla": 0x000000c7,
-	"Ccircumflex": 0x000002c6,
-	"Ch": 0x0000fea1,
-	"Clear": 0x0000ff0b,
-	"ClearGrab": 0x1008fe21,
-	"Close": 0x1008ff56,
-	"Codeinput": 0x0000ff37,
-	"ColonSign": 0x010020a1,
-	"Community": 0x1008ff3d,
-	"ContrastAdjust": 0x1008ff22,
-	"Control_L": 0x0000ffe3,
-	"Control_R": 0x0000ffe4,
-	"Copy": 0x1008ff57,
-	"CruzeiroSign": 0x010020a2,
-	"Cut": 0x1008ff58,
-	"CycleAngle": 0x1008ff9c,
-	"Cyrillic_A": 0x000006e1,
-	"Cyrillic_BE": 0x000006e2,
-	"Cyrillic_CHE": 0x000006fe,
-	"Cyrillic_CHE_descender": 0x010004b6,
-	"Cyrillic_CHE_vertstroke": 0x010004b8,
-	"Cyrillic_DE": 0x000006e4,
-	"Cyrillic_DZHE": 0x000006bf,
-	"Cyrillic_E": 0x000006fc,
-	"Cyrillic_EF": 0x000006e6,
-	"Cyrillic_EL": 0x000006ec,
-	"Cyrillic_EM": 0x000006ed,
-	"Cyrillic_EN": 0x000006ee,
-	"Cyrillic_EN_descender": 0x010004a2,
-	"Cyrillic_ER": 0x000006f2,
-	"Cyrillic_ES": 0x000006f3,
-	"Cyrillic_GHE": 0x000006e7,
-	"Cyrillic_GHE_bar": 0x01000492,
-	"Cyrillic_HA": 0x000006e8,
-	"Cyrillic_HARDSIGN": 0x000006ff,
-	"Cyrillic_HA_descender": 0x010004b2,
-	"Cyrillic_I": 0x000006e9,
-	"Cyrillic_IE": 0x000006e5,
-	"Cyrillic_IO": 0x000006b3,
-	"Cyrillic_I_macron": 0x010004e2,
-	"Cyrillic_JE": 0x000006b8,
-	"Cyrillic_KA": 0x000006eb,
-	"Cyrillic_KA_descender": 0x0100049a,
-	"Cyrillic_KA_vertstroke": 0x0100049c,
-	"Cyrillic_LJE": 0x000006b9,
-	"Cyrillic_NJE": 0x000006ba,
-	"Cyrillic_O": 0x000006ef,
-	"Cyrillic_O_bar": 0x010004e8,
-	"Cyrillic_PE": 0x000006f0,
-	"Cyrillic_SCHWA": 0x010004d8,
-	"Cyrillic_SHA": 0x000006fb,
-	"Cyrillic_SHCHA": 0x000006fd,
-	"Cyrillic_SHHA": 0x010004ba,
-	"Cyrillic_SHORTI": 0x000006ea,
-	"Cyrillic_SOFTSIGN": 0x000006f8,
-	"Cyrillic_TE": 0x000006f4,
-	"Cyrillic_TSE": 0x000006e3,
-	"Cyrillic_U": 0x000006f5,
-	"Cyrillic_U_macron": 0x010004ee,
-	"Cyrillic_U_straight": 0x010004ae,
-	"Cyrillic_U_straight_bar": 0x010004b0,
-	"Cyrillic_VE": 0x000006f7,
-	"Cyrillic_YA": 0x000006f1,
-	"Cyrillic_YERU": 0x000006f9,
-	"Cyrillic_YU": 0x000006e0,
-	"Cyrillic_ZE": 0x000006fa,
-	"Cyrillic_ZHE": 0x000006f6,
-	"Cyrillic_ZHE_descender": 0x01000496,
-	"Cyrillic_a": 0x000006c1,
-	"Cyrillic_be": 0x000006c2,
-	"Cyrillic_che": 0x000006de,
-	"Cyrillic_che_descender": 0x010004b7,
-	"Cyrillic_che_vertstroke": 0x010004b9,
-	"Cyrillic_de": 0x000006c4,
-	"Cyrillic_dzhe": 0x000006af,
-	"Cyrillic_e": 0x000006dc,
-	"Cyrillic_ef": 0x000006c6,
-	"Cyrillic_el": 0x000006cc,
-	"Cyrillic_em": 0x000006cd,
-	"Cyrillic_en": 0x000006ce,
-	"Cyrillic_en_descender": 0x010004a3,
-	"Cyrillic_er": 0x000006d2,
-	"Cyrillic_es": 0x000006d3,
-	"Cyrillic_ghe": 0x000006c7,
-	"Cyrillic_ghe_bar": 0x01000493,
-	"Cyrillic_ha": 0x000006c8,
-	"Cyrillic_ha_descender": 0x010004b3,
-	"Cyrillic_hardsign": 0x000006df,
-	"Cyrillic_i": 0x000006c9,
-	"Cyrillic_i_macron": 0x010004e3,
-	"Cyrillic_ie": 0x000006c5,
-	"Cyrillic_io": 0x000006a3,
-	"Cyrillic_je": 0x000006a8,
-	"Cyrillic_ka": 0x000006cb,
-	"Cyrillic_ka_descender": 0x0100049b,
-	"Cyrillic_ka_vertstroke": 0x0100049d,
-	"Cyrillic_lje": 0x000006a9,
-	"Cyrillic_nje": 0x000006aa,
-	"Cyrillic_o": 0x000006cf,
-	"Cyrillic_o_bar": 0x010004e9,
-	"Cyrillic_pe": 0x000006d0,
-	"Cyrillic_schwa": 0x010004d9,
-	"Cyrillic_sha": 0x000006db,
-	"Cyrillic_shcha": 0x000006dd,
-	"Cyrillic_shha": 0x010004bb,
-	"Cyrillic_shorti": 0x000006ca,
-	"Cyrillic_softsign": 0x000006d8,
-	"Cyrillic_te": 0x000006d4,
-	"Cyrillic_tse": 0x000006c3,
-	"Cyrillic_u": 0x000006d5,
-	"Cyrillic_u_macron": 0x010004ef,
-	"Cyrillic_u_straight": 0x010004af,
-	"Cyrillic_u_straight_bar": 0x010004b1,
-	"Cyrillic_ve": 0x000006d7,
-	"Cyrillic_ya": 0x000006d1,
-	"Cyrillic_yeru": 0x000006d9,
-	"Cyrillic_yu": 0x000006c0,
-	"Cyrillic_ze": 0x000006da,
-	"Cyrillic_zhe": 0x000006d6,
-	"Cyrillic_zhe_descender": 0x01000497,
-	"D": 0x00000044,
-	"DOS": 0x1008ff5a,
-	"Dabovedot": 0x01001e0a,
-	"Dcaron": 0x000001cf,
-	"Delete": 0x0000ffff,
-	"Display": 0x1008ff59,
-	"Documents": 0x1008ff5b,
-	"DongSign": 0x010020ab,
-	"Down": 0x0000ff54,
-	"Dstroke": 0x000001d0,
-	"E": 0x00000045,
-	"ENG": 0x000003bd,
-	"ETH": 0x000000d0,
-	"EZH": 0x010001b7,
-	"Eabovedot": 0x000003cc,
-	"Eacute": 0x000000c9,
-	"Ebelowdot": 0x01001eb8,
-	"Ecaron": 0x000001cc,
-	"Ecircumflex": 0x000000ca,
-	"Ecircumflexacute": 0x01001ebe,
-	"Ecircumflexbelowdot": 0x01001ec6,
-	"Ecircumflexgrave": 0x01001ec0,
-	"Ecircumflexhook": 0x01001ec2,
-	"Ecircumflextilde": 0x01001ec4,
-	"EcuSign": 0x010020a0,
-	"Ediaeresis": 0x000000cb,
-	"Egrave": 0x000000c8,
-	"Ehook": 0x01001eba,
-	"Eisu_Shift": 0x0000ff2f,
-	"Eisu_toggle": 0x0000ff30,
-	"Eject": 0x1008ff2c,
-	"Emacron": 0x000003aa,
-	"End": 0x0000ff57,
-	"Eogonek": 0x000001ca,
-	"Escape": 0x0000ff1b,
-	"Eth": 0x000000d0,
-	"Etilde": 0x01001ebc,
-	"EuroSign": 0x000020ac,
-	"Excel": 0x1008ff5c,
-	"Execute": 0x0000ff62,
-	"Explorer": 0x1008ff5d,
-	"F": 0x00000046,
-	"F1": 0x0000ffbe,
-	"F10": 0x0000ffc7,
-	"F11": 0x0000ffc8,
-	"F12": 0x0000ffc9,
-	"F13": 0x0000ffca,
-	"F14": 0x0000ffcb,
-	"F15": 0x0000ffcc,
-	"F16": 0x0000ffcd,
-	"F17": 0x0000ffce,
-	"F18": 0x0000ffcf,
-	"F19": 0x0000ffd0,
-	"F2": 0x0000ffbf,
-	"F20": 0x0000ffd1,
-	"F21": 0x0000ffd2,
-	"F22": 0x0000ffd3,
-	"F23": 0x0000ffd4,
-	"F24": 0x0000ffd5,
-	"F25": 0x0000ffd6,
-	"F26": 0x0000ffd7,
-	"F27": 0x0000ffd8,
-	"F28": 0x0000ffd9,
-	"F29": 0x0000ffda,
-	"F3": 0x0000ffc0,
-	"F30": 0x0000ffdb,
-	"F31": 0x0000ffdc,
-	"F32": 0x0000ffdd,
-	"F33": 0x0000ffde,
-	"F34": 0x0000ffdf,
-	"F35": 0x0000ffe0,
-	"F4": 0x0000ffc1,
-	"F5": 0x0000ffc2,
-	"F6": 0x0000ffc3,
-	"F7": 0x0000ffc4,
-	"F8": 0x0000ffc5,
-	"F9": 0x0000ffc6,
-	"FFrancSign": 0x010020a3,
-	"Fabovedot": 0x01001e1e,
-	"Farsi_0": 0x010006f0,
-	"Farsi_1": 0x010006f1,
-	"Farsi_2": 0x010006f2,
-	"Farsi_3": 0x010006f3,
-	"Farsi_4": 0x010006f4,
-	"Farsi_5": 0x010006f5,
-	"Farsi_6": 0x010006f6,
-	"Farsi_7": 0x010006f7,
-	"Farsi_8": 0x010006f8,
-	"Farsi_9": 0x010006f9,
-	"Farsi_yeh": 0x010006cc,
-	"Favorites": 0x1008ff30,
-	"Finance": 0x1008ff3c,
-	"Find": 0x0000ff68,
-	"First_Virtual_Screen": 0x0000fed0,
-	"Forward": 0x1008ff27,
-	"FrameBack": 0x1008ff9d,
-	"FrameForward": 0x1008ff9e,
-	"FullScreen": 0x1008ffb8,
-	"G": 0x00000047,
-	"Gabovedot": 0x000002d5,
-	"Game": 0x1008ff5e,
-	"Gbreve": 0x000002ab,
-	"Gcaron": 0x010001e6,
-	"Gcedilla": 0x000003ab,
-	"Gcircumflex": 0x000002d8,
-	"Georgian_an": 0x010010d0,
-	"Georgian_ban": 0x010010d1,
-	"Georgian_can": 0x010010ea,
-	"Georgian_char": 0x010010ed,
-	"Georgian_chin": 0x010010e9,
-	"Georgian_cil": 0x010010ec,
-	"Georgian_don": 0x010010d3,
-	"Georgian_en": 0x010010d4,
-	"Georgian_fi": 0x010010f6,
-	"Georgian_gan": 0x010010d2,
-	"Georgian_ghan": 0x010010e6,
-	"Georgian_hae": 0x010010f0,
-	"Georgian_har": 0x010010f4,
-	"Georgian_he": 0x010010f1,
-	"Georgian_hie": 0x010010f2,
-	"Georgian_hoe": 0x010010f5,
-	"Georgian_in": 0x010010d8,
-	"Georgian_jhan": 0x010010ef,
-	"Georgian_jil": 0x010010eb,
-	"Georgian_kan": 0x010010d9,
-	"Georgian_khar": 0x010010e5,
-	"Georgian_las": 0x010010da,
-	"Georgian_man": 0x010010db,
-	"Georgian_nar": 0x010010dc,
-	"Georgian_on": 0x010010dd,
-	"Georgian_par": 0x010010de,
-	"Georgian_phar": 0x010010e4,
-	"Georgian_qar": 0x010010e7,
-	"Georgian_rae": 0x010010e0,
-	"Georgian_san": 0x010010e1,
-	"Georgian_shin": 0x010010e8,
-	"Georgian_tan": 0x010010d7,
-	"Georgian_tar": 0x010010e2,
-	"Georgian_un": 0x010010e3,
-	"Georgian_vin": 0x010010d5,
-	"Georgian_we": 0x010010f3,
-	"Georgian_xan": 0x010010ee,
-	"Georgian_zen": 0x010010d6,
-	"Georgian_zhar": 0x010010df,
-	"Go": 0x1008ff5f,
-	"Greek_ALPHA": 0x000007c1,
-	"Greek_ALPHAaccent": 0x000007a1,
-	"Greek_BETA": 0x000007c2,
-	"Greek_CHI": 0x000007d7,
-	"Greek_DELTA": 0x000007c4,
-	"Greek_EPSILON": 0x000007c5,
-	"Greek_EPSILONaccent": 0x000007a2,
-	"Greek_ETA": 0x000007c7,
-	"Greek_ETAaccent": 0x000007a3,
-	"Greek_GAMMA": 0x000007c3,
-	"Greek_IOTA": 0x000007c9,
-	"Greek_IOTAaccent": 0x000007a4,
-	"Greek_IOTAdiaeresis": 0x000007a5,
-	"Greek_IOTAdieresis": 0x000007a5,
-	"Greek_KAPPA": 0x000007ca,
-	"Greek_LAMBDA": 0x000007cb,
-	"Greek_LAMDA": 0x000007cb,
-	"Greek_MU": 0x000007cc,
-	"Greek_NU": 0x000007cd,
-	"Greek_OMEGA": 0x000007d9,
-	"Greek_OMEGAaccent": 0x000007ab,
-	"Greek_OMICRON": 0x000007cf,
-	"Greek_OMICRONaccent": 0x000007a7,
-	"Greek_PHI": 0x000007d6,
-	"Greek_PI": 0x000007d0,
-	"Greek_PSI": 0x000007d8,
-	"Greek_RHO": 0x000007d1,
-	"Greek_SIGMA": 0x000007d2,
-	"Greek_TAU": 0x000007d4,
-	"Greek_THETA": 0x000007c8,
-	"Greek_UPSILON": 0x000007d5,
-	"Greek_UPSILONaccent": 0x000007a8,
-	"Greek_UPSILONdieresis": 0x000007a9,
-	"Greek_XI": 0x000007ce,
-	"Greek_ZETA": 0x000007c6,
-	"Greek_accentdieresis": 0x000007ae,
-	"Greek_alpha": 0x000007e1,
-	"Greek_alphaaccent": 0x000007b1,
-	"Greek_beta": 0x000007e2,
-	"Greek_chi": 0x000007f7,
-	"Greek_delta": 0x000007e4,
-	"Greek_epsilon": 0x000007e5,
-	"Greek_epsilonaccent": 0x000007b2,
-	"Greek_eta": 0x000007e7,
-	"Greek_etaaccent": 0x000007b3,
-	"Greek_finalsmallsigma": 0x000007f3,
-	"Greek_gamma": 0x000007e3,
-	"Greek_horizbar": 0x000007af,
-	"Greek_iota": 0x000007e9,
-	"Greek_iotaaccent": 0x000007b4,
-	"Greek_iotaaccentdieresis": 0x000007b6,
-	"Greek_iotadieresis": 0x000007b5,
-	"Greek_kappa": 0x000007ea,
-	"Greek_lambda": 0x000007eb,
-	"Greek_lamda": 0x000007eb,
-	"Greek_mu": 0x000007ec,
-	"Greek_nu": 0x000007ed,
-	"Greek_omega": 0x000007f9,
-	"Greek_omegaaccent": 0x000007bb,
-	"Greek_omicron": 0x000007ef,
-	"Greek_omicronaccent": 0x000007b7,
-	"Greek_phi": 0x000007f6,
-	"Greek_pi": 0x000007f0,
-	"Greek_psi": 0x000007f8,
-	"Greek_rho": 0x000007f1,
-	"Greek_sigma": 0x000007f2,
-	"Greek_switch": 0x0000ff7e,
-	"Greek_tau": 0x000007f4,
-	"Greek_theta": 0x000007e8,
-	"Greek_upsilon": 0x000007f5,
-	"Greek_upsilonaccent": 0x000007b8,
+	"0":                           0x00000030,
+	"1":                           0x00000031,
+	"2":                           0x00000032,
+	"3":                           0x00000033,
+	"3270_AltCursor":              0x0000fd10,
+	"3270_Attn":                   0x0000fd0e,
+	"3270_BackTab":                0x0000fd05,
+	"3270_ChangeScreen":           0x0000fd19,
+	"3270_Copy":                   0x0000fd15,
+	"3270_CursorBlink":            0x0000fd0f,
+	"3270_CursorSelect":           0x0000fd1c,
+	"3270_DeleteWord":             0x0000fd1a,
+	"3270_Duplicate":              0x0000fd01,
+	"3270_Enter":                  0x0000fd1e,
+	"3270_EraseEOF":               0x0000fd06,
+	"3270_EraseInput":             0x0000fd07,
+	"3270_ExSelect":               0x0000fd1b,
+	"3270_FieldMark":              0x0000fd02,
+	"3270_Ident":                  0x0000fd13,
+	"3270_Jump":                   0x0000fd12,
+	"3270_KeyClick":               0x0000fd11,
+	"3270_Left2":                  0x0000fd04,
+	"3270_PA1":                    0x0000fd0a,
+	"3270_PA2":                    0x0000fd0b,
+	"3270_PA3":                    0x0000fd0c,
+	"3270_Play":                   0x0000fd16,
+	"3270_PrintScreen":            0x0000fd1d,
+	"3270_Quit":                   0x0000fd09,
+	"3270_Record":                 0x0000fd18,
+	"3270_Reset":                  0x0000fd08,
+	"3270_Right2":                 0x0000fd03,
+	"3270_Rule":                   0x0000fd14,
+	"3270_Setup":                  0x0000fd17,
+	"3270_Test":                   0x0000fd0d,
+	"4":                           0x00000034,
+	"5":                           0x00000035,
+	"6":                           0x00000036,
+	"7":                           0x00000037,
+	"8":                           0x00000038,
+	"9":                           0x00000039,
+	"A":                           0x00000041,
+	"AE":                          0x000000c6,
+	"Aacute":                      0x000000c1,
+	"Abelowdot":                   0x01001ea0,
+	"Abreve":                      0x000001c3,
+	"Abreveacute":                 0x01001eae,
+	"Abrevebelowdot":              0x01001eb6,
+	"Abrevegrave":                 0x01001eb0,
+	"Abrevehook":                  0x01001eb2,
+	"Abrevetilde":                 0x01001eb4,
+	"AccessX_Enable":              0x0000fe70,
+	"AccessX_Feedback_Enable":     0x0000fe71,
+	"Acircumflex":                 0x000000c2,
+	"Acircumflexacute":            0x01001ea4,
+	"Acircumflexbelowdot":         0x01001eac,
+	"Acircumflexgrave":            0x01001ea6,
+	"Acircumflexhook":             0x01001ea8,
+	"Acircumflextilde":            0x01001eaa,
+	"AddFavorite":                 0x1008ff39,
+	"Adiaeresis":                  0x000000c4,
+	"Agrave":                      0x000000c0,
+	"Ahook":                       0x01001ea2,
+	"Alt_L":                       0x0000ffe9,
+	"Alt_R":                       0x0000ffea,
+	"Amacron":                     0x000003c0,
+	"Aogonek":                     0x000001a1,
+	"ApplicationLeft":             0x1008ff50,
+	"ApplicationRight":            0x1008ff51,
+	"Arabic_0":                    0x01000660,
+	"Arabic_1":                    0x01000661,
+	"Arabic_2":                    0x01000662,
+	"Arabic_3":                    0x01000663,
+	"Arabic_4":                    0x01000664,
+	"Arabic_5":                    0x01000665,
+	"Arabic_6":                    0x01000666,
+	"Arabic_7":                    0x01000667,
+	"Arabic_8":                    0x01000668,
+	"Arabic_9":                    0x01000669,
+	"Arabic_ain":                  0x000005d9,
+	"Arabic_alef":                 0x000005c7,
+	"Arabic_alefmaksura":          0x000005e9,
+	"Arabic_beh":                  0x000005c8,
+	"Arabic_comma":                0x000005ac,
+	"Arabic_dad":                  0x000005d6,
+	"Arabic_dal":                  0x000005cf,
+	"Arabic_damma":                0x000005ef,
+	"Arabic_dammatan":             0x000005ec,
+	"Arabic_ddal":                 0x01000688,
+	"Arabic_farsi_yeh":            0x010006cc,
+	"Arabic_fatha":                0x000005ee,
+	"Arabic_fathatan":             0x000005eb,
+	"Arabic_feh":                  0x000005e1,
+	"Arabic_fullstop":             0x010006d4,
+	"Arabic_gaf":                  0x010006af,
+	"Arabic_ghain":                0x000005da,
+	"Arabic_ha":                   0x000005e7,
+	"Arabic_hah":                  0x000005cd,
+	"Arabic_hamza":                0x000005c1,
+	"Arabic_hamza_above":          0x01000654,
+	"Arabic_hamza_below":          0x01000655,
+	"Arabic_hamzaonalef":          0x000005c3,
+	"Arabic_hamzaonwaw":           0x000005c4,
+	"Arabic_hamzaonyeh":           0x000005c6,
+	"Arabic_hamzaunderalef":       0x000005c5,
+	"Arabic_heh":                  0x000005e7,
+	"Arabic_heh_doachashmee":      0x010006be,
+	"Arabic_heh_goal":             0x010006c1,
+	"Arabic_jeem":                 0x000005cc,
+	"Arabic_jeh":                  0x01000698,
+	"Arabic_kaf":                  0x000005e3,
+	"Arabic_kasra":                0x000005f0,
+	"Arabic_kasratan":             0x000005ed,
+	"Arabic_keheh":                0x010006a9,
+	"Arabic_khah":                 0x000005ce,
+	"Arabic_lam":                  0x000005e4,
+	"Arabic_madda_above":          0x01000653,
+	"Arabic_maddaonalef":          0x000005c2,
+	"Arabic_meem":                 0x000005e5,
+	"Arabic_noon":                 0x000005e6,
+	"Arabic_noon_ghunna":          0x010006ba,
+	"Arabic_peh":                  0x0100067e,
+	"Arabic_percent":              0x0100066a,
+	"Arabic_qaf":                  0x000005e2,
+	"Arabic_question_mark":        0x000005bf,
+	"Arabic_ra":                   0x000005d1,
+	"Arabic_rreh":                 0x01000691,
+	"Arabic_sad":                  0x000005d5,
+	"Arabic_seen":                 0x000005d3,
+	"Arabic_semicolon":            0x000005bb,
+	"Arabic_shadda":               0x000005f1,
+	"Arabic_sheen":                0x000005d4,
+	"Arabic_sukun":                0x000005f2,
+	"Arabic_superscript_alef":     0x01000670,
+	"Arabic_switch":               0x0000ff7e,
+	"Arabic_tah":                  0x000005d7,
+	"Arabic_tatweel":              0x000005e0,
+	"Arabic_tcheh":                0x01000686,
+	"Arabic_teh":                  0x000005ca,
+	"Arabic_tehmarbuta":           0x000005c9,
+	"Arabic_thal":                 0x000005d0,
+	"Arabic_theh":                 0x000005cb,
+	"Arabic_tteh":                 0x01000679,
+	"Arabic_veh":                  0x010006a4,
+	"Arabic_waw":                  0x000005e8,
+	"Arabic_yeh":                  0x000005ea,
+	"Arabic_yeh_baree":            0x010006d2,
+	"Arabic_zah":                  0x000005d8,
+	"Arabic_zain":                 0x000005d2,
+	"Aring":                       0x000000c5,
+	"Armenian_AT":                 0x01000538,
+	"Armenian_AYB":                0x01000531,
+	"Armenian_BEN":                0x01000532,
+	"Armenian_CHA":                0x01000549,
+	"Armenian_DA":                 0x01000534,
+	"Armenian_DZA":                0x01000541,
+	"Armenian_E":                  0x01000537,
+	"Armenian_FE":                 0x01000556,
+	"Armenian_GHAT":               0x01000542,
+	"Armenian_GIM":                0x01000533,
+	"Armenian_HI":                 0x01000545,
+	"Armenian_HO":                 0x01000540,
+	"Armenian_INI":                0x0100053b,
+	"Armenian_JE":                 0x0100054b,
+	"Armenian_KE":                 0x01000554,
+	"Armenian_KEN":                0x0100053f,
+	"Armenian_KHE":                0x0100053d,
+	"Armenian_LYUN":               0x0100053c,
+	"Armenian_MEN":                0x01000544,
+	"Armenian_NU":                 0x01000546,
+	"Armenian_O":                  0x01000555,
+	"Armenian_PE":                 0x0100054a,
+	"Armenian_PYUR":               0x01000553,
+	"Armenian_RA":                 0x0100054c,
+	"Armenian_RE":                 0x01000550,
+	"Armenian_SE":                 0x0100054d,
+	"Armenian_SHA":                0x01000547,
+	"Armenian_TCHE":               0x01000543,
+	"Armenian_TO":                 0x01000539,
+	"Armenian_TSA":                0x0100053e,
+	"Armenian_TSO":                0x01000551,
+	"Armenian_TYUN":               0x0100054f,
+	"Armenian_VEV":                0x0100054e,
+	"Armenian_VO":                 0x01000548,
+	"Armenian_VYUN":               0x01000552,
+	"Armenian_YECH":               0x01000535,
+	"Armenian_ZA":                 0x01000536,
+	"Armenian_ZHE":                0x0100053a,
+	"Armenian_accent":             0x0100055b,
+	"Armenian_amanak":             0x0100055c,
+	"Armenian_apostrophe":         0x0100055a,
+	"Armenian_at":                 0x01000568,
+	"Armenian_ayb":                0x01000561,
+	"Armenian_ben":                0x01000562,
+	"Armenian_but":                0x0100055d,
+	"Armenian_cha":                0x01000579,
+	"Armenian_da":                 0x01000564,
+	"Armenian_dza":                0x01000571,
+	"Armenian_e":                  0x01000567,
+	"Armenian_exclam":             0x0100055c,
+	"Armenian_fe":                 0x01000586,
+	"Armenian_full_stop":          0x01000589,
+	"Armenian_ghat":               0x01000572,
+	"Armenian_gim":                0x01000563,
+	"Armenian_hi":                 0x01000575,
+	"Armenian_ho":                 0x01000570,
+	"Armenian_hyphen":             0x0100058a,
+	"Armenian_ini":                0x0100056b,
+	"Armenian_je":                 0x0100057b,
+	"Armenian_ke":                 0x01000584,
+	"Armenian_ken":                0x0100056f,
+	"Armenian_khe":                0x0100056d,
+	"Armenian_ligature_ew":        0x01000587,
+	"Armenian_lyun":               0x0100056c,
+	"Armenian_men":                0x01000574,
+	"Armenian_nu":                 0x01000576,
+	"Armenian_o":                  0x01000585,
+	"Armenian_paruyk":             0x0100055e,
+	"Armenian_pe":                 0x0100057a,
+	"Armenian_pyur":               0x01000583,
+	"Armenian_question":           0x0100055e,
+	"Armenian_ra":                 0x0100057c,
+	"Armenian_re":                 0x01000580,
+	"Armenian_se":                 0x0100057d,
+	"Armenian_separation_mark":    0x0100055d,
+	"Armenian_sha":                0x01000577,
+	"Armenian_shesht":             0x0100055b,
+	"Armenian_tche":               0x01000573,
+	"Armenian_to":                 0x01000569,
+	"Armenian_tsa":                0x0100056e,
+	"Armenian_tso":                0x01000581,
+	"Armenian_tyun":               0x0100057f,
+	"Armenian_verjaket":           0x01000589,
+	"Armenian_vev":                0x0100057e,
+	"Armenian_vo":                 0x01000578,
+	"Armenian_vyun":               0x01000582,
+	"Armenian_yech":               0x01000565,
+	"Armenian_yentamna":           0x0100058a,
+	"Armenian_za":                 0x01000566,
+	"Armenian_zhe":                0x0100056a,
+	"Atilde":                      0x000000c3,
+	"AudibleBell_Enable":          0x0000fe7a,
+	"AudioCycleTrack":             0x1008ff9b,
+	"AudioForward":                0x1008ff97,
+	"AudioLowerVolume":            0x1008ff11,
+	"AudioMedia":                  0x1008ff32,
+	"AudioMicMute":                0x1008ffb2,
+	"AudioMute":                   0x1008ff12,
+	"AudioNext":                   0x1008ff17,
+	"AudioPause":                  0x1008ff31,
+	"AudioPlay":                   0x1008ff14,
+	"AudioPreset":                 0x1008ffb6,
+	"AudioPrev":                   0x1008ff16,
+	"AudioRaiseVolume":            0x1008ff13,
+	"AudioRandomPlay":             0x1008ff99,
+	"AudioRecord":                 0x1008ff1c,
+	"AudioRepeat":                 0x1008ff98,
+	"AudioRewind":                 0x1008ff3e,
+	"AudioStop":                   0x1008ff15,
+	"Away":                        0x1008ff8d,
+	"B":                           0x00000042,
+	"Babovedot":                   0x01001e02,
+	"Back":                        0x1008ff26,
+	"BackForward":                 0x1008ff3f,
+	"BackSpace":                   0x0000ff08,
+	"Battery":                     0x1008ff93,
+	"Begin":                       0x0000ff58,
+	"Blue":                        0x1008ffa6,
+	"Bluetooth":                   0x1008ff94,
+	"Book":                        0x1008ff52,
+	"BounceKeys_Enable":           0x0000fe74,
+	"Break":                       0x0000ff6b,
+	"BrightnessAdjust":            0x1008ff3b,
+	"Byelorussian_SHORTU":         0x000006be,
+	"Byelorussian_shortu":         0x000006ae,
+	"C":                           0x00000043,
+	"CD":                          0x1008ff53,
+	"CH":                          0x0000fea2,
+	"C_H":                         0x0000fea5,
+	"C_h":                         0x0000fea4,
+	"Cabovedot":                   0x000002c5,
+	"Cacute":                      0x000001c6,
+	"Calculater":                  0x1008ff54,
+	"Calculator":                  0x1008ff1d,
+	"Calendar":                    0x1008ff20,
+	"Cancel":                      0x0000ff69,
+	"Caps_Lock":                   0x0000ffe5,
+	"Ccaron":                      0x000001c8,
+	"Ccedilla":                    0x000000c7,
+	"Ccircumflex":                 0x000002c6,
+	"Ch":                          0x0000fea1,
+	"Clear":                       0x0000ff0b,
+	"ClearGrab":                   0x1008fe21,
+	"Close":                       0x1008ff56,
+	"Codeinput":                   0x0000ff37,
+	"ColonSign":                   0x010020a1,
+	"Community":                   0x1008ff3d,
+	"ContrastAdjust":              0x1008ff22,
+	"Control_L":                   0x0000ffe3,
+	"Control_R":                   0x0000ffe4,
+	"Copy":                        0x1008ff57,
+	"CruzeiroSign":                0x010020a2,
+	"Cut":                         0x1008ff58,
+	"CycleAngle":                  0x1008ff9c,
+	"Cyrillic_A":                  0x000006e1,
+	"Cyrillic_BE":                 0x000006e2,
+	"Cyrillic_CHE":                0x000006fe,
+	"Cyrillic_CHE_descender":      0x010004b6,
+	"Cyrillic_CHE_vertstroke":     0x010004b8,
+	"Cyrillic_DE":                 0x000006e4,
+	"Cyrillic_DZHE":               0x000006bf,
+	"Cyrillic_E":                  0x000006fc,
+	"Cyrillic_EF":                 0x000006e6,
+	"Cyrillic_EL":                 0x000006ec,
+	"Cyrillic_EM":                 0x000006ed,
+	"Cyrillic_EN":                 0x000006ee,
+	"Cyrillic_EN_descender":       0x010004a2,
+	"Cyrillic_ER":                 0x000006f2,
+	"Cyrillic_ES":                 0x000006f3,
+	"Cyrillic_GHE":                0x000006e7,
+	"Cyrillic_GHE_bar":            0x01000492,
+	"Cyrillic_HA":                 0x000006e8,
+	"Cyrillic_HARDSIGN":           0x000006ff,
+	"Cyrillic_HA_descender":       0x010004b2,
+	"Cyrillic_I":                  0x000006e9,
+	"Cyrillic_IE":                 0x000006e5,
+	"Cyrillic_IO":                 0x000006b3,
+	"Cyrillic_I_macron":           0x010004e2,
+	"Cyrillic_JE":                 0x000006b8,
+	"Cyrillic_KA":                 0x000006eb,
+	"Cyrillic_KA_descender":       0x0100049a,
+	"Cyrillic_KA_vertstroke":      0x0100049c,
+	"Cyrillic_LJE":                0x000006b9,
+	"Cyrillic_NJE":                0x000006ba,
+	"Cyrillic_O":                  0x000006ef,
+	"Cyrillic_O_bar":              0x010004e8,
+	"Cyrillic_PE":                 0x000006f0,
+	"Cyrillic_SCHWA":              0x010004d8,
+	"Cyrillic_SHA":                0x000006fb,
+	"Cyrillic_SHCHA":              0x000006fd,
+	"Cyrillic_SHHA":               0x010004ba,
+	"Cyrillic_SHORTI":             0x000006ea,
+	"Cyrillic_SOFTSIGN":           0x000006f8,
+	"Cyrillic_TE":                 0x000006f4,
+	"Cyrillic_TSE":                0x000006e3,
+	"Cyrillic_U":                  0x000006f5,
+	"Cyrillic_U_macron":           0x010004ee,
+	"Cyrillic_U_straight":         0x010004ae,
+	"Cyrillic_U_straight_bar":     0x010004b0,
+	"Cyrillic_VE":                 0x000006f7,
+	"Cyrillic_YA":                 0x000006f1,
+	"Cyrillic_YERU":               0x000006f9,
+	"Cyrillic_YU":                 0x000006e0,
+	"Cyrillic_ZE":                 0x000006fa,
+	"Cyrillic_ZHE":                0x000006f6,
+	"Cyrillic_ZHE_descender":      0x01000496,
+	"Cyrillic_a":                  0x000006c1,
+	"Cyrillic_be":                 0x000006c2,
+	"Cyrillic_che":                0x000006de,
+	"Cyrillic_che_descender":      0x010004b7,
+	"Cyrillic_che_vertstroke":     0x010004b9,
+	"Cyrillic_de":                 0x000006c4,
+	"Cyrillic_dzhe":               0x000006af,
+	"Cyrillic_e":                  0x000006dc,
+	"Cyrillic_ef":                 0x000006c6,
+	"Cyrillic_el":                 0x000006cc,
+	"Cyrillic_em":                 0x000006cd,
+	"Cyrillic_en":                 0x000006ce,
+	"Cyrillic_en_descender":       0x010004a3,
+	"Cyrillic_er":                 0x000006d2,
+	"Cyrillic_es":                 0x000006d3,
+	"Cyrillic_ghe":                0x000006c7,
+	"Cyrillic_ghe_bar":            0x01000493,
+	"Cyrillic_ha":                 0x000006c8,
+	"Cyrillic_ha_descender":       0x010004b3,
+	"Cyrillic_hardsign":           0x000006df,
+	"Cyrillic_i":                  0x000006c9,
+	"Cyrillic_i_macron":           0x010004e3,
+	"Cyrillic_ie":                 0x000006c5,
+	"Cyrillic_io":                 0x000006a3,
+	"Cyrillic_je":                 0x000006a8,
+	"Cyrillic_ka":                 0x000006cb,
+	"Cyrillic_ka_descender":       0x0100049b,
+	"Cyrillic_ka_vertstroke":      0x0100049d,
+	"Cyrillic_lje":                0x000006a9,
+	"Cyrillic_nje":                0x000006aa,
+	"Cyrillic_o":                  0x000006cf,
+	"Cyrillic_o_bar":              0x010004e9,
+	"Cyrillic_pe":                 0x000006d0,
+	"Cyrillic_schwa":              0x010004d9,
+	"Cyrillic_sha":                0x000006db,
+	"Cyrillic_shcha":              0x000006dd,
+	"Cyrillic_shha":               0x010004bb,
+	"Cyrillic_shorti":             0x000006ca,
+	"Cyrillic_softsign":           0x000006d8,
+	"Cyrillic_te":                 0x000006d4,
+	"Cyrillic_tse":                0x000006c3,
+	"Cyrillic_u":                  0x000006d5,
+	"Cyrillic_u_macron":           0x010004ef,
+	"Cyrillic_u_straight":         0x010004af,
+	"Cyrillic_u_straight_bar":     0x010004b1,
+	"Cyrillic_ve":                 0x000006d7,
+	"Cyrillic_ya":                 0x000006d1,
+	"Cyrillic_yeru":               0x000006d9,
+	"Cyrillic_yu":                 0x000006c0,
+	"Cyrillic_ze":                 0x000006da,
+	"Cyrillic_zhe":                0x000006d6,
+	"Cyrillic_zhe_descender":      0x01000497,
+	"D":                           0x00000044,
+	"DOS":                         0x1008ff5a,
+	"Dabovedot":                   0x01001e0a,
+	"Dcaron":                      0x000001cf,
+	"Delete":                      0x0000ffff,
+	"Display":                     0x1008ff59,
+	"Documents":                   0x1008ff5b,
+	"DongSign":                    0x010020ab,
+	"Down":                        0x0000ff54,
+	"Dstroke":                     0x000001d0,
+	"E":                           0x00000045,
+	"ENG":                         0x000003bd,
+	"ETH":                         0x000000d0,
+	"EZH":                         0x010001b7,
+	"Eabovedot":                   0x000003cc,
+	"Eacute":                      0x000000c9,
+	"Ebelowdot":                   0x01001eb8,
+	"Ecaron":                      0x000001cc,
+	"Ecircumflex":                 0x000000ca,
+	"Ecircumflexacute":            0x01001ebe,
+	"Ecircumflexbelowdot":         0x01001ec6,
+	"Ecircumflexgrave":            0x01001ec0,
+	"Ecircumflexhook":             0x01001ec2,
+	"Ecircumflextilde":            0x01001ec4,
+	"EcuSign":                     0x010020a0,
+	"Ediaeresis":                  0x000000cb,
+	"Egrave":                      0x000000c8,
+	"Ehook":                       0x01001eba,
+	"Eisu_Shift":                  0x0000ff2f,
+	"Eisu_toggle":                 0x0000ff30,
+	"Eject":                       0x1008ff2c,
+	"Emacron":                     0x000003aa,
+	"End":                         0x0000ff57,
+	"Eogonek":                     0x000001ca,
+	"Escape":                      0x0000ff1b,
+	"Eth":                         0x000000d0,
+	"Etilde":                      0x01001ebc,
+	"EuroSign":                    0x000020ac,
+	"Excel":                       0x1008ff5c,
+	"Execute":                     0x0000ff62,
+	"Explorer":                    0x1008ff5d,
+	"F":                           0x00000046,
+	"F1":                          0x0000ffbe,
+	"F10":                         0x0000ffc7,
+	"F11":                         0x0000ffc8,
+	"F12":                         0x0000ffc9,
+	"F13":                         0x0000ffca,
+	"F14":                         0x0000ffcb,
+	"F15":                         0x0000ffcc,
+	"F16":                         0x0000ffcd,
+	"F17":                         0x0000ffce,
+	"F18":                         0x0000ffcf,
+	"F19":                         0x0000ffd0,
+	"F2":                          0x0000ffbf,
+	"F20":                         0x0000ffd1,
+	"F21":                         0x0000ffd2,
+	"F22":                         0x0000ffd3,
+	"F23":                         0x0000ffd4,
+	"F24":                         0x0000ffd5,
+	"F25":                         0x0000ffd6,
+	"F26":                         0x0000ffd7,
+	"F27":                         0x0000ffd8,
+	"F28":                         0x0000ffd9,
+	"F29":                         0x0000ffda,
+	"F3":                          0x0000ffc0,
+	"F30":                         0x0000ffdb,
+	"F31":                         0x0000ffdc,
+	"F32":                         0x0000ffdd,
+	"F33":                         0x0000ffde,
+	"F34":                         0x0000ffdf,
+	"F35":                         0x0000ffe0,
+	"F4":                          0x0000ffc1,
+	"F5":                          0x0000ffc2,
+	"F6":                          0x0000ffc3,
+	"F7":                          0x0000ffc4,
+	"F8":                          0x0000ffc5,
+	"F9":                          0x0000ffc6,
+	"FFrancSign":                  0x010020a3,
+	"Fabovedot":                   0x01001e1e,
+	"Farsi_0":                     0x010006f0,
+	"Farsi_1":                     0x010006f1,
+	"Farsi_2":                     0x010006f2,
+	"Farsi_3":                     0x010006f3,
+	"Farsi_4":                     0x010006f4,
+	"Farsi_5":                     0x010006f5,
+	"Farsi_6":                     0x010006f6,
+	"Farsi_7":                     0x010006f7,
+	"Farsi_8":                     0x010006f8,
+	"Farsi_9":                     0x010006f9,
+	"Farsi_yeh":                   0x010006cc,
+	"Favorites":                   0x1008ff30,
+	"Finance":                     0x1008ff3c,
+	"Find":                        0x0000ff68,
+	"First_Virtual_Screen":        0x0000fed0,
+	"Forward":                     0x1008ff27,
+	"FrameBack":                   0x1008ff9d,
+	"FrameForward":                0x1008ff9e,
+	"FullScreen":                  0x1008ffb8,
+	"G":                           0x00000047,
+	"Gabovedot":                   0x000002d5,
+	"Game":                        0x1008ff5e,
+	"Gbreve":                      0x000002ab,
+	"Gcaron":                      0x010001e6,
+	"Gcedilla":                    0x000003ab,
+	"Gcircumflex":                 0x000002d8,
+	"Georgian_an":                 0x010010d0,
+	"Georgian_ban":                0x010010d1,
+	"Georgian_can":                0x010010ea,
+	"Georgian_char":               0x010010ed,
+	"Georgian_chin":               0x010010e9,
+	"Georgian_cil":                0x010010ec,
+	"Georgian_don":                0x010010d3,
+	"Georgian_en":                 0x010010d4,
+	"Georgian_fi":                 0x010010f6,
+	"Georgian_gan":                0x010010d2,
+	"Georgian_ghan":               0x010010e6,
+	"Georgian_hae":                0x010010f0,
+	"Georgian_har":                0x010010f4,
+	"Georgian_he":                 0x010010f1,
+	"Georgian_hie":                0x010010f2,
+	"Georgian_hoe":                0x010010f5,
+	"Georgian_in":                 0x010010d8,
+	"Georgian_jhan":               0x010010ef,
+	"Georgian_jil":                0x010010eb,
+	"Georgian_kan":                0x010010d9,
+	"Georgian_khar":               0x010010e5,
+	"Georgian_las":                0x010010da,
+	"Georgian_man":                0x010010db,
+	"Georgian_nar":                0x010010dc,
+	"Georgian_on":                 0x010010dd,
+	"Georgian_par":                0x010010de,
+	"Georgian_phar":               0x010010e4,
+	"Georgian_qar":                0x010010e7,
+	"Georgian_rae":                0x010010e0,
+	"Georgian_san":                0x010010e1,
+	"Georgian_shin":               0x010010e8,
+	"Georgian_tan":                0x010010d7,
+	"Georgian_tar":                0x010010e2,
+	"Georgian_un":                 0x010010e3,
+	"Georgian_vin":                0x010010d5,
+	"Georgian_we":                 0x010010f3,
+	"Georgian_xan":                0x010010ee,
+	"Georgian_zen":                0x010010d6,
+	"Georgian_zhar":               0x010010df,
+	"Go":                          0x1008ff5f,
+	"Greek_ALPHA":                 0x000007c1,
+	"Greek_ALPHAaccent":           0x000007a1,
+	"Greek_BETA":                  0x000007c2,
+	"Greek_CHI":                   0x000007d7,
+	"Greek_DELTA":                 0x000007c4,
+	"Greek_EPSILON":               0x000007c5,
+	"Greek_EPSILONaccent":         0x000007a2,
+	"Greek_ETA":                   0x000007c7,
+	"Greek_ETAaccent":             0x000007a3,
+	"Greek_GAMMA":                 0x000007c3,
+	"Greek_IOTA":                  0x000007c9,
+	"Greek_IOTAaccent":            0x000007a4,
+	"Greek_IOTAdiaeresis":         0x000007a5,
+	"Greek_IOTAdieresis":          0x000007a5,
+	"Greek_KAPPA":                 0x000007ca,
+	"Greek_LAMBDA":                0x000007cb,
+	"Greek_LAMDA":                 0x000007cb,
+	"Greek_MU":                    0x000007cc,
+	"Greek_NU":                    0x000007cd,
+	"Greek_OMEGA":                 0x000007d9,
+	"Greek_OMEGAaccent":           0x000007ab,
+	"Greek_OMICRON":               0x000007cf,
+	"Greek_OMICRONaccent":         0x000007a7,
+	"Greek_PHI":                   0x000007d6,
+	"Greek_PI":                    0x000007d0,
+	"Greek_PSI":                   0x000007d8,
+	"Greek_RHO":                   0x000007d1,
+	"Greek_SIGMA":                 0x000007d2,
+	"Greek_TAU":                   0x000007d4,
+	"Greek_THETA":                 0x000007c8,
+	"Greek_UPSILON":               0x000007d5,
+	"Greek_UPSILONaccent":         0x000007a8,
+	"Greek_UPSILONdieresis":       0x000007a9,
+	"Greek_XI":                    0x000007ce,
+	"Greek_ZETA":                  0x000007c6,
+	"Greek_accentdieresis":        0x000007ae,
+	"Greek_alpha":                 0x000007e1,
+	"Greek_alphaaccent":           0x000007b1,
+	"Greek_beta":                  0x000007e2,
+	"Greek_chi":                   0x000007f7,
+	"Greek_delta":                 0x000007e4,
+	"Greek_epsilon":               0x000007e5,
+	"Greek_epsilonaccent":         0x000007b2,
+	"Greek_eta":                   0x000007e7,
+	"Greek_etaaccent":             0x000007b3,
+	"Greek_finalsmallsigma":       0x000007f3,
+	"Greek_gamma":                 0x000007e3,
+	"Greek_horizbar":              0x000007af,
+	"Greek_iota":                  0x000007e9,
+	"Greek_iotaaccent":            0x000007b4,
+	"Greek_iotaaccentdieresis":    0x000007b6,
+	"Greek_iotadieresis":          0x000007b5,
+	"Greek_kappa":                 0x000007ea,
+	"Greek_lambda":                0x000007eb,
+	"Greek_lamda":                 0x000007eb,
+	"Greek_mu":                    0x000007ec,
+	"Greek_nu":                    0x000007ed,
+	"Greek_omega":                 0x000007f9,
+	"Greek_omegaaccent":           0x000007bb,
+	"Greek_omicron":               0x000007ef,
+	"Greek_omicronaccent":         0x000007b7,
+	"Greek_phi":                   0x000007f6,
+	"Greek_pi":                    0x000007f0,
+	"Greek_psi":                   0x000007f8,
+	"Greek_rho":                   0x000007f1,
+	"Greek_sigma":                 0x000007f2,
+	"Greek_switch":                0x0000ff7e,
+	"Greek_tau":                   0x000007f4,
+	"Greek_theta":                 0x000007e8,
+	"Greek_upsilon":               0x000007f5,
+	"Greek_upsilonaccent":         0x000007b8,
 	"Greek_upsilonaccentdieresis": 0x000007ba,
-	"Greek_upsilondieresis": 0x000007b9,
-	"Greek_xi": 0x000007ee,
-	"Greek_zeta": 0x000007e6,
-	"Green": 0x1008ffa4,
-	"H": 0x00000048,
-	"Hangul": 0x0000ff31,
-	"Hangul_A": 0x00000ebf,
-	"Hangul_AE": 0x00000ec0,
-	"Hangul_AraeA": 0x00000ef6,
-	"Hangul_AraeAE": 0x00000ef7,
-	"Hangul_Banja": 0x0000ff39,
-	"Hangul_Cieuc": 0x00000eba,
-	"Hangul_Codeinput": 0x0000ff37,
-	"Hangul_Dikeud": 0x00000ea7,
-	"Hangul_E": 0x00000ec4,
-	"Hangul_EO": 0x00000ec3,
-	"Hangul_EU": 0x00000ed1,
-	"Hangul_End": 0x0000ff33,
-	"Hangul_Hanja": 0x0000ff34,
-	"Hangul_Hieuh": 0x00000ebe,
-	"Hangul_I": 0x00000ed3,
-	"Hangul_Ieung": 0x00000eb7,
-	"Hangul_J_Cieuc": 0x00000eea,
-	"Hangul_J_Dikeud": 0x00000eda,
-	"Hangul_J_Hieuh": 0x00000eee,
-	"Hangul_J_Ieung": 0x00000ee8,
-	"Hangul_J_Jieuj": 0x00000ee9,
-	"Hangul_J_Khieuq": 0x00000eeb,
-	"Hangul_J_Kiyeog": 0x00000ed4,
-	"Hangul_J_KiyeogSios": 0x00000ed6,
-	"Hangul_J_KkogjiDalrinIeung": 0x00000ef9,
-	"Hangul_J_Mieum": 0x00000ee3,
-	"Hangul_J_Nieun": 0x00000ed7,
-	"Hangul_J_NieunHieuh": 0x00000ed9,
-	"Hangul_J_NieunJieuj": 0x00000ed8,
-	"Hangul_J_PanSios": 0x00000ef8,
-	"Hangul_J_Phieuf": 0x00000eed,
-	"Hangul_J_Pieub": 0x00000ee4,
-	"Hangul_J_PieubSios": 0x00000ee5,
-	"Hangul_J_Rieul": 0x00000edb,
-	"Hangul_J_RieulHieuh": 0x00000ee2,
-	"Hangul_J_RieulKiyeog": 0x00000edc,
-	"Hangul_J_RieulMieum": 0x00000edd,
-	"Hangul_J_RieulPhieuf": 0x00000ee1,
-	"Hangul_J_RieulPieub": 0x00000ede,
-	"Hangul_J_RieulSios": 0x00000edf,
-	"Hangul_J_RieulTieut": 0x00000ee0,
-	"Hangul_J_Sios": 0x00000ee6,
-	"Hangul_J_SsangKiyeog": 0x00000ed5,
-	"Hangul_J_SsangSios": 0x00000ee7,
-	"Hangul_J_Tieut": 0x00000eec,
-	"Hangul_J_YeorinHieuh": 0x00000efa,
-	"Hangul_Jamo": 0x0000ff35,
-	"Hangul_Jeonja": 0x0000ff38,
-	"Hangul_Jieuj": 0x00000eb8,
-	"Hangul_Khieuq": 0x00000ebb,
-	"Hangul_Kiyeog": 0x00000ea1,
-	"Hangul_KiyeogSios": 0x00000ea3,
-	"Hangul_KkogjiDalrinIeung": 0x00000ef3,
-	"Hangul_Mieum": 0x00000eb1,
-	"Hangul_MultipleCandidate": 0x0000ff3d,
-	"Hangul_Nieun": 0x00000ea4,
-	"Hangul_NieunHieuh": 0x00000ea6,
-	"Hangul_NieunJieuj": 0x00000ea5,
-	"Hangul_O": 0x00000ec7,
-	"Hangul_OE": 0x00000eca,
-	"Hangul_PanSios": 0x00000ef2,
-	"Hangul_Phieuf": 0x00000ebd,
-	"Hangul_Pieub": 0x00000eb2,
-	"Hangul_PieubSios": 0x00000eb4,
-	"Hangul_PostHanja": 0x0000ff3b,
-	"Hangul_PreHanja": 0x0000ff3a,
-	"Hangul_PreviousCandidate": 0x0000ff3e,
-	"Hangul_Rieul": 0x00000ea9,
-	"Hangul_RieulHieuh": 0x00000eb0,
-	"Hangul_RieulKiyeog": 0x00000eaa,
-	"Hangul_RieulMieum": 0x00000eab,
-	"Hangul_RieulPhieuf": 0x00000eaf,
-	"Hangul_RieulPieub": 0x00000eac,
-	"Hangul_RieulSios": 0x00000ead,
-	"Hangul_RieulTieut": 0x00000eae,
-	"Hangul_RieulYeorinHieuh": 0x00000eef,
-	"Hangul_Romaja": 0x0000ff36,
-	"Hangul_SingleCandidate": 0x0000ff3c,
-	"Hangul_Sios": 0x00000eb5,
-	"Hangul_Special": 0x0000ff3f,
-	"Hangul_SsangDikeud": 0x00000ea8,
-	"Hangul_SsangJieuj": 0x00000eb9,
-	"Hangul_SsangKiyeog": 0x00000ea2,
-	"Hangul_SsangPieub": 0x00000eb3,
-	"Hangul_SsangSios": 0x00000eb6,
-	"Hangul_Start": 0x0000ff32,
-	"Hangul_SunkyeongeumMieum": 0x00000ef0,
-	"Hangul_SunkyeongeumPhieuf": 0x00000ef4,
-	"Hangul_SunkyeongeumPieub": 0x00000ef1,
-	"Hangul_Tieut": 0x00000ebc,
-	"Hangul_U": 0x00000ecc,
-	"Hangul_WA": 0x00000ec8,
-	"Hangul_WAE": 0x00000ec9,
-	"Hangul_WE": 0x00000ece,
-	"Hangul_WEO": 0x00000ecd,
-	"Hangul_WI": 0x00000ecf,
-	"Hangul_YA": 0x00000ec1,
-	"Hangul_YAE": 0x00000ec2,
-	"Hangul_YE": 0x00000ec6,
-	"Hangul_YEO": 0x00000ec5,
-	"Hangul_YI": 0x00000ed2,
-	"Hangul_YO": 0x00000ecb,
-	"Hangul_YU": 0x00000ed0,
-	"Hangul_YeorinHieuh": 0x00000ef5,
-	"Hangul_switch": 0x0000ff7e,
-	"Hankaku": 0x0000ff29,
-	"Hcircumflex": 0x000002a6,
-	"Hebrew_switch": 0x0000ff7e,
-	"Help": 0x0000ff6a,
-	"Henkan": 0x0000ff23,
-	"Henkan_Mode": 0x0000ff23,
-	"Hibernate": 0x1008ffa8,
-	"Hiragana": 0x0000ff25,
-	"Hiragana_Katakana": 0x0000ff27,
-	"History": 0x1008ff37,
-	"Home": 0x0000ff50,
-	"HomePage": 0x1008ff18,
-	"HotLinks": 0x1008ff3a,
-	"Hstroke": 0x000002a1,
-	"Hyper_L": 0x0000ffed,
-	"Hyper_R": 0x0000ffee,
-	"I": 0x00000049,
-	"ISO_Center_Object": 0x0000fe33,
-	"ISO_Continuous_Underline": 0x0000fe30,
+	"Greek_upsilondieresis":       0x000007b9,
+	"Greek_xi":                    0x000007ee,
+	"Greek_zeta":                  0x000007e6,
+	"Green":                       0x1008ffa4,
+	"H":                           0x00000048,
+	"Hangul":                      0x0000ff31,
+	"Hangul_A":                    0x00000ebf,
+	"Hangul_AE":                   0x00000ec0,
+	"Hangul_AraeA":                0x00000ef6,
+	"Hangul_AraeAE":               0x00000ef7,
+	"Hangul_Banja":                0x0000ff39,
+	"Hangul_Cieuc":                0x00000eba,
+	"Hangul_Codeinput":            0x0000ff37,
+	"Hangul_Dikeud":               0x00000ea7,
+	"Hangul_E":                    0x00000ec4,
+	"Hangul_EO":                   0x00000ec3,
+	"Hangul_EU":                   0x00000ed1,
+	"Hangul_End":                  0x0000ff33,
+	"Hangul_Hanja":                0x0000ff34,
+	"Hangul_Hieuh":                0x00000ebe,
+	"Hangul_I":                    0x00000ed3,
+	"Hangul_Ieung":                0x00000eb7,
+	"Hangul_J_Cieuc":              0x00000eea,
+	"Hangul_J_Dikeud":             0x00000eda,
+	"Hangul_J_Hieuh":              0x00000eee,
+	"Hangul_J_Ieung":              0x00000ee8,
+	"Hangul_J_Jieuj":              0x00000ee9,
+	"Hangul_J_Khieuq":             0x00000eeb,
+	"Hangul_J_Kiyeog":             0x00000ed4,
+	"Hangul_J_KiyeogSios":         0x00000ed6,
+	"Hangul_J_KkogjiDalrinIeung":  0x00000ef9,
+	"Hangul_J_Mieum":              0x00000ee3,
+	"Hangul_J_Nieun":              0x00000ed7,
+	"Hangul_J_NieunHieuh":         0x00000ed9,
+	"Hangul_J_NieunJieuj":         0x00000ed8,
+	"Hangul_J_PanSios":            0x00000ef8,
+	"Hangul_J_Phieuf":             0x00000eed,
+	"Hangul_J_Pieub":              0x00000ee4,
+	"Hangul_J_PieubSios":          0x00000ee5,
+	"Hangul_J_Rieul":              0x00000edb,
+	"Hangul_J_RieulHieuh":         0x00000ee2,
+	"Hangul_J_RieulKiyeog":        0x00000edc,
+	"Hangul_J_RieulMieum":         0x00000edd,
+	"Hangul_J_RieulPhieuf":        0x00000ee1,
+	"Hangul_J_RieulPieub":         0x00000ede,
+	"Hangul_J_RieulSios":          0x00000edf,
+	"Hangul_J_RieulTieut":         0x00000ee0,
+	"Hangul_J_Sios":               0x00000ee6,
+	"Hangul_J_SsangKiyeog":        0x00000ed5,
+	"Hangul_J_SsangSios":          0x00000ee7,
+	"Hangul_J_Tieut":              0x00000eec,
+	"Hangul_J_YeorinHieuh":        0x00000efa,
+	"Hangul_Jamo":                 0x0000ff35,
+	"Hangul_Jeonja":               0x0000ff38,
+	"Hangul_Jieuj":                0x00000eb8,
+	"Hangul_Khieuq":               0x00000ebb,
+	"Hangul_Kiyeog":               0x00000ea1,
+	"Hangul_KiyeogSios":           0x00000ea3,
+	"Hangul_KkogjiDalrinIeung":    0x00000ef3,
+	"Hangul_Mieum":                0x00000eb1,
+	"Hangul_MultipleCandidate":    0x0000ff3d,
+	"Hangul_Nieun":                0x00000ea4,
+	"Hangul_NieunHieuh":           0x00000ea6,
+	"Hangul_NieunJieuj":           0x00000ea5,
+	"Hangul_O":                    0x00000ec7,
+	"Hangul_OE":                   0x00000eca,
+	"Hangul_PanSios":              0x00000ef2,
+	"Hangul_Phieuf":               0x00000ebd,
+	"Hangul_Pieub":                0x00000eb2,
+	"Hangul_PieubSios":            0x00000eb4,
+	"Hangul_PostHanja":            0x0000ff3b,
+	"Hangul_PreHanja":             0x0000ff3a,
+	"Hangul_PreviousCandidate":    0x0000ff3e,
+	"Hangul_Rieul":                0x00000ea9,
+	"Hangul_RieulHieuh":           0x00000eb0,
+	"Hangul_RieulKiyeog":          0x00000eaa,
+	"Hangul_RieulMieum":           0x00000eab,
+	"Hangul_RieulPhieuf":          0x00000eaf,
+	"Hangul_RieulPieub":           0x00000eac,
+	"Hangul_RieulSios":            0x00000ead,
+	"Hangul_RieulTieut":           0x00000eae,
+	"Hangul_RieulYeorinHieuh":     0x00000eef,
+	"Hangul_Romaja":               0x0000ff36,
+	"Hangul_SingleCandidate":      0x0000ff3c,
+	"Hangul_Sios":                 0x00000eb5,
+	"Hangul_Special":              0x0000ff3f,
+	"Hangul_SsangDikeud":          0x00000ea8,
+	"Hangul_SsangJieuj":           0x00000eb9,
+	"Hangul_SsangKiyeog":          0x00000ea2,
+	"Hangul_SsangPieub":           0x00000eb3,
+	"Hangul_SsangSios":            0x00000eb6,
+	"Hangul_Start":                0x0000ff32,
+	"Hangul_SunkyeongeumMieum":    0x00000ef0,
+	"Hangul_SunkyeongeumPhieuf":   0x00000ef4,
+	"Hangul_SunkyeongeumPieub":    0x00000ef1,
+	"Hangul_Tieut":                0x00000ebc,
+	"Hangul_U":                    0x00000ecc,
+	"Hangul_WA":                   0x00000ec8,
+	"Hangul_WAE":                  0x00000ec9,
+	"Hangul_WE":                   0x00000ece,
+	"Hangul_WEO":                  0x00000ecd,
+	"Hangul_WI":                   0x00000ecf,
+	"Hangul_YA":                   0x00000ec1,
+	"Hangul_YAE":                  0x00000ec2,
+	"Hangul_YE":                   0x00000ec6,
+	"Hangul_YEO":                  0x00000ec5,
+	"Hangul_YI":                   0x00000ed2,
+	"Hangul_YO":                   0x00000ecb,
+	"Hangul_YU":                   0x00000ed0,
+	"Hangul_YeorinHieuh":          0x00000ef5,
+	"Hangul_switch":               0x0000ff7e,
+	"Hankaku":                     0x0000ff29,
+	"Hcircumflex":                 0x000002a6,
+	"Hebrew_switch":               0x0000ff7e,
+	"Help":                        0x0000ff6a,
+	"Henkan":                      0x0000ff23,
+	"Henkan_Mode":                 0x0000ff23,
+	"Hibernate":                   0x1008ffa8,
+	"Hiragana":                    0x0000ff25,
+	"Hiragana_Katakana":           0x0000ff27,
+	"History":                     0x1008ff37,
+	"Home":                        0x0000ff50,
+	"HomePage":                    0x1008ff18,
+	"HotLinks":                    0x1008ff3a,
+	"Hstroke":                     0x000002a1,
+	"Hyper_L":                     0x0000ffed,
+	"Hyper_R":                     0x0000ffee,
+	"I":                           0x00000049,
+	"ISO_Center_Object":           0x0000fe33,
+	"ISO_Continuous_Underline":    0x0000fe30,
 	"ISO_Discontinuous_Underline": 0x0000fe31,
-	"ISO_Emphasize": 0x0000fe32,
-	"ISO_Enter": 0x0000fe34,
-	"ISO_Fast_Cursor_Down": 0x0000fe2f,
-	"ISO_Fast_Cursor_Left": 0x0000fe2c,
-	"ISO_Fast_Cursor_Right": 0x0000fe2d,
-	"ISO_Fast_Cursor_Up": 0x0000fe2e,
-	"ISO_First_Group": 0x0000fe0c,
-	"ISO_First_Group_Lock": 0x0000fe0d,
-	"ISO_Group_Latch": 0x0000fe06,
-	"ISO_Group_Lock": 0x0000fe07,
-	"ISO_Group_Shift": 0x0000ff7e,
-	"ISO_Last_Group": 0x0000fe0e,
-	"ISO_Last_Group_Lock": 0x0000fe0f,
-	"ISO_Left_Tab": 0x0000fe20,
-	"ISO_Level2_Latch": 0x0000fe02,
-	"ISO_Level3_Latch": 0x0000fe04,
-	"ISO_Level3_Lock": 0x0000fe05,
-	"ISO_Level3_Shift": 0x0000fe03,
-	"ISO_Level5_Latch": 0x0000fe12,
-	"ISO_Level5_Lock": 0x0000fe13,
-	"ISO_Level5_Shift": 0x0000fe11,
-	"ISO_Lock": 0x0000fe01,
-	"ISO_Move_Line_Down": 0x0000fe22,
-	"ISO_Move_Line_Up": 0x0000fe21,
-	"ISO_Next_Group": 0x0000fe08,
-	"ISO_Next_Group_Lock": 0x0000fe09,
-	"ISO_Partial_Line_Down": 0x0000fe24,
-	"ISO_Partial_Line_Up": 0x0000fe23,
-	"ISO_Partial_Space_Left": 0x0000fe25,
-	"ISO_Partial_Space_Right": 0x0000fe26,
-	"ISO_Prev_Group": 0x0000fe0a,
-	"ISO_Prev_Group_Lock": 0x0000fe0b,
-	"ISO_Release_Both_Margins": 0x0000fe2b,
-	"ISO_Release_Margin_Left": 0x0000fe29,
-	"ISO_Release_Margin_Right": 0x0000fe2a,
-	"ISO_Set_Margin_Left": 0x0000fe27,
-	"ISO_Set_Margin_Right": 0x0000fe28,
-	"Iabovedot": 0x000002a9,
-	"Iacute": 0x000000cd,
-	"Ibelowdot": 0x01001eca,
-	"Ibreve": 0x0100012c,
-	"Icircumflex": 0x000000ce,
-	"Idiaeresis": 0x000000cf,
-	"Igrave": 0x000000cc,
-	"Ihook": 0x01001ec8,
-	"Imacron": 0x000003cf,
-	"Insert": 0x0000ff63,
-	"Iogonek": 0x000003c7,
-	"Itilde": 0x000003a5,
-	"J": 0x0000004a,
-	"Jcircumflex": 0x000002ac,
-	"K": 0x0000004b,
-	"KP_0": 0x0000ffb0,
-	"KP_1": 0x0000ffb1,
-	"KP_2": 0x0000ffb2,
-	"KP_3": 0x0000ffb3,
-	"KP_4": 0x0000ffb4,
-	"KP_5": 0x0000ffb5,
-	"KP_6": 0x0000ffb6,
-	"KP_7": 0x0000ffb7,
-	"KP_8": 0x0000ffb8,
-	"KP_9": 0x0000ffb9,
-	"KP_Add": 0x0000ffab,
-	"KP_Begin": 0x0000ff9d,
-	"KP_Decimal": 0x0000ffae,
-	"KP_Delete": 0x0000ff9f,
-	"KP_Divide": 0x0000ffaf,
-	"KP_Down": 0x0000ff99,
-	"KP_End": 0x0000ff9c,
-	"KP_Enter": 0x0000ff8d,
-	"KP_Equal": 0x0000ffbd,
-	"KP_F1": 0x0000ff91,
-	"KP_F2": 0x0000ff92,
-	"KP_F3": 0x0000ff93,
-	"KP_F4": 0x0000ff94,
-	"KP_Home": 0x0000ff95,
-	"KP_Insert": 0x0000ff9e,
-	"KP_Left": 0x0000ff96,
-	"KP_Multiply": 0x0000ffaa,
-	"KP_Next": 0x0000ff9b,
-	"KP_Page_Down": 0x0000ff9b,
-	"KP_Page_Up": 0x0000ff9a,
-	"KP_Prior": 0x0000ff9a,
-	"KP_Right": 0x0000ff98,
-	"KP_Separator": 0x0000ffac,
-	"KP_Space": 0x0000ff80,
-	"KP_Subtract": 0x0000ffad,
-	"KP_Tab": 0x0000ff89,
-	"KP_Up": 0x0000ff97,
-	"Kana_Lock": 0x0000ff2d,
-	"Kana_Shift": 0x0000ff2e,
-	"Kanji": 0x0000ff21,
-	"Kanji_Bangou": 0x0000ff37,
-	"Katakana": 0x0000ff26,
-	"KbdBrightnessDown": 0x1008ff06,
-	"KbdBrightnessUp": 0x1008ff05,
-	"KbdLightOnOff": 0x1008ff04,
-	"Kcedilla": 0x000003d3,
-	"Keyboard": 0x1008ffb3,
-	"Korean_Won": 0x00000eff,
-	"L": 0x0000004c,
-	"L1": 0x0000ffc8,
-	"L10": 0x0000ffd1,
-	"L2": 0x0000ffc9,
-	"L3": 0x0000ffca,
-	"L4": 0x0000ffcb,
-	"L5": 0x0000ffcc,
-	"L6": 0x0000ffcd,
-	"L7": 0x0000ffce,
-	"L8": 0x0000ffcf,
-	"L9": 0x0000ffd0,
-	"Lacute": 0x000001c5,
-	"Last_Virtual_Screen": 0x0000fed4,
-	"Launch0": 0x1008ff40,
-	"Launch1": 0x1008ff41,
-	"Launch2": 0x1008ff42,
-	"Launch3": 0x1008ff43,
-	"Launch4": 0x1008ff44,
-	"Launch5": 0x1008ff45,
-	"Launch6": 0x1008ff46,
-	"Launch7": 0x1008ff47,
-	"Launch8": 0x1008ff48,
-	"Launch9": 0x1008ff49,
-	"LaunchA": 0x1008ff4a,
-	"LaunchB": 0x1008ff4b,
-	"LaunchC": 0x1008ff4c,
-	"LaunchD": 0x1008ff4d,
-	"LaunchE": 0x1008ff4e,
-	"LaunchF": 0x1008ff4f,
-	"Lbelowdot": 0x01001e36,
-	"Lcaron": 0x000001a5,
-	"Lcedilla": 0x000003a6,
-	"Left": 0x0000ff51,
-	"LightBulb": 0x1008ff35,
-	"Linefeed": 0x0000ff0a,
-	"LiraSign": 0x010020a4,
-	"LogGrabInfo": 0x1008fe25,
-	"LogOff": 0x1008ff61,
-	"LogWindowTree": 0x1008fe24,
-	"Lstroke": 0x000001a3,
-	"M": 0x0000004d,
-	"Mabovedot": 0x01001e40,
-	"Macedonia_DSE": 0x000006b5,
-	"Macedonia_GJE": 0x000006b2,
-	"Macedonia_KJE": 0x000006bc,
-	"Macedonia_dse": 0x000006a5,
-	"Macedonia_gje": 0x000006a2,
-	"Macedonia_kje": 0x000006ac,
-	"Mae_Koho": 0x0000ff3e,
-	"Mail": 0x1008ff19,
-	"MailForward": 0x1008ff90,
-	"Market": 0x1008ff62,
-	"Massyo": 0x0000ff2c,
-	"MediaSelectCD": 0x1008ff53,
-	"Meeting": 0x1008ff63,
-	"Memo": 0x1008ff1e,
-	"Menu": 0x0000ff67,
-	"MenuKB": 0x1008ff65,
-	"MenuPB": 0x1008ff66,
-	"Messenger": 0x1008ff8e,
-	"Meta_L": 0x0000ffe7,
-	"Meta_R": 0x0000ffe8,
-	"MillSign": 0x010020a5,
-	"ModeLock": 0x1008ff01,
-	"Mode_switch": 0x0000ff7e,
-	"MonBrightnessCycle": 0x1008ff07,
-	"MonBrightnessDown": 0x1008ff03,
-	"MonBrightnessUp": 0x1008ff02,
-	"MouseKeys_Accel_Enable": 0x0000fe77,
-	"MouseKeys_Enable": 0x0000fe76,
-	"Muhenkan": 0x0000ff22,
-	"Multi_key": 0x0000ff20,
-	"MultipleCandidate": 0x0000ff3d,
-	"Music": 0x1008ff92,
-	"MyComputer": 0x1008ff33,
-	"MySites": 0x1008ff67,
-	"N": 0x0000004e,
-	"Nacute": 0x000001d1,
-	"NairaSign": 0x010020a6,
-	"Ncaron": 0x000001d2,
-	"Ncedilla": 0x000003d1,
-	"New": 0x1008ff68,
-	"NewSheqelSign": 0x010020aa,
-	"News": 0x1008ff69,
-	"Next": 0x0000ff56,
-	"Next_VMode": 0x1008fe22,
-	"Next_Virtual_Screen": 0x0000fed2,
-	"Ntilde": 0x000000d1,
-	"Num_Lock": 0x0000ff7f,
-	"O": 0x0000004f,
-	"OE": 0x000013bc,
-	"Oacute": 0x000000d3,
-	"Obarred": 0x0100019f,
-	"Obelowdot": 0x01001ecc,
-	"Ocaron": 0x010001d1,
-	"Ocircumflex": 0x000000d4,
-	"Ocircumflexacute": 0x01001ed0,
-	"Ocircumflexbelowdot": 0x01001ed8,
-	"Ocircumflexgrave": 0x01001ed2,
-	"Ocircumflexhook": 0x01001ed4,
-	"Ocircumflextilde": 0x01001ed6,
-	"Odiaeresis": 0x000000d6,
-	"Odoubleacute": 0x000001d5,
-	"OfficeHome": 0x1008ff6a,
-	"Ograve": 0x000000d2,
-	"Ohook": 0x01001ece,
-	"Ohorn": 0x010001a0,
-	"Ohornacute": 0x01001eda,
-	"Ohornbelowdot": 0x01001ee2,
-	"Ohorngrave": 0x01001edc,
-	"Ohornhook": 0x01001ede,
-	"Ohorntilde": 0x01001ee0,
-	"Omacron": 0x000003d2,
-	"Ooblique": 0x000000d8,
-	"Open": 0x1008ff6b,
-	"OpenURL": 0x1008ff38,
-	"Option": 0x1008ff6c,
-	"Oslash": 0x000000d8,
-	"Otilde": 0x000000d5,
-	"Overlay1_Enable": 0x0000fe78,
-	"Overlay2_Enable": 0x0000fe79,
-	"P": 0x00000050,
-	"Pabovedot": 0x01001e56,
-	"Page_Down": 0x0000ff56,
-	"Page_Up": 0x0000ff55,
-	"Paste": 0x1008ff6d,
-	"Pause": 0x0000ff13,
-	"PesetaSign": 0x010020a7,
-	"Phone": 0x1008ff6e,
-	"Pictures": 0x1008ff91,
-	"Pointer_Accelerate": 0x0000fefa,
-	"Pointer_Button1": 0x0000fee9,
-	"Pointer_Button2": 0x0000feea,
-	"Pointer_Button3": 0x0000feeb,
-	"Pointer_Button4": 0x0000feec,
-	"Pointer_Button5": 0x0000feed,
-	"Pointer_Button_Dflt": 0x0000fee8,
-	"Pointer_DblClick1": 0x0000feef,
-	"Pointer_DblClick2": 0x0000fef0,
-	"Pointer_DblClick3": 0x0000fef1,
-	"Pointer_DblClick4": 0x0000fef2,
-	"Pointer_DblClick5": 0x0000fef3,
-	"Pointer_DblClick_Dflt": 0x0000feee,
-	"Pointer_DfltBtnNext": 0x0000fefb,
-	"Pointer_DfltBtnPrev": 0x0000fefc,
-	"Pointer_Down": 0x0000fee3,
-	"Pointer_DownLeft": 0x0000fee6,
-	"Pointer_DownRight": 0x0000fee7,
-	"Pointer_Drag1": 0x0000fef5,
-	"Pointer_Drag2": 0x0000fef6,
-	"Pointer_Drag3": 0x0000fef7,
-	"Pointer_Drag4": 0x0000fef8,
-	"Pointer_Drag5": 0x0000fefd,
-	"Pointer_Drag_Dflt": 0x0000fef4,
-	"Pointer_EnableKeys": 0x0000fef9,
-	"Pointer_Left": 0x0000fee0,
-	"Pointer_Right": 0x0000fee1,
-	"Pointer_Up": 0x0000fee2,
-	"Pointer_UpLeft": 0x0000fee4,
-	"Pointer_UpRight": 0x0000fee5,
-	"PowerDown": 0x1008ff21,
-	"PowerOff": 0x1008ff2a,
-	"Prev_VMode": 0x1008fe23,
-	"Prev_Virtual_Screen": 0x0000fed1,
-	"PreviousCandidate": 0x0000ff3e,
-	"Print": 0x0000ff61,
-	"Prior": 0x0000ff55,
-	"Q": 0x00000051,
-	"R": 0x00000052,
-	"R1": 0x0000ffd2,
-	"R10": 0x0000ffdb,
-	"R11": 0x0000ffdc,
-	"R12": 0x0000ffdd,
-	"R13": 0x0000ffde,
-	"R14": 0x0000ffdf,
-	"R15": 0x0000ffe0,
-	"R2": 0x0000ffd3,
-	"R3": 0x0000ffd4,
-	"R4": 0x0000ffd5,
-	"R5": 0x0000ffd6,
-	"R6": 0x0000ffd7,
-	"R7": 0x0000ffd8,
-	"R8": 0x0000ffd9,
-	"R9": 0x0000ffda,
-	"RFKill": 0x1008ffb5,
-	"Racute": 0x000001c0,
-	"Rcaron": 0x000001d8,
-	"Rcedilla": 0x000003a3,
-	"Red": 0x1008ffa3,
-	"Redo": 0x0000ff66,
-	"Refresh": 0x1008ff29,
-	"Reload": 0x1008ff73,
-	"RepeatKeys_Enable": 0x0000fe72,
-	"Reply": 0x1008ff72,
-	"Return": 0x0000ff0d,
-	"Right": 0x0000ff53,
-	"RockerDown": 0x1008ff24,
-	"RockerEnter": 0x1008ff25,
-	"RockerUp": 0x1008ff23,
-	"Romaji": 0x0000ff24,
-	"RotateWindows": 0x1008ff74,
-	"RotationKB": 0x1008ff76,
-	"RotationLockToggle": 0x1008ffb7,
-	"RotationPB": 0x1008ff75,
-	"RupeeSign": 0x010020a8,
-	"S": 0x00000053,
-	"SCHWA": 0x0100018f,
-	"Sabovedot": 0x01001e60,
-	"Sacute": 0x000001a6,
-	"Save": 0x1008ff77,
-	"Scaron": 0x000001a9,
-	"Scedilla": 0x000001aa,
-	"Scircumflex": 0x000002de,
-	"ScreenSaver": 0x1008ff2d,
-	"ScrollClick": 0x1008ff7a,
-	"ScrollDown": 0x1008ff79,
-	"ScrollUp": 0x1008ff78,
-	"Scroll_Lock": 0x0000ff14,
-	"Search": 0x1008ff1b,
-	"Select": 0x0000ff60,
-	"Send": 0x1008ff7b,
-	"Serbian_DJE": 0x000006b1,
-	"Serbian_DZE": 0x000006bf,
-	"Serbian_JE": 0x000006b8,
-	"Serbian_LJE": 0x000006b9,
-	"Serbian_NJE": 0x000006ba,
-	"Serbian_TSHE": 0x000006bb,
-	"Serbian_dje": 0x000006a1,
-	"Serbian_dze": 0x000006af,
-	"Serbian_je": 0x000006a8,
-	"Serbian_lje": 0x000006a9,
-	"Serbian_nje": 0x000006aa,
-	"Serbian_tshe": 0x000006ab,
-	"Shift_L": 0x0000ffe1,
-	"Shift_Lock": 0x0000ffe6,
-	"Shift_R": 0x0000ffe2,
-	"Shop": 0x1008ff36,
-	"SingleCandidate": 0x0000ff3c,
-	"Sinh_a": 0x01000d85,
-	"Sinh_aa": 0x01000d86,
-	"Sinh_aa2": 0x01000dcf,
-	"Sinh_ae": 0x01000d87,
-	"Sinh_ae2": 0x01000dd0,
-	"Sinh_aee": 0x01000d88,
-	"Sinh_aee2": 0x01000dd1,
-	"Sinh_ai": 0x01000d93,
-	"Sinh_ai2": 0x01000ddb,
-	"Sinh_al": 0x01000dca,
-	"Sinh_au": 0x01000d96,
-	"Sinh_au2": 0x01000dde,
-	"Sinh_ba": 0x01000db6,
-	"Sinh_bha": 0x01000db7,
-	"Sinh_ca": 0x01000da0,
-	"Sinh_cha": 0x01000da1,
-	"Sinh_dda": 0x01000da9,
-	"Sinh_ddha": 0x01000daa,
-	"Sinh_dha": 0x01000daf,
-	"Sinh_dhha": 0x01000db0,
-	"Sinh_e": 0x01000d91,
-	"Sinh_e2": 0x01000dd9,
-	"Sinh_ee": 0x01000d92,
-	"Sinh_ee2": 0x01000dda,
-	"Sinh_fa": 0x01000dc6,
-	"Sinh_ga": 0x01000d9c,
-	"Sinh_gha": 0x01000d9d,
-	"Sinh_h2": 0x01000d83,
-	"Sinh_ha": 0x01000dc4,
-	"Sinh_i": 0x01000d89,
-	"Sinh_i2": 0x01000dd2,
-	"Sinh_ii": 0x01000d8a,
-	"Sinh_ii2": 0x01000dd3,
-	"Sinh_ja": 0x01000da2,
-	"Sinh_jha": 0x01000da3,
-	"Sinh_jnya": 0x01000da5,
-	"Sinh_ka": 0x01000d9a,
-	"Sinh_kha": 0x01000d9b,
-	"Sinh_kunddaliya": 0x01000df4,
-	"Sinh_la": 0x01000dbd,
-	"Sinh_lla": 0x01000dc5,
-	"Sinh_lu": 0x01000d8f,
-	"Sinh_lu2": 0x01000ddf,
-	"Sinh_luu": 0x01000d90,
-	"Sinh_luu2": 0x01000df3,
-	"Sinh_ma": 0x01000db8,
-	"Sinh_mba": 0x01000db9,
-	"Sinh_na": 0x01000db1,
-	"Sinh_ndda": 0x01000dac,
-	"Sinh_ndha": 0x01000db3,
-	"Sinh_ng": 0x01000d82,
-	"Sinh_ng2": 0x01000d9e,
-	"Sinh_nga": 0x01000d9f,
-	"Sinh_nja": 0x01000da6,
-	"Sinh_nna": 0x01000dab,
-	"Sinh_nya": 0x01000da4,
-	"Sinh_o": 0x01000d94,
-	"Sinh_o2": 0x01000ddc,
-	"Sinh_oo": 0x01000d95,
-	"Sinh_oo2": 0x01000ddd,
-	"Sinh_pa": 0x01000db4,
-	"Sinh_pha": 0x01000db5,
-	"Sinh_ra": 0x01000dbb,
-	"Sinh_ri": 0x01000d8d,
-	"Sinh_rii": 0x01000d8e,
-	"Sinh_ru2": 0x01000dd8,
-	"Sinh_ruu2": 0x01000df2,
-	"Sinh_sa": 0x01000dc3,
-	"Sinh_sha": 0x01000dc1,
-	"Sinh_ssha": 0x01000dc2,
-	"Sinh_tha": 0x01000dad,
-	"Sinh_thha": 0x01000dae,
-	"Sinh_tta": 0x01000da7,
-	"Sinh_ttha": 0x01000da8,
-	"Sinh_u": 0x01000d8b,
-	"Sinh_u2": 0x01000dd4,
-	"Sinh_uu": 0x01000d8c,
-	"Sinh_uu2": 0x01000dd6,
-	"Sinh_va": 0x01000dc0,
-	"Sinh_ya": 0x01000dba,
-	"Sleep": 0x1008ff2f,
-	"SlowKeys_Enable": 0x0000fe73,
-	"Spell": 0x1008ff7c,
-	"SplitScreen": 0x1008ff7d,
-	"Standby": 0x1008ff10,
-	"Start": 0x1008ff1a,
-	"StickyKeys_Enable": 0x0000fe75,
-	"Stop": 0x1008ff28,
-	"Subtitle": 0x1008ff9a,
-	"Super_L": 0x0000ffeb,
-	"Super_R": 0x0000ffec,
-	"Support": 0x1008ff7e,
-	"Suspend": 0x1008ffa7,
-	"Switch_VT_1": 0x1008fe01,
-	"Switch_VT_10": 0x1008fe0a,
-	"Switch_VT_11": 0x1008fe0b,
-	"Switch_VT_12": 0x1008fe0c,
-	"Switch_VT_2": 0x1008fe02,
-	"Switch_VT_3": 0x1008fe03,
-	"Switch_VT_4": 0x1008fe04,
-	"Switch_VT_5": 0x1008fe05,
-	"Switch_VT_6": 0x1008fe06,
-	"Switch_VT_7": 0x1008fe07,
-	"Switch_VT_8": 0x1008fe08,
-	"Switch_VT_9": 0x1008fe09,
-	"Sys_Req": 0x0000ff15,
-	"T": 0x00000054,
-	"THORN": 0x000000de,
-	"Tab": 0x0000ff09,
-	"Tabovedot": 0x01001e6a,
-	"TaskPane": 0x1008ff7f,
-	"Tcaron": 0x000001ab,
-	"Tcedilla": 0x000001de,
-	"Terminal": 0x1008ff80,
-	"Terminate_Server": 0x0000fed5,
-	"Thai_baht": 0x00000ddf,
-	"Thai_bobaimai": 0x00000dba,
-	"Thai_chochan": 0x00000da8,
-	"Thai_chochang": 0x00000daa,
-	"Thai_choching": 0x00000da9,
-	"Thai_chochoe": 0x00000dac,
-	"Thai_dochada": 0x00000dae,
-	"Thai_dodek": 0x00000db4,
-	"Thai_fofa": 0x00000dbd,
-	"Thai_fofan": 0x00000dbf,
-	"Thai_hohip": 0x00000dcb,
-	"Thai_honokhuk": 0x00000dce,
-	"Thai_khokhai": 0x00000da2,
-	"Thai_khokhon": 0x00000da5,
-	"Thai_khokhuat": 0x00000da3,
-	"Thai_khokhwai": 0x00000da4,
-	"Thai_khorakhang": 0x00000da6,
-	"Thai_kokai": 0x00000da1,
-	"Thai_lakkhangyao": 0x00000de5,
-	"Thai_lekchet": 0x00000df7,
-	"Thai_lekha": 0x00000df5,
-	"Thai_lekhok": 0x00000df6,
-	"Thai_lekkao": 0x00000df9,
-	"Thai_leknung": 0x00000df1,
-	"Thai_lekpaet": 0x00000df8,
-	"Thai_leksam": 0x00000df3,
-	"Thai_leksi": 0x00000df4,
-	"Thai_leksong": 0x00000df2,
-	"Thai_leksun": 0x00000df0,
-	"Thai_lochula": 0x00000dcc,
-	"Thai_loling": 0x00000dc5,
-	"Thai_lu": 0x00000dc6,
-	"Thai_maichattawa": 0x00000deb,
-	"Thai_maiek": 0x00000de8,
-	"Thai_maihanakat": 0x00000dd1,
-	"Thai_maihanakat_maitho": 0x00000dde,
-	"Thai_maitaikhu": 0x00000de7,
-	"Thai_maitho": 0x00000de9,
-	"Thai_maitri": 0x00000dea,
-	"Thai_maiyamok": 0x00000de6,
-	"Thai_moma": 0x00000dc1,
-	"Thai_ngongu": 0x00000da7,
-	"Thai_nikhahit": 0x00000ded,
-	"Thai_nonen": 0x00000db3,
-	"Thai_nonu": 0x00000db9,
-	"Thai_oang": 0x00000dcd,
-	"Thai_paiyannoi": 0x00000dcf,
-	"Thai_phinthu": 0x00000dda,
-	"Thai_phophan": 0x00000dbe,
-	"Thai_phophung": 0x00000dbc,
-	"Thai_phosamphao": 0x00000dc0,
-	"Thai_popla": 0x00000dbb,
-	"Thai_rorua": 0x00000dc3,
-	"Thai_ru": 0x00000dc4,
-	"Thai_saraa": 0x00000dd0,
-	"Thai_saraaa": 0x00000dd2,
-	"Thai_saraae": 0x00000de1,
-	"Thai_saraaimaimalai": 0x00000de4,
-	"Thai_saraaimaimuan": 0x00000de3,
-	"Thai_saraam": 0x00000dd3,
-	"Thai_sarae": 0x00000de0,
-	"Thai_sarai": 0x00000dd4,
-	"Thai_saraii": 0x00000dd5,
-	"Thai_sarao": 0x00000de2,
-	"Thai_sarau": 0x00000dd8,
-	"Thai_saraue": 0x00000dd6,
-	"Thai_sarauee": 0x00000dd7,
-	"Thai_sarauu": 0x00000dd9,
-	"Thai_sorusi": 0x00000dc9,
-	"Thai_sosala": 0x00000dc8,
-	"Thai_soso": 0x00000dab,
-	"Thai_sosua": 0x00000dca,
-	"Thai_thanthakhat": 0x00000dec,
-	"Thai_thonangmontho": 0x00000db1,
-	"Thai_thophuthao": 0x00000db2,
-	"Thai_thothahan": 0x00000db7,
-	"Thai_thothan": 0x00000db0,
-	"Thai_thothong": 0x00000db8,
-	"Thai_thothung": 0x00000db6,
-	"Thai_topatak": 0x00000daf,
-	"Thai_totao": 0x00000db5,
-	"Thai_wowaen": 0x00000dc7,
-	"Thai_yoyak": 0x00000dc2,
-	"Thai_yoying": 0x00000dad,
-	"Thorn": 0x000000de,
-	"Time": 0x1008ff9f,
-	"ToDoList": 0x1008ff1f,
-	"Tools": 0x1008ff81,
-	"TopMenu": 0x1008ffa2,
-	"TouchpadOff": 0x1008ffb1,
-	"TouchpadOn": 0x1008ffb0,
-	"TouchpadToggle": 0x1008ffa9,
-	"Touroku": 0x0000ff2b,
-	"Travel": 0x1008ff82,
-	"Tslash": 0x000003ac,
-	"U": 0x00000055,
-	"UWB": 0x1008ff96,
-	"Uacute": 0x000000da,
-	"Ubelowdot": 0x01001ee4,
-	"Ubreve": 0x000002dd,
-	"Ucircumflex": 0x000000db,
-	"Udiaeresis": 0x000000dc,
-	"Udoubleacute": 0x000001db,
-	"Ugrave": 0x000000d9,
-	"Uhook": 0x01001ee6,
-	"Uhorn": 0x010001af,
-	"Uhornacute": 0x01001ee8,
-	"Uhornbelowdot": 0x01001ef0,
-	"Uhorngrave": 0x01001eea,
-	"Uhornhook": 0x01001eec,
-	"Uhorntilde": 0x01001eee,
-	"Ukrainian_GHE_WITH_UPTURN": 0x000006bd,
-	"Ukrainian_I": 0x000006b6,
-	"Ukrainian_IE": 0x000006b4,
-	"Ukrainian_YI": 0x000006b7,
-	"Ukrainian_ghe_with_upturn": 0x000006ad,
-	"Ukrainian_i": 0x000006a6,
-	"Ukrainian_ie": 0x000006a4,
-	"Ukrainian_yi": 0x000006a7,
-	"Ukranian_I": 0x000006b6,
-	"Ukranian_JE": 0x000006b4,
-	"Ukranian_YI": 0x000006b7,
-	"Ukranian_i": 0x000006a6,
-	"Ukranian_je": 0x000006a4,
-	"Ukranian_yi": 0x000006a7,
-	"Umacron": 0x000003de,
-	"Undo": 0x0000ff65,
-	"Ungrab": 0x1008fe20,
-	"Uogonek": 0x000003d9,
-	"Up": 0x0000ff52,
-	"Uring": 0x000001d9,
-	"User1KB": 0x1008ff85,
-	"User2KB": 0x1008ff86,
-	"UserPB": 0x1008ff84,
-	"Utilde": 0x000003dd,
-	"V": 0x00000056,
-	"VendorHome": 0x1008ff34,
-	"Video": 0x1008ff87,
-	"View": 0x1008ffa1,
-	"VoidSymbol": 0x00ffffff,
-	"W": 0x00000057,
-	"WLAN": 0x1008ff95,
-	"WWAN": 0x1008ffb4,
-	"WWW": 0x1008ff2e,
-	"Wacute": 0x01001e82,
-	"WakeUp": 0x1008ff2b,
-	"Wcircumflex": 0x01000174,
-	"Wdiaeresis": 0x01001e84,
-	"WebCam": 0x1008ff8f,
-	"Wgrave": 0x01001e80,
-	"WheelButton": 0x1008ff88,
-	"WonSign": 0x010020a9,
-	"Word": 0x1008ff89,
-	"X": 0x00000058,
-	"Xabovedot": 0x01001e8a,
-	"Xfer": 0x1008ff8a,
-	"Y": 0x00000059,
-	"Yacute": 0x000000dd,
-	"Ybelowdot": 0x01001ef4,
-	"Ycircumflex": 0x01000176,
-	"Ydiaeresis": 0x000013be,
-	"Yellow": 0x1008ffa5,
-	"Ygrave": 0x01001ef2,
-	"Yhook": 0x01001ef6,
-	"Ytilde": 0x01001ef8,
-	"Z": 0x0000005a,
-	"Zabovedot": 0x000001af,
-	"Zacute": 0x000001ac,
-	"Zcaron": 0x000001ae,
-	"Zen_Koho": 0x0000ff3d,
-	"Zenkaku": 0x0000ff28,
-	"Zenkaku_Hankaku": 0x0000ff2a,
-	"ZoomIn": 0x1008ff8b,
-	"ZoomOut": 0x1008ff8c,
-	"Zstroke": 0x010001b5,
-	"a": 0x00000061,
-	"aacute": 0x000000e1,
-	"abelowdot": 0x01001ea1,
-	"abovedot": 0x000001ff,
-	"abreve": 0x000001e3,
-	"abreveacute": 0x01001eaf,
-	"abrevebelowdot": 0x01001eb7,
-	"abrevegrave": 0x01001eb1,
-	"abrevehook": 0x01001eb3,
-	"abrevetilde": 0x01001eb5,
-	"acircumflex": 0x000000e2,
-	"acircumflexacute": 0x01001ea5,
-	"acircumflexbelowdot": 0x01001ead,
-	"acircumflexgrave": 0x01001ea7,
-	"acircumflexhook": 0x01001ea9,
-	"acircumflextilde": 0x01001eab,
-	"acute": 0x000000b4,
-	"adiaeresis": 0x000000e4,
-	"ae": 0x000000e6,
-	"agrave": 0x000000e0,
-	"ahook": 0x01001ea3,
-	"amacron": 0x000003e0,
-	"ampersand": 0x00000026,
-	"aogonek": 0x000001b1,
-	"apostrophe": 0x00000027,
-	"approxeq": 0x01002248,
-	"approximate": 0x000008c8,
-	"aring": 0x000000e5,
-	"asciicircum": 0x0000005e,
-	"asciitilde": 0x0000007e,
-	"asterisk": 0x0000002a,
-	"at": 0x00000040,
-	"atilde": 0x000000e3,
-	"b": 0x00000062,
-	"babovedot": 0x01001e03,
-	"backslash": 0x0000005c,
-	"ballotcross": 0x00000af4,
-	"bar": 0x0000007c,
-	"because": 0x01002235,
-	"blank": 0x000009df,
-	"botintegral": 0x000008a5,
-	"botleftparens": 0x000008ac,
-	"botleftsqbracket": 0x000008a8,
-	"botleftsummation": 0x000008b2,
-	"botrightparens": 0x000008ae,
-	"botrightsqbracket": 0x000008aa,
-	"botrightsummation": 0x000008b6,
-	"bott": 0x000009f6,
-	"botvertsummationconnector": 0x000008b4,
-	"braceleft": 0x0000007b,
-	"braceright": 0x0000007d,
-	"bracketleft": 0x0000005b,
-	"bracketright": 0x0000005d,
-	"braille_blank": 0x01002800,
-	"braille_dot_1": 0x0000fff1,
-	"braille_dot_10": 0x0000fffa,
-	"braille_dot_2": 0x0000fff2,
-	"braille_dot_3": 0x0000fff3,
-	"braille_dot_4": 0x0000fff4,
-	"braille_dot_5": 0x0000fff5,
-	"braille_dot_6": 0x0000fff6,
-	"braille_dot_7": 0x0000fff7,
-	"braille_dot_8": 0x0000fff8,
-	"braille_dot_9": 0x0000fff9,
-	"braille_dots_1": 0x01002801,
-	"braille_dots_12": 0x01002803,
-	"braille_dots_123": 0x01002807,
-	"braille_dots_1234": 0x0100280f,
-	"braille_dots_12345": 0x0100281f,
-	"braille_dots_123456": 0x0100283f,
-	"braille_dots_1234567": 0x0100287f,
-	"braille_dots_12345678": 0x010028ff,
-	"braille_dots_1234568": 0x010028bf,
-	"braille_dots_123457": 0x0100285f,
-	"braille_dots_1234578": 0x010028df,
-	"braille_dots_123458": 0x0100289f,
-	"braille_dots_12346": 0x0100282f,
-	"braille_dots_123467": 0x0100286f,
-	"braille_dots_1234678": 0x010028ef,
-	"braille_dots_123468": 0x010028af,
-	"braille_dots_12347": 0x0100284f,
-	"braille_dots_123478": 0x010028cf,
-	"braille_dots_12348": 0x0100288f,
-	"braille_dots_1235": 0x01002817,
-	"braille_dots_12356": 0x01002837,
-	"braille_dots_123567": 0x01002877,
-	"braille_dots_1235678": 0x010028f7,
-	"braille_dots_123568": 0x010028b7,
-	"braille_dots_12357": 0x01002857,
-	"braille_dots_123578": 0x010028d7,
-	"braille_dots_12358": 0x01002897,
-	"braille_dots_1236": 0x01002827,
-	"braille_dots_12367": 0x01002867,
-	"braille_dots_123678": 0x010028e7,
-	"braille_dots_12368": 0x010028a7,
-	"braille_dots_1237": 0x01002847,
-	"braille_dots_12378": 0x010028c7,
-	"braille_dots_1238": 0x01002887,
-	"braille_dots_124": 0x0100280b,
-	"braille_dots_1245": 0x0100281b,
-	"braille_dots_12456": 0x0100283b,
-	"braille_dots_124567": 0x0100287b,
-	"braille_dots_1245678": 0x010028fb,
-	"braille_dots_124568": 0x010028bb,
-	"braille_dots_12457": 0x0100285b,
-	"braille_dots_124578": 0x010028db,
-	"braille_dots_12458": 0x0100289b,
-	"braille_dots_1246": 0x0100282b,
-	"braille_dots_12467": 0x0100286b,
-	"braille_dots_124678": 0x010028eb,
-	"braille_dots_12468": 0x010028ab,
-	"braille_dots_1247": 0x0100284b,
-	"braille_dots_12478": 0x010028cb,
-	"braille_dots_1248": 0x0100288b,
-	"braille_dots_125": 0x01002813,
-	"braille_dots_1256": 0x01002833,
-	"braille_dots_12567": 0x01002873,
-	"braille_dots_125678": 0x010028f3,
-	"braille_dots_12568": 0x010028b3,
-	"braille_dots_1257": 0x01002853,
-	"braille_dots_12578": 0x010028d3,
-	"braille_dots_1258": 0x01002893,
-	"braille_dots_126": 0x01002823,
-	"braille_dots_1267": 0x01002863,
-	"braille_dots_12678": 0x010028e3,
-	"braille_dots_1268": 0x010028a3,
-	"braille_dots_127": 0x01002843,
-	"braille_dots_1278": 0x010028c3,
-	"braille_dots_128": 0x01002883,
-	"braille_dots_13": 0x01002805,
-	"braille_dots_134": 0x0100280d,
-	"braille_dots_1345": 0x0100281d,
-	"braille_dots_13456": 0x0100283d,
-	"braille_dots_134567": 0x0100287d,
-	"braille_dots_1345678": 0x010028fd,
-	"braille_dots_134568": 0x010028bd,
-	"braille_dots_13457": 0x0100285d,
-	"braille_dots_134578": 0x010028dd,
-	"braille_dots_13458": 0x0100289d,
-	"braille_dots_1346": 0x0100282d,
-	"braille_dots_13467": 0x0100286d,
-	"braille_dots_134678": 0x010028ed,
-	"braille_dots_13468": 0x010028ad,
-	"braille_dots_1347": 0x0100284d,
-	"braille_dots_13478": 0x010028cd,
-	"braille_dots_1348": 0x0100288d,
-	"braille_dots_135": 0x01002815,
-	"braille_dots_1356": 0x01002835,
-	"braille_dots_13567": 0x01002875,
-	"braille_dots_135678": 0x010028f5,
-	"braille_dots_13568": 0x010028b5,
-	"braille_dots_1357": 0x01002855,
-	"braille_dots_13578": 0x010028d5,
-	"braille_dots_1358": 0x01002895,
-	"braille_dots_136": 0x01002825,
-	"braille_dots_1367": 0x01002865,
-	"braille_dots_13678": 0x010028e5,
-	"braille_dots_1368": 0x010028a5,
-	"braille_dots_137": 0x01002845,
-	"braille_dots_1378": 0x010028c5,
-	"braille_dots_138": 0x01002885,
-	"braille_dots_14": 0x01002809,
-	"braille_dots_145": 0x01002819,
-	"braille_dots_1456": 0x01002839,
-	"braille_dots_14567": 0x01002879,
-	"braille_dots_145678": 0x010028f9,
-	"braille_dots_14568": 0x010028b9,
-	"braille_dots_1457": 0x01002859,
-	"braille_dots_14578": 0x010028d9,
-	"braille_dots_1458": 0x01002899,
-	"braille_dots_146": 0x01002829,
-	"braille_dots_1467": 0x01002869,
-	"braille_dots_14678": 0x010028e9,
-	"braille_dots_1468": 0x010028a9,
-	"braille_dots_147": 0x01002849,
-	"braille_dots_1478": 0x010028c9,
-	"braille_dots_148": 0x01002889,
-	"braille_dots_15": 0x01002811,
-	"braille_dots_156": 0x01002831,
-	"braille_dots_1567": 0x01002871,
-	"braille_dots_15678": 0x010028f1,
-	"braille_dots_1568": 0x010028b1,
-	"braille_dots_157": 0x01002851,
-	"braille_dots_1578": 0x010028d1,
-	"braille_dots_158": 0x01002891,
-	"braille_dots_16": 0x01002821,
-	"braille_dots_167": 0x01002861,
-	"braille_dots_1678": 0x010028e1,
-	"braille_dots_168": 0x010028a1,
-	"braille_dots_17": 0x01002841,
-	"braille_dots_178": 0x010028c1,
-	"braille_dots_18": 0x01002881,
-	"braille_dots_2": 0x01002802,
-	"braille_dots_23": 0x01002806,
-	"braille_dots_234": 0x0100280e,
-	"braille_dots_2345": 0x0100281e,
-	"braille_dots_23456": 0x0100283e,
-	"braille_dots_234567": 0x0100287e,
-	"braille_dots_2345678": 0x010028fe,
-	"braille_dots_234568": 0x010028be,
-	"braille_dots_23457": 0x0100285e,
-	"braille_dots_234578": 0x010028de,
-	"braille_dots_23458": 0x0100289e,
-	"braille_dots_2346": 0x0100282e,
-	"braille_dots_23467": 0x0100286e,
-	"braille_dots_234678": 0x010028ee,
-	"braille_dots_23468": 0x010028ae,
-	"braille_dots_2347": 0x0100284e,
-	"braille_dots_23478": 0x010028ce,
-	"braille_dots_2348": 0x0100288e,
-	"braille_dots_235": 0x01002816,
-	"braille_dots_2356": 0x01002836,
-	"braille_dots_23567": 0x01002876,
-	"braille_dots_235678": 0x010028f6,
-	"braille_dots_23568": 0x010028b6,
-	"braille_dots_2357": 0x01002856,
-	"braille_dots_23578": 0x010028d6,
-	"braille_dots_2358": 0x01002896,
-	"braille_dots_236": 0x01002826,
-	"braille_dots_2367": 0x01002866,
-	"braille_dots_23678": 0x010028e6,
-	"braille_dots_2368": 0x010028a6,
-	"braille_dots_237": 0x01002846,
-	"braille_dots_2378": 0x010028c6,
-	"braille_dots_238": 0x01002886,
-	"braille_dots_24": 0x0100280a,
-	"braille_dots_245": 0x0100281a,
-	"braille_dots_2456": 0x0100283a,
-	"braille_dots_24567": 0x0100287a,
-	"braille_dots_245678": 0x010028fa,
-	"braille_dots_24568": 0x010028ba,
-	"braille_dots_2457": 0x0100285a,
-	"braille_dots_24578": 0x010028da,
-	"braille_dots_2458": 0x0100289a,
-	"braille_dots_246": 0x0100282a,
-	"braille_dots_2467": 0x0100286a,
-	"braille_dots_24678": 0x010028ea,
-	"braille_dots_2468": 0x010028aa,
-	"braille_dots_247": 0x0100284a,
-	"braille_dots_2478": 0x010028ca,
-	"braille_dots_248": 0x0100288a,
-	"braille_dots_25": 0x01002812,
-	"braille_dots_256": 0x01002832,
-	"braille_dots_2567": 0x01002872,
-	"braille_dots_25678": 0x010028f2,
-	"braille_dots_2568": 0x010028b2,
-	"braille_dots_257": 0x01002852,
-	"braille_dots_2578": 0x010028d2,
-	"braille_dots_258": 0x01002892,
-	"braille_dots_26": 0x01002822,
-	"braille_dots_267": 0x01002862,
-	"braille_dots_2678": 0x010028e2,
-	"braille_dots_268": 0x010028a2,
-	"braille_dots_27": 0x01002842,
-	"braille_dots_278": 0x010028c2,
-	"braille_dots_28": 0x01002882,
-	"braille_dots_3": 0x01002804,
-	"braille_dots_34": 0x0100280c,
-	"braille_dots_345": 0x0100281c,
-	"braille_dots_3456": 0x0100283c,
-	"braille_dots_34567": 0x0100287c,
-	"braille_dots_345678": 0x010028fc,
-	"braille_dots_34568": 0x010028bc,
-	"braille_dots_3457": 0x0100285c,
-	"braille_dots_34578": 0x010028dc,
-	"braille_dots_3458": 0x0100289c,
-	"braille_dots_346": 0x0100282c,
-	"braille_dots_3467": 0x0100286c,
-	"braille_dots_34678": 0x010028ec,
-	"braille_dots_3468": 0x010028ac,
-	"braille_dots_347": 0x0100284c,
-	"braille_dots_3478": 0x010028cc,
-	"braille_dots_348": 0x0100288c,
-	"braille_dots_35": 0x01002814,
-	"braille_dots_356": 0x01002834,
-	"braille_dots_3567": 0x01002874,
-	"braille_dots_35678": 0x010028f4,
-	"braille_dots_3568": 0x010028b4,
-	"braille_dots_357": 0x01002854,
-	"braille_dots_3578": 0x010028d4,
-	"braille_dots_358": 0x01002894,
-	"braille_dots_36": 0x01002824,
-	"braille_dots_367": 0x01002864,
-	"braille_dots_3678": 0x010028e4,
-	"braille_dots_368": 0x010028a4,
-	"braille_dots_37": 0x01002844,
-	"braille_dots_378": 0x010028c4,
-	"braille_dots_38": 0x01002884,
-	"braille_dots_4": 0x01002808,
-	"braille_dots_45": 0x01002818,
-	"braille_dots_456": 0x01002838,
-	"braille_dots_4567": 0x01002878,
-	"braille_dots_45678": 0x010028f8,
-	"braille_dots_4568": 0x010028b8,
-	"braille_dots_457": 0x01002858,
-	"braille_dots_4578": 0x010028d8,
-	"braille_dots_458": 0x01002898,
-	"braille_dots_46": 0x01002828,
-	"braille_dots_467": 0x01002868,
-	"braille_dots_4678": 0x010028e8,
-	"braille_dots_468": 0x010028a8,
-	"braille_dots_47": 0x01002848,
-	"braille_dots_478": 0x010028c8,
-	"braille_dots_48": 0x01002888,
-	"braille_dots_5": 0x01002810,
-	"braille_dots_56": 0x01002830,
-	"braille_dots_567": 0x01002870,
-	"braille_dots_5678": 0x010028f0,
-	"braille_dots_568": 0x010028b0,
-	"braille_dots_57": 0x01002850,
-	"braille_dots_578": 0x010028d0,
-	"braille_dots_58": 0x01002890,
-	"braille_dots_6": 0x01002820,
-	"braille_dots_67": 0x01002860,
-	"braille_dots_678": 0x010028e0,
-	"braille_dots_68": 0x010028a0,
-	"braille_dots_7": 0x01002840,
-	"braille_dots_78": 0x010028c0,
-	"braille_dots_8": 0x01002880,
-	"breve": 0x000001a2,
-	"brokenbar": 0x000000a6,
-	"c": 0x00000063,
-	"c_h": 0x0000fea3,
-	"cabovedot": 0x000002e5,
-	"cacute": 0x000001e6,
-	"careof": 0x00000ab8,
-	"caret": 0x00000afc,
-	"caron": 0x000001b7,
-	"ccaron": 0x000001e8,
-	"ccedilla": 0x000000e7,
-	"ccircumflex": 0x000002e6,
-	"cedilla": 0x000000b8,
-	"cent": 0x000000a2,
-	"ch": 0x0000fea0,
-	"checkerboard": 0x000009e1,
-	"checkmark": 0x00000af3,
-	"circle": 0x00000bcf,
-	"club": 0x00000aec,
-	"colon": 0x0000003a,
-	"combining_acute": 0x01000301,
-	"combining_belowdot": 0x01000323,
-	"combining_grave": 0x01000300,
-	"combining_hook": 0x01000309,
-	"combining_tilde": 0x01000303,
-	"comma": 0x0000002c,
-	"containsas": 0x0100220b,
-	"copyright": 0x000000a9,
-	"cr": 0x000009e4,
-	"crossinglines": 0x000009ee,
-	"cuberoot": 0x0100221b,
-	"currency": 0x000000a4,
-	"cursor": 0x00000aff,
-	"d": 0x00000064,
-	"dabovedot": 0x01001e0b,
-	"dagger": 0x00000af1,
-	"dcaron": 0x000001ef,
-	"dead_A": 0x0000fe81,
-	"dead_E": 0x0000fe83,
-	"dead_I": 0x0000fe85,
-	"dead_O": 0x0000fe87,
-	"dead_SCHWA": 0x0000fe8b,
-	"dead_U": 0x0000fe89,
-	"dead_a": 0x0000fe80,
-	"dead_abovecomma": 0x0000fe64,
-	"dead_abovedot": 0x0000fe56,
-	"dead_abovereversedcomma": 0x0000fe65,
-	"dead_abovering": 0x0000fe58,
-	"dead_aboveverticalline": 0x0000fe91,
-	"dead_acute": 0x0000fe51,
-	"dead_belowbreve": 0x0000fe6b,
-	"dead_belowcircumflex": 0x0000fe69,
-	"dead_belowcomma": 0x0000fe6e,
-	"dead_belowdiaeresis": 0x0000fe6c,
-	"dead_belowdot": 0x0000fe60,
-	"dead_belowmacron": 0x0000fe68,
-	"dead_belowring": 0x0000fe67,
-	"dead_belowtilde": 0x0000fe6a,
-	"dead_belowverticalline": 0x0000fe92,
-	"dead_breve": 0x0000fe55,
-	"dead_capital_schwa": 0x0000fe8b,
-	"dead_caron": 0x0000fe5a,
-	"dead_cedilla": 0x0000fe5b,
-	"dead_circumflex": 0x0000fe52,
-	"dead_currency": 0x0000fe6f,
-	"dead_dasia": 0x0000fe65,
-	"dead_diaeresis": 0x0000fe57,
-	"dead_doubleacute": 0x0000fe59,
-	"dead_doublegrave": 0x0000fe66,
-	"dead_e": 0x0000fe82,
-	"dead_grave": 0x0000fe50,
-	"dead_greek": 0x0000fe8c,
-	"dead_hamza": 0x0000fe8d,
-	"dead_hook": 0x0000fe61,
-	"dead_horn": 0x0000fe62,
-	"dead_i": 0x0000fe84,
-	"dead_invertedbreve": 0x0000fe6d,
-	"dead_iota": 0x0000fe5d,
-	"dead_longsolidusoverlay": 0x0000fe93,
-	"dead_lowline": 0x0000fe90,
-	"dead_macron": 0x0000fe54,
-	"dead_o": 0x0000fe86,
-	"dead_ogonek": 0x0000fe5c,
-	"dead_perispomeni": 0x0000fe53,
-	"dead_psili": 0x0000fe64,
-	"dead_schwa": 0x0000fe8a,
-	"dead_semivoiced_sound": 0x0000fe5f,
-	"dead_small_schwa": 0x0000fe8a,
-	"dead_stroke": 0x0000fe63,
-	"dead_tilde": 0x0000fe53,
-	"dead_u": 0x0000fe88,
-	"dead_voiced_sound": 0x0000fe5e,
-	"decimalpoint": 0x00000abd,
-	"degree": 0x000000b0,
-	"diaeresis": 0x000000a8,
-	"diamond": 0x00000aed,
-	"digitspace": 0x00000aa5,
-	"dintegral": 0x0100222c,
-	"division": 0x000000f7,
-	"dollar": 0x00000024,
-	"doubbaselinedot": 0x00000aaf,
-	"doubleacute": 0x000001bd,
-	"doubledagger": 0x00000af2,
-	"doublelowquotemark": 0x00000afe,
-	"downarrow": 0x000008fe,
-	"downcaret": 0x00000ba8,
-	"downshoe": 0x00000bd6,
-	"downstile": 0x00000bc4,
-	"downtack": 0x00000bc2,
-	"dstroke": 0x000001f0,
-	"e": 0x00000065,
-	"eabovedot": 0x000003ec,
-	"eacute": 0x000000e9,
-	"ebelowdot": 0x01001eb9,
-	"ecaron": 0x000001ec,
-	"ecircumflex": 0x000000ea,
-	"ecircumflexacute": 0x01001ebf,
-	"ecircumflexbelowdot": 0x01001ec7,
-	"ecircumflexgrave": 0x01001ec1,
-	"ecircumflexhook": 0x01001ec3,
-	"ecircumflextilde": 0x01001ec5,
-	"ediaeresis": 0x000000eb,
-	"egrave": 0x000000e8,
-	"ehook": 0x01001ebb,
-	"eightsubscript": 0x01002088,
-	"eightsuperior": 0x01002078,
-	"elementof": 0x01002208,
-	"ellipsis": 0x00000aae,
-	"em3space": 0x00000aa3,
-	"em4space": 0x00000aa4,
-	"emacron": 0x000003ba,
-	"emdash": 0x00000aa9,
-	"emfilledcircle": 0x00000ade,
-	"emfilledrect": 0x00000adf,
-	"emopencircle": 0x00000ace,
-	"emopenrectangle": 0x00000acf,
-	"emptyset": 0x01002205,
-	"emspace": 0x00000aa1,
-	"endash": 0x00000aaa,
-	"enfilledcircbullet": 0x00000ae6,
-	"enfilledsqbullet": 0x00000ae7,
-	"eng": 0x000003bf,
-	"enopencircbullet": 0x00000ae0,
-	"enopensquarebullet": 0x00000ae1,
-	"enspace": 0x00000aa2,
-	"eogonek": 0x000001ea,
-	"equal": 0x0000003d,
-	"eth": 0x000000f0,
-	"etilde": 0x01001ebd,
-	"exclam": 0x00000021,
-	"exclamdown": 0x000000a1,
-	"ezh": 0x01000292,
-	"f": 0x00000066,
-	"fabovedot": 0x01001e1f,
-	"femalesymbol": 0x00000af8,
-	"ff": 0x000009e3,
-	"figdash": 0x00000abb,
-	"filledlefttribullet": 0x00000adc,
-	"filledrectbullet": 0x00000adb,
-	"filledrighttribullet": 0x00000add,
-	"filledtribulletdown": 0x00000ae9,
-	"filledtribulletup": 0x00000ae8,
-	"fiveeighths": 0x00000ac5,
-	"fivesixths": 0x00000ab7,
-	"fivesubscript": 0x01002085,
-	"fivesuperior": 0x01002075,
-	"fourfifths": 0x00000ab5,
-	"foursubscript": 0x01002084,
-	"foursuperior": 0x01002074,
-	"fourthroot": 0x0100221c,
-	"function": 0x000008f6,
-	"g": 0x00000067,
-	"gabovedot": 0x000002f5,
-	"gbreve": 0x000002bb,
-	"gcaron": 0x010001e7,
-	"gcedilla": 0x000003bb,
-	"gcircumflex": 0x000002f8,
-	"grave": 0x00000060,
-	"greater": 0x0000003e,
-	"greaterthanequal": 0x000008be,
-	"guillemetleft": 0x000000ab,
-	"guillemetright": 0x000000bb,
-	"guillemotleft": 0x000000ab,
-	"guillemotright": 0x000000bb,
-	"h": 0x00000068,
-	"hairspace": 0x00000aa8,
-	"hcircumflex": 0x000002b6,
-	"heart": 0x00000aee,
-	"hebrew_aleph": 0x00000ce0,
-	"hebrew_ayin": 0x00000cf2,
-	"hebrew_bet": 0x00000ce1,
-	"hebrew_beth": 0x00000ce1,
-	"hebrew_chet": 0x00000ce7,
-	"hebrew_dalet": 0x00000ce3,
-	"hebrew_daleth": 0x00000ce3,
-	"hebrew_doublelowline": 0x00000cdf,
-	"hebrew_finalkaph": 0x00000cea,
-	"hebrew_finalmem": 0x00000ced,
-	"hebrew_finalnun": 0x00000cef,
-	"hebrew_finalpe": 0x00000cf3,
-	"hebrew_finalzade": 0x00000cf5,
-	"hebrew_finalzadi": 0x00000cf5,
-	"hebrew_gimel": 0x00000ce2,
-	"hebrew_gimmel": 0x00000ce2,
-	"hebrew_he": 0x00000ce4,
-	"hebrew_het": 0x00000ce7,
-	"hebrew_kaph": 0x00000ceb,
-	"hebrew_kuf": 0x00000cf7,
-	"hebrew_lamed": 0x00000cec,
-	"hebrew_mem": 0x00000cee,
-	"hebrew_nun": 0x00000cf0,
-	"hebrew_pe": 0x00000cf4,
-	"hebrew_qoph": 0x00000cf7,
-	"hebrew_resh": 0x00000cf8,
-	"hebrew_samech": 0x00000cf1,
-	"hebrew_samekh": 0x00000cf1,
-	"hebrew_shin": 0x00000cf9,
-	"hebrew_taf": 0x00000cfa,
-	"hebrew_taw": 0x00000cfa,
-	"hebrew_tet": 0x00000ce8,
-	"hebrew_teth": 0x00000ce8,
-	"hebrew_waw": 0x00000ce5,
-	"hebrew_yod": 0x00000ce9,
-	"hebrew_zade": 0x00000cf6,
-	"hebrew_zadi": 0x00000cf6,
-	"hebrew_zain": 0x00000ce6,
-	"hebrew_zayin": 0x00000ce6,
-	"hexagram": 0x00000ada,
-	"horizconnector": 0x000008a3,
-	"horizlinescan1": 0x000009ef,
-	"horizlinescan3": 0x000009f0,
-	"horizlinescan5": 0x000009f1,
-	"horizlinescan7": 0x000009f2,
-	"horizlinescan9": 0x000009f3,
-	"hstroke": 0x000002b1,
-	"ht": 0x000009e2,
-	"hyphen": 0x000000ad,
-	"i": 0x00000069,
-	"iTouch": 0x1008ff60,
-	"iacute": 0x000000ed,
-	"ibelowdot": 0x01001ecb,
-	"ibreve": 0x0100012d,
-	"icircumflex": 0x000000ee,
-	"identical": 0x000008cf,
-	"idiaeresis": 0x000000ef,
-	"idotless": 0x000002b9,
-	"ifonlyif": 0x000008cd,
-	"igrave": 0x000000ec,
-	"ihook": 0x01001ec9,
-	"imacron": 0x000003ef,
-	"implies": 0x000008ce,
-	"includedin": 0x000008da,
-	"includes": 0x000008db,
-	"infinity": 0x000008c2,
-	"integral": 0x000008bf,
-	"intersection": 0x000008dc,
-	"iogonek": 0x000003e7,
-	"itilde": 0x000003b5,
-	"j": 0x0000006a,
-	"jcircumflex": 0x000002bc,
-	"jot": 0x00000bca,
-	"k": 0x0000006b,
-	"kana_A": 0x000004b1,
-	"kana_CHI": 0x000004c1,
-	"kana_E": 0x000004b4,
-	"kana_FU": 0x000004cc,
-	"kana_HA": 0x000004ca,
-	"kana_HE": 0x000004cd,
-	"kana_HI": 0x000004cb,
-	"kana_HO": 0x000004ce,
-	"kana_HU": 0x000004cc,
-	"kana_I": 0x000004b2,
-	"kana_KA": 0x000004b6,
-	"kana_KE": 0x000004b9,
-	"kana_KI": 0x000004b7,
-	"kana_KO": 0x000004ba,
-	"kana_KU": 0x000004b8,
-	"kana_MA": 0x000004cf,
-	"kana_ME": 0x000004d2,
-	"kana_MI": 0x000004d0,
-	"kana_MO": 0x000004d3,
-	"kana_MU": 0x000004d1,
-	"kana_N": 0x000004dd,
-	"kana_NA": 0x000004c5,
-	"kana_NE": 0x000004c8,
-	"kana_NI": 0x000004c6,
-	"kana_NO": 0x000004c9,
-	"kana_NU": 0x000004c7,
-	"kana_O": 0x000004b5,
-	"kana_RA": 0x000004d7,
-	"kana_RE": 0x000004da,
-	"kana_RI": 0x000004d8,
-	"kana_RO": 0x000004db,
-	"kana_RU": 0x000004d9,
-	"kana_SA": 0x000004bb,
-	"kana_SE": 0x000004be,
-	"kana_SHI": 0x000004bc,
-	"kana_SO": 0x000004bf,
-	"kana_SU": 0x000004bd,
-	"kana_TA": 0x000004c0,
-	"kana_TE": 0x000004c3,
-	"kana_TI": 0x000004c1,
-	"kana_TO": 0x000004c4,
-	"kana_TSU": 0x000004c2,
-	"kana_TU": 0x000004c2,
-	"kana_U": 0x000004b3,
-	"kana_WA": 0x000004dc,
-	"kana_WO": 0x000004a6,
-	"kana_YA": 0x000004d4,
-	"kana_YO": 0x000004d6,
-	"kana_YU": 0x000004d5,
-	"kana_a": 0x000004a7,
-	"kana_closingbracket": 0x000004a3,
-	"kana_comma": 0x000004a4,
-	"kana_conjunctive": 0x000004a5,
-	"kana_e": 0x000004aa,
-	"kana_fullstop": 0x000004a1,
-	"kana_i": 0x000004a8,
-	"kana_middledot": 0x000004a5,
-	"kana_o": 0x000004ab,
-	"kana_openingbracket": 0x000004a2,
-	"kana_switch": 0x0000ff7e,
-	"kana_tsu": 0x000004af,
-	"kana_tu": 0x000004af,
-	"kana_u": 0x000004a9,
-	"kana_ya": 0x000004ac,
-	"kana_yo": 0x000004ae,
-	"kana_yu": 0x000004ad,
-	"kappa": 0x000003a2,
-	"kcedilla": 0x000003f3,
-	"kra": 0x000003a2,
-	"l": 0x0000006c,
-	"lacute": 0x000001e5,
-	"latincross": 0x00000ad9,
-	"lbelowdot": 0x01001e37,
-	"lcaron": 0x000001b5,
-	"lcedilla": 0x000003b6,
-	"leftanglebracket": 0x00000abc,
-	"leftarrow": 0x000008fb,
-	"leftcaret": 0x00000ba3,
-	"leftdoublequotemark": 0x00000ad2,
-	"leftmiddlecurlybrace": 0x000008af,
-	"leftopentriangle": 0x00000acc,
-	"leftpointer": 0x00000aea,
-	"leftradical": 0x000008a1,
-	"leftshoe": 0x00000bda,
-	"leftsinglequotemark": 0x00000ad0,
-	"leftt": 0x000009f4,
-	"lefttack": 0x00000bdc,
-	"less": 0x0000003c,
-	"lessthanequal": 0x000008bc,
-	"lf": 0x000009e5,
-	"logicaland": 0x000008de,
-	"logicalor": 0x000008df,
-	"lowleftcorner": 0x000009ed,
-	"lowrightcorner": 0x000009ea,
-	"lstroke": 0x000001b3,
-	"m": 0x0000006d,
-	"mabovedot": 0x01001e41,
-	"macron": 0x000000af,
-	"malesymbol": 0x00000af7,
-	"maltesecross": 0x00000af0,
-	"marker": 0x00000abf,
-	"masculine": 0x000000ba,
-	"minus": 0x0000002d,
-	"minutes": 0x00000ad6,
-	"mu": 0x000000b5,
-	"multiply": 0x000000d7,
-	"musicalflat": 0x00000af6,
-	"musicalsharp": 0x00000af5,
-	"n": 0x0000006e,
-	"nabla": 0x000008c5,
-	"nacute": 0x000001f1,
-	"ncaron": 0x000001f2,
-	"ncedilla": 0x000003f1,
-	"ninesubscript": 0x01002089,
-	"ninesuperior": 0x01002079,
-	"nl": 0x000009e8,
-	"nobreakspace": 0x000000a0,
-	"notapproxeq": 0x01002247,
-	"notelementof": 0x01002209,
-	"notequal": 0x000008bd,
-	"notidentical": 0x01002262,
-	"notsign": 0x000000ac,
-	"ntilde": 0x000000f1,
-	"numbersign": 0x00000023,
-	"numerosign": 0x000006b0,
-	"o": 0x0000006f,
-	"oacute": 0x000000f3,
-	"obarred": 0x01000275,
-	"obelowdot": 0x01001ecd,
-	"ocaron": 0x010001d2,
-	"ocircumflex": 0x000000f4,
-	"ocircumflexacute": 0x01001ed1,
-	"ocircumflexbelowdot": 0x01001ed9,
-	"ocircumflexgrave": 0x01001ed3,
-	"ocircumflexhook": 0x01001ed5,
-	"ocircumflextilde": 0x01001ed7,
-	"odiaeresis": 0x000000f6,
-	"odoubleacute": 0x000001f5,
-	"oe": 0x000013bd,
-	"ogonek": 0x000001b2,
-	"ograve": 0x000000f2,
-	"ohook": 0x01001ecf,
-	"ohorn": 0x010001a1,
-	"ohornacute": 0x01001edb,
-	"ohornbelowdot": 0x01001ee3,
-	"ohorngrave": 0x01001edd,
-	"ohornhook": 0x01001edf,
-	"ohorntilde": 0x01001ee1,
-	"omacron": 0x000003f2,
-	"oneeighth": 0x00000ac3,
-	"onefifth": 0x00000ab2,
-	"onehalf": 0x000000bd,
-	"onequarter": 0x000000bc,
-	"onesixth": 0x00000ab6,
-	"onesubscript": 0x01002081,
-	"onesuperior": 0x000000b9,
-	"onethird": 0x00000ab0,
-	"ooblique": 0x000000f8,
-	"openrectbullet": 0x00000ae2,
-	"openstar": 0x00000ae5,
-	"opentribulletdown": 0x00000ae4,
-	"opentribulletup": 0x00000ae3,
-	"ordfeminine": 0x000000aa,
-	"ordmasculine": 0x000000ba,
-	"oslash": 0x000000f8,
-	"otilde": 0x000000f5,
-	"overbar": 0x00000bc0,
-	"overline": 0x0000047e,
-	"p": 0x00000070,
-	"pabovedot": 0x01001e57,
-	"paragraph": 0x000000b6,
-	"parenleft": 0x00000028,
-	"parenright": 0x00000029,
-	"partdifferential": 0x01002202,
-	"partialderivative": 0x000008ef,
-	"percent": 0x00000025,
-	"period": 0x0000002e,
-	"periodcentered": 0x000000b7,
-	"permille": 0x00000ad5,
-	"phonographcopyright": 0x00000afb,
-	"plus": 0x0000002b,
-	"plusminus": 0x000000b1,
-	"prescription": 0x00000ad4,
-	"prolongedsound": 0x000004b0,
-	"punctspace": 0x00000aa6,
-	"q": 0x00000071,
-	"quad": 0x00000bcc,
-	"question": 0x0000003f,
-	"questiondown": 0x000000bf,
-	"quotedbl": 0x00000022,
-	"quoteleft": 0x00000060,
-	"quoteright": 0x00000027,
-	"r": 0x00000072,
-	"racute": 0x000001e0,
-	"radical": 0x000008d6,
-	"rcaron": 0x000001f8,
-	"rcedilla": 0x000003b3,
-	"registered": 0x000000ae,
-	"rightanglebracket": 0x00000abe,
-	"rightarrow": 0x000008fd,
-	"rightcaret": 0x00000ba6,
-	"rightdoublequotemark": 0x00000ad3,
-	"rightmiddlecurlybrace": 0x000008b0,
-	"rightmiddlesummation": 0x000008b7,
-	"rightopentriangle": 0x00000acd,
-	"rightpointer": 0x00000aeb,
-	"rightshoe": 0x00000bd8,
-	"rightsinglequotemark": 0x00000ad1,
-	"rightt": 0x000009f5,
-	"righttack": 0x00000bfc,
-	"s": 0x00000073,
-	"sabovedot": 0x01001e61,
-	"sacute": 0x000001b6,
-	"scaron": 0x000001b9,
-	"scedilla": 0x000001ba,
-	"schwa": 0x01000259,
-	"scircumflex": 0x000002fe,
-	"script_switch": 0x0000ff7e,
-	"seconds": 0x00000ad7,
-	"section": 0x000000a7,
-	"semicolon": 0x0000003b,
-	"semivoicedsound": 0x000004df,
-	"seveneighths": 0x00000ac6,
-	"sevensubscript": 0x01002087,
-	"sevensuperior": 0x01002077,
-	"signaturemark": 0x00000aca,
-	"signifblank": 0x00000aac,
-	"similarequal": 0x000008c9,
-	"singlelowquotemark": 0x00000afd,
-	"sixsubscript": 0x01002086,
-	"sixsuperior": 0x01002076,
-	"slash": 0x0000002f,
-	"soliddiamond": 0x000009e0,
-	"space": 0x00000020,
-	"squareroot": 0x0100221a,
-	"ssharp": 0x000000df,
-	"sterling": 0x000000a3,
-	"stricteq": 0x01002263,
-	"t": 0x00000074,
-	"tabovedot": 0x01001e6b,
-	"tcaron": 0x000001bb,
-	"tcedilla": 0x000001fe,
-	"telephone": 0x00000af9,
-	"telephonerecorder": 0x00000afa,
-	"therefore": 0x000008c0,
-	"thinspace": 0x00000aa7,
-	"thorn": 0x000000fe,
-	"threeeighths": 0x00000ac4,
-	"threefifths": 0x00000ab4,
-	"threequarters": 0x000000be,
-	"threesubscript": 0x01002083,
-	"threesuperior": 0x000000b3,
-	"tintegral": 0x0100222d,
-	"topintegral": 0x000008a4,
-	"topleftparens": 0x000008ab,
-	"topleftradical": 0x000008a2,
-	"topleftsqbracket": 0x000008a7,
-	"topleftsummation": 0x000008b1,
-	"toprightparens": 0x000008ad,
-	"toprightsqbracket": 0x000008a9,
-	"toprightsummation": 0x000008b5,
-	"topt": 0x000009f7,
-	"topvertsummationconnector": 0x000008b3,
-	"trademark": 0x00000ac9,
-	"trademarkincircle": 0x00000acb,
-	"tslash": 0x000003bc,
-	"twofifths": 0x00000ab3,
-	"twosubscript": 0x01002082,
-	"twosuperior": 0x000000b2,
-	"twothirds": 0x00000ab1,
-	"u": 0x00000075,
-	"uacute": 0x000000fa,
-	"ubelowdot": 0x01001ee5,
-	"ubreve": 0x000002fd,
-	"ucircumflex": 0x000000fb,
-	"udiaeresis": 0x000000fc,
-	"udoubleacute": 0x000001fb,
-	"ugrave": 0x000000f9,
-	"uhook": 0x01001ee7,
-	"uhorn": 0x010001b0,
-	"uhornacute": 0x01001ee9,
-	"uhornbelowdot": 0x01001ef1,
-	"uhorngrave": 0x01001eeb,
-	"uhornhook": 0x01001eed,
-	"uhorntilde": 0x01001eef,
-	"umacron": 0x000003fe,
-	"underbar": 0x00000bc6,
-	"underscore": 0x0000005f,
-	"union": 0x000008dd,
-	"uogonek": 0x000003f9,
-	"uparrow": 0x000008fc,
-	"upcaret": 0x00000ba9,
-	"upleftcorner": 0x000009ec,
-	"uprightcorner": 0x000009eb,
-	"upshoe": 0x00000bc3,
-	"upstile": 0x00000bd3,
-	"uptack": 0x00000bce,
-	"uring": 0x000001f9,
-	"utilde": 0x000003fd,
-	"v": 0x00000076,
-	"variation": 0x000008c1,
-	"vertbar": 0x000009f8,
-	"vertconnector": 0x000008a6,
-	"voicedsound": 0x000004de,
-	"vt": 0x000009e9,
-	"w": 0x00000077,
-	"wacute": 0x01001e83,
-	"wcircumflex": 0x01000175,
-	"wdiaeresis": 0x01001e85,
-	"wgrave": 0x01001e81,
-	"x": 0x00000078,
-	"xabovedot": 0x01001e8b,
-	"y": 0x00000079,
-	"yacute": 0x000000fd,
-	"ybelowdot": 0x01001ef5,
-	"ycircumflex": 0x01000177,
-	"ydiaeresis": 0x000000ff,
-	"yen": 0x000000a5,
-	"ygrave": 0x01001ef3,
-	"yhook": 0x01001ef7,
-	"ytilde": 0x01001ef9,
-	"z": 0x0000007a,
-	"zabovedot": 0x000001bf,
-	"zacute": 0x000001bc,
-	"zcaron": 0x000001be,
-	"zerosubscript": 0x01002080,
-	"zerosuperior": 0x01002070,
-	"zstroke": 0x010001b6,
+	"ISO_Emphasize":               0x0000fe32,
+	"ISO_Enter":                   0x0000fe34,
+	"ISO_Fast_Cursor_Down":        0x0000fe2f,
+	"ISO_Fast_Cursor_Left":        0x0000fe2c,
+	"ISO_Fast_Cursor_Right":       0x0000fe2d,
+	"ISO_Fast_Cursor_Up":          0x0000fe2e,
+	"ISO_First_Group":             0x0000fe0c,
+	"ISO_First_Group_Lock":        0x0000fe0d,
+	"ISO_Group_Latch":             0x0000fe06,
+	"ISO_Group_Lock":              0x0000fe07,
+	"ISO_Group_Shift":             0x0000ff7e,
+	"ISO_Last_Group":              0x0000fe0e,
+	"ISO_Last_Group_Lock":         0x0000fe0f,
+	"ISO_Left_Tab":                0x0000fe20,
+	"ISO_Level2_Latch":            0x0000fe02,
+	"ISO_Level3_Latch":            0x0000fe04,
+	"ISO_Level3_Lock":             0x0000fe05,
+	"ISO_Level3_Shift":            0x0000fe03,
+	"ISO_Level5_Latch":            0x0000fe12,
+	"ISO_Level5_Lock":             0x0000fe13,
+	"ISO_Level5_Shift":            0x0000fe11,
+	"ISO_Lock":                    0x0000fe01,
+	"ISO_Move_Line_Down":          0x0000fe22,
+	"ISO_Move_Line_Up":            0x0000fe21,
+	"ISO_Next_Group":              0x0000fe08,
+	"ISO_Next_Group_Lock":         0x0000fe09,
+	"ISO_Partial_Line_Down":       0x0000fe24,
+	"ISO_Partial_Line_Up":         0x0000fe23,
+	"ISO_Partial_Space_Left":      0x0000fe25,
+	"ISO_Partial_Space_Right":     0x0000fe26,
+	"ISO_Prev_Group":              0x0000fe0a,
+	"ISO_Prev_Group_Lock":         0x0000fe0b,
+	"ISO_Release_Both_Margins":    0x0000fe2b,
+	"ISO_Release_Margin_Left":     0x0000fe29,
+	"ISO_Release_Margin_Right":    0x0000fe2a,
+	"ISO_Set_Margin_Left":         0x0000fe27,
+	"ISO_Set_Margin_Right":        0x0000fe28,
+	"Iabovedot":                   0x000002a9,
+	"Iacute":                      0x000000cd,
+	"Ibelowdot":                   0x01001eca,
+	"Ibreve":                      0x0100012c,
+	"Icircumflex":                 0x000000ce,
+	"Idiaeresis":                  0x000000cf,
+	"Igrave":                      0x000000cc,
+	"Ihook":                       0x01001ec8,
+	"Imacron":                     0x000003cf,
+	"Insert":                      0x0000ff63,
+	"Iogonek":                     0x000003c7,
+	"Itilde":                      0x000003a5,
+	"J":                           0x0000004a,
+	"Jcircumflex":                 0x000002ac,
+	"K":                           0x0000004b,
+	"KP_0":                        0x0000ffb0,
+	"KP_1":                        0x0000ffb1,
+	"KP_2":                        0x0000ffb2,
+	"KP_3":                        0x0000ffb3,
+	"KP_4":                        0x0000ffb4,
+	"KP_5":                        0x0000ffb5,
+	"KP_6":                        0x0000ffb6,
+	"KP_7":                        0x0000ffb7,
+	"KP_8":                        0x0000ffb8,
+	"KP_9":                        0x0000ffb9,
+	"KP_Add":                      0x0000ffab,
+	"KP_Begin":                    0x0000ff9d,
+	"KP_Decimal":                  0x0000ffae,
+	"KP_Delete":                   0x0000ff9f,
+	"KP_Divide":                   0x0000ffaf,
+	"KP_Down":                     0x0000ff99,
+	"KP_End":                      0x0000ff9c,
+	"KP_Enter":                    0x0000ff8d,
+	"KP_Equal":                    0x0000ffbd,
+	"KP_F1":                       0x0000ff91,
+	"KP_F2":                       0x0000ff92,
+	"KP_F3":                       0x0000ff93,
+	"KP_F4":                       0x0000ff94,
+	"KP_Home":                     0x0000ff95,
+	"KP_Insert":                   0x0000ff9e,
+	"KP_Left":                     0x0000ff96,
+	"KP_Multiply":                 0x0000ffaa,
+	"KP_Next":                     0x0000ff9b,
+	"KP_Page_Down":                0x0000ff9b,
+	"KP_Page_Up":                  0x0000ff9a,
+	"KP_Prior":                    0x0000ff9a,
+	"KP_Right":                    0x0000ff98,
+	"KP_Separator":                0x0000ffac,
+	"KP_Space":                    0x0000ff80,
+	"KP_Subtract":                 0x0000ffad,
+	"KP_Tab":                      0x0000ff89,
+	"KP_Up":                       0x0000ff97,
+	"Kana_Lock":                   0x0000ff2d,
+	"Kana_Shift":                  0x0000ff2e,
+	"Kanji":                       0x0000ff21,
+	"Kanji_Bangou":                0x0000ff37,
+	"Katakana":                    0x0000ff26,
+	"KbdBrightnessDown":           0x1008ff06,
+	"KbdBrightnessUp":             0x1008ff05,
+	"KbdLightOnOff":               0x1008ff04,
+	"Kcedilla":                    0x000003d3,
+	"Keyboard":                    0x1008ffb3,
+	"Korean_Won":                  0x00000eff,
+	"L":                           0x0000004c,
+	"L1":                          0x0000ffc8,
+	"L10":                         0x0000ffd1,
+	"L2":                          0x0000ffc9,
+	"L3":                          0x0000ffca,
+	"L4":                          0x0000ffcb,
+	"L5":                          0x0000ffcc,
+	"L6":                          0x0000ffcd,
+	"L7":                          0x0000ffce,
+	"L8":                          0x0000ffcf,
+	"L9":                          0x0000ffd0,
+	"Lacute":                      0x000001c5,
+	"Last_Virtual_Screen":         0x0000fed4,
+	"Launch0":                     0x1008ff40,
+	"Launch1":                     0x1008ff41,
+	"Launch2":                     0x1008ff42,
+	"Launch3":                     0x1008ff43,
+	"Launch4":                     0x1008ff44,
+	"Launch5":                     0x1008ff45,
+	"Launch6":                     0x1008ff46,
+	"Launch7":                     0x1008ff47,
+	"Launch8":                     0x1008ff48,
+	"Launch9":                     0x1008ff49,
+	"LaunchA":                     0x1008ff4a,
+	"LaunchB":                     0x1008ff4b,
+	"LaunchC":                     0x1008ff4c,
+	"LaunchD":                     0x1008ff4d,
+	"LaunchE":                     0x1008ff4e,
+	"LaunchF":                     0x1008ff4f,
+	"Lbelowdot":                   0x01001e36,
+	"Lcaron":                      0x000001a5,
+	"Lcedilla":                    0x000003a6,
+	"Left":                        0x0000ff51,
+	"LightBulb":                   0x1008ff35,
+	"Linefeed":                    0x0000ff0a,
+	"LiraSign":                    0x010020a4,
+	"LogGrabInfo":                 0x1008fe25,
+	"LogOff":                      0x1008ff61,
+	"LogWindowTree":               0x1008fe24,
+	"Lstroke":                     0x000001a3,
+	"M":                           0x0000004d,
+	"Mabovedot":                   0x01001e40,
+	"Macedonia_DSE":               0x000006b5,
+	"Macedonia_GJE":               0x000006b2,
+	"Macedonia_KJE":               0x000006bc,
+	"Macedonia_dse":               0x000006a5,
+	"Macedonia_gje":               0x000006a2,
+	"Macedonia_kje":               0x000006ac,
+	"Mae_Koho":                    0x0000ff3e,
+	"Mail":                        0x1008ff19,
+	"MailForward":                 0x1008ff90,
+	"Market":                      0x1008ff62,
+	"Massyo":                      0x0000ff2c,
+	"MediaSelectCD":               0x1008ff53,
+	"Meeting":                     0x1008ff63,
+	"Memo":                        0x1008ff1e,
+	"Menu":                        0x0000ff67,
+	"MenuKB":                      0x1008ff65,
+	"MenuPB":                      0x1008ff66,
+	"Messenger":                   0x1008ff8e,
+	"Meta_L":                      0x0000ffe7,
+	"Meta_R":                      0x0000ffe8,
+	"MillSign":                    0x010020a5,
+	"ModeLock":                    0x1008ff01,
+	"Mode_switch":                 0x0000ff7e,
+	"MonBrightnessCycle":          0x1008ff07,
+	"MonBrightnessDown":           0x1008ff03,
+	"MonBrightnessUp":             0x1008ff02,
+	"MouseKeys_Accel_Enable":      0x0000fe77,
+	"MouseKeys_Enable":            0x0000fe76,
+	"Muhenkan":                    0x0000ff22,
+	"Multi_key":                   0x0000ff20,
+	"MultipleCandidate":           0x0000ff3d,
+	"Music":                       0x1008ff92,
+	"MyComputer":                  0x1008ff33,
+	"MySites":                     0x1008ff67,
+	"N":                           0x0000004e,
+	"Nacute":                      0x000001d1,
+	"NairaSign":                   0x010020a6,
+	"Ncaron":                      0x000001d2,
+	"Ncedilla":                    0x000003d1,
+	"New":                         0x1008ff68,
+	"NewSheqelSign":               0x010020aa,
+	"News":                        0x1008ff69,
+	"Next":                        0x0000ff56,
+	"Next_VMode":                  0x1008fe22,
+	"Next_Virtual_Screen":         0x0000fed2,
+	"Ntilde":                      0x000000d1,
+	"Num_Lock":                    0x0000ff7f,
+	"O":                           0x0000004f,
+	"OE":                          0x000013bc,
+	"Oacute":                      0x000000d3,
+	"Obarred":                     0x0100019f,
+	"Obelowdot":                   0x01001ecc,
+	"Ocaron":                      0x010001d1,
+	"Ocircumflex":                 0x000000d4,
+	"Ocircumflexacute":            0x01001ed0,
+	"Ocircumflexbelowdot":         0x01001ed8,
+	"Ocircumflexgrave":            0x01001ed2,
+	"Ocircumflexhook":             0x01001ed4,
+	"Ocircumflextilde":            0x01001ed6,
+	"Odiaeresis":                  0x000000d6,
+	"Odoubleacute":                0x000001d5,
+	"OfficeHome":                  0x1008ff6a,
+	"Ograve":                      0x000000d2,
+	"Ohook":                       0x01001ece,
+	"Ohorn":                       0x010001a0,
+	"Ohornacute":                  0x01001eda,
+	"Ohornbelowdot":               0x01001ee2,
+	"Ohorngrave":                  0x01001edc,
+	"Ohornhook":                   0x01001ede,
+	"Ohorntilde":                  0x01001ee0,
+	"Omacron":                     0x000003d2,
+	"Ooblique":                    0x000000d8,
+	"Open":                        0x1008ff6b,
+	"OpenURL":                     0x1008ff38,
+	"Option":                      0x1008ff6c,
+	"Oslash":                      0x000000d8,
+	"Otilde":                      0x000000d5,
+	"Overlay1_Enable":             0x0000fe78,
+	"Overlay2_Enable":             0x0000fe79,
+	"P":                           0x00000050,
+	"Pabovedot":                   0x01001e56,
+	"Page_Down":                   0x0000ff56,
+	"Page_Up":                     0x0000ff55,
+	"Paste":                       0x1008ff6d,
+	"Pause":                       0x0000ff13,
+	"PesetaSign":                  0x010020a7,
+	"Phone":                       0x1008ff6e,
+	"Pictures":                    0x1008ff91,
+	"Pointer_Accelerate":          0x0000fefa,
+	"Pointer_Button1":             0x0000fee9,
+	"Pointer_Button2":             0x0000feea,
+	"Pointer_Button3":             0x0000feeb,
+	"Pointer_Button4":             0x0000feec,
+	"Pointer_Button5":             0x0000feed,
+	"Pointer_Button_Dflt":         0x0000fee8,
+	"Pointer_DblClick1":           0x0000feef,
+	"Pointer_DblClick2":           0x0000fef0,
+	"Pointer_DblClick3":           0x0000fef1,
+	"Pointer_DblClick4":           0x0000fef2,
+	"Pointer_DblClick5":           0x0000fef3,
+	"Pointer_DblClick_Dflt":       0x0000feee,
+	"Pointer_DfltBtnNext":         0x0000fefb,
+	"Pointer_DfltBtnPrev":         0x0000fefc,
+	"Pointer_Down":                0x0000fee3,
+	"Pointer_DownLeft":            0x0000fee6,
+	"Pointer_DownRight":           0x0000fee7,
+	"Pointer_Drag1":               0x0000fef5,
+	"Pointer_Drag2":               0x0000fef6,
+	"Pointer_Drag3":               0x0000fef7,
+	"Pointer_Drag4":               0x0000fef8,
+	"Pointer_Drag5":               0x0000fefd,
+	"Pointer_Drag_Dflt":           0x0000fef4,
+	"Pointer_EnableKeys":          0x0000fef9,
+	"Pointer_Left":                0x0000fee0,
+	"Pointer_Right":               0x0000fee1,
+	"Pointer_Up":                  0x0000fee2,
+	"Pointer_UpLeft":              0x0000fee4,
+	"Pointer_UpRight":             0x0000fee5,
+	"PowerDown":                   0x1008ff21,
+	"PowerOff":                    0x1008ff2a,
+	"Prev_VMode":                  0x1008fe23,
+	"Prev_Virtual_Screen":         0x0000fed1,
+	"PreviousCandidate":           0x0000ff3e,
+	"Print":                       0x0000ff61,
+	"Prior":                       0x0000ff55,
+	"Q":                           0x00000051,
+	"R":                           0x00000052,
+	"R1":                          0x0000ffd2,
+	"R10":                         0x0000ffdb,
+	"R11":                         0x0000ffdc,
+	"R12":                         0x0000ffdd,
+	"R13":                         0x0000ffde,
+	"R14":                         0x0000ffdf,
+	"R15":                         0x0000ffe0,
+	"R2":                          0x0000ffd3,
+	"R3":                          0x0000ffd4,
+	"R4":                          0x0000ffd5,
+	"R5":                          0x0000ffd6,
+	"R6":                          0x0000ffd7,
+	"R7":                          0x0000ffd8,
+	"R8":                          0x0000ffd9,
+	"R9":                          0x0000ffda,
+	"RFKill":                      0x1008ffb5,
+	"Racute":                      0x000001c0,
+	"Rcaron":                      0x000001d8,
+	"Rcedilla":                    0x000003a3,
+	"Red":                         0x1008ffa3,
+	"Redo":                        0x0000ff66,
+	"Refresh":                     0x1008ff29,
+	"Reload":                      0x1008ff73,
+	"RepeatKeys_Enable":           0x0000fe72,
+	"Reply":                       0x1008ff72,
+	"Return":                      0x0000ff0d,
+	"Right":                       0x0000ff53,
+	"RockerDown":                  0x1008ff24,
+	"RockerEnter":                 0x1008ff25,
+	"RockerUp":                    0x1008ff23,
+	"Romaji":                      0x0000ff24,
+	"RotateWindows":               0x1008ff74,
+	"RotationKB":                  0x1008ff76,
+	"RotationLockToggle":          0x1008ffb7,
+	"RotationPB":                  0x1008ff75,
+	"RupeeSign":                   0x010020a8,
+	"S":                           0x00000053,
+	"SCHWA":                       0x0100018f,
+	"Sabovedot":                   0x01001e60,
+	"Sacute":                      0x000001a6,
+	"Save":                        0x1008ff77,
+	"Scaron":                      0x000001a9,
+	"Scedilla":                    0x000001aa,
+	"Scircumflex":                 0x000002de,
+	"ScreenSaver":                 0x1008ff2d,
+	"ScrollClick":                 0x1008ff7a,
+	"ScrollDown":                  0x1008ff79,
+	"ScrollUp":                    0x1008ff78,
+	"Scroll_Lock":                 0x0000ff14,
+	"Search":                      0x1008ff1b,
+	"Select":                      0x0000ff60,
+	"Send":                        0x1008ff7b,
+	"Serbian_DJE":                 0x000006b1,
+	"Serbian_DZE":                 0x000006bf,
+	"Serbian_JE":                  0x000006b8,
+	"Serbian_LJE":                 0x000006b9,
+	"Serbian_NJE":                 0x000006ba,
+	"Serbian_TSHE":                0x000006bb,
+	"Serbian_dje":                 0x000006a1,
+	"Serbian_dze":                 0x000006af,
+	"Serbian_je":                  0x000006a8,
+	"Serbian_lje":                 0x000006a9,
+	"Serbian_nje":                 0x000006aa,
+	"Serbian_tshe":                0x000006ab,
+	"Shift_L":                     0x0000ffe1,
+	"Shift_Lock":                  0x0000ffe6,
+	"Shift_R":                     0x0000ffe2,
+	"Shop":                        0x1008ff36,
+	"SingleCandidate":             0x0000ff3c,
+	"Sinh_a":                      0x01000d85,
+	"Sinh_aa":                     0x01000d86,
+	"Sinh_aa2":                    0x01000dcf,
+	"Sinh_ae":                     0x01000d87,
+	"Sinh_ae2":                    0x01000dd0,
+	"Sinh_aee":                    0x01000d88,
+	"Sinh_aee2":                   0x01000dd1,
+	"Sinh_ai":                     0x01000d93,
+	"Sinh_ai2":                    0x01000ddb,
+	"Sinh_al":                     0x01000dca,
+	"Sinh_au":                     0x01000d96,
+	"Sinh_au2":                    0x01000dde,
+	"Sinh_ba":                     0x01000db6,
+	"Sinh_bha":                    0x01000db7,
+	"Sinh_ca":                     0x01000da0,
+	"Sinh_cha":                    0x01000da1,
+	"Sinh_dda":                    0x01000da9,
+	"Sinh_ddha":                   0x01000daa,
+	"Sinh_dha":                    0x01000daf,
+	"Sinh_dhha":                   0x01000db0,
+	"Sinh_e":                      0x01000d91,
+	"Sinh_e2":                     0x01000dd9,
+	"Sinh_ee":                     0x01000d92,
+	"Sinh_ee2":                    0x01000dda,
+	"Sinh_fa":                     0x01000dc6,
+	"Sinh_ga":                     0x01000d9c,
+	"Sinh_gha":                    0x01000d9d,
+	"Sinh_h2":                     0x01000d83,
+	"Sinh_ha":                     0x01000dc4,
+	"Sinh_i":                      0x01000d89,
+	"Sinh_i2":                     0x01000dd2,
+	"Sinh_ii":                     0x01000d8a,
+	"Sinh_ii2":                    0x01000dd3,
+	"Sinh_ja":                     0x01000da2,
+	"Sinh_jha":                    0x01000da3,
+	"Sinh_jnya":                   0x01000da5,
+	"Sinh_ka":                     0x01000d9a,
+	"Sinh_kha":                    0x01000d9b,
+	"Sinh_kunddaliya":             0x01000df4,
+	"Sinh_la":                     0x01000dbd,
+	"Sinh_lla":                    0x01000dc5,
+	"Sinh_lu":                     0x01000d8f,
+	"Sinh_lu2":                    0x01000ddf,
+	"Sinh_luu":                    0x01000d90,
+	"Sinh_luu2":                   0x01000df3,
+	"Sinh_ma":                     0x01000db8,
+	"Sinh_mba":                    0x01000db9,
+	"Sinh_na":                     0x01000db1,
+	"Sinh_ndda":                   0x01000dac,
+	"Sinh_ndha":                   0x01000db3,
+	"Sinh_ng":                     0x01000d82,
+	"Sinh_ng2":                    0x01000d9e,
+	"Sinh_nga":                    0x01000d9f,
+	"Sinh_nja":                    0x01000da6,
+	"Sinh_nna":                    0x01000dab,
+	"Sinh_nya":                    0x01000da4,
+	"Sinh_o":                      0x01000d94,
+	"Sinh_o2":                     0x01000ddc,
+	"Sinh_oo":                     0x01000d95,
+	"Sinh_oo2":                    0x01000ddd,
+	"Sinh_pa":                     0x01000db4,
+	"Sinh_pha":                    0x01000db5,
+	"Sinh_ra":                     0x01000dbb,
+	"Sinh_ri":                     0x01000d8d,
+	"Sinh_rii":                    0x01000d8e,
+	"Sinh_ru2":                    0x01000dd8,
+	"Sinh_ruu2":                   0x01000df2,
+	"Sinh_sa":                     0x01000dc3,
+	"Sinh_sha":                    0x01000dc1,
+	"Sinh_ssha":                   0x01000dc2,
+	"Sinh_tha":                    0x01000dad,
+	"Sinh_thha":                   0x01000dae,
+	"Sinh_tta":                    0x01000da7,
+	"Sinh_ttha":                   0x01000da8,
+	"Sinh_u":                      0x01000d8b,
+	"Sinh_u2":                     0x01000dd4,
+	"Sinh_uu":                     0x01000d8c,
+	"Sinh_uu2":                    0x01000dd6,
+	"Sinh_va":                     0x01000dc0,
+	"Sinh_ya":                     0x01000dba,
+	"Sleep":                       0x1008ff2f,
+	"SlowKeys_Enable":             0x0000fe73,
+	"Spell":                       0x1008ff7c,
+	"SplitScreen":                 0x1008ff7d,
+	"Standby":                     0x1008ff10,
+	"Start":                       0x1008ff1a,
+	"StickyKeys_Enable":           0x0000fe75,
+	"Stop":                        0x1008ff28,
+	"Subtitle":                    0x1008ff9a,
+	"Super_L":                     0x0000ffeb,
+	"Super_R":                     0x0000ffec,
+	"Support":                     0x1008ff7e,
+	"Suspend":                     0x1008ffa7,
+	"Switch_VT_1":                 0x1008fe01,
+	"Switch_VT_10":                0x1008fe0a,
+	"Switch_VT_11":                0x1008fe0b,
+	"Switch_VT_12":                0x1008fe0c,
+	"Switch_VT_2":                 0x1008fe02,
+	"Switch_VT_3":                 0x1008fe03,
+	"Switch_VT_4":                 0x1008fe04,
+	"Switch_VT_5":                 0x1008fe05,
+	"Switch_VT_6":                 0x1008fe06,
+	"Switch_VT_7":                 0x1008fe07,
+	"Switch_VT_8":                 0x1008fe08,
+	"Switch_VT_9":                 0x1008fe09,
+	"Sys_Req":                     0x0000ff15,
+	"T":                           0x00000054,
+	"THORN":                       0x000000de,
+	"Tab":                         0x0000ff09,
+	"Tabovedot":                   0x01001e6a,
+	"TaskPane":                    0x1008ff7f,
+	"Tcaron":                      0x000001ab,
+	"Tcedilla":                    0x000001de,
+	"Terminal":                    0x1008ff80,
+	"Terminate_Server":            0x0000fed5,
+	"Thai_baht":                   0x00000ddf,
+	"Thai_bobaimai":               0x00000dba,
+	"Thai_chochan":                0x00000da8,
+	"Thai_chochang":               0x00000daa,
+	"Thai_choching":               0x00000da9,
+	"Thai_chochoe":                0x00000dac,
+	"Thai_dochada":                0x00000dae,
+	"Thai_dodek":                  0x00000db4,
+	"Thai_fofa":                   0x00000dbd,
+	"Thai_fofan":                  0x00000dbf,
+	"Thai_hohip":                  0x00000dcb,
+	"Thai_honokhuk":               0x00000dce,
+	"Thai_khokhai":                0x00000da2,
+	"Thai_khokhon":                0x00000da5,
+	"Thai_khokhuat":               0x00000da3,
+	"Thai_khokhwai":               0x00000da4,
+	"Thai_khorakhang":             0x00000da6,
+	"Thai_kokai":                  0x00000da1,
+	"Thai_lakkhangyao":            0x00000de5,
+	"Thai_lekchet":                0x00000df7,
+	"Thai_lekha":                  0x00000df5,
+	"Thai_lekhok":                 0x00000df6,
+	"Thai_lekkao":                 0x00000df9,
+	"Thai_leknung":                0x00000df1,
+	"Thai_lekpaet":                0x00000df8,
+	"Thai_leksam":                 0x00000df3,
+	"Thai_leksi":                  0x00000df4,
+	"Thai_leksong":                0x00000df2,
+	"Thai_leksun":                 0x00000df0,
+	"Thai_lochula":                0x00000dcc,
+	"Thai_loling":                 0x00000dc5,
+	"Thai_lu":                     0x00000dc6,
+	"Thai_maichattawa":            0x00000deb,
+	"Thai_maiek":                  0x00000de8,
+	"Thai_maihanakat":             0x00000dd1,
+	"Thai_maihanakat_maitho":      0x00000dde,
+	"Thai_maitaikhu":              0x00000de7,
+	"Thai_maitho":                 0x00000de9,
+	"Thai_maitri":                 0x00000dea,
+	"Thai_maiyamok":               0x00000de6,
+	"Thai_moma":                   0x00000dc1,
+	"Thai_ngongu":                 0x00000da7,
+	"Thai_nikhahit":               0x00000ded,
+	"Thai_nonen":                  0x00000db3,
+	"Thai_nonu":                   0x00000db9,
+	"Thai_oang":                   0x00000dcd,
+	"Thai_paiyannoi":              0x00000dcf,
+	"Thai_phinthu":                0x00000dda,
+	"Thai_phophan":                0x00000dbe,
+	"Thai_phophung":               0x00000dbc,
+	"Thai_phosamphao":             0x00000dc0,
+	"Thai_popla":                  0x00000dbb,
+	"Thai_rorua":                  0x00000dc3,
+	"Thai_ru":                     0x00000dc4,
+	"Thai_saraa":                  0x00000dd0,
+	"Thai_saraaa":                 0x00000dd2,
+	"Thai_saraae":                 0x00000de1,
+	"Thai_saraaimaimalai":         0x00000de4,
+	"Thai_saraaimaimuan":          0x00000de3,
+	"Thai_saraam":                 0x00000dd3,
+	"Thai_sarae":                  0x00000de0,
+	"Thai_sarai":                  0x00000dd4,
+	"Thai_saraii":                 0x00000dd5,
+	"Thai_sarao":                  0x00000de2,
+	"Thai_sarau":                  0x00000dd8,
+	"Thai_saraue":                 0x00000dd6,
+	"Thai_sarauee":                0x00000dd7,
+	"Thai_sarauu":                 0x00000dd9,
+	"Thai_sorusi":                 0x00000dc9,
+	"Thai_sosala":                 0x00000dc8,
+	"Thai_soso":                   0x00000dab,
+	"Thai_sosua":                  0x00000dca,
+	"Thai_thanthakhat":            0x00000dec,
+	"Thai_thonangmontho":          0x00000db1,
+	"Thai_thophuthao":             0x00000db2,
+	"Thai_thothahan":              0x00000db7,
+	"Thai_thothan":                0x00000db0,
+	"Thai_thothong":               0x00000db8,
+	"Thai_thothung":               0x00000db6,
+	"Thai_topatak":                0x00000daf,
+	"Thai_totao":                  0x00000db5,
+	"Thai_wowaen":                 0x00000dc7,
+	"Thai_yoyak":                  0x00000dc2,
+	"Thai_yoying":                 0x00000dad,
+	"Thorn":                       0x000000de,
+	"Time":                        0x1008ff9f,
+	"ToDoList":                    0x1008ff1f,
+	"Tools":                       0x1008ff81,
+	"TopMenu":                     0x1008ffa2,
+	"TouchpadOff":                 0x1008ffb1,
+	"TouchpadOn":                  0x1008ffb0,
+	"TouchpadToggle":              0x1008ffa9,
+	"Touroku":                     0x0000ff2b,
+	"Travel":                      0x1008ff82,
+	"Tslash":                      0x000003ac,
+	"U":                           0x00000055,
+	"UWB":                         0x1008ff96,
+	"Uacute":                      0x000000da,
+	"Ubelowdot":                   0x01001ee4,
+	"Ubreve":                      0x000002dd,
+	"Ucircumflex":                 0x000000db,
+	"Udiaeresis":                  0x000000dc,
+	"Udoubleacute":                0x000001db,
+	"Ugrave":                      0x000000d9,
+	"Uhook":                       0x01001ee6,
+	"Uhorn":                       0x010001af,
+	"Uhornacute":                  0x01001ee8,
+	"Uhornbelowdot":               0x01001ef0,
+	"Uhorngrave":                  0x01001eea,
+	"Uhornhook":                   0x01001eec,
+	"Uhorntilde":                  0x01001eee,
+	"Ukrainian_GHE_WITH_UPTURN":   0x000006bd,
+	"Ukrainian_I":                 0x000006b6,
+	"Ukrainian_IE":                0x000006b4,
+	"Ukrainian_YI":                0x000006b7,
+	"Ukrainian_ghe_with_upturn":   0x000006ad,
+	"Ukrainian_i":                 0x000006a6,
+	"Ukrainian_ie":                0x000006a4,
+	"Ukrainian_yi":                0x000006a7,
+	"Ukranian_I":                  0x000006b6,
+	"Ukranian_JE":                 0x000006b4,
+	"Ukranian_YI":                 0x000006b7,
+	"Ukranian_i":                  0x000006a6,
+	"Ukranian_je":                 0x000006a4,
+	"Ukranian_yi":                 0x000006a7,
+	"Umacron":                     0x000003de,
+	"Undo":                        0x0000ff65,
+	"Ungrab":                      0x1008fe20,
+	"Uogonek":                     0x000003d9,
+	"Up":                          0x0000ff52,
+	"Uring":                       0x000001d9,
+	"User1KB":                     0x1008ff85,
+	"User2KB":                     0x1008ff86,
+	"UserPB":                      0x1008ff84,
+	"Utilde":                      0x000003dd,
+	"V":                           0x00000056,
+	"VendorHome":                  0x1008ff34,
+	"Video":                       0x1008ff87,
+	"View":                        0x1008ffa1,
+	"VoidSymbol":                  0x00ffffff,
+	"W":                           0x00000057,
+	"WLAN":                        0x1008ff95,
+	"WWAN":                        0x1008ffb4,
+	"WWW":                         0x1008ff2e,
+	"Wacute":                      0x01001e82,
+	"WakeUp":                      0x1008ff2b,
+	"Wcircumflex":                 0x01000174,
+	"Wdiaeresis":                  0x01001e84,
+	"WebCam":                      0x1008ff8f,
+	"Wgrave":                      0x01001e80,
+	"WheelButton":                 0x1008ff88,
+	"WonSign":                     0x010020a9,
+	"Word":                        0x1008ff89,
+	"X":                           0x00000058,
+	"Xabovedot":                   0x01001e8a,
+	"Xfer":                        0x1008ff8a,
+	"Y":                           0x00000059,
+	"Yacute":                      0x000000dd,
+	"Ybelowdot":                   0x01001ef4,
+	"Ycircumflex":                 0x01000176,
+	"Ydiaeresis":                  0x000013be,
+	"Yellow":                      0x1008ffa5,
+	"Ygrave":                      0x01001ef2,
+	"Yhook":                       0x01001ef6,
+	"Ytilde":                      0x01001ef8,
+	"Z":                           0x0000005a,
+	"Zabovedot":                   0x000001af,
+	"Zacute":                      0x000001ac,
+	"Zcaron":                      0x000001ae,
+	"Zen_Koho":                    0x0000ff3d,
+	"Zenkaku":                     0x0000ff28,
+	"Zenkaku_Hankaku":             0x0000ff2a,
+	"ZoomIn":                      0x1008ff8b,
+	"ZoomOut":                     0x1008ff8c,
+	"Zstroke":                     0x010001b5,
+	"a":                           0x00000061,
+	"aacute":                      0x000000e1,
+	"abelowdot":                   0x01001ea1,
+	"abovedot":                    0x000001ff,
+	"abreve":                      0x000001e3,
+	"abreveacute":                 0x01001eaf,
+	"abrevebelowdot":              0x01001eb7,
+	"abrevegrave":                 0x01001eb1,
+	"abrevehook":                  0x01001eb3,
+	"abrevetilde":                 0x01001eb5,
+	"acircumflex":                 0x000000e2,
+	"acircumflexacute":            0x01001ea5,
+	"acircumflexbelowdot":         0x01001ead,
+	"acircumflexgrave":            0x01001ea7,
+	"acircumflexhook":             0x01001ea9,
+	"acircumflextilde":            0x01001eab,
+	"acute":                       0x000000b4,
+	"adiaeresis":                  0x000000e4,
+	"ae":                          0x000000e6,
+	"agrave":                      0x000000e0,
+	"ahook":                       0x01001ea3,
+	"amacron":                     0x000003e0,
+	"ampersand":                   0x00000026,
+	"aogonek":                     0x000001b1,
+	"apostrophe":                  0x00000027,
+	"approxeq":                    0x01002248,
+	"approximate":                 0x000008c8,
+	"aring":                       0x000000e5,
+	"asciicircum":                 0x0000005e,
+	"asciitilde":                  0x0000007e,
+	"asterisk":                    0x0000002a,
+	"at":                          0x00000040,
+	"atilde":                      0x000000e3,
+	"b":                           0x00000062,
+	"babovedot":                   0x01001e03,
+	"backslash":                   0x0000005c,
+	"ballotcross":                 0x00000af4,
+	"bar":                         0x0000007c,
+	"because":                     0x01002235,
+	"blank":                       0x000009df,
+	"botintegral":                 0x000008a5,
+	"botleftparens":               0x000008ac,
+	"botleftsqbracket":            0x000008a8,
+	"botleftsummation":            0x000008b2,
+	"botrightparens":              0x000008ae,
+	"botrightsqbracket":           0x000008aa,
+	"botrightsummation":           0x000008b6,
+	"bott":                        0x000009f6,
+	"botvertsummationconnector":   0x000008b4,
+	"braceleft":                   0x0000007b,
+	"braceright":                  0x0000007d,
+	"bracketleft":                 0x0000005b,
+	"bracketright":                0x0000005d,
+	"braille_blank":               0x01002800,
+	"braille_dot_1":               0x0000fff1,
+	"braille_dot_10":              0x0000fffa,
+	"braille_dot_2":               0x0000fff2,
+	"braille_dot_3":               0x0000fff3,
+	"braille_dot_4":               0x0000fff4,
+	"braille_dot_5":               0x0000fff5,
+	"braille_dot_6":               0x0000fff6,
+	"braille_dot_7":               0x0000fff7,
+	"braille_dot_8":               0x0000fff8,
+	"braille_dot_9":               0x0000fff9,
+	"braille_dots_1":              0x01002801,
+	"braille_dots_12":             0x01002803,
+	"braille_dots_123":            0x01002807,
+	"braille_dots_1234":           0x0100280f,
+	"braille_dots_12345":          0x0100281f,
+	"braille_dots_123456":         0x0100283f,
+	"braille_dots_1234567":        0x0100287f,
+	"braille_dots_12345678":       0x010028ff,
+	"braille_dots_1234568":        0x010028bf,
+	"braille_dots_123457":         0x0100285f,
+	"braille_dots_1234578":        0x010028df,
+	"braille_dots_123458":         0x0100289f,
+	"braille_dots_12346":          0x0100282f,
+	"braille_dots_123467":         0x0100286f,
+	"braille_dots_1234678":        0x010028ef,
+	"braille_dots_123468":         0x010028af,
+	"braille_dots_12347":          0x0100284f,
+	"braille_dots_123478":         0x010028cf,
+	"braille_dots_12348":          0x0100288f,
+	"braille_dots_1235":           0x01002817,
+	"braille_dots_12356":          0x01002837,
+	"braille_dots_123567":         0x01002877,
+	"braille_dots_1235678":        0x010028f7,
+	"braille_dots_123568":         0x010028b7,
+	"braille_dots_12357":          0x01002857,
+	"braille_dots_123578":         0x010028d7,
+	"braille_dots_12358":          0x01002897,
+	"braille_dots_1236":           0x01002827,
+	"braille_dots_12367":          0x01002867,
+	"braille_dots_123678":         0x010028e7,
+	"braille_dots_12368":          0x010028a7,
+	"braille_dots_1237":           0x01002847,
+	"braille_dots_12378":          0x010028c7,
+	"braille_dots_1238":           0x01002887,
+	"braille_dots_124":            0x0100280b,
+	"braille_dots_1245":           0x0100281b,
+	"braille_dots_12456":          0x0100283b,
+	"braille_dots_124567":         0x0100287b,
+	"braille_dots_1245678":        0x010028fb,
+	"braille_dots_124568":         0x010028bb,
+	"braille_dots_12457":          0x0100285b,
+	"braille_dots_124578":         0x010028db,
+	"braille_dots_12458":          0x0100289b,
+	"braille_dots_1246":           0x0100282b,
+	"braille_dots_12467":          0x0100286b,
+	"braille_dots_124678":         0x010028eb,
+	"braille_dots_12468":          0x010028ab,
+	"braille_dots_1247":           0x0100284b,
+	"braille_dots_12478":          0x010028cb,
+	"braille_dots_1248":           0x0100288b,
+	"braille_dots_125":            0x01002813,
+	"braille_dots_1256":           0x01002833,
+	"braille_dots_12567":          0x01002873,
+	"braille_dots_125678":         0x010028f3,
+	"braille_dots_12568":          0x010028b3,
+	"braille_dots_1257":           0x01002853,
+	"braille_dots_12578":          0x010028d3,
+	"braille_dots_1258":           0x01002893,
+	"braille_dots_126":            0x01002823,
+	"braille_dots_1267":           0x01002863,
+	"braille_dots_12678":          0x010028e3,
+	"braille_dots_1268":           0x010028a3,
+	"braille_dots_127":            0x01002843,
+	"braille_dots_1278":           0x010028c3,
+	"braille_dots_128":            0x01002883,
+	"braille_dots_13":             0x01002805,
+	"braille_dots_134":            0x0100280d,
+	"braille_dots_1345":           0x0100281d,
+	"braille_dots_13456":          0x0100283d,
+	"braille_dots_134567":         0x0100287d,
+	"braille_dots_1345678":        0x010028fd,
+	"braille_dots_134568":         0x010028bd,
+	"braille_dots_13457":          0x0100285d,
+	"braille_dots_134578":         0x010028dd,
+	"braille_dots_13458":          0x0100289d,
+	"braille_dots_1346":           0x0100282d,
+	"braille_dots_13467":          0x0100286d,
+	"braille_dots_134678":         0x010028ed,
+	"braille_dots_13468":          0x010028ad,
+	"braille_dots_1347":           0x0100284d,
+	"braille_dots_13478":          0x010028cd,
+	"braille_dots_1348":           0x0100288d,
+	"braille_dots_135":            0x01002815,
+	"braille_dots_1356":           0x01002835,
+	"braille_dots_13567":          0x01002875,
+	"braille_dots_135678":         0x010028f5,
+	"braille_dots_13568":          0x010028b5,
+	"braille_dots_1357":           0x01002855,
+	"braille_dots_13578":          0x010028d5,
+	"braille_dots_1358":           0x01002895,
+	"braille_dots_136":            0x01002825,
+	"braille_dots_1367":           0x01002865,
+	"braille_dots_13678":          0x010028e5,
+	"braille_dots_1368":           0x010028a5,
+	"braille_dots_137":            0x01002845,
+	"braille_dots_1378":           0x010028c5,
+	"braille_dots_138":            0x01002885,
+	"braille_dots_14":             0x01002809,
+	"braille_dots_145":            0x01002819,
+	"braille_dots_1456":           0x01002839,
+	"braille_dots_14567":          0x01002879,
+	"braille_dots_145678":         0x010028f9,
+	"braille_dots_14568":          0x010028b9,
+	"braille_dots_1457":           0x01002859,
+	"braille_dots_14578":          0x010028d9,
+	"braille_dots_1458":           0x01002899,
+	"braille_dots_146":            0x01002829,
+	"braille_dots_1467":           0x01002869,
+	"braille_dots_14678":          0x010028e9,
+	"braille_dots_1468":           0x010028a9,
+	"braille_dots_147":            0x01002849,
+	"braille_dots_1478":           0x010028c9,
+	"braille_dots_148":            0x01002889,
+	"braille_dots_15":             0x01002811,
+	"braille_dots_156":            0x01002831,
+	"braille_dots_1567":           0x01002871,
+	"braille_dots_15678":          0x010028f1,
+	"braille_dots_1568":           0x010028b1,
+	"braille_dots_157":            0x01002851,
+	"braille_dots_1578":           0x010028d1,
+	"braille_dots_158":            0x01002891,
+	"braille_dots_16":             0x01002821,
+	"braille_dots_167":            0x01002861,
+	"braille_dots_1678":           0x010028e1,
+	"braille_dots_168":            0x010028a1,
+	"braille_dots_17":             0x01002841,
+	"braille_dots_178":            0x010028c1,
+	"braille_dots_18":             0x01002881,
+	"braille_dots_2":              0x01002802,
+	"braille_dots_23":             0x01002806,
+	"braille_dots_234":            0x0100280e,
+	"braille_dots_2345":           0x0100281e,
+	"braille_dots_23456":          0x0100283e,
+	"braille_dots_234567":         0x0100287e,
+	"braille_dots_2345678":        0x010028fe,
+	"braille_dots_234568":         0x010028be,
+	"braille_dots_23457":          0x0100285e,
+	"braille_dots_234578":         0x010028de,
+	"braille_dots_23458":          0x0100289e,
+	"braille_dots_2346":           0x0100282e,
+	"braille_dots_23467":          0x0100286e,
+	"braille_dots_234678":         0x010028ee,
+	"braille_dots_23468":          0x010028ae,
+	"braille_dots_2347":           0x0100284e,
+	"braille_dots_23478":          0x010028ce,
+	"braille_dots_2348":           0x0100288e,
+	"braille_dots_235":            0x01002816,
+	"braille_dots_2356":           0x01002836,
+	"braille_dots_23567":          0x01002876,
+	"braille_dots_235678":         0x010028f6,
+	"braille_dots_23568":          0x010028b6,
+	"braille_dots_2357":           0x01002856,
+	"braille_dots_23578":          0x010028d6,
+	"braille_dots_2358":           0x01002896,
+	"braille_dots_236":            0x01002826,
+	"braille_dots_2367":           0x01002866,
+	"braille_dots_23678":          0x010028e6,
+	"braille_dots_2368":           0x010028a6,
+	"braille_dots_237":            0x01002846,
+	"braille_dots_2378":           0x010028c6,
+	"braille_dots_238":            0x01002886,
+	"braille_dots_24":             0x0100280a,
+	"braille_dots_245":            0x0100281a,
+	"braille_dots_2456":           0x0100283a,
+	"braille_dots_24567":          0x0100287a,
+	"braille_dots_245678":         0x010028fa,
+	"braille_dots_24568":          0x010028ba,
+	"braille_dots_2457":           0x0100285a,
+	"braille_dots_24578":          0x010028da,
+	"braille_dots_2458":           0x0100289a,
+	"braille_dots_246":            0x0100282a,
+	"braille_dots_2467":           0x0100286a,
+	"braille_dots_24678":          0x010028ea,
+	"braille_dots_2468":           0x010028aa,
+	"braille_dots_247":            0x0100284a,
+	"braille_dots_2478":           0x010028ca,
+	"braille_dots_248":            0x0100288a,
+	"braille_dots_25":             0x01002812,
+	"braille_dots_256":            0x01002832,
+	"braille_dots_2567":           0x01002872,
+	"braille_dots_25678":          0x010028f2,
+	"braille_dots_2568":           0x010028b2,
+	"braille_dots_257":            0x01002852,
+	"braille_dots_2578":           0x010028d2,
+	"braille_dots_258":            0x01002892,
+	"braille_dots_26":             0x01002822,
+	"braille_dots_267":            0x01002862,
+	"braille_dots_2678":           0x010028e2,
+	"braille_dots_268":            0x010028a2,
+	"braille_dots_27":             0x01002842,
+	"braille_dots_278":            0x010028c2,
+	"braille_dots_28":             0x01002882,
+	"braille_dots_3":              0x01002804,
+	"braille_dots_34":             0x0100280c,
+	"braille_dots_345":            0x0100281c,
+	"braille_dots_3456":           0x0100283c,
+	"braille_dots_34567":          0x0100287c,
+	"braille_dots_345678":         0x010028fc,
+	"braille_dots_34568":          0x010028bc,
+	"braille_dots_3457":           0x0100285c,
+	"braille_dots_34578":          0x010028dc,
+	"braille_dots_3458":           0x0100289c,
+	"braille_dots_346":            0x0100282c,
+	"braille_dots_3467":           0x0100286c,
+	"braille_dots_34678":          0x010028ec,
+	"braille_dots_3468":           0x010028ac,
+	"braille_dots_347":            0x0100284c,
+	"braille_dots_3478":           0x010028cc,
+	"braille_dots_348":            0x0100288c,
+	"braille_dots_35":             0x01002814,
+	"braille_dots_356":            0x01002834,
+	"braille_dots_3567":           0x01002874,
+	"braille_dots_35678":          0x010028f4,
+	"braille_dots_3568":           0x010028b4,
+	"braille_dots_357":            0x01002854,
+	"braille_dots_3578":           0x010028d4,
+	"braille_dots_358":            0x01002894,
+	"braille_dots_36":             0x01002824,
+	"braille_dots_367":            0x01002864,
+	"braille_dots_3678":           0x010028e4,
+	"braille_dots_368":            0x010028a4,
+	"braille_dots_37":             0x01002844,
+	"braille_dots_378":            0x010028c4,
+	"braille_dots_38":             0x01002884,
+	"braille_dots_4":              0x01002808,
+	"braille_dots_45":             0x01002818,
+	"braille_dots_456":            0x01002838,
+	"braille_dots_4567":           0x01002878,
+	"braille_dots_45678":          0x010028f8,
+	"braille_dots_4568":           0x010028b8,
+	"braille_dots_457":            0x01002858,
+	"braille_dots_4578":           0x010028d8,
+	"braille_dots_458":            0x01002898,
+	"braille_dots_46":             0x01002828,
+	"braille_dots_467":            0x01002868,
+	"braille_dots_4678":           0x010028e8,
+	"braille_dots_468":            0x010028a8,
+	"braille_dots_47":             0x01002848,
+	"braille_dots_478":            0x010028c8,
+	"braille_dots_48":             0x01002888,
+	"braille_dots_5":              0x01002810,
+	"braille_dots_56":             0x01002830,
+	"braille_dots_567":            0x01002870,
+	"braille_dots_5678":           0x010028f0,
+	"braille_dots_568":            0x010028b0,
+	"braille_dots_57":             0x01002850,
+	"braille_dots_578":            0x010028d0,
+	"braille_dots_58":             0x01002890,
+	"braille_dots_6":              0x01002820,
+	"braille_dots_67":             0x01002860,
+	"braille_dots_678":            0x010028e0,
+	"braille_dots_68":             0x010028a0,
+	"braille_dots_7":              0x01002840,
+	"braille_dots_78":             0x010028c0,
+	"braille_dots_8":              0x01002880,
+	"breve":                       0x000001a2,
+	"brokenbar":                   0x000000a6,
+	"c":                           0x00000063,
+	"c_h":                         0x0000fea3,
+	"cabovedot":                   0x000002e5,
+	"cacute":                      0x000001e6,
+	"careof":                      0x00000ab8,
+	"caret":                       0x00000afc,
+	"caron":                       0x000001b7,
+	"ccaron":                      0x000001e8,
+	"ccedilla":                    0x000000e7,
+	"ccircumflex":                 0x000002e6,
+	"cedilla":                     0x000000b8,
+	"cent":                        0x000000a2,
+	"ch":                          0x0000fea0,
+	"checkerboard":                0x000009e1,
+	"checkmark":                   0x00000af3,
+	"circle":                      0x00000bcf,
+	"club":                        0x00000aec,
+	"colon":                       0x0000003a,
+	"combining_acute":             0x01000301,
+	"combining_belowdot":          0x01000323,
+	"combining_grave":             0x01000300,
+	"combining_hook":              0x01000309,
+	"combining_tilde":             0x01000303,
+	"comma":                       0x0000002c,
+	"containsas":                  0x0100220b,
+	"copyright":                   0x000000a9,
+	"cr":                          0x000009e4,
+	"crossinglines":               0x000009ee,
+	"cuberoot":                    0x0100221b,
+	"currency":                    0x000000a4,
+	"cursor":                      0x00000aff,
+	"d":                           0x00000064,
+	"dabovedot":                   0x01001e0b,
+	"dagger":                      0x00000af1,
+	"dcaron":                      0x000001ef,
+	"dead_A":                      0x0000fe81,
+	"dead_E":                      0x0000fe83,
+	"dead_I":                      0x0000fe85,
+	"dead_O":                      0x0000fe87,
+	"dead_SCHWA":                  0x0000fe8b,
+	"dead_U":                      0x0000fe89,
+	"dead_a":                      0x0000fe80,
+	"dead_abovecomma":             0x0000fe64,
+	"dead_abovedot":               0x0000fe56,
+	"dead_abovereversedcomma":     0x0000fe65,
+	"dead_abovering":              0x0000fe58,
+	"dead_aboveverticalline":      0x0000fe91,
+	"dead_acute":                  0x0000fe51,
+	"dead_belowbreve":             0x0000fe6b,
+	"dead_belowcircumflex":        0x0000fe69,
+	"dead_belowcomma":             0x0000fe6e,
+	"dead_belowdiaeresis":         0x0000fe6c,
+	"dead_belowdot":               0x0000fe60,
+	"dead_belowmacron":            0x0000fe68,
+	"dead_belowring":              0x0000fe67,
+	"dead_belowtilde":             0x0000fe6a,
+	"dead_belowverticalline":      0x0000fe92,
+	"dead_breve":                  0x0000fe55,
+	"dead_capital_schwa":          0x0000fe8b,
+	"dead_caron":                  0x0000fe5a,
+	"dead_cedilla":                0x0000fe5b,
+	"dead_circumflex":             0x0000fe52,
+	"dead_currency":               0x0000fe6f,
+	"dead_dasia":                  0x0000fe65,
+	"dead_diaeresis":              0x0000fe57,
+	"dead_doubleacute":            0x0000fe59,
+	"dead_doublegrave":            0x0000fe66,
+	"dead_e":                      0x0000fe82,
+	"dead_grave":                  0x0000fe50,
+	"dead_greek":                  0x0000fe8c,
+	"dead_hamza":                  0x0000fe8d,
+	"dead_hook":                   0x0000fe61,
+	"dead_horn":                   0x0000fe62,
+	"dead_i":                      0x0000fe84,
+	"dead_invertedbreve":          0x0000fe6d,
+	"dead_iota":                   0x0000fe5d,
+	"dead_longsolidusoverlay":     0x0000fe93,
+	"dead_lowline":                0x0000fe90,
+	"dead_macron":                 0x0000fe54,
+	"dead_o":                      0x0000fe86,
+	"dead_ogonek":                 0x0000fe5c,
+	"dead_perispomeni":            0x0000fe53,
+	"dead_psili":                  0x0000fe64,
+	"dead_schwa":                  0x0000fe8a,
+	"dead_semivoiced_sound":       0x0000fe5f,
+	"dead_small_schwa":            0x0000fe8a,
+	"dead_stroke":                 0x0000fe63,
+	"dead_tilde":                  0x0000fe53,
+	"dead_u":                      0x0000fe88,
+	"dead_voiced_sound":           0x0000fe5e,
+	"decimalpoint":                0x00000abd,
+	"degree":                      0x000000b0,
+	"diaeresis":                   0x000000a8,
+	"diamond":                     0x00000aed,
+	"digitspace":                  0x00000aa5,
+	"dintegral":                   0x0100222c,
+	"division":                    0x000000f7,
+	"dollar":                      0x00000024,
+	"doubbaselinedot":             0x00000aaf,
+	"doubleacute":                 0x000001bd,
+	"doubledagger":                0x00000af2,
+	"doublelowquotemark":          0x00000afe,
+	"downarrow":                   0x000008fe,
+	"downcaret":                   0x00000ba8,
+	"downshoe":                    0x00000bd6,
+	"downstile":                   0x00000bc4,
+	"downtack":                    0x00000bc2,
+	"dstroke":                     0x000001f0,
+	"e":                           0x00000065,
+	"eabovedot":                   0x000003ec,
+	"eacute":                      0x000000e9,
+	"ebelowdot":                   0x01001eb9,
+	"ecaron":                      0x000001ec,
+	"ecircumflex":                 0x000000ea,
+	"ecircumflexacute":            0x01001ebf,
+	"ecircumflexbelowdot":         0x01001ec7,
+	"ecircumflexgrave":            0x01001ec1,
+	"ecircumflexhook":             0x01001ec3,
+	"ecircumflextilde":            0x01001ec5,
+	"ediaeresis":                  0x000000eb,
+	"egrave":                      0x000000e8,
+	"ehook":                       0x01001ebb,
+	"eightsubscript":              0x01002088,
+	"eightsuperior":               0x01002078,
+	"elementof":                   0x01002208,
+	"ellipsis":                    0x00000aae,
+	"em3space":                    0x00000aa3,
+	"em4space":                    0x00000aa4,
+	"emacron":                     0x000003ba,
+	"emdash":                      0x00000aa9,
+	"emfilledcircle":              0x00000ade,
+	"emfilledrect":                0x00000adf,
+	"emopencircle":                0x00000ace,
+	"emopenrectangle":             0x00000acf,
+	"emptyset":                    0x01002205,
+	"emspace":                     0x00000aa1,
+	"endash":                      0x00000aaa,
+	"enfilledcircbullet":          0x00000ae6,
+	"enfilledsqbullet":            0x00000ae7,
+	"eng":                         0x000003bf,
+	"enopencircbullet":            0x00000ae0,
+	"enopensquarebullet":          0x00000ae1,
+	"enspace":                     0x00000aa2,
+	"eogonek":                     0x000001ea,
+	"equal":                       0x0000003d,
+	"eth":                         0x000000f0,
+	"etilde":                      0x01001ebd,
+	"exclam":                      0x00000021,
+	"exclamdown":                  0x000000a1,
+	"ezh":                         0x01000292,
+	"f":                           0x00000066,
+	"fabovedot":                   0x01001e1f,
+	"femalesymbol":                0x00000af8,
+	"ff":                          0x000009e3,
+	"figdash":                     0x00000abb,
+	"filledlefttribullet":         0x00000adc,
+	"filledrectbullet":            0x00000adb,
+	"filledrighttribullet":        0x00000add,
+	"filledtribulletdown":         0x00000ae9,
+	"filledtribulletup":           0x00000ae8,
+	"fiveeighths":                 0x00000ac5,
+	"fivesixths":                  0x00000ab7,
+	"fivesubscript":               0x01002085,
+	"fivesuperior":                0x01002075,
+	"fourfifths":                  0x00000ab5,
+	"foursubscript":               0x01002084,
+	"foursuperior":                0x01002074,
+	"fourthroot":                  0x0100221c,
+	"function":                    0x000008f6,
+	"g":                           0x00000067,
+	"gabovedot":                   0x000002f5,
+	"gbreve":                      0x000002bb,
+	"gcaron":                      0x010001e7,
+	"gcedilla":                    0x000003bb,
+	"gcircumflex":                 0x000002f8,
+	"grave":                       0x00000060,
+	"greater":                     0x0000003e,
+	"greaterthanequal":            0x000008be,
+	"guillemetleft":               0x000000ab,
+	"guillemetright":              0x000000bb,
+	"guillemotleft":               0x000000ab,
+	"guillemotright":              0x000000bb,
+	"h":                           0x00000068,
+	"hairspace":                   0x00000aa8,
+	"hcircumflex":                 0x000002b6,
+	"heart":                       0x00000aee,
+	"hebrew_aleph":                0x00000ce0,
+	"hebrew_ayin":                 0x00000cf2,
+	"hebrew_bet":                  0x00000ce1,
+	"hebrew_beth":                 0x00000ce1,
+	"hebrew_chet":                 0x00000ce7,
+	"hebrew_dalet":                0x00000ce3,
+	"hebrew_daleth":               0x00000ce3,
+	"hebrew_doublelowline":        0x00000cdf,
+	"hebrew_finalkaph":            0x00000cea,
+	"hebrew_finalmem":             0x00000ced,
+	"hebrew_finalnun":             0x00000cef,
+	"hebrew_finalpe":              0x00000cf3,
+	"hebrew_finalzade":            0x00000cf5,
+	"hebrew_finalzadi":            0x00000cf5,
+	"hebrew_gimel":                0x00000ce2,
+	"hebrew_gimmel":               0x00000ce2,
+	"hebrew_he":                   0x00000ce4,
+	"hebrew_het":                  0x00000ce7,
+	"hebrew_kaph":                 0x00000ceb,
+	"hebrew_kuf":                  0x00000cf7,
+	"hebrew_lamed":                0x00000cec,
+	"hebrew_mem":                  0x00000cee,
+	"hebrew_nun":                  0x00000cf0,
+	"hebrew_pe":                   0x00000cf4,
+	"hebrew_qoph":                 0x00000cf7,
+	"hebrew_resh":                 0x00000cf8,
+	"hebrew_samech":               0x00000cf1,
+	"hebrew_samekh":               0x00000cf1,
+	"hebrew_shin":                 0x00000cf9,
+	"hebrew_taf":                  0x00000cfa,
+	"hebrew_taw":                  0x00000cfa,
+	"hebrew_tet":                  0x00000ce8,
+	"hebrew_teth":                 0x00000ce8,
+	"hebrew_waw":                  0x00000ce5,
+	"hebrew_yod":                  0x00000ce9,
+	"hebrew_zade":                 0x00000cf6,
+	"hebrew_zadi":                 0x00000cf6,
+	"hebrew_zain":                 0x00000ce6,
+	"hebrew_zayin":                0x00000ce6,
+	"hexagram":                    0x00000ada,
+	"horizconnector":              0x000008a3,
+	"horizlinescan1":              0x000009ef,
+	"horizlinescan3":              0x000009f0,
+	"horizlinescan5":              0x000009f1,
+	"horizlinescan7":              0x000009f2,
+	"horizlinescan9":              0x000009f3,
+	"hstroke":                     0x000002b1,
+	"ht":                          0x000009e2,
+	"hyphen":                      0x000000ad,
+	"i":                           0x00000069,
+	"iTouch":                      0x1008ff60,
+	"iacute":                      0x000000ed,
+	"ibelowdot":                   0x01001ecb,
+	"ibreve":                      0x0100012d,
+	"icircumflex":                 0x000000ee,
+	"identical":                   0x000008cf,
+	"idiaeresis":                  0x000000ef,
+	"idotless":                    0x000002b9,
+	"ifonlyif":                    0x000008cd,
+	"igrave":                      0x000000ec,
+	"ihook":                       0x01001ec9,
+	"imacron":                     0x000003ef,
+	"implies":                     0x000008ce,
+	"includedin":                  0x000008da,
+	"includes":                    0x000008db,
+	"infinity":                    0x000008c2,
+	"integral":                    0x000008bf,
+	"intersection":                0x000008dc,
+	"iogonek":                     0x000003e7,
+	"itilde":                      0x000003b5,
+	"j":                           0x0000006a,
+	"jcircumflex":                 0x000002bc,
+	"jot":                         0x00000bca,
+	"k":                           0x0000006b,
+	"kana_A":                      0x000004b1,
+	"kana_CHI":                    0x000004c1,
+	"kana_E":                      0x000004b4,
+	"kana_FU":                     0x000004cc,
+	"kana_HA":                     0x000004ca,
+	"kana_HE":                     0x000004cd,
+	"kana_HI":                     0x000004cb,
+	"kana_HO":                     0x000004ce,
+	"kana_HU":                     0x000004cc,
+	"kana_I":                      0x000004b2,
+	"kana_KA":                     0x000004b6,
+	"kana_KE":                     0x000004b9,
+	"kana_KI":                     0x000004b7,
+	"kana_KO":                     0x000004ba,
+	"kana_KU":                     0x000004b8,
+	"kana_MA":                     0x000004cf,
+	"kana_ME":                     0x000004d2,
+	"kana_MI":                     0x000004d0,
+	"kana_MO":                     0x000004d3,
+	"kana_MU":                     0x000004d1,
+	"kana_N":                      0x000004dd,
+	"kana_NA":                     0x000004c5,
+	"kana_NE":                     0x000004c8,
+	"kana_NI":                     0x000004c6,
+	"kana_NO":                     0x000004c9,
+	"kana_NU":                     0x000004c7,
+	"kana_O":                      0x000004b5,
+	"kana_RA":                     0x000004d7,
+	"kana_RE":                     0x000004da,
+	"kana_RI":                     0x000004d8,
+	"kana_RO":                     0x000004db,
+	"kana_RU":                     0x000004d9,
+	"kana_SA":                     0x000004bb,
+	"kana_SE":                     0x000004be,
+	"kana_SHI":                    0x000004bc,
+	"kana_SO":                     0x000004bf,
+	"kana_SU":                     0x000004bd,
+	"kana_TA":                     0x000004c0,
+	"kana_TE":                     0x000004c3,
+	"kana_TI":                     0x000004c1,
+	"kana_TO":                     0x000004c4,
+	"kana_TSU":                    0x000004c2,
+	"kana_TU":                     0x000004c2,
+	"kana_U":                      0x000004b3,
+	"kana_WA":                     0x000004dc,
+	"kana_WO":                     0x000004a6,
+	"kana_YA":                     0x000004d4,
+	"kana_YO":                     0x000004d6,
+	"kana_YU":                     0x000004d5,
+	"kana_a":                      0x000004a7,
+	"kana_closingbracket":         0x000004a3,
+	"kana_comma":                  0x000004a4,
+	"kana_conjunctive":            0x000004a5,
+	"kana_e":                      0x000004aa,
+	"kana_fullstop":               0x000004a1,
+	"kana_i":                      0x000004a8,
+	"kana_middledot":              0x000004a5,
+	"kana_o":                      0x000004ab,
+	"kana_openingbracket":         0x000004a2,
+	"kana_switch":                 0x0000ff7e,
+	"kana_tsu":                    0x000004af,
+	"kana_tu":                     0x000004af,
+	"kana_u":                      0x000004a9,
+	"kana_ya":                     0x000004ac,
+	"kana_yo":                     0x000004ae,
+	"kana_yu":                     0x000004ad,
+	"kappa":                       0x000003a2,
+	"kcedilla":                    0x000003f3,
+	"kra":                         0x000003a2,
+	"l":                           0x0000006c,
+	"lacute":                      0x000001e5,
+	"latincross":                  0x00000ad9,
+	"lbelowdot":                   0x01001e37,
+	"lcaron":                      0x000001b5,
+	"lcedilla":                    0x000003b6,
+	"leftanglebracket":            0x00000abc,
+	"leftarrow":                   0x000008fb,
+	"leftcaret":                   0x00000ba3,
+	"leftdoublequotemark":         0x00000ad2,
+	"leftmiddlecurlybrace":        0x000008af,
+	"leftopentriangle":            0x00000acc,
+	"leftpointer":                 0x00000aea,
+	"leftradical":                 0x000008a1,
+	"leftshoe":                    0x00000bda,
+	"leftsinglequotemark":         0x00000ad0,
+	"leftt":                       0x000009f4,
+	"lefttack":                    0x00000bdc,
+	"less":                        0x0000003c,
+	"lessthanequal":               0x000008bc,
+	"lf":                          0x000009e5,
+	"logicaland":                  0x000008de,
+	"logicalor":                   0x000008df,
+	"lowleftcorner":               0x000009ed,
+	"lowrightcorner":              0x000009ea,
+	"lstroke":                     0x000001b3,
+	"m":                           0x0000006d,
+	"mabovedot":                   0x01001e41,
+	"macron":                      0x000000af,
+	"malesymbol":                  0x00000af7,
+	"maltesecross":                0x00000af0,
+	"marker":                      0x00000abf,
+	"masculine":                   0x000000ba,
+	"minus":                       0x0000002d,
+	"minutes":                     0x00000ad6,
+	"mu":                          0x000000b5,
+	"multiply":                    0x000000d7,
+	"musicalflat":                 0x00000af6,
+	"musicalsharp":                0x00000af5,
+	"n":                           0x0000006e,
+	"nabla":                       0x000008c5,
+	"nacute":                      0x000001f1,
+	"ncaron":                      0x000001f2,
+	"ncedilla":                    0x000003f1,
+	"ninesubscript":               0x01002089,
+	"ninesuperior":                0x01002079,
+	"nl":                          0x000009e8,
+	"nobreakspace":                0x000000a0,
+	"notapproxeq":                 0x01002247,
+	"notelementof":                0x01002209,
+	"notequal":                    0x000008bd,
+	"notidentical":                0x01002262,
+	"notsign":                     0x000000ac,
+	"ntilde":                      0x000000f1,
+	"numbersign":                  0x00000023,
+	"numerosign":                  0x000006b0,
+	"o":                           0x0000006f,
+	"oacute":                      0x000000f3,
+	"obarred":                     0x01000275,
+	"obelowdot":                   0x01001ecd,
+	"ocaron":                      0x010001d2,
+	"ocircumflex":                 0x000000f4,
+	"ocircumflexacute":            0x01001ed1,
+	"ocircumflexbelowdot":         0x01001ed9,
+	"ocircumflexgrave":            0x01001ed3,
+	"ocircumflexhook":             0x01001ed5,
+	"ocircumflextilde":            0x01001ed7,
+	"odiaeresis":                  0x000000f6,
+	"odoubleacute":                0x000001f5,
+	"oe":                          0x000013bd,
+	"ogonek":                      0x000001b2,
+	"ograve":                      0x000000f2,
+	"ohook":                       0x01001ecf,
+	"ohorn":                       0x010001a1,
+	"ohornacute":                  0x01001edb,
+	"ohornbelowdot":               0x01001ee3,
+	"ohorngrave":                  0x01001edd,
+	"ohornhook":                   0x01001edf,
+	"ohorntilde":                  0x01001ee1,
+	"omacron":                     0x000003f2,
+	"oneeighth":                   0x00000ac3,
+	"onefifth":                    0x00000ab2,
+	"onehalf":                     0x000000bd,
+	"onequarter":                  0x000000bc,
+	"onesixth":                    0x00000ab6,
+	"onesubscript":                0x01002081,
+	"onesuperior":                 0x000000b9,
+	"onethird":                    0x00000ab0,
+	"ooblique":                    0x000000f8,
+	"openrectbullet":              0x00000ae2,
+	"openstar":                    0x00000ae5,
+	"opentribulletdown":           0x00000ae4,
+	"opentribulletup":             0x00000ae3,
+	"ordfeminine":                 0x000000aa,
+	"ordmasculine":                0x000000ba,
+	"oslash":                      0x000000f8,
+	"otilde":                      0x000000f5,
+	"overbar":                     0x00000bc0,
+	"overline":                    0x0000047e,
+	"p":                           0x00000070,
+	"pabovedot":                   0x01001e57,
+	"paragraph":                   0x000000b6,
+	"parenleft":                   0x00000028,
+	"parenright":                  0x00000029,
+	"partdifferential":            0x01002202,
+	"partialderivative":           0x000008ef,
+	"percent":                     0x00000025,
+	"period":                      0x0000002e,
+	"periodcentered":              0x000000b7,
+	"permille":                    0x00000ad5,
+	"phonographcopyright":         0x00000afb,
+	"plus":                        0x0000002b,
+	"plusminus":                   0x000000b1,
+	"prescription":                0x00000ad4,
+	"prolongedsound":              0x000004b0,
+	"punctspace":                  0x00000aa6,
+	"q":                           0x00000071,
+	"quad":                        0x00000bcc,
+	"question":                    0x0000003f,
+	"questiondown":                0x000000bf,
+	"quotedbl":                    0x00000022,
+	"quoteleft":                   0x00000060,
+	"quoteright":                  0x00000027,
+	"r":                           0x00000072,
+	"racute":                      0x000001e0,
+	"radical":                     0x000008d6,
+	"rcaron":                      0x000001f8,
+	"rcedilla":                    0x000003b3,
+	"registered":                  0x000000ae,
+	"rightanglebracket":           0x00000abe,
+	"rightarrow":                  0x000008fd,
+	"rightcaret":                  0x00000ba6,
+	"rightdoublequotemark":        0x00000ad3,
+	"rightmiddlecurlybrace":       0x000008b0,
+	"rightmiddlesummation":        0x000008b7,
+	"rightopentriangle":           0x00000acd,
+	"rightpointer":                0x00000aeb,
+	"rightshoe":                   0x00000bd8,
+	"rightsinglequotemark":        0x00000ad1,
+	"rightt":                      0x000009f5,
+	"righttack":                   0x00000bfc,
+	"s":                           0x00000073,
+	"sabovedot":                   0x01001e61,
+	"sacute":                      0x000001b6,
+	"scaron":                      0x000001b9,
+	"scedilla":                    0x000001ba,
+	"schwa":                       0x01000259,
+	"scircumflex":                 0x000002fe,
+	"script_switch":               0x0000ff7e,
+	"seconds":                     0x00000ad7,
+	"section":                     0x000000a7,
+	"semicolon":                   0x0000003b,
+	"semivoicedsound":             0x000004df,
+	"seveneighths":                0x00000ac6,
+	"sevensubscript":              0x01002087,
+	"sevensuperior":               0x01002077,
+	"signaturemark":               0x00000aca,
+	"signifblank":                 0x00000aac,
+	"similarequal":                0x000008c9,
+	"singlelowquotemark":          0x00000afd,
+	"sixsubscript":                0x01002086,
+	"sixsuperior":                 0x01002076,
+	"slash":                       0x0000002f,
+	"soliddiamond":                0x000009e0,
+	"space":                       0x00000020,
+	"squareroot":                  0x0100221a,
+	"ssharp":                      0x000000df,
+	"sterling":                    0x000000a3,
+	"stricteq":                    0x01002263,
+	"t":                           0x00000074,
+	"tabovedot":                   0x01001e6b,
+	"tcaron":                      0x000001bb,
+	"tcedilla":                    0x000001fe,
+	"telephone":                   0x00000af9,
+	"telephonerecorder":           0x00000afa,
+	"therefore":                   0x000008c0,
+	"thinspace":                   0x00000aa7,
+	"thorn":                       0x000000fe,
+	"threeeighths":                0x00000ac4,
+	"threefifths":                 0x00000ab4,
+	"threequarters":               0x000000be,
+	"threesubscript":              0x01002083,
+	"threesuperior":               0x000000b3,
+	"tintegral":                   0x0100222d,
+	"topintegral":                 0x000008a4,
+	"topleftparens":               0x000008ab,
+	"topleftradical":              0x000008a2,
+	"topleftsqbracket":            0x000008a7,
+	"topleftsummation":            0x000008b1,
+	"toprightparens":              0x000008ad,
+	"toprightsqbracket":           0x000008a9,
+	"toprightsummation":           0x000008b5,
+	"topt":                        0x000009f7,
+	"topvertsummationconnector":   0x000008b3,
+	"trademark":                   0x00000ac9,
+	"trademarkincircle":           0x00000acb,
+	"tslash":                      0x000003bc,
+	"twofifths":                   0x00000ab3,
+	"twosubscript":                0x01002082,
+	"twosuperior":                 0x000000b2,
+	"twothirds":                   0x00000ab1,
+	"u":                           0x00000075,
+	"uacute":                      0x000000fa,
+	"ubelowdot":                   0x01001ee5,
+	"ubreve":                      0x000002fd,
+	"ucircumflex":                 0x000000fb,
+	"udiaeresis":                  0x000000fc,
+	"udoubleacute":                0x000001fb,
+	"ugrave":                      0x000000f9,
+	"uhook":                       0x01001ee7,
+	"uhorn":                       0x010001b0,
+	"uhornacute":                  0x01001ee9,
+	"uhornbelowdot":               0x01001ef1,
+	"uhorngrave":                  0x01001eeb,
+	"uhornhook":                   0x01001eed,
+	"uhorntilde":                  0x01001eef,
+	"umacron":                     0x000003fe,
+	"underbar":                    0x00000bc6,
+	"underscore":                  0x0000005f,
+	"union":                       0x000008dd,
+	"uogonek":                     0x000003f9,
+	"uparrow":                     0x000008fc,
+	"upcaret":                     0x00000ba9,
+	"upleftcorner":                0x000009ec,
+	"uprightcorner":               0x000009eb,
+	"upshoe":                      0x00000bc3,
+	"upstile":                     0x00000bd3,
+	"uptack":                      0x00000bce,
+	"uring":                       0x000001f9,
+	"utilde":                      0x000003fd,
+	"v":                           0x00000076,
+	"variation":                   0x000008c1,
+	"vertbar":                     0x000009f8,
+	"vertconnector":               0x000008a6,
+	"voicedsound":                 0x000004de,
+	"vt":                          0x000009e9,
+	"w":                           0x00000077,
+	"wacute":                      0x01001e83,
+	"wcircumflex":                 0x01000175,
+	"wdiaeresis":                  0x01001e85,
+	"wgrave":                      0x01001e81,
+	"x":                           0x00000078,
+	"xabovedot":                   0x01001e8b,
+	"y":                           0x00000079,
+	"yacute":                      0x000000fd,
+	"ybelowdot":                   0x01001ef5,
+	"ycircumflex":                 0x01000177,
+	"ydiaeresis":                  0x000000ff,
+	"yen":                         0x000000a5,
+	"ygrave":                      0x01001ef3,
+	"yhook":                       0x01001ef7,
+	"ytilde":                      0x01001ef9,
+	"z":                           0x0000007a,
+	"zabovedot":                   0x000001bf,
+	"zacute":                      0x000001bc,
+	"zcaron":                      0x000001be,
+	"zerosubscript":               0x01002080,
+	"zerosuperior":                0x01002070,
+	"zstroke":                     0x010001b6,
 }
 
 // keysymToUnicode maps keysyms to unicode codepoints.

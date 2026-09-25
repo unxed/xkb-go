@@ -8,10 +8,12 @@ import (
 )
 
 func ExampleNewContext() {
-	// Create a context with default settings
-	ctx := xkb.NewContext(context.Background(), xkb.ContextNoFlags)
+	// Create a context without the default include paths: which of the
+	// system XKB directories exist depends on the machine.
+	ctx := xkb.NewContext(context.Background(), xkb.ContextNoDefaultIncludes)
 
 	// The context manages include paths and logging
+	ctx.AppendIncludePath("/usr/share/X11/xkb")
 	paths := ctx.IncludePaths()
 	fmt.Printf("Include paths: %d\n", len(paths))
 	// Output: Include paths: 1

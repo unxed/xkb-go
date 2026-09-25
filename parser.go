@@ -1122,9 +1122,9 @@ func (p *Parser) modNameToMask(name string) ModMask {
 // In XKB, interpret statements primarily affect modifier and action keys.
 // The "interpret Any + Any" catch-all applies to keys in the modifier map.
 // We handle this by:
-// 1. Matching specific keysyms from interpret statements
-// 2. For keys producing modifier keysyms (Shift_L, Control_L, etc.),
-//    applying the default interpret.repeat setting (typically False)
+//  1. Matching specific keysyms from interpret statements
+//  2. For keys producing modifier keysyms (Shift_L, Control_L, etc.),
+//     applying the default interpret.repeat setting (typically False)
 func (p *Parser) applyInterprets(keymap *Keymap) {
 	// For each key, find matching interprets and apply their settings
 	for _, key := range keymap.keys {
@@ -1337,9 +1337,13 @@ func (p *Parser) parseSymbolsStatement(keymap *Keymap) error {
 	case "name":
 		return p.parseGroupName(keymap)
 	case "group_offset":
-		if err := p.expect(TokenEquals); err != nil { return err }
+		if err := p.expect(TokenEquals); err != nil {
+			return err
+		}
 		num, err := p.expectNumber()
-		if err != nil { return err }
+		if err != nil {
+			return err
+		}
 		p.groupOffset = num
 		return nil
 	case "virtual_modifiers":
@@ -1366,21 +1370,33 @@ func (p *Parser) parseGroupName(keymap *Keymap) error {
 	var group int
 	if p.check(TokenNumber) {
 		num, err := p.expectNumber()
-		if err != nil { return err }
+		if err != nil {
+			return err
+		}
 		group = num - 1 + p.groupOffset
 	} else {
 		groupIdent, err := p.expectIdent()
-		if err != nil { return err }
+		if err != nil {
+			return err
+		}
 		group, err = p.parseGroupIdent(groupIdent)
-		if err != nil { return err }
+		if err != nil {
+			return err
+		}
 		group += p.groupOffset
 	}
 
-	if err := p.expect(TokenRBracket); err != nil { return err }
-	if err := p.expect(TokenEquals); err != nil { return err }
+	if err := p.expect(TokenRBracket); err != nil {
+		return err
+	}
+	if err := p.expect(TokenEquals); err != nil {
+		return err
+	}
 
 	name, err := p.expectString()
-	if err != nil { return err }
+	if err != nil {
+		return err
+	}
 
 	for len(keymap.groupNames) <= group {
 		keymap.groupNames = append(keymap.groupNames, "")
@@ -1467,13 +1483,21 @@ func (p *Parser) parseKeyDefinition(keymap *Keymap) error {
 // parseKeyBody parses the body of a complex key definition.
 // existingKey is the previously defined key for the same keycode, used for merging.
 func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error {
+	defer func() {
+		if len(key.groups) > keymap.numGroups {
+			keymap.numGroups = len(key.groups)
+		}
+	}()
 	var currentTypeName string
 	groups := make(map[int][]Keysym)
+	groupTypes := make(map[int]string)
 
 	for !p.check(TokenRBrace) && !p.check(TokenEOF) {
 		if p.check(TokenLBracket) {
 			syms, err := p.parseSymbolList(keymap)
-			if err != nil { return err }
+			if err != nil {
+				return err
+			}
 			groups[p.groupOffset] = syms
 		} else {
 			ident, err := p.expectIdent()
@@ -1483,9 +1507,27 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 
 			switch ident {
 			case "type":
+				group := p.groupOffset
 				if p.match(TokenLBracket) {
 					// type[GroupN] = "TypeName"
-					_, _ = p.expectIdent() // group
+					if p.check(TokenNumber) {
+						num, err := p.expectNumber()
+						if err != nil {
+							return err
+						}
+						group = num - 1 + p.groupOffset
+					} else {
+						groupIdent, err := p.expectIdent()
+						if err != nil {
+							return err
+						}
+						var err2 error
+						group, err2 = p.parseGroupIdent(groupIdent)
+						if err2 != nil {
+							return err2
+						}
+						group += p.groupOffset
+					}
 					_ = p.expect(TokenRBracket)
 				}
 				_ = p.expect(TokenEquals)
@@ -1493,23 +1535,33 @@ func (p *Parser) parseKeyBody(key *Key, keymap *Keymap, existingKey *Key) error 
 				if err != nil {
 					return err
 				}
-				currentTypeName = typeName
+				groupTypes[group] = typeName
 
 			case "symbols":
-				if err := p.expect(TokenLBracket); err != nil { return err }
+				if err := p.expect(TokenLBracket); err != nil {
+					return err
+				}
 				var group int
 				if p.check(TokenNumber) {
 					num, err := p.expectNumber()
-					if err != nil { return err }
+					if err != nil {
+						return err
+					}
 					group = num - 1 + p.groupOffset
 				} else {
 					groupIdent, err := p.expectIdent()
-					if err != nil { return err }
+					if err != nil {
+						return err
+					}
 					group, err = p.parseGroupIdent(groupIdent)
-					if err != nil { return err }
+					if err != nil {
+						return err
+					}
 					group += p.groupOffset
 				}
-				if err := p.expect(TokenRBracket); err != nil { return err }
+				if err := p.expect(TokenRBracket); err != nil {
+					return err
+				}
 				if err := p.expect(TokenEquals); err != nil {
 					return err
 				}

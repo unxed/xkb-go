@@ -84,6 +84,30 @@ keymap, err := ctx.NewKeymapFromNames(&xkb.RuleNames{
 })
 ```
 
+### Loading from an X11 Server
+
+Build a keymap straight from the X server's XKB extension, without CGO,
+libxkbcommon, or shelling out to `xkbcomp` (equivalent to libxkbcommon's
+`xkb_x11_keymap_new_from_device`):
+
+```go
+import (
+    "github.com/jezek/xgb"
+    "github.com/unxed/xkb-go/x11"
+)
+
+conn, err := xgb.NewConn()
+// ...
+keymap, err := x11.NewKeymapFromX11Device(ctx, conn, x11.UseCoreKbd)
+```
+
+This support lives in the separate `github.com/unxed/xkb-go/x11` package
+(which depends on `github.com/jezek/xgb`) so that the root `xkb-go` module
+stays free of any X11 transport dependency for consumers who don't need it.
+The wire-protocol decoding itself (`NewKeymapFromX11Replies` and friends) is
+in the root package and has no such dependency, in case you'd rather use a
+different X11 client library.
+
 ### Compose/Dead Keys
 
 ```go
@@ -109,6 +133,7 @@ if composeState.GetStatus() == xkb.ComposeComposed {
 - [x] RMLVO compilation (`NewKeymapFromNames`)
 - [x] Keymap serialization (`GetAsString`)
 - [x] Full keysym tables (~2500 keysyms)
+- [x] X11 keymap retrieval (`NewKeymapFromX11Replies`, [`x11.NewKeymapFromX11Device`](x11/))
 
 ## XKB Concepts
 

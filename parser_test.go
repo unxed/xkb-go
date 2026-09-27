@@ -245,9 +245,9 @@ func TestParserSymbols(t *testing.T) {
 
 	// Check keys
 	tests := []struct {
-		keycode  Keycode
-		level0   Keysym
-		level1   Keysym
+		keycode Keycode
+		level0  Keysym
+		level1  Keysym
 	}{
 		{24, Keysym('q'), Keysym('Q')},
 		{25, Keysym('w'), Keysym('W')},
@@ -423,7 +423,7 @@ func TestParserNumbers(t *testing.T) {
 		{"0", 0},
 		{"0x1F", 31},
 		{"0xFF", 255},
-		{"017", 15},  // octal
+		{"017", 15},   // octal
 		{"0755", 493}, // octal
 	}
 
@@ -921,11 +921,11 @@ func TestParserRealKeymap(t *testing.T) {
 		keycode Keycode
 	}{
 		{"ESC", 9},
-		{"AD01", 24},   // Q
-		{"RTRN", 36},   // Return
-		{"SPCE", 65},   // Space
-		{"LFSH", 50},   // Left Shift
-		{"CAPS", 66},   // Caps Lock
+		{"AD01", 24}, // Q
+		{"RTRN", 36}, // Return
+		{"SPCE", 65}, // Space
+		{"LFSH", 50}, // Left Shift
+		{"CAPS", 66}, // Caps Lock
 	}
 
 	for _, kk := range commonKeys {
@@ -2047,13 +2047,13 @@ func TestVirtualModifierStandardMappings(t *testing.T) {
 		typeName string
 		wantMods ModMask
 	}{
-		{"TEST_ALT", ModMod1},       // Alt -> Mod1
-		{"TEST_META", ModMod1},      // Meta -> Mod1
-		{"TEST_NUMLOCK", ModMod2},   // NumLock -> Mod2
-		{"TEST_SUPER", ModMod4},     // Super -> Mod4
-		{"TEST_HYPER", ModMod4},     // Hyper -> Mod4
+		{"TEST_ALT", ModMod1},        // Alt -> Mod1
+		{"TEST_META", ModMod1},       // Meta -> Mod1
+		{"TEST_NUMLOCK", ModMod2},    // NumLock -> Mod2
+		{"TEST_SUPER", ModMod4},      // Super -> Mod4
+		{"TEST_HYPER", ModMod4},      // Hyper -> Mod4
 		{"TEST_LEVELTHREE", ModMod5}, // LevelThree -> Mod5
-		{"TEST_ALTGR", ModMod5},     // AltGr -> Mod5
+		{"TEST_ALTGR", ModMod5},      // AltGr -> Mod5
 	}
 
 	for _, tt := range tests {

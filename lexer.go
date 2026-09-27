@@ -94,11 +94,11 @@ func (t Token) String() string {
 // Create with [NewLexer], then call [Lexer.NextToken] repeatedly.
 type Lexer struct {
 	input []byte
-	pos   int  // current position in input
-	line  int  // current line (1-indexed)
-	col   int  // current column (1-indexed)
-	start int  // start position of current token
-	width int  // width of last rune read
+	pos   int // current position in input
+	line  int // current line (1-indexed)
+	col   int // current column (1-indexed)
+	start int // start position of current token
+	width int // width of last rune read
 }
 
 // NewLexer creates a new [Lexer] for the given XKB source input.

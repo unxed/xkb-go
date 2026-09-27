@@ -81,8 +81,8 @@ func TestLexerStrings(t *testing.T) {
 		{"escape quote", `"say \"hello\""`, `say "hello"`},
 		{"escape backslash", `"path\\file"`, `path\file`},
 		{"empty", `""`, ""},
-		{"octal escape", `"\101"`, "A"},       // 0101 = 65 = 'A'
-		{"hex escape", `"\x41"`, "A"},         // 0x41 = 65 = 'A'
+		{"octal escape", `"\101"`, "A"}, // 0101 = 65 = 'A'
+		{"hex escape", `"\x41"`, "A"},   // 0x41 = 65 = 'A'
 		{"escape carriage return", `"a\rb"`, "a\rb"},
 	}
 

@@ -7,7 +7,7 @@
 // reference via the core X11 GetAtomName request, and hands the raw reply
 // bytes and resolved names to the pure decoder in the root xkb-go package
 // (see NewKeymapFromX11Replies there). This package is kept separate from
-// github.com/unxed/xkb-go itself so that consumers who only need
+// github.com/thegrumpylion/xkb-go itself so that consumers who only need
 // Wayland/text-format keymap support are not forced to pull in an X11
 // client library.
 package x11
@@ -18,7 +18,7 @@ import (
 	"github.com/jezek/xgb"
 	"github.com/jezek/xgb/xproto"
 
-	xkb "github.com/unxed/xkb-go"
+	xkb "github.com/thegrumpylion/xkb-go"
 )
 
 // extensionName is the name the X server registers the X Keyboard

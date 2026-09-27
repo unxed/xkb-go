@@ -93,7 +93,7 @@ libxkbcommon, or shelling out to `xkbcomp` (equivalent to libxkbcommon's
 ```go
 import (
     "github.com/jezek/xgb"
-    "github.com/unxed/xkb-go/x11"
+    "github.com/thegrumpylion/xkb-go/x11"
 )
 
 conn, err := xgb.NewConn()
@@ -101,7 +101,7 @@ conn, err := xgb.NewConn()
 keymap, err := x11.NewKeymapFromX11Device(ctx, conn, x11.UseCoreKbd)
 ```
 
-This support lives in the separate `github.com/unxed/xkb-go/x11` package
+This support lives in the separate `github.com/thegrumpylion/xkb-go/x11` package
 (which depends on `github.com/jezek/xgb`) so that the root `xkb-go` module
 stays free of any X11 transport dependency for consumers who don't need it.
 The wire-protocol decoding itself (`NewKeymapFromX11Replies` and friends) is

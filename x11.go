@@ -19,7 +19,7 @@ import (
 // (since ATOM name resolution itself requires a GetAtomName round trip on
 // a live connection). This keeps the xkb-go module free of any X11
 // transport dependency; see the companion package
-// github.com/unxed/xkb-go/x11 for a ready-to-use implementation on top of
+// github.com/thegrumpylion/xkb-go/x11 for a ready-to-use implementation on top of
 // github.com/jezek/xgb that sends the requests, resolves the atoms and
 // calls into this file.
 //
@@ -596,7 +596,7 @@ func ParseX11GetControlsReply(buf []byte) (*X11ControlsReply, error) {
 // [X11NamesReply.VirtualModNameAtoms] and [X11NamesReply.GroupNameAtoms]).
 //
 // This is the pure counterpart of xkb_x11_keymap_new_from_device: it does
-// not perform any I/O. See the github.com/unxed/xkb-go/x11 package for a
+// not perform any I/O. See the github.com/thegrumpylion/xkb-go/x11 package for a
 // ready-to-use implementation that sends the requests over a
 // github.com/jezek/xgb connection, resolves the atoms, and calls this
 // function.
